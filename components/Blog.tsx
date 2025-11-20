@@ -1,4 +1,5 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
+import { useParams, useNavigate, Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { ArrowLeft, Clock, Calendar, ArrowRight } from 'lucide-react';
 
@@ -1677,24 +1678,40 @@ const posts: BlogPost[] = [
 ];
 
 export const Blog: React.FC<BlogProps> = ({ onContactClick }) => {
+  const { slug } = useParams<{ slug: string }>();
+  const navigate = useNavigate();
   const [selectedPost, setSelectedPost] = useState<BlogPost | null>(null);
+
+  useEffect(() => {
+    if (slug) {
+      const post = posts.find(p => p.id === slug);
+      if (post) {
+        setSelectedPost(post);
+      } else {
+        // Invalid slug, redirect to insights list
+        navigate('/insights', { replace: true });
+      }
+    } else {
+      setSelectedPost(null);
+    }
+  }, [slug, navigate]);
 
   if (selectedPost) {
     return (
-      <motion.div 
+      <motion.div
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         exit={{ opacity: 0 }}
         className="bg-bg min-h-screen pt-12 pb-24"
       >
         <div className="max-w-3xl mx-auto px-6">
-          <button 
-            onClick={() => setSelectedPost(null)}
+          <Link
+            to="/insights"
             className="flex items-center gap-2 text-sm text-text-muted hover:text-accent transition-colors mb-8 group"
           >
             <ArrowLeft className="w-4 h-4 group-hover:-translate-x-1 transition-transform" />
             Back to Insights
-          </button>
+          </Link>
           
           <div className="flex items-center gap-6 text-xs font-mono uppercase tracking-widest text-text-muted mb-8">
             <div className="flex items-center gap-2">
@@ -1747,33 +1764,33 @@ export const Blog: React.FC<BlogProps> = ({ onContactClick }) => {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {posts.map((post) => (
-                <motion.article 
-                    key={post.id}
-                    whileHover={{ y: -5 }}
-                    className="group cursor-pointer flex flex-col h-full border border-grid bg-surface/20 hover:border-accent/50 transition-colors duration-300"
-                    onClick={() => setSelectedPost(post)}
-                >
-                    <div className="p-8 flex flex-col h-full">
-                        <div className="flex items-center gap-4 text-xs font-mono text-text-muted mb-6">
-                            <span>{post.date}</span>
-                            <span className="w-1 h-1 bg-accent rounded-full" />
-                            <span>{post.readTime}</span>
-                        </div>
-                        
-                        <h3 className="font-serif text-2xl text-text-highlight mb-4 group-hover:text-accent transition-colors line-clamp-2">
-                            {post.title}
-                        </h3>
-                        
-                        <p className="text-text-secondary text-sm leading-relaxed mb-8 line-clamp-3 flex-grow">
-                            {post.excerpt}
-                        </p>
-                        
-                        <div className="flex items-center gap-2 text-xs font-bold uppercase tracking-widest text-text-muted group-hover:text-accent transition-colors mt-auto">
-                            Read Article
-                            <ArrowRight className="w-3 h-3 group-hover:translate-x-1 transition-transform" />
-                        </div>
-                    </div>
-                </motion.article>
+                <Link key={post.id} to={`/insights/${post.id}`}>
+                  <motion.article
+                      whileHover={{ y: -5 }}
+                      className="group cursor-pointer flex flex-col h-full border border-grid bg-surface/20 hover:border-accent/50 transition-colors duration-300"
+                  >
+                      <div className="p-8 flex flex-col h-full">
+                          <div className="flex items-center gap-4 text-xs font-mono text-text-muted mb-6">
+                              <span>{post.date}</span>
+                              <span className="w-1 h-1 bg-accent rounded-full" />
+                              <span>{post.readTime}</span>
+                          </div>
+
+                          <h3 className="font-serif text-2xl text-text-highlight mb-4 group-hover:text-accent transition-colors line-clamp-2">
+                              {post.title}
+                          </h3>
+
+                          <p className="text-text-secondary text-sm leading-relaxed mb-8 line-clamp-3 flex-grow">
+                              {post.excerpt}
+                          </p>
+
+                          <div className="flex items-center gap-2 text-xs font-bold uppercase tracking-widest text-text-muted group-hover:text-accent transition-colors mt-auto">
+                              Read Article
+                              <ArrowRight className="w-3 h-3 group-hover:translate-x-1 transition-transform" />
+                          </div>
+                      </div>
+                  </motion.article>
+                </Link>
             ))}
         </div>
       </div>

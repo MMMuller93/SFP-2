@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link, useNavigate } from 'react-router-dom';
 import { Menu, X, ArrowUpRight } from 'lucide-react';
 import { Logo } from './Logo';
 import { motion, AnimatePresence } from 'framer-motion';
@@ -11,12 +12,13 @@ interface NavbarProps {
 
 export const Navbar: React.FC<NavbarProps> = ({ currentView, onNavigate }) => {
   const [isOpen, setIsOpen] = useState(false);
+  const navigate = useNavigate();
 
   const handleNavigation = (view: View, href?: string) => {
-    onNavigate(view);
     setIsOpen(false);
-    
+
     if (view === 'home' && href) {
+      navigate('/');
       // Small timeout to allow home component to mount before scrolling
       setTimeout(() => {
         const element = document.querySelector(href);
@@ -24,14 +26,18 @@ export const Navbar: React.FC<NavbarProps> = ({ currentView, onNavigate }) => {
           element.scrollIntoView({ behavior: 'smooth' });
         }
       }, 100);
+    } else if (view === 'blog') {
+      navigate('/insights');
+      window.scrollTo({ top: 0, behavior: 'smooth' });
     } else {
+      navigate('/');
       window.scrollTo({ top: 0, behavior: 'smooth' });
     }
   };
 
   const navLinks = [
     { name: 'Expertise', href: '#services', view: 'home' as const },
-    { name: 'Insights', href: '#blog', view: 'blog' as const },
+    { name: 'Insights', href: '/insights', view: 'blog' as const },
     { name: 'Contact', href: '#contact', view: 'home' as const },
   ];
 
@@ -42,10 +48,10 @@ export const Navbar: React.FC<NavbarProps> = ({ currentView, onNavigate }) => {
           
           {/* Brand / Logo Area */}
           <div className="col-span-8 md:col-span-4 lg:col-span-3 flex items-center px-6 md:px-8 border-r border-grid bg-bg/50">
-            <button onClick={() => handleNavigation('home')} className="flex items-center gap-3 group">
+            <Link to="/" className="flex items-center gap-3 group">
               <Logo className="w-6 h-6 text-text-highlight group-hover:text-accent transition-colors duration-300" />
               <span className="font-serif text-xl text-text-highlight group-hover:text-accent transition-colors duration-300 tracking-tight">SFP</span>
-            </button>
+            </Link>
           </div>
 
           {/* Desktop Nav */}

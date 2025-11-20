@@ -17,6 +17,412 @@ interface BlogProps {
 
 const posts: BlogPost[] = [
   {
+    id: 'private-fund-exemptions',
+    title: 'Private Fund Exemptions: Understanding Regulation D, 3(c)(1), 3(c)(7), and Investor Qualifications',
+    date: 'October 2, 2025',
+    readTime: '10 min read',
+    excerpt: 'Private funds operate in a web of exemptions. You\'re exempt from registering your securities offering. You\'re exempt from registering as an investment company. But each exemption comes with its own requirements.',
+    content: (
+      <>
+        <p className="text-lg leading-relaxed text-text-secondary mb-8">
+          Private funds operate in a web of exemptions. You're exempt from registering your securities offering. You're exempt from registering as an investment company. Your adviser may be exempt from full SEC registration. But each exemption comes with its own requirements, and they interact in ways that determine how you structure your fund and who can invest.
+        </p>
+        <p className="text-lg leading-relaxed text-text-secondary mb-12">
+          This guide explains the key exemptions and classifications that shape private fund structures, from securities law to investor qualifications to the practical differences between fund types.
+        </p>
+
+        <hr className="border-grid mb-12" />
+
+        <h2 className="font-serif text-3xl text-text-highlight mb-6">Two Layers of Exemptions</h2>
+        <p className="leading-relaxed text-text-secondary mb-12">
+          Private funds rely on exemptions from two separate regulatory regimes:
+        </p>
+
+        <div className="space-y-6 mb-12">
+          <div className="border-l-2 border-accent pl-6 py-2">
+            <h4 className="text-text-highlight font-medium mb-2">Securities Act exemptions</h4>
+            <p className="text-text-secondary">Allow you to sell fund interests without registering the offering with the SEC. Most funds use Regulation D.</p>
+          </div>
+          <div className="border-l-2 border-accent pl-6 py-2">
+            <h4 className="text-text-highlight font-medium mb-2">Investment Company Act exemptions</h4>
+            <p className="text-text-secondary">Allow your fund to operate without registering as an investment company (like a mutual fund). Most funds use Section 3(c)(1) or 3(c)(7).</p>
+          </div>
+        </div>
+
+        <p className="leading-relaxed text-text-secondary mb-12">
+          You need both. A fund that qualifies under Regulation D but not the Investment Company Act would face mutual fund-style regulation. A fund that qualifies under 3(c)(1) but not Regulation D would need to register its securities offering.
+        </p>
+
+        <hr className="border-grid mb-12" />
+
+        <h2 className="font-serif text-3xl text-text-highlight mb-6">Securities Act: Regulation D</h2>
+        <p className="leading-relaxed text-text-secondary mb-8">
+          Regulation D provides exemptions from SEC registration for private securities offerings. The two main exemptions for private funds are Rule 506(b) and Rule 506(c).
+        </p>
+
+        <h3 className="font-serif text-2xl text-text-highlight mb-6">Rule 506(b)</h3>
+        <p className="leading-relaxed text-text-secondary mb-6">
+          The predominant framework for private fund raising. Under 506(b):
+        </p>
+        <ul className="space-y-3 text-text-secondary mb-8 pl-5 list-disc marker:text-accent">
+          <li>Unlimited capital can be raised</li>
+          <li>Unlimited number of accredited investors</li>
+          <li>Up to 35 non-accredited but sophisticated investors (though most funds avoid this due to additional disclosure requirements)</li>
+          <li>No general solicitation or advertising</li>
+          <li>Investors self-certify accreditation status</li>
+        </ul>
+        <p className="leading-relaxed text-text-secondary mb-12">
+          506(b) is simpler operationally because you don't need to take affirmative steps to verify accreditation. Investors represent their status in the subscription agreement.
+        </p>
+
+        <h3 className="font-serif text-2xl text-text-highlight mb-6">Rule 506(c)</h3>
+        <p className="leading-relaxed text-text-secondary mb-6">
+          Allows general solicitation and advertising, but with stricter requirements:
+        </p>
+        <ul className="space-y-3 text-text-secondary mb-8 pl-5 list-disc marker:text-accent">
+          <li>Unlimited capital can be raised</li>
+          <li>All investors must be accredited (no non-accredited investors)</li>
+          <li>Issuer must take "reasonable steps" to verify accreditation status</li>
+          <li>Verification typically requires reviewing tax returns, bank statements, or third-party confirmation</li>
+        </ul>
+        <p className="leading-relaxed text-text-secondary mb-12">
+          506(c) appeals to managers who want to market broadly, but the verification burden is substantial. Most established funds stick with 506(b) and rely on existing LP networks.
+        </p>
+
+        <h3 className="font-serif text-2xl text-text-highlight mb-6">Federal Preemption</h3>
+        <p className="leading-relaxed text-text-secondary mb-12">
+          Rule 506 offerings are "covered securities" under federal law, which preempts state registration requirements. You don't need to register your offering in each state where you have investors. However, you still must make state notice filings (blue sky filings) and pay fees.
+        </p>
+
+        <hr className="border-grid mb-12" />
+
+        <h2 className="font-serif text-3xl text-text-highlight mb-6">Investment Company Act: 3(c)(1) and 3(c)(7)</h2>
+        <p className="leading-relaxed text-text-secondary mb-8">
+          The Investment Company Act of 1940 requires "investment companies" to register with the SEC and comply with extensive regulations designed for mutual funds. Private funds avoid this by relying on Section 3(c)(1) or 3(c)(7) exemptions.
+        </p>
+
+        <h3 className="font-serif text-2xl text-text-highlight mb-6">Section 3(c)(1)</h3>
+        <p className="leading-relaxed text-text-secondary mb-6">
+          The 3(c)(1) exemption is available to funds that:
+        </p>
+        <ul className="space-y-3 text-text-secondary mb-8 pl-5 list-disc marker:text-accent">
+          <li>Are not making a public offering</li>
+          <li>Have no more than 100 beneficial owners</li>
+        </ul>
+        <p className="leading-relaxed text-text-secondary mb-6">
+          This is the standard exemption for emerging managers and smaller funds. The 100-investor limit is the primary constraint.
+        </p>
+
+        <p className="leading-relaxed text-text-secondary mb-6">
+          <strong className="text-accent font-medium">Counting investors:</strong> Each individual or entity counts as one beneficial owner. However:
+        </p>
+        <ul className="space-y-3 text-text-secondary mb-8 pl-5 list-disc marker:text-accent">
+          <li>"Knowledgeable employees" (executives, directors, and certain employees of the fund or its adviser) don't count toward the limit</li>
+          <li>If an entity investor (like another fund) owns 10% or more of the fund, you must "look through" that entity and count its underlying owners</li>
+          <li>Certain involuntary transfers (death, divorce) don't trigger loss of exemption</li>
+        </ul>
+
+        <p className="leading-relaxed text-text-secondary mb-12">
+          <strong className="text-accent font-medium">Qualifying venture capital funds</strong> under SEC rules can have up to 250 investors instead of 100, provided the fund meets specific criteria around investment strategy, leverage, and redemption rights.
+        </p>
+
+        <h3 className="font-serif text-2xl text-text-highlight mb-6">Section 3(c)(7)</h3>
+        <p className="leading-relaxed text-text-secondary mb-6">
+          The 3(c)(7) exemption is available to funds that:
+        </p>
+        <ul className="space-y-3 text-text-secondary mb-8 pl-5 list-disc marker:text-accent">
+          <li>Are not making a public offering</li>
+          <li>Have only "qualified purchasers" as investors</li>
+          <li>Have no more than 2,000 investors</li>
+        </ul>
+        <p className="leading-relaxed text-text-secondary mb-12">
+          3(c)(7) allows significantly more investors but requires a higher investor qualification standard. It's typically used by larger funds that need to accommodate more LPs than 3(c)(1) allows.
+        </p>
+
+        <hr className="border-grid mb-12" />
+
+        <h2 className="font-serif text-3xl text-text-highlight mb-6">Investor Qualifications</h2>
+        <p className="leading-relaxed text-text-secondary mb-8">
+          Private funds require investors to meet certain qualification standards. The two main categories are accredited investors and qualified purchasers.
+        </p>
+
+        <h3 className="font-serif text-2xl text-text-highlight mb-6">Accredited Investors</h3>
+        <p className="leading-relaxed text-text-secondary mb-6">
+          Accredited investor status is defined under SEC Rule 501 of Regulation D. Individuals qualify if they meet one of the following:
+        </p>
+
+        <div className="space-y-6 mb-6">
+          <div className="border-l-2 border-accent pl-6 py-2">
+            <h4 className="text-text-highlight font-medium mb-2">Income test</h4>
+            <p className="text-text-secondary">Individual income over $200,000 (or $300,000 joint with spouse) in each of the past two years, with expectation of the same in the current year</p>
+          </div>
+          <div className="border-l-2 border-accent pl-6 py-2">
+            <h4 className="text-text-highlight font-medium mb-2">Net worth test</h4>
+            <p className="text-text-secondary">Individual or joint net worth over $1 million, excluding primary residence</p>
+          </div>
+          <div className="border-l-2 border-accent pl-6 py-2">
+            <h4 className="text-text-highlight font-medium mb-2">Professional credentials</h4>
+            <p className="text-text-secondary">Holders of Series 7, 65, or 82 licenses</p>
+          </div>
+        </div>
+
+        <p className="leading-relaxed text-text-secondary mb-12">
+          Entities can also qualify based on assets (over $5 million) or if all equity owners are accredited. Accredited investors can invest in 3(c)(1) funds.
+        </p>
+
+        <h3 className="font-serif text-2xl text-text-highlight mb-6">Qualified Purchasers</h3>
+        <p className="leading-relaxed text-text-secondary mb-6">
+          Qualified purchaser status is defined under Section 2(a)(51) of the Investment Company Act. The threshold is higher:
+        </p>
+
+        <div className="space-y-6 mb-8">
+          <div className="border-l-2 border-accent pl-6 py-2">
+            <h4 className="text-text-highlight font-medium mb-2">Individuals</h4>
+            <p className="text-text-secondary">Must own $5 million or more in investments (not net worth)</p>
+          </div>
+          <div className="border-l-2 border-accent pl-6 py-2">
+            <h4 className="text-text-highlight font-medium mb-2">Family companies</h4>
+            <p className="text-text-secondary">Must own $5 million or more in investments</p>
+          </div>
+          <div className="border-l-2 border-accent pl-6 py-2">
+            <h4 className="text-text-highlight font-medium mb-2">Trusts</h4>
+            <p className="text-text-secondary">Must have $5 million or more in investments and not be formed for the specific purpose of investing in the fund</p>
+          </div>
+          <div className="border-l-2 border-accent pl-6 py-2">
+            <h4 className="text-text-highlight font-medium mb-2">Institutional investors and investment managers</h4>
+            <p className="text-text-secondary">Must own or manage $25 million or more in investments</p>
+          </div>
+        </div>
+
+        <p className="leading-relaxed text-text-secondary mb-12">
+          Qualified purchasers can invest in both 3(c)(1) and 3(c)(7) funds. All qualified purchasers effectively meet accredited investor standards, but most accredited investors don't meet qualified purchaser standards.
+        </p>
+
+        <h3 className="font-serif text-2xl text-text-highlight mb-6">Verification Responsibility</h3>
+        <p className="leading-relaxed text-text-secondary mb-6">
+          The fund (issuer) is responsible for confirming that investors meet the applicable standards. This is done through:
+        </p>
+        <ul className="space-y-3 text-text-secondary mb-12 pl-5 list-disc marker:text-accent">
+          <li>Representations in the subscription agreement</li>
+          <li>Investor questionnaire responses</li>
+          <li>For 506(c) offerings, affirmative verification (tax returns, bank statements, third-party letters)</li>
+        </ul>
+        <p className="leading-relaxed text-text-secondary mb-12">
+          Getting this wrong can jeopardize your exemptions.
+        </p>
+
+        <hr className="border-grid mb-12" />
+
+        <h2 className="font-serif text-3xl text-text-highlight mb-6">Putting It Together: Common Fund Structures</h2>
+        <p className="leading-relaxed text-text-secondary mb-8">
+          Most private funds combine these exemptions in predictable ways:
+        </p>
+
+        <h3 className="font-serif text-2xl text-text-highlight mb-6">Emerging Manager / Small Fund</h3>
+        <ul className="space-y-3 text-text-secondary mb-8 pl-5 list-disc marker:text-accent">
+          <li><strong className="text-accent font-medium">Securities exemption:</strong> Rule 506(b)</li>
+          <li><strong className="text-accent font-medium">Investment Company Act exemption:</strong> Section 3(c)(1)</li>
+          <li><strong className="text-accent font-medium">Investor requirement:</strong> Accredited investors</li>
+          <li><strong className="text-accent font-medium">Investor limit:</strong> 100 (or 250 for qualifying VC funds)</li>
+        </ul>
+        <p className="leading-relaxed text-text-secondary mb-12">
+          This is the standard structure for first-time fund managers and smaller funds. The 100-investor limit is manageable for most emerging managers.
+        </p>
+
+        <h3 className="font-serif text-2xl text-text-highlight mb-6">Larger Fund</h3>
+        <ul className="space-y-3 text-text-secondary mb-8 pl-5 list-disc marker:text-accent">
+          <li><strong className="text-accent font-medium">Securities exemption:</strong> Rule 506(b)</li>
+          <li><strong className="text-accent font-medium">Investment Company Act exemption:</strong> Section 3(c)(7)</li>
+          <li><strong className="text-accent font-medium">Investor requirement:</strong> Qualified purchasers</li>
+          <li><strong className="text-accent font-medium">Investor limit:</strong> 2,000</li>
+        </ul>
+        <p className="leading-relaxed text-text-secondary mb-12">
+          Funds that outgrow 3(c)(1) or want to accommodate more institutional LPs move to 3(c)(7). The qualified purchaser requirement is more restrictive but not usually a barrier for institutional investors.
+        </p>
+
+        <h3 className="font-serif text-2xl text-text-highlight mb-6">Publicly Marketed Fund</h3>
+        <ul className="space-y-3 text-text-secondary mb-8 pl-5 list-disc marker:text-accent">
+          <li><strong className="text-accent font-medium">Securities exemption:</strong> Rule 506(c)</li>
+          <li><strong className="text-accent font-medium">Investment Company Act exemption:</strong> Section 3(c)(1) or 3(c)(7)</li>
+          <li><strong className="text-accent font-medium">Investor requirement:</strong> Accredited investors (verified) or qualified purchasers</li>
+          <li><strong className="text-accent font-medium">Investor limit:</strong> 100, 250, or 2,000 depending on structure</li>
+        </ul>
+        <p className="leading-relaxed text-text-secondary mb-12">
+          Funds using general solicitation must use 506(c) and verify accreditation. This is less common for traditional PE/VC but used by some platforms and fund-of-funds.
+        </p>
+
+        <hr className="border-grid mb-12" />
+
+        <h2 className="font-serif text-3xl text-text-highlight mb-6">Venture Capital vs. Private Equity: Why the Classification Matters</h2>
+        <p className="leading-relaxed text-text-secondary mb-8">
+          The distinction between "venture capital fund" and "private equity fund" isn't just industry terminology. It has direct regulatory consequences that affect your adviser registration, your Form ADV, your Form D, and your ongoing compliance obligations.
+        </p>
+
+        <h3 className="font-serif text-2xl text-text-highlight mb-6">The Regulatory Stakes</h3>
+        <p className="leading-relaxed text-text-secondary mb-6">
+          The SEC defines "venture capital fund" narrowly for purposes of adviser exemptions. If your fund qualifies, you can use the <strong className="text-accent font-medium">venture capital fund adviser exemption</strong>, which allows ERA status with no AUM cap. You could manage $500 million or more and still avoid full RIA registration.
+        </p>
+        <p className="leading-relaxed text-text-secondary mb-6">
+          If your fund doesn't qualify as a venture capital fund, you're a <strong className="text-accent font-medium">private fund adviser</strong>. That exemption caps out at $150 million in AUM. Once you cross that threshold, you must register as an RIA with the SEC, which brings significantly more compliance obligations.
+        </p>
+        <p className="leading-relaxed text-text-secondary mb-12">
+          This matters on your Form ADV. When you file as an ERA, you must select which exemption you're relying on. Claiming the VC adviser exemption when you don't qualify creates regulatory risk. It also matters on your Form D. You'll indicate the type of fund (venture capital fund, private equity fund, hedge fund, etc.). This should align with your actual strategy and your Form ADV elections.
+        </p>
+
+        <h3 className="font-serif text-2xl text-text-highlight mb-6">What Qualifies as a Venture Capital Fund</h3>
+        <p className="leading-relaxed text-text-secondary mb-6">
+          The SEC's definition is specific and technical. To qualify, your fund must:
+        </p>
+        <ul className="space-y-3 text-text-secondary mb-8 pl-5 list-disc marker:text-accent">
+          <li>Represent to investors that it pursues a venture capital strategy</li>
+          <li>Invest at least 80% of capital in "qualifying investments" (equity in private operating companies, acquired directly from the company)</li>
+          <li>Limit leverage to 15% of capital commitments, with borrowing repaid within 120 days</li>
+          <li>Not offer redemption or withdrawal rights to investors (except in extraordinary circumstances)</li>
+          <li>Not be registered under the Investment Company Act</li>
+        </ul>
+
+        <p className="leading-relaxed text-text-secondary mb-6">
+          The 80% requirement is where most issues arise. "Qualifying investments" means primary equity purchases in private operating companies. Several common transaction types don't count:
+        </p>
+
+        <div className="space-y-6 mb-8">
+          <div className="border-l-2 border-accent pl-6 py-2">
+            <h4 className="text-text-highlight font-medium mb-2">Secondary transactions</h4>
+            <p className="text-text-secondary">Don't qualify. If you're buying shares from existing shareholders rather than the company itself, that's not a qualifying investment. A fund or SPV focused on secondary purchases is not a venture capital fund for regulatory purposes, even if the underlying companies are startups.</p>
+          </div>
+          <div className="border-l-2 border-accent pl-6 py-2">
+            <h4 className="text-text-highlight font-medium mb-2">Debt instruments</h4>
+            <p className="text-text-secondary">Generally don't qualify, even convertible notes in some cases.</p>
+          </div>
+          <div className="border-l-2 border-accent pl-6 py-2">
+            <h4 className="text-text-highlight font-medium mb-2">Investments in other funds</h4>
+            <p className="text-text-secondary">Don't qualify. Fund-of-funds structures aren't VC funds.</p>
+          </div>
+          <div className="border-l-2 border-accent pl-6 py-2">
+            <h4 className="text-text-highlight font-medium mb-2">Public company investments</h4>
+            <p className="text-text-secondary">Don't qualify once the company has gone public.</p>
+          </div>
+        </div>
+
+        <p className="leading-relaxed text-text-secondary mb-12">
+          You have a 20% basket for non-qualifying investments. But if your strategy regularly includes secondaries, public positions, or significant debt, you may not meet the definition.
+        </p>
+
+        <h3 className="font-serif text-2xl text-text-highlight mb-6">Common Misclassification Issues</h3>
+        <p className="leading-relaxed text-text-secondary mb-6">
+          We frequently see managers who believe they're running a venture capital fund when they actually aren't. Common scenarios:
+        </p>
+
+        <div className="space-y-6 mb-12">
+          <div className="border-l-2 border-accent pl-6 py-2">
+            <h4 className="text-text-highlight font-medium mb-2">Secondary-focused SPVs</h4>
+            <p className="text-text-secondary">A manager syndicates deals to buy shares from founders or early employees. This feels like "venture" because the companies are startups, but secondary purchases aren't qualifying investments. The SPVs are private equity vehicles.</p>
+          </div>
+          <div className="border-l-2 border-accent pl-6 py-2">
+            <h4 className="text-text-highlight font-medium mb-2">Mixed primary/secondary funds</h4>
+            <p className="text-text-secondary">A fund does mostly primary investments but routinely participates in secondary transactions or tender offers. If non-qualifying investments exceed 20%, the fund doesn't meet the VC definition.</p>
+          </div>
+          <div className="border-l-2 border-accent pl-6 py-2">
+            <h4 className="text-text-highlight font-medium mb-2">Late-stage funds with public exposure</h4>
+            <p className="text-text-secondary">A growth fund invests in late-stage companies, some of which go public during the fund's life. Holding public positions beyond a short window can push non-qualifying investments over 20%.</p>
+          </div>
+          <div className="border-l-2 border-accent pl-6 py-2">
+            <h4 className="text-text-highlight font-medium mb-2">Funds using leverage</h4>
+            <p className="text-text-secondary">A fund uses a subscription line of credit that exceeds 15% of commitments or isn't repaid within 120 days. This alone disqualifies the fund.</p>
+          </div>
+          <div className="border-l-2 border-accent pl-6 py-2">
+            <h4 className="text-text-highlight font-medium mb-2">Funds with redemption features</h4>
+            <p className="text-text-secondary">Any ordinary redemption or withdrawal rights disqualify the fund, even if rarely exercised.</p>
+          </div>
+        </div>
+
+        <h3 className="font-serif text-2xl text-text-highlight mb-6">Consequences of Misclassification</h3>
+        <p className="leading-relaxed text-text-secondary mb-6">
+          If you claim the VC adviser exemption but your fund doesn't qualify:
+        </p>
+        <ul className="space-y-3 text-text-secondary mb-8 pl-5 list-disc marker:text-accent">
+          <li>You may be operating as an unregistered investment adviser once you exceed $150 million AUM</li>
+          <li>Your Form ADV filings are inaccurate</li>
+          <li>You face potential SEC enforcement action</li>
+          <li>You may need to retroactively register as an RIA and come into compliance</li>
+        </ul>
+        <p className="leading-relaxed text-text-secondary mb-12">
+          The safer approach: if there's any doubt about whether your fund meets the VC definition, treat it as a private equity fund for regulatory purposes. You can always describe your investment strategy as venture-focused in your PPM and marketing materials while correctly classifying for regulatory filings.
+        </p>
+
+        <h3 className="font-serif text-2xl text-text-highlight mb-6">Form D and Form ADV Alignment</h3>
+        <p className="leading-relaxed text-text-secondary mb-6">
+          Your classifications should be consistent across filings:
+        </p>
+        <p className="leading-relaxed text-text-secondary mb-6">
+          <strong className="text-accent font-medium">Form D</strong> asks you to identify the fund type (venture capital fund, private equity fund, hedge fund, other). Select based on the SEC's regulatory definitions, not industry convention.
+        </p>
+        <p className="leading-relaxed text-text-secondary mb-12">
+          <strong className="text-accent font-medium">Form ADV</strong> asks which exemption you're relying on (VC adviser exemption or private fund adviser exemption) and requires you to report information about each fund you advise, including whether it's a qualifying VC fund. Mismatches between these filings, or between your filings and your actual fund terms, create problems. Review your fund documents and investment strategy carefully before making these elections.
+        </p>
+
+        <hr className="border-grid mb-12" />
+
+        <h2 className="font-serif text-3xl text-text-highlight mb-6">Fund Type Classifications on Form D</h2>
+        <p className="leading-relaxed text-text-secondary mb-6">
+          When you file Form D, you must select the type of fund. The options include venture capital fund, private equity fund, hedge fund, liquidity fund, real estate fund, securitized asset fund, and other. This isn't just a label; it should reflect your actual fund structure and strategy.
+        </p>
+
+        <div className="space-y-6 mb-8">
+          <div className="border-l-2 border-accent pl-6 py-2">
+            <h4 className="text-text-highlight font-medium mb-2">Venture capital fund</h4>
+            <p className="text-text-secondary">Only select this if your fund meets the SEC's technical definition (80% qualifying investments, leverage limits, no redemptions, etc.). Don't select this just because you invest in startups.</p>
+          </div>
+          <div className="border-l-2 border-accent pl-6 py-2">
+            <h4 className="text-text-highlight font-medium mb-2">Private equity fund</h4>
+            <p className="text-text-secondary">The appropriate selection for buyout funds, growth equity, secondary funds, and funds that invest in startups but don't meet the VC definition.</p>
+          </div>
+          <div className="border-l-2 border-accent pl-6 py-2">
+            <h4 className="text-text-highlight font-medium mb-2">Hedge fund</h4>
+            <p className="text-text-secondary">Typically used for funds with active trading strategies, short positions, derivatives, or that offer periodic liquidity to investors.</p>
+          </div>
+          <div className="border-l-2 border-accent pl-6 py-2">
+            <h4 className="text-text-highlight font-medium mb-2">Other investment fund</h4>
+            <p className="text-text-secondary">Used for fund-of-funds, credit funds, and other strategies that don't fit the above categories.</p>
+          </div>
+        </div>
+
+        <p className="leading-relaxed text-text-secondary mb-12">
+          Your Form D selection should be consistent with your Form ADV and with how your fund actually operates. If the SEC reviews your filings and finds that your fund is classified as a VC fund but doesn't meet the definition, you have a compliance problem.
+        </p>
+
+        <hr className="border-grid mb-12" />
+
+        <h2 className="font-serif text-3xl text-text-highlight mb-6">How We Help</h2>
+        <p className="leading-relaxed text-text-secondary mb-8">
+          We help fund managers navigate exemption requirements and structure their funds appropriately:
+        </p>
+        <div className="grid grid-cols-1 gap-4 mb-12">
+          {[
+            { title: 'Exemption analysis', desc: 'We help you determine which exemptions apply to your fund based on size, strategy, and investor base.' },
+            { title: 'Investor qualification', desc: 'We assist with subscription documents and questionnaires that properly capture accreditation and qualified purchaser status.' },
+            { title: 'Regulatory filings', desc: 'Form D, blue sky filings, and Form ADV coordinated with your exemption elections.' },
+            { title: 'Ongoing compliance', desc: 'Monitoring investor counts, qualification status, and exemption requirements as your fund grows.' }
+          ].map((item, i) => (
+            <div key={i} className="flex flex-col md:flex-row gap-4 p-6 bg-surface/30 border border-grid">
+              <div className="flex items-center gap-3 md:w-1/3">
+                <span className="w-1.5 h-1.5 bg-accent rounded-full shrink-0"></span>
+                <span className="text-text-highlight font-medium">{item.title}</span>
+              </div>
+              <div className="md:w-2/3">
+                <p className="text-text-secondary text-sm leading-relaxed">{item.desc}</p>
+              </div>
+            </div>
+          ))}
+        </div>
+
+        <p className="text-xs text-text-muted border-t border-grid pt-6 mt-12">
+          *This article is for informational purposes only and does not constitute legal advice.
+        </p>
+      </>
+    )
+  },
+  {
     id: 'side-letters',
     title: 'Side Letters: Negotiating Custom Terms with Fund Investors',
     date: 'September 18, 2025',

@@ -43,10 +43,8 @@ export const Navbar: React.FC<NavbarProps> = ({ currentView, onNavigate }) => {
           {/* Brand / Logo Area */}
           <div className="col-span-8 md:col-span-4 lg:col-span-3 flex items-center px-6 md:px-8 border-r border-grid bg-bg/50">
             <button onClick={() => handleNavigation('home')} className="flex items-center gap-3 group">
-              <div className="text-text-highlight group-hover:text-accent transition-colors duration-300 flex items-center">
-                <Logo className="w-7 h-7" />
-              </div>
-              <span className="font-serif text-2xl text-text-highlight group-hover:text-accent transition-colors duration-300 tracking-tight leading-none">SFP</span>
+              <Logo className="w-6 h-6 text-text-highlight group-hover:text-accent transition-colors duration-300" />
+              <span className="font-serif text-xl text-text-highlight group-hover:text-accent transition-colors duration-300 tracking-tight">SFP</span>
             </button>
           </div>
 

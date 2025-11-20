@@ -276,7 +276,7 @@ const posts: BlogPost[] = [
   },
   {
     id: 'state-investment-adviser-registration',
-    title: 'State Investment Adviser Registration: Exemptions, Requirements, and the 3(c)(1) Trap',
+    title: 'State Investment Adviser Regulations and Registration',
     date: 'October 16, 2025',
     readTime: '9 min read',
     excerpt: 'Federal ERA status doesn\'t exempt you from state regulation. Even if you qualify as an Exempt Reporting Adviser with the SEC, you still need to navigate state investment adviser laws in every state where you have a place of business or sufficient clients.',
@@ -1886,7 +1886,7 @@ const posts: BlogPost[] = [
             </li>
         </ul>
         <p className="italic text-text-secondary mb-12 bg-surface/50 p-6 border border-grid">
-            Bottom line: map out your state footprint early. Getting this wrong can mean fines or fundraising delays.
+            For more on state registration and notice filing requirements, see <Link to="/insights/state-investment-adviser-registration" className="text-accent hover:text-accent/80 underline">State Investment Adviser Regulations and Registration</Link>.
         </p>
 
         <h2 className="font-serif text-3xl text-text-highlight mb-6">Related Filings: Form D and Blue Sky</h2>

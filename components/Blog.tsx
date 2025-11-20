@@ -19,6 +19,262 @@ interface BlogProps {
 
 const posts: BlogPost[] = [
   {
+    id: 'reviewing-investment-documents',
+    title: 'Reviewing Investment Documents: A Guide for Fund Managers',
+    date: 'November 1, 2025',
+    readTime: '12 min read',
+    excerpt: 'When your fund invests in another fund or acquires private market securities, the documents you sign determine your rights, restrictions, and risk exposure for years. A comprehensive guide to reviewing LPAs, purchase agreements, and governance documents.',
+    content: (
+      <>
+        <p className="text-lg leading-relaxed text-text-secondary mb-8">
+          When your fund invests in another fund or acquires private market securities, the documents you sign determine your rights, restrictions, and risk exposure for years. The subscription agreement you execute, the LPA you're bound by, the purchase agreement you negotiate—these aren't formalities. They're the terms you'll live with through capital calls, distributions, exits, and everything in between.
+        </p>
+        <p className="text-lg leading-relaxed text-text-secondary mb-12">
+          This guide covers what to focus on when reviewing investment documents, whether you're committing to a fund as an LP, buying shares directly from a company, or purchasing secondary shares from an existing holder.
+        </p>
+
+        <hr className="border-grid mb-12" />
+
+        <h2 className="font-serif text-3xl text-text-highlight mb-6">The Document Landscape</h2>
+        <p className="leading-relaxed text-text-secondary mb-6">
+          The documents you'll review depend on the transaction type:
+        </p>
+
+        <div className="space-y-6 mb-12">
+          <div className="border-l-2 border-accent pl-6 py-2">
+            <h4 className="text-text-highlight font-medium mb-2">Investing in another fund (LP commitment)</h4>
+            <p className="text-text-secondary">You'll receive a Private Placement Memorandum (PPM), Limited Partnership Agreement (LPA) or Operating Agreement, Subscription Agreement, and Investor Questionnaire.</p>
+          </div>
+          <div className="border-l-2 border-accent pl-6 py-2">
+            <h4 className="text-text-highlight font-medium mb-2">Buying shares directly from a company (primary purchase)</h4>
+            <p className="text-text-secondary">You'll review and negotiate a Stock Purchase Agreement or similar instrument, plus the company's Charter, Investor Rights Agreement, Right of First Refusal and Co-Sale Agreement, and Voting Agreement.</p>
+          </div>
+          <div className="border-l-2 border-accent pl-6 py-2">
+            <h4 className="text-text-highlight font-medium mb-2">Buying shares from an existing holder (secondary purchase)</h4>
+            <p className="text-text-secondary">You'll negotiate a Share Purchase Agreement with the seller and need to review the company's existing governance documents to understand what rights transfer and what approvals are required.</p>
+          </div>
+        </div>
+
+        <p className="leading-relaxed text-text-secondary mb-12">
+          Each document type serves a different purpose and requires different scrutiny.
+        </p>
+
+        <hr className="border-grid mb-12" />
+
+        <h2 className="font-serif text-3xl text-text-highlight mb-6">Fund Investment Documents</h2>
+        <p className="leading-relaxed text-text-secondary mb-12">
+          When your fund commits capital to another fund as an LP, the PPM is disclosure (it tells you what you're getting into) while the LPA is where to focus your attention. It's the binding contract that governs your rights for the life of the fund.
+        </p>
+
+        <h3 className="font-serif text-2xl text-text-highlight mb-6">Economic Terms</h3>
+
+        <div className="space-y-6 mb-12">
+          <div className="border-l-2 border-accent pl-6 py-2">
+            <h4 className="text-text-highlight font-medium mb-2">Management fee calculation</h4>
+            <p className="text-text-secondary">Confirm the fee percentage, what it's calculated on, and when it changes. A fund charging 2% on committed capital for ten years costs significantly more than one that steps down to invested capital after the investment period. Also check whether transaction fees paid by portfolio companies offset management fees or go straight to the GP.</p>
+          </div>
+          <div className="border-l-2 border-accent pl-6 py-2">
+            <h4 className="text-text-highlight font-medium mb-2">Carried interest</h4>
+            <p className="text-text-secondary">Understand the carry percentage, hurdle rate, catch-up mechanics, and whether carry is calculated whole-fund or deal-by-deal. Whole-fund carry with a preferred return and GP catch-up is institutional standard. Deal-by-deal carry lets the GP take carry on winners while you absorb losses on losers, a meaningful difference over the fund's life.</p>
+          </div>
+          <div className="border-l-2 border-accent pl-6 py-2">
+            <h4 className="text-text-highlight font-medium mb-2">Distribution waterfall</h4>
+            <p className="text-text-secondary">How do distributions flow? Standard is return of capital, then preferred return to LPs, then GP catch-up, then split. Variations matter. Does the GP get early carry distributions before all capital is returned? That increases the importance of the clawback.</p>
+          </div>
+          <div className="border-l-2 border-accent pl-6 py-2">
+            <h4 className="text-text-highlight font-medium mb-2">GP clawback</h4>
+            <p className="text-text-secondary">If the GP receives carried interest early and the fund ultimately underperforms, is the GP obligated to return excess carry? Is the clawback secured or guaranteed? An unsecured clawback against individuals who've spent the money provides limited protection.</p>
+          </div>
+        </div>
+
+        <h3 className="font-serif text-2xl text-text-highlight mb-6">Governance and Control</h3>
+
+        <div className="space-y-6 mb-12">
+          <div className="border-l-2 border-accent pl-6 py-2">
+            <h4 className="text-text-highlight font-medium mb-2">GP removal</h4>
+            <p className="text-text-secondary">Can LPs remove the GP? Under what circumstances and what vote threshold? True no-fault removal is rare. Most funds allow removal only for cause. Understand what "cause" means and whether you'd realistically ever hit the required vote.</p>
+          </div>
+          <div className="border-l-2 border-accent pl-6 py-2">
+            <h4 className="text-text-highlight font-medium mb-2">Key person provisions</h4>
+            <p className="text-text-secondary">What triggers a key person event: departure, death, disability, reduced time commitment? What happens when it's triggered? Automatic suspension of the investment period is stronger than mere notification. Can the GP cure the event by adding new key persons without LP consent?</p>
+          </div>
+          <div className="border-l-2 border-accent pl-6 py-2">
+            <h4 className="text-text-highlight font-medium mb-2">LPAC authority</h4>
+            <p className="text-text-secondary">What matters require Limited Partner Advisory Committee approval? Typically conflicts of interest, valuation disputes, and certain amendments. Will you have a seat or be represented? If not, understand who will be on the LPAC and whether your interests are aligned.</p>
+          </div>
+          <div className="border-l-2 border-accent pl-6 py-2">
+            <h4 className="text-text-highlight font-medium mb-2">Fund term and extensions</h4>
+            <p className="text-text-secondary">What's the base term? How many one-year extensions are permitted? Extensions should require LP consent or at least LPAC approval. Be cautious if the GP can extend unilaterally.</p>
+          </div>
+          <div className="border-l-2 border-accent pl-6 py-2">
+            <h4 className="text-text-highlight font-medium mb-2">Amendments</h4>
+            <p className="text-text-secondary">What LP vote is required to amend the LPA? Watch for provisions allowing the GP to make amendments without consent for anything beyond truly administrative changes.</p>
+          </div>
+        </div>
+
+        <h3 className="font-serif text-2xl text-text-highlight mb-6">Restrictions on You</h3>
+
+        <div className="space-y-6 mb-12">
+          <div className="border-l-2 border-accent pl-6 py-2">
+            <h4 className="text-text-highlight font-medium mb-2">Transfer restrictions</h4>
+            <p className="text-text-secondary">Can you transfer your LP interest? To whom? Most funds heavily restrict transfers and require GP consent with no obligation to grant it. If liquidity matters to you, understand these limitations before you commit.</p>
+          </div>
+          <div className="border-l-2 border-accent pl-6 py-2">
+            <h4 className="text-text-highlight font-medium mb-2">Default provisions</h4>
+            <p className="text-text-secondary">What happens if you fail to fund a capital call? Default provisions are typically severe: forfeiture of a substantial portion of your interest, forced sale at a discount, loss of future distributions. You need internal processes to ensure you never trigger these. Also check the capital call notice period. Anything less than ten business days creates operational risk if you need to call capital from your own LPs.</p>
+          </div>
+          <div className="border-l-2 border-accent pl-6 py-2">
+            <h4 className="text-text-highlight font-medium mb-2">Confidentiality</h4>
+            <p className="text-text-secondary">What are your obligations? Can you share fund information with your own investors? With regulators? Some LPAs are more restrictive than others, and you need terms that work with your own LP reporting obligations.</p>
+          </div>
+        </div>
+
+        <h3 className="font-serif text-2xl text-text-highlight mb-6">Subscription Agreement</h3>
+        <p className="leading-relaxed text-text-secondary mb-12">
+          The subscription agreement binds you to the LPA and contains your representations and warranties. Confirm the capital commitment matches your internal authorization. More importantly, verify you can truthfully make every representation: accreditation or qualified purchaser status, authority to invest, ERISA status, source of funds, and beneficial ownership. Getting these wrong creates problems for you and potentially for the fund.
+        </p>
+
+        <h3 className="font-serif text-2xl text-text-highlight mb-6">Side Letters</h3>
+        <p className="leading-relaxed text-text-secondary mb-6">
+          If you negotiated any terms that differ from the standard LPA (fee discounts, co-investment rights, enhanced reporting, better transfer terms), they'll be in a side letter. Read it carefully and confirm it reflects what you agreed to.
+        </p>
+        <p className="leading-relaxed text-text-secondary mb-12">
+          If you have Most Favored Nation rights, you'll receive an MFN election package showing terms granted to other LPs. You must actively elect the terms you want before the deadline. Calendar this and review the package carefully. Terms you don't elect, you don't get.
+        </p>
+
+        <hr className="border-grid mb-12" />
+
+        <h2 className="font-serif text-3xl text-text-highlight mb-6">Primary Purchase Documents</h2>
+        <p className="leading-relaxed text-text-secondary mb-8">
+          When your fund buys shares directly from a company, you're negotiating the purchase terms and becoming party to the company's governance structure.
+        </p>
+
+        <h3 className="font-serif text-2xl text-text-highlight mb-6">Stock Purchase Agreement</h3>
+
+        <div className="space-y-6 mb-12">
+          <div className="border-l-2 border-accent pl-6 py-2">
+            <h4 className="text-text-highlight font-medium mb-2">Price and structure</h4>
+            <p className="text-text-secondary">Understand the valuation methodology and how the per-share price was determined. For preferred stock, understand the liquidation preference and how it stacks against existing series.</p>
+          </div>
+          <div className="border-l-2 border-accent pl-6 py-2">
+            <h4 className="text-text-highlight font-medium mb-2">Representations and warranties</h4>
+            <p className="text-text-secondary">The company represents the state of its business: financials, IP ownership, material contracts, litigation, regulatory compliance. These are your primary protection if something is wrong. Push for comprehensive reps, understand what's qualified by knowledge or materiality, and read the disclosure schedules. Knowing what's disclosed is as important as knowing what's represented.</p>
+          </div>
+          <div className="border-l-2 border-accent pl-6 py-2">
+            <h4 className="text-text-highlight font-medium mb-2">Indemnification</h4>
+            <p className="text-text-secondary">If representations prove false, what's your recourse? Understand the cap (often a percentage of purchase price), whether there's a basket or deductible before you can make claims, whether funds are held in escrow, and how long claims survive. Thin indemnification with short survival periods limits your protection.</p>
+          </div>
+        </div>
+
+        <h3 className="font-serif text-2xl text-text-highlight mb-6">Charter</h3>
+        <p className="leading-relaxed text-text-secondary mb-6">
+          The company's charter establishes stock classes and their rights. For preferred stock investments:
+        </p>
+
+        <div className="space-y-6 mb-12">
+          <div className="border-l-2 border-accent pl-6 py-2">
+            <h4 className="text-text-highlight font-medium mb-2">Liquidation preference</h4>
+            <p className="text-text-secondary">What's your preference multiple? 1x is standard, meaning you get your money back before common holders receive anything. Greater than 1x means you get a multiple of your investment first, which is more investor-favorable but less common. Is the preference participating or non-participating? With participating preferred, you get your preference and then share pro rata in remaining proceeds. With non-participating, you choose one or the other. Participating preferred produces better returns in most exit scenarios below a high valuation.</p>
+          </div>
+          <div className="border-l-2 border-accent pl-6 py-2">
+            <h4 className="text-text-highlight font-medium mb-2">Anti-dilution protection</h4>
+            <p className="text-text-secondary">If the company raises a future round at a lower price, weighted average anti-dilution adjusts your conversion price based on the size of the down round. Full ratchet adjusts it to the new price entirely, regardless of round size. Weighted average is standard; full ratchet is more protective but rare.</p>
+          </div>
+          <div className="border-l-2 border-accent pl-6 py-2">
+            <h4 className="text-text-highlight font-medium mb-2">Protective provisions</h4>
+            <p className="text-text-secondary">What actions require preferred stock consent? Typically issuing new equity senior to or on par with your series, amending the charter, selling the company, taking on significant debt, and changing board size. These are your governance protections as a minority shareholder. Weak protective provisions leave you exposed to adverse actions.</p>
+          </div>
+        </div>
+
+        <h3 className="font-serif text-2xl text-text-highlight mb-6">Investor Agreements</h3>
+
+        <div className="space-y-6 mb-12">
+          <div className="border-l-2 border-accent pl-6 py-2">
+            <h4 className="text-text-highlight font-medium mb-2">Investor Rights Agreement</h4>
+            <p className="text-text-secondary">Grants information rights (what financials you'll receive and when), registration rights (your ability to participate in IPO or other registrations), and often pro rata rights (the right to invest in future rounds to maintain your ownership percentage). Ensure information rights meet your fund's reporting needs. Pro rata rights are critical if you want to avoid dilution in a company that keeps raising.</p>
+          </div>
+          <div className="border-l-2 border-accent pl-6 py-2">
+            <h4 className="text-text-highlight font-medium mb-2">Right of First Refusal and Co-Sale Agreement</h4>
+            <p className="text-text-secondary">If shareholders want to sell, you may have the right to buy their shares first (ROFR) or participate in their sale on the same terms (co-sale). You'll also be bound by these restrictions when you want to sell.</p>
+          </div>
+          <div className="border-l-2 border-accent pl-6 py-2">
+            <h4 className="text-text-highlight font-medium mb-2">Voting Agreement</h4>
+            <p className="text-text-secondary">Governs board composition and may include drag-along provisions. If holders above a specified threshold approve a sale, drag-along provisions can force you to sell your shares on the same terms. Understand the trigger threshold and conditions.</p>
+          </div>
+        </div>
+
+        <hr className="border-grid mb-12" />
+
+        <h2 className="font-serif text-3xl text-text-highlight mb-6">Secondary Purchase Documents</h2>
+        <p className="leading-relaxed text-text-secondary mb-8">
+          Buying shares from an existing holder adds complexity. You're negotiating with a seller who may have limited information about the company, you need company consent, and not all rights transfer with shares.
+        </p>
+
+        <h3 className="font-serif text-2xl text-text-highlight mb-6">Share Purchase Agreement</h3>
+
+        <div className="space-y-6 mb-12">
+          <div className="border-l-2 border-accent pl-6 py-2">
+            <h4 className="text-text-highlight font-medium mb-2">Seller representations</h4>
+            <p className="text-text-secondary">The seller will represent that they own the shares free of encumbrances and can transfer them. Beyond that, sellers typically limit their representations about the company significantly. They'll often disclaim knowledge of company matters or represent only what's in the company's own documents. Unlike buying from a company, you may have limited recourse if company problems emerge later.</p>
+          </div>
+          <div className="border-l-2 border-accent pl-6 py-2">
+            <h4 className="text-text-highlight font-medium mb-2">Company consent and ROFR</h4>
+            <p className="text-text-secondary">Most company governance documents require board or investor consent to transfers and give existing investors a right of first refusal. If the company or existing investors exercise ROFR, your deal doesn't happen. Confirm these have been obtained or waived before you spend significant time and expense on diligence.</p>
+          </div>
+          <div className="border-l-2 border-accent pl-6 py-2">
+            <h4 className="text-text-highlight font-medium mb-2">What actually transfers</h4>
+            <p className="text-text-secondary">Not all rights travel with shares. Information rights, pro rata rights, board seats, and registration rights are often personal to the original holder or require minimum ownership thresholds. Review the company's Investor Rights Agreement carefully to understand exactly what you're getting. Buying shares without pro rata or information rights is a different investment than buying shares with those rights.</p>
+          </div>
+        </div>
+
+        <h3 className="font-serif text-2xl text-text-highlight mb-6">Company Governance Documents</h3>
+        <p className="leading-relaxed text-text-secondary mb-6">
+          Request and review the current Charter, Investor Rights Agreement, ROFR/Co-Sale Agreement, and Voting Agreement. You need to understand the company's capital structure, what rights attach to the shares you're buying, and what obligations you're assuming.
+        </p>
+
+        <div className="space-y-6 mb-12">
+          <div className="border-l-2 border-accent pl-6 py-2">
+            <h4 className="text-text-highlight font-medium mb-2">What class of stock?</h4>
+            <p className="text-text-secondary">If you're buying common shares, understand how much preferred sits above you in the liquidation stack. In many exit scenarios, common holders receive nothing until all preferred preferences are satisfied.</p>
+          </div>
+          <div className="border-l-2 border-accent pl-6 py-2">
+            <h4 className="text-text-highlight font-medium mb-2">Current cap table</h4>
+            <p className="text-text-secondary">Request one. Understand the fully diluted share count, option pool size, and where you sit. A secondary purchase that looks cheap on a per-share basis may be less attractive when you understand the full capital structure.</p>
+          </div>
+        </div>
+
+        <hr className="border-grid mb-12" />
+
+        <h2 className="font-serif text-3xl text-text-highlight mb-6">How We Help</h2>
+        <p className="leading-relaxed text-text-secondary mb-8">
+          We support fund managers in reviewing and negotiating investment documents:
+        </p>
+        <div className="grid grid-cols-1 gap-4 mb-12">
+          {[
+            { title: 'Document review and analysis', desc: 'We review fund documents (LPAs, PPMs, subscription agreements) and transaction documents (purchase agreements, charter, governance documents) and provide plain-English summaries of key terms, non-standard provisions, and areas of concern.' },
+            { title: 'Term benchmarking', desc: 'We compare terms against market standards and your fund\'s prior investments so you know where you have negotiating room.' },
+            { title: 'Negotiation support', desc: 'We help you prioritize terms and prepare redlines or term sheets.' },
+            { title: 'Process development', desc: 'We help you build checklists and workflows for consistent document review across investments.' }
+          ].map((item, i) => (
+            <div key={i} className="flex flex-col md:flex-row gap-4 p-6 bg-surface/30 border border-grid">
+              <div className="flex items-center gap-3 md:w-1/3">
+                <span className="w-1.5 h-1.5 bg-accent rounded-full shrink-0"></span>
+                <span className="text-text-highlight font-medium">{item.title}</span>
+              </div>
+              <div className="md:w-2/3">
+                <p className="text-text-secondary text-sm leading-relaxed">{item.desc}</p>
+              </div>
+            </div>
+          ))}
+        </div>
+
+        <p className="text-xs text-text-muted border-t border-grid pt-6 mt-12">
+          *This article is for informational purposes only and does not constitute legal advice.
+        </p>
+      </>
+    )
+  },
+  {
     id: 'state-investment-adviser-registration',
     title: 'State Investment Adviser Registration: Exemptions, Requirements, and the 3(c)(1) Trap',
     date: 'October 16, 2025',

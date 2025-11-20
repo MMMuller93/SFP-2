@@ -17,9 +17,246 @@ interface BlogProps {
 
 const posts: BlogPost[] = [
   {
+    id: 'side-letters',
+    title: 'Side Letters: Negotiating Custom Terms with Fund Investors',
+    date: 'September 18, 2025',
+    readTime: '7 min read',
+    excerpt: 'Not all investors want the same deal. Whether you\'re raising a traditional fund or syndicating deal-by-deal, you\'ll likely encounter LPs requesting specific rights or terms that differ from your standard documents.',
+    content: (
+      <>
+        <p className="text-lg leading-relaxed text-text-secondary mb-8">
+          Not all investors want the same deal. Whether you're raising a traditional fund or syndicating deal-by-deal, you'll likely encounter LPs requesting specific rights or terms that differ from your standard documents. These custom arrangements are documented in side letters.
+        </p>
+        <p className="text-lg leading-relaxed text-text-secondary mb-12">
+          Side letters are common in private fund practice, but they create complexity. This guide covers what fund managers need to know about side letter requests: what LPs typically ask for, how to evaluate requests, and how to manage side letters without creating operational headaches.
+        </p>
+
+        <hr className="border-grid mb-12" />
+
+        <h2 className="font-serif text-3xl text-text-highlight mb-6">What Is a Side Letter?</h2>
+        <p className="leading-relaxed text-text-secondary mb-6">
+          A side letter is a separate agreement between the fund (or GP) and a specific investor that modifies or supplements the terms in your primary fund documents. It grants that investor particular rights, waivers, or obligations that don't apply to other LPs.
+        </p>
+        <p className="leading-relaxed text-text-secondary mb-6">
+          Side letters exist "on the side" of your main documents. The LPA or operating agreement governs all investors equally; the side letter creates exceptions for a specific LP.
+        </p>
+        <p className="leading-relaxed text-text-secondary mb-8">
+          Common reasons LPs request side letters:
+        </p>
+
+        <ul className="space-y-3 text-text-secondary mb-8 pl-5 list-disc marker:text-accent">
+          <li>Minimize downside risk or limit exposure</li>
+          <li>Address unique tax, regulatory, or compliance requirements</li>
+          <li>Secure preferential economics</li>
+          <li>Obtain enhanced information or governance rights</li>
+          <li>Ensure the fund operates in ways that meet their specific policies</li>
+        </ul>
+
+        <p className="leading-relaxed text-text-secondary mb-12">
+          Side letters are most common with institutional LPs (fund-of-funds, endowments, pension funds, family offices) who have established negotiating positions and form side letter requests they send to every fund.
+        </p>
+
+        <hr className="border-grid mb-12" />
+
+        <h2 className="font-serif text-3xl text-text-highlight mb-6">When Side Letters Get Negotiated</h2>
+        <p className="leading-relaxed text-text-secondary mb-6">
+          Sophisticated LPs often send their form side letter early in the process, sometimes alongside their initial due diligence questions. You'll typically negotiate the LPA and side letter in parallel.
+        </p>
+        <p className="leading-relaxed text-text-secondary mb-6">
+          During negotiation, provisions sometimes shift between documents. An LP may request something for the LPA that you'd prefer to grant only to them via side letter. Conversely, if multiple LPs request the same provision, you might move it into the LPA to apply to everyone.
+        </p>
+        <p className="leading-relaxed text-text-secondary mb-12">
+          The key distinction: <strong className="text-accent font-medium">LPA provisions</strong> apply to all LPs; <strong className="text-accent font-medium">side letter provisions</strong> apply only to the LP with that side letter.
+        </p>
+
+        <hr className="border-grid mb-12" />
+
+        <h2 className="font-serif text-3xl text-text-highlight mb-6">Common Side Letter Requests</h2>
+        <p className="leading-relaxed text-text-secondary mb-12">
+          Side letter requests generally fall into two categories: preferential terms that advantage the requesting LP, and administrative terms driven by the LP's regulatory or tax situation.
+        </p>
+
+        <h3 className="font-serif text-2xl text-text-highlight mb-6">Preferential Terms</h3>
+        <div className="space-y-6 mb-12">
+          <div className="border-l-2 border-accent pl-6 py-2">
+            <h4 className="text-text-highlight font-medium mb-2">Fee reductions</h4>
+            <p className="text-text-secondary">Lower management fee percentage or reduced carried interest. An LP might request 1.5% management fee instead of 2%, or 15% carry instead of 20%.</p>
+          </div>
+          <div className="border-l-2 border-accent pl-6 py-2">
+            <h4 className="text-text-highlight font-medium mb-2">Co-investment rights</h4>
+            <p className="text-text-secondary">Right to invest directly in portfolio companies alongside the fund, often with reduced or waived fees and carry on the co-invest.</p>
+          </div>
+          <div className="border-l-2 border-accent pl-6 py-2">
+            <h4 className="text-text-highlight font-medium mb-2">Pro rata rights in future funds</h4>
+            <p className="text-text-secondary">Right to invest a specified amount or percentage in the GP's next fund.</p>
+          </div>
+          <div className="border-l-2 border-accent pl-6 py-2">
+            <h4 className="text-text-highlight font-medium mb-2">LPAC participation</h4>
+            <p className="text-text-secondary">Seat on the Limited Partner Advisory Committee, or at least observer status. LPAC members vote on conflicts and certain fund matters, and receive more information.</p>
+          </div>
+          <div className="border-l-2 border-accent pl-6 py-2">
+            <h4 className="text-text-highlight font-medium mb-2">Enhanced reporting</h4>
+            <p className="text-text-secondary">More frequent reports, additional detail, or specific formats to meet the LP's internal requirements.</p>
+          </div>
+          <div className="border-l-2 border-accent pl-6 py-2">
+            <h4 className="text-text-highlight font-medium mb-2">MFN (Most Favored Nation)</h4>
+            <p className="text-text-secondary">Right to receive any more favorable terms granted to other LPs. This is one of the most powerful side letter provisions and requires careful consideration.</p>
+          </div>
+          <div className="border-l-2 border-accent pl-6 py-2">
+            <h4 className="text-text-highlight font-medium mb-2">Improved transfer rights</h4>
+            <p className="text-text-secondary">Ability to transfer fund interests to affiliates without GP consent.</p>
+          </div>
+          <div className="border-l-2 border-accent pl-6 py-2">
+            <h4 className="text-text-highlight font-medium mb-2">More favorable default terms</h4>
+            <p className="text-text-secondary">Reduced penalties or more lenient cure periods if the LP defaults on a capital call.</p>
+          </div>
+          <div className="border-l-2 border-accent pl-6 py-2">
+            <h4 className="text-text-highlight font-medium mb-2">Liquidity preferences</h4>
+            <p className="text-text-secondary">Enhanced withdrawal or redemption rights beyond what other LPs receive.</p>
+          </div>
+        </div>
+
+        <h3 className="font-serif text-2xl text-text-highlight mb-6">Administrative Terms</h3>
+        <p className="leading-relaxed text-text-secondary mb-8">
+          These provisions address the LP's specific legal, tax, or regulatory requirements. They're typically found in the LP's form side letter and aren't particularly negotiable because they're driven by external requirements.
+        </p>
+
+        <div className="space-y-6 mb-12">
+          <div className="border-l-2 border-accent pl-6 py-2">
+            <h4 className="text-text-highlight font-medium mb-2">Excluded investments</h4>
+            <p className="text-text-secondary">List of investment categories the LP cannot participate in due to internal policy or regulatory restrictions. Common exclusions include alcohol, tobacco, weapons, fossil fuels, cannabis, gambling, cryptocurrency, or investments outside certain jurisdictions.</p>
+          </div>
+          <div className="border-l-2 border-accent pl-6 py-2">
+            <h4 className="text-text-highlight font-medium mb-2">Confidentiality modifications</h4>
+            <p className="text-text-secondary">Fund-of-funds may need to disclose information to their own investors. Government entities may have public records obligations. Many LPs also request that the GP not publicly disclose them as an investor without permission.</p>
+          </div>
+          <div className="border-l-2 border-accent pl-6 py-2">
+            <h4 className="text-text-highlight font-medium mb-2">Tax provisions</h4>
+            <p className="text-text-secondary">ERISA, UBTI, ECI, withholding, and other tax-related provisions tailored to the LP's status (tax-exempt, non-US, ERISA plan, etc.).</p>
+          </div>
+          <div className="border-l-2 border-accent pl-6 py-2">
+            <h4 className="text-text-highlight font-medium mb-2">Regulatory compliance</h4>
+            <p className="text-text-secondary">Banks, insurance companies, and government entities often have specific regulatory requirements that need accommodation.</p>
+          </div>
+        </div>
+
+        <hr className="border-grid mb-12" />
+
+        <h2 className="font-serif text-3xl text-text-highlight mb-6">Evaluating Side Letter Requests</h2>
+        <p className="leading-relaxed text-text-secondary mb-12">
+          Not every request deserves the same consideration. Here's how to think through them:
+        </p>
+
+        <h3 className="font-serif text-2xl text-text-highlight mb-6">Does It Disadvantage Other LPs?</h3>
+        <p className="leading-relaxed text-text-secondary mb-6">
+          Some provisions benefit one LP without affecting others. Reduced fees come out of the GP's pocket, not the other LPs'. Enhanced reporting is operational work for you but doesn't hurt anyone else.
+        </p>
+        <p className="leading-relaxed text-text-secondary mb-6">
+          Other provisions advantage one LP at the expense of others. Favorable liquidity terms mean that LP can exit while others remain locked up. Lighter indemnification means other LPs bear more risk.
+        </p>
+        <p className="leading-relaxed text-text-secondary mb-12">
+          Many managers draw a line: they'll consider the first category but decline the second. If a provision materially affects other LPs' rights, it likely needs to go in an LPA amendment with LP consent, not a side letter.
+        </p>
+
+        <h3 className="font-serif text-2xl text-text-highlight mb-6">What's the Operational Burden?</h3>
+        <p className="leading-relaxed text-text-secondary mb-6">
+          Side letter obligations can last 10+ years. Consider what it takes to actually comply:
+        </p>
+        <ul className="space-y-3 text-text-secondary mb-8 pl-5 list-disc marker:text-accent">
+          <li>Tracking and delivering custom reports on different schedules</li>
+          <li>Monitoring investments against exclusion lists and calculating adjusted allocations</li>
+          <li>Managing different transfer and liquidity rights across LPs</li>
+          <li>Maintaining records for audit and LP verification</li>
+        </ul>
+        <p className="leading-relaxed text-text-secondary mb-12">
+          Some provisions are one-time accommodations. Others create ongoing compliance work that compounds as you add more side letters.
+        </p>
+
+        <h3 className="font-serif text-2xl text-text-highlight mb-6">What's the LP Worth to You?</h3>
+        <p className="leading-relaxed text-text-secondary mb-6">
+          Negotiating leverage matters. If an LP is writing a significant check, anchoring your fundraise, or bringing credibility that attracts other investors, their requests warrant more consideration.
+        </p>
+        <p className="leading-relaxed text-text-secondary mb-12">
+          A small LP asking for major concessions is a different calculus than an anchor LP asking for the same thing.
+        </p>
+
+        <h3 className="font-serif text-2xl text-text-highlight mb-6">Do You Have MFNs Outstanding?</h3>
+        <p className="leading-relaxed text-text-secondary mb-6">
+          If you've granted MFN rights to other LPs, any preferential terms you grant in a new side letter may automatically extend to MFN holders. This can cascade quickly.
+        </p>
+        <p className="leading-relaxed text-text-secondary mb-12">
+          MFNs can be structured with carve-outs (e.g., only LPs above a certain commitment size qualify) to limit this effect. But you need to know your MFN exposure before granting new preferential terms.
+        </p>
+
+        <hr className="border-grid mb-12" />
+
+        <h2 className="font-serif text-3xl text-text-highlight mb-6">Managing Side Letters</h2>
+        <p className="leading-relaxed text-text-secondary mb-12">
+          A few practices help keep side letters under control:
+        </p>
+
+        <div className="space-y-8 mb-12">
+          <div>
+            <h3 className="text-text-highlight font-medium mb-3">Have a policy before you need one</h3>
+            <p className="text-text-secondary">Decide in advance which types of provisions you'll consider and which you won't. This makes individual negotiations easier and more consistent.</p>
+          </div>
+          <div>
+            <h3 className="text-text-highlight font-medium mb-3">Don't be afraid to say no</h3>
+            <p className="text-text-secondary">If your fund is in demand, many LPs will proceed without a side letter or with reduced asks. Emerging managers sometimes feel pressure to accommodate everything, but that creates long-term problems.</p>
+          </div>
+          <div>
+            <h3 className="text-text-highlight font-medium mb-3">Limit MFN grants</h3>
+            <p className="text-text-secondary">Aim for zero to one MFN per fund. MFNs given liberally undermine your ability to offer differentiated terms to large or strategic LPs.</p>
+          </div>
+          <div>
+            <h3 className="text-text-highlight font-medium mb-3">Standardize language</h3>
+            <p className="text-text-secondary">If multiple LPs want the same provision (affiliate transfers, certain confidentiality carve-outs), use identical language for all of them. Don't negotiate custom wording each time. Once you have language you're comfortable with, reuse it.</p>
+          </div>
+          <div>
+            <h3 className="text-text-highlight font-medium mb-3">Track your obligations</h3>
+            <p className="text-text-secondary">Maintain a matrix of all side letter provisions by LP so you know who gets what. This is essential for ongoing compliance and for understanding your MFN exposure.</p>
+          </div>
+          <div>
+            <h3 className="text-text-highlight font-medium mb-3">Consider document structure</h3>
+            <p className="text-text-secondary">Some managers build flexibility into their base documents to reduce side letter requests. Variable fee schedules, standard LPAC provisions, and clear exclusion processes can address common asks without needing separate agreements.</p>
+          </div>
+        </div>
+
+        <hr className="border-grid mb-12" />
+
+        <h2 className="font-serif text-3xl text-text-highlight mb-6">How We Help</h2>
+        <p className="leading-relaxed text-text-secondary mb-8">
+          We assist fund managers with side letter review and administration:
+        </p>
+        <div className="grid grid-cols-1 gap-4 mb-12">
+          {[
+            { title: 'Side letter review', desc: 'We review LP side letter requests against your fund documents, flag issues, and help you evaluate operational and legal implications.' },
+            { title: 'Negotiation support', desc: 'We help you respond to requests with appropriate counter-positions and standard fallback language.' },
+            { title: 'Compliance tracking', desc: 'We help you build and maintain a side letter matrix to track provisions by LP and monitor ongoing obligations.' },
+            { title: 'Document coordination', desc: 'We ensure side letter terms are consistent with your LPA/operating agreement and don\'t create conflicts or unintended consequences.' }
+          ].map((item, i) => (
+            <div key={i} className="flex flex-col md:flex-row gap-4 p-6 bg-surface/30 border border-grid">
+              <div className="flex items-center gap-3 md:w-1/3">
+                <span className="w-1.5 h-1.5 bg-accent rounded-full shrink-0"></span>
+                <span className="text-text-highlight font-medium">{item.title}</span>
+              </div>
+              <div className="md:w-2/3">
+                <p className="text-text-secondary text-sm leading-relaxed">{item.desc}</p>
+              </div>
+            </div>
+          ))}
+        </div>
+
+        <p className="text-xs text-text-muted border-t border-grid pt-6 mt-12">
+          *This article is for informational purposes only and does not constitute legal advice.
+        </p>
+      </>
+    )
+  },
+  {
     id: 'form-d-blue-sky',
     title: 'Form D and Blue Sky Filings: Securities Filing Requirements for Private Funds',
-    date: 'August 29, 2024',
+    date: 'September 3, 2025',
     readTime: '7 min read',
     excerpt: 'When you raise capital for a private fund or SPV, you\'re selling securities. Even though private placements are exempt from SEC registration, you still need to make notice filings at both the federal and state level.',
     content: (
@@ -254,7 +491,7 @@ const posts: BlogPost[] = [
   {
     id: 'fund-formation-structure',
     title: 'Forming a Private Fund: Entity Structure and Core Documents',
-    date: 'August 15, 2024',
+    date: 'August 22, 2025',
     readTime: '8 min read',
     excerpt: 'Launching a fund involves more than raising capital. Before your first close, you need the right legal structure and investor-facing documents. A comprehensive guide to fund formation.',
     content: (
@@ -592,7 +829,7 @@ const posts: BlogPost[] = [
   {
     id: 'adv-era-registration',
     title: 'Form ADV and Exempt Reporting Adviser Registration: What Private Fund Managers Need to Know',
-    date: 'August 1, 2024',
+    date: 'August 8, 2025',
     readTime: '6 min read',
     excerpt: "Understanding your regulatory obligations under the Investment Advisers Act of 1940 is essential—but it doesn't have to be overwhelming. A guide for emerging managers.",
     content: (

@@ -2024,9 +2024,6 @@ export const Blog: React.FC<BlogProps> = ({ onContactClick }) => {
                 <h2 className="font-serif text-4xl md:text-6xl text-text-highlight mb-6">
                     Insights
                 </h2>
-                <p className="text-text-secondary text-lg font-light max-w-xl">
-                    Technical guidance and strategic updates for the modern fund manager.
-                </p>
             </div>
         </div>
 

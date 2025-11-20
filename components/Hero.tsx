@@ -18,11 +18,6 @@ export const Hero: React.FC = () => {
           transition={{ duration: 1, ease: [0.22, 1, 0.36, 1] }}
           className="relative z-10 max-w-5xl mx-auto"
         >
-           <div className="flex flex-col items-center gap-6 mb-12">
-              <span className="px-3 py-1 border border-accent/20 rounded-full text-[10px] font-mono uppercase tracking-[0.2em] text-accent">
-                Advisory for Private Funds
-              </span>
-           </div>
 
           <h1 className="font-serif text-6xl md:text-7xl lg:text-8xl leading-[0.95] text-text-highlight tracking-tight mb-10 text-balance">
             Strategic Guidance <br/>
@@ -30,7 +25,7 @@ export const Hero: React.FC = () => {
           </h1>
 
           <p className="text-lg md:text-xl text-text-secondary leading-relaxed mb-12 font-light max-w-2xl mx-auto text-balance">
-            Strategic support for the next generation of asset managers.
+            Support for the next generation of asset managers.
           </p>
           
           <motion.a 

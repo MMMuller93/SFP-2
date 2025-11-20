@@ -17,6 +17,297 @@ interface BlogProps {
 
 const posts: BlogPost[] = [
   {
+    id: 'state-investment-adviser-registration',
+    title: 'State Investment Adviser Registration: Exemptions, Requirements, and the 3(c)(1) Trap',
+    date: 'October 16, 2025',
+    readTime: '9 min read',
+    excerpt: 'Federal ERA status doesn\'t exempt you from state regulation. Even if you qualify as an Exempt Reporting Adviser with the SEC, you still need to navigate state investment adviser laws in every state where you have a place of business or sufficient clients.',
+    content: (
+      <>
+        <p className="text-lg leading-relaxed text-text-secondary mb-8">
+          Federal ERA status doesn't exempt you from state regulation. This is one of the most commonly misunderstood aspects of fund compliance. Even if you qualify as an Exempt Reporting Adviser with the SEC, you still need to navigate state investment adviser laws in every state where you have a place of business or sufficient clients.
+        </p>
+        <p className="text-lg leading-relaxed text-text-secondary mb-12">
+          State requirements vary dramatically. Some states offer broad exemptions that make compliance straightforward. Others exclude 3(c)(1) funds from their exemptions entirely, requiring full state registration even for small managers. Understanding your state obligations is critical to avoiding enforcement risk.
+        </p>
+
+        <hr className="border-grid mb-12" />
+
+        <h2 className="font-serif text-3xl text-text-highlight mb-6">When State Laws Apply</h2>
+        <p className="leading-relaxed text-text-secondary mb-6">
+          State investment adviser laws apply to any adviser that isn't fully registered with the SEC as an RIA. Once you register as an RIA, federal law preempts state registration requirements (though states retain anti-fraud authority).
+        </p>
+        <p className="leading-relaxed text-text-secondary mb-6">
+          This means state laws apply to:
+        </p>
+        <ul className="space-y-3 text-text-secondary mb-8 pl-5 list-disc marker:text-accent">
+          <li>Exempt Reporting Advisers (ERAs) relying on the VC adviser or private fund adviser exemptions</li>
+          <li>Managers below the $25 million threshold who haven't made federal filings</li>
+          <li>Any manager who isn't SEC-registered</li>
+        </ul>
+        <p className="leading-relaxed text-text-secondary mb-12">
+          If you're an emerging manager operating as an ERA, you're subject to state regulation. Your federal ERA filing doesn't change that.
+        </p>
+
+        <hr className="border-grid mb-12" />
+
+        <h2 className="font-serif text-3xl text-text-highlight mb-6">The NASAA Model Rule</h2>
+        <p className="leading-relaxed text-text-secondary mb-8">
+          Many states have adopted some version of the NASAA (North American Securities Administrators Association) model rule for private fund adviser exemptions. Understanding this model helps you navigate state-by-state variations.
+        </p>
+
+        <h3 className="font-serif text-2xl text-text-highlight mb-6">Core Requirements</h3>
+        <p className="leading-relaxed text-text-secondary mb-6">
+          The model rule provides an exemption from state registration if the adviser meets these conditions:
+        </p>
+        <div className="space-y-6 mb-12">
+          <div className="border-l-2 border-accent pl-6 py-2">
+            <h4 className="text-text-highlight font-medium mb-2">No bad actor disqualifications</h4>
+            <p className="text-text-secondary">The adviser and its affiliates can't be subject to disqualifying events under Rule 506(d)</p>
+          </div>
+          <div className="border-l-2 border-accent pl-6 py-2">
+            <h4 className="text-text-highlight font-medium mb-2">ERA filing</h4>
+            <p className="text-text-secondary">The adviser must file as an exempt reporting adviser through IARD and pay applicable state fees</p>
+          </div>
+          <div className="border-l-2 border-accent pl-6 py-2">
+            <h4 className="text-text-highlight font-medium mb-2">Private fund clients only</h4>
+            <p className="text-text-secondary">The adviser can only advise private funds, not separate accounts or other clients</p>
+          </div>
+        </div>
+
+        <h3 className="font-serif text-2xl text-text-highlight mb-6">Additional Requirements for 3(c)(1) Funds</h3>
+        <p className="leading-relaxed text-text-secondary mb-6">
+          Here's where the model rule gets restrictive. If the adviser manages any 3(c)(1) fund that isn't a qualifying venture capital fund, additional requirements apply:
+        </p>
+
+        <div className="space-y-6 mb-8">
+          <div className="border-l-2 border-accent pl-6 py-2">
+            <h4 className="text-text-highlight font-medium mb-2">Qualified client requirement</h4>
+            <p className="text-text-secondary mb-3">All investors in the fund must be "qualified clients." Currently this means either:</p>
+            <ul className="space-y-2 text-text-secondary text-sm pl-4">
+              <li className="flex items-start gap-3">
+                <span className="w-1.5 h-1.5 bg-accent rounded-full mt-2 flex-shrink-0"></span>
+                <span>Net worth of at least $2.2 million (excluding primary residence), OR</span>
+              </li>
+              <li className="flex items-start gap-3">
+                <span className="w-1.5 h-1.5 bg-accent rounded-full mt-2 flex-shrink-0"></span>
+                <span>At least $1.1 million in assets under management with the adviser</span>
+              </li>
+            </ul>
+            <p className="text-text-secondary mt-3">This is stricter than accredited investor status. Many accredited investors don't meet qualified client thresholds.</p>
+          </div>
+          <div className="border-l-2 border-accent pl-6 py-2">
+            <h4 className="text-text-highlight font-medium mb-2">Written disclosure</h4>
+            <p className="text-text-secondary">The adviser must provide written disclosure to each investor at the time of purchase covering services provided, duties owed, and material information affecting investor rights.</p>
+          </div>
+          <div className="border-l-2 border-accent pl-6 py-2">
+            <h4 className="text-text-highlight font-medium mb-2">Annual audit</h4>
+            <p className="text-text-secondary">Each 3(c)(1) fund (other than VC funds) must have annual audited financial statements delivered to investors.</p>
+          </div>
+        </div>
+
+        <h3 className="font-serif text-2xl text-text-highlight mb-6">Why This Matters</h3>
+        <p className="leading-relaxed text-text-secondary mb-6">
+          The qualified client and audit requirements can be deal-breakers for small funds. A manager raising a few million dollars may find:
+        </p>
+        <ul className="space-y-3 text-text-secondary mb-8 pl-5 list-disc marker:text-accent">
+          <li>Their investor base includes accredited investors who aren't qualified clients</li>
+          <li>The cost of annual audits is prohibitive relative to fund size</li>
+        </ul>
+        <p className="leading-relaxed text-text-secondary mb-6">
+          These requirements don't apply to:
+        </p>
+        <ul className="space-y-3 text-text-secondary mb-12 pl-5 list-disc marker:text-accent">
+          <li>3(c)(7) funds (all investors are qualified purchasers, who easily meet qualified client standards)</li>
+          <li>Qualifying venture capital funds (exempt from the additional requirements)</li>
+        </ul>
+        <p className="leading-relaxed text-text-secondary mb-12">
+          This creates a significant advantage for VC funds and 3(c)(7) structures under state law.
+        </p>
+
+        <hr className="border-grid mb-12" />
+
+        <h2 className="font-serif text-3xl text-text-highlight mb-6">State-by-State Variations</h2>
+        <p className="leading-relaxed text-text-secondary mb-8">
+          States fall across a spectrum from permissive to highly restrictive. Rather than adopting the NASAA model uniformly, states have made their own choices about which funds and advisers qualify for exemptions.
+        </p>
+
+        <h3 className="font-serif text-2xl text-text-highlight mb-6">More Permissive States</h3>
+        <p className="leading-relaxed text-text-secondary mb-12">
+          Some states offer exemptions more generous than the NASAA model rule. These typically exempt advisers based on a simple client count (each fund counts as one client) without the additional 3(c)(1) requirements. States in this category may exempt advisers with fewer than 5, 6, or 15 fund clients in a 12-month period. A few states mirror the federal private fund adviser exemption directly (under $150M AUM). In these states, a manager with a handful of funds can operate without registration or the qualified client and audit requirements.
+        </p>
+
+        <h3 className="font-serif text-2xl text-text-highlight mb-6">NASAA Model Rule States</h3>
+        <p className="leading-relaxed text-text-secondary mb-12">
+          Many states have adopted the model rule with minimal modification. These states provide exemptions but impose the additional requirements on non-VC 3(c)(1) funds: qualified client investors, written disclosure, and annual audits.
+        </p>
+
+        <h3 className="font-serif text-2xl text-text-highlight mb-6">Modified Model Rule States</h3>
+        <p className="leading-relaxed text-text-secondary mb-12">
+          Some states started with the model rule but made adjustments. California, for example, has a broader venture capital definition but added "retail buyer fund" requirements (discussed below). Other states have made the qualified client or audit provisions more or less restrictive.
+        </p>
+
+        <h3 className="font-serif text-2xl text-text-highlight mb-6">Restrictive States</h3>
+        <p className="leading-relaxed text-text-secondary mb-12">
+          Several states are significantly more restrictive. These states either have no private fund adviser exemption at all, or their exemptions explicitly exclude 3(c)(1) funds. In these states, managing a non-VC 3(c)(1) fund typically means you must register as an investment adviser. Delaware and Washington fall into this category and are discussed in detail below.
+        </p>
+
+        <hr className="border-grid mb-12" />
+
+        <h2 className="font-serif text-3xl text-text-highlight mb-6">States That Exclude 3(c)(1) Funds from Exemptions</h2>
+        <p className="leading-relaxed text-text-secondary mb-8">
+          Several states have exemptions that explicitly exclude non-VC 3(c)(1) funds. In these states, managing even a single 3(c)(1) fund that doesn't meet the venture capital definition means you cannot use the exemption and must register as a state investment adviser. States with this restriction include Delaware, Washington, Kentucky, and North Dakota. Delaware and Washington are particularly important because they're common places of business for fund managers.
+        </p>
+
+        <h3 className="font-serif text-2xl text-text-highlight mb-6">Delaware</h3>
+        <p className="leading-relaxed text-text-secondary mb-6">
+          Delaware's exemption is only available to advisers whose clients consist exclusively of "qualifying private funds." Delaware defines this to exclude all 3(c)(1) funds except qualifying venture capital funds.
+        </p>
+        <p className="leading-relaxed text-text-secondary mb-12">
+          If you manage a single 3(c)(1) fund that isn't a qualifying VC fund, you must register with the Delaware Investor Protection Unit. Registration triggers significant compliance obligations including custody rule compliance (typically satisfied through annual fund audits), comprehensive recordkeeping, written compliance policies, and periodic state examinations.
+        </p>
+
+        <h3 className="font-serif text-2xl text-text-highlight mb-6">Washington</h3>
+        <p className="leading-relaxed text-text-secondary mb-6">
+          Washington's exemption only applies to 3(c)(7) funds and advisers who qualify for the federal venture capital fund adviser exemption. Critically, Washington's rule references the SEC's VC definition directly.
+        </p>
+        <p className="leading-relaxed text-text-secondary mb-6">
+          This creates a trap for managers who have their principal place of business in Washington and manage 3(c)(1) funds that don't meet the SEC's venture capital fund definition. All three conditions together trigger registration.
+        </p>
+        <p className="leading-relaxed text-text-secondary mb-12">
+          Because Washington references the SEC definition, secondary transaction SPVs don't qualify for the VC exemption. Secondary purchases aren't "qualifying investments" under SEC rules, even when the underlying companies are startups. A manager running secondary SPVs out of Washington cannot use the state exemption. Washington registration requirements include Form ADV through IARD, investment adviser representative registration for individuals who provide advice, compliance program requirements, and custody rule compliance.
+        </p>
+
+        <hr className="border-grid mb-12" />
+
+        <h2 className="font-serif text-3xl text-text-highlight mb-6">California's Retail Buyer Fund Rules</h2>
+        <p className="leading-relaxed text-text-secondary mb-8">
+          California has adopted a version of the model rule with an important additional concept that specifically impacts managers of 3(c)(1) funds.
+        </p>
+
+        <h3 className="font-serif text-2xl text-text-highlight mb-6">What Is a Retail Buyer Fund?</h3>
+        <p className="leading-relaxed text-text-secondary mb-6">
+          California defines a "retail buyer fund" as any private fund that:
+        </p>
+        <ul className="space-y-3 text-text-secondary mb-8 pl-5 list-disc marker:text-accent">
+          <li>Is not a venture capital fund (as defined by SEC rules), AND</li>
+          <li>Relies on the 3(c)(1) exclusion rather than 3(c)(7)</li>
+        </ul>
+        <p className="leading-relaxed text-text-secondary mb-12">
+          In practice, this means most private equity funds, hedge funds, and SPVs that accept accredited investors rather than limiting themselves to qualified purchasers. If you manage 3(c)(1) vehicles in California and they're not qualifying VC funds, they're retail buyer funds.
+        </p>
+
+        <h3 className="font-serif text-2xl text-text-highlight mb-6">What This Means for 3(c)(1) Managers</h3>
+        <p className="leading-relaxed text-text-secondary mb-6">
+          If you manage even one retail buyer fund, California imposes additional requirements on each such fund:
+        </p>
+
+        <div className="space-y-6 mb-12">
+          <div className="border-l-2 border-accent pl-6 py-2">
+            <h4 className="text-text-highlight font-medium mb-2">Annual audit required</h4>
+            <p className="text-text-secondary">Each retail buyer fund must be audited annually by an independent CPA registered with the PCAOB. Audited financials must be delivered to investors within 120 days after the fund's fiscal year-end (180 days for fund-of-funds). This is not optional and applies regardless of fund size.</p>
+          </div>
+          <div className="border-l-2 border-accent pl-6 py-2">
+            <h4 className="text-text-highlight font-medium mb-2">Investor qualifications</h4>
+            <p className="text-text-secondary">All investors must be accredited investors at the time of purchase, or be employees of the adviser, or have acquired interests through gift or inheritance.</p>
+          </div>
+          <div className="border-l-2 border-accent pl-6 py-2">
+            <h4 className="text-text-highlight font-medium mb-2">Written disclosure</h4>
+            <p className="text-text-secondary">Before or at investment, the adviser must prominently disclose all material facts regarding services, duties, conflicts of interest, and compensation.</p>
+          </div>
+          <div className="border-l-2 border-accent pl-6 py-2">
+            <h4 className="text-text-highlight font-medium mb-2">Performance fee restrictions</h4>
+            <p className="text-text-secondary">Advisers cannot charge performance-based compensation (including carried interest) to any investor who isn't a qualified client. For 3(c)(1) funds, California looks through to individual investors. If you have LPs who are accredited but not qualified clients, you cannot charge them carry.</p>
+          </div>
+        </div>
+
+        <h3 className="font-serif text-2xl text-text-highlight mb-6">Practical Impact</h3>
+        <p className="leading-relaxed text-text-secondary mb-6">
+          The audit requirement creates real costs for small funds. A manager raising $2-3 million for a 3(c)(1) vehicle in California must budget for annual audits regardless of fund size.
+        </p>
+        <p className="leading-relaxed text-text-secondary mb-12">
+          The performance fee restriction is equally significant. You must verify qualified client status for each investor before the fund can pay carried interest to them. This requires tracking investor qualification at a more granular level than federal rules require.
+        </p>
+
+        <hr className="border-grid mb-12" />
+
+        <h2 className="font-serif text-3xl text-text-highlight mb-6">Performance Fee Restrictions Generally</h2>
+        <p className="leading-relaxed text-text-secondary mb-6">
+          Several states restrict performance-based compensation to qualified clients. This applies even when you're operating under a state exemption.
+        </p>
+        <p className="leading-relaxed text-text-secondary mb-6">
+          <strong className="text-accent font-medium">Qualified client</strong> currently means:
+        </p>
+        <ul className="space-y-3 text-text-secondary mb-8 pl-5 list-disc marker:text-accent">
+          <li>At least $1.1 million in assets under management with the adviser, OR</li>
+          <li>Net worth of at least $2.2 million (excluding primary residence)</li>
+        </ul>
+        <p className="leading-relaxed text-text-secondary mb-6">
+          For 3(c)(1) funds, states that impose this restriction look through to individual investors. You must verify each LP's qualified client status to charge them carry.
+        </p>
+        <p className="leading-relaxed text-text-secondary mb-6">
+          This creates operational complexity:
+        </p>
+        <ul className="space-y-3 text-text-secondary mb-8 pl-5 list-disc marker:text-accent">
+          <li>Track qualified client status for each investor</li>
+          <li>Document verification in your files</li>
+          <li>Potentially exclude non-qualified-client investors from performance allocations</li>
+        </ul>
+        <p className="leading-relaxed text-text-secondary mb-12">
+          3(c)(7) funds avoid this issue because qualified purchasers ($5M+ in investments) easily exceed qualified client thresholds.
+        </p>
+
+        <hr className="border-grid mb-12" />
+
+        <h2 className="font-serif text-3xl text-text-highlight mb-6">Registration Consequences</h2>
+        <p className="leading-relaxed text-text-secondary mb-6">
+          If you can't qualify for an exemption in your home state or a state where you have sufficient clients, you must register. State registration typically requires:
+        </p>
+        <ul className="space-y-3 text-text-secondary mb-12 pl-5 list-disc marker:text-accent">
+          <li>Form ADV Parts 1 and 2 filed through IARD</li>
+          <li>Investment adviser representative registration for individuals who provide advice or supervise (requires Series 65 or equivalent)</li>
+          <li>Written compliance policies and designated compliance officer</li>
+          <li>Custody rule compliance (usually satisfied through annual fund audits)</li>
+          <li>Comprehensive recordkeeping</li>
+          <li>Annual registration renewals and Form ADV updates</li>
+        </ul>
+        <p className="leading-relaxed text-text-secondary mb-12">
+          State registration is a meaningful compliance burden. But it's required if you don't fit within an exemption, and operating without proper registration creates significant enforcement risk.
+        </p>
+
+        <hr className="border-grid mb-12" />
+
+        <h2 className="font-serif text-3xl text-text-highlight mb-6">How We Help</h2>
+        <p className="leading-relaxed text-text-secondary mb-8">
+          We assist fund managers in navigating state investment adviser requirements:
+        </p>
+        <div className="grid grid-cols-1 gap-4 mb-12">
+          {[
+            { title: 'State exemption analysis', desc: 'We determine which exemptions apply based on your place of business, fund structures, and client count by state.' },
+            { title: 'Registration support', desc: 'Where registration is required, we help with Form ADV preparation, IAR registration, and compliance infrastructure.' },
+            { title: 'Qualified client verification', desc: 'We help you document investor qualification status for performance fee purposes.' },
+            { title: 'Ongoing compliance', desc: 'We track state filing obligations, renewal deadlines, and regulatory changes.' },
+            { title: 'Multi-state coordination', desc: 'For managers with presence in multiple states, we map requirements and identify the most efficient compliance approach.' }
+          ].map((item, i) => (
+            <div key={i} className="flex flex-col md:flex-row gap-4 p-6 bg-surface/30 border border-grid">
+              <div className="flex items-center gap-3 md:w-1/3">
+                <span className="w-1.5 h-1.5 bg-accent rounded-full shrink-0"></span>
+                <span className="text-text-highlight font-medium">{item.title}</span>
+              </div>
+              <div className="md:w-2/3">
+                <p className="text-text-secondary text-sm leading-relaxed">{item.desc}</p>
+              </div>
+            </div>
+          ))}
+        </div>
+
+        <p className="text-xs text-text-muted border-t border-grid pt-6 mt-12">
+          *This article is for informational purposes only and does not constitute legal advice.
+        </p>
+      </>
+    )
+  },
+  {
     id: 'private-fund-exemptions',
     title: 'Private Fund Exemptions: Understanding Regulation D, 3(c)(1), 3(c)(7), and Investor Qualifications',
     date: 'October 2, 2025',

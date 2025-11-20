@@ -17,6 +17,344 @@ interface BlogProps {
 
 const posts: BlogPost[] = [
   {
+    id: 'fund-formation-structure',
+    title: 'Forming a Private Fund: Entity Structure and Core Documents',
+    date: 'January 20, 2025',
+    readTime: '8 min read',
+    excerpt: 'Launching a fund involves more than raising capital. Before your first close, you need the right legal structure and investor-facing documents. A comprehensive guide to fund formation.',
+    content: (
+      <>
+        <p className="text-lg leading-relaxed text-text-secondary mb-8">
+          Launching a venture capital fund, private equity vehicle, or SPV involves more than raising capital and sourcing deals. Before your first close, you need to establish the right legal structure and prepare investor-facing documents. Getting this foundation right sets up your fund for efficient operations and institutional credibility.
+        </p>
+        <p className="text-lg leading-relaxed text-text-secondary mb-12">
+          This guide walks through the key components of fund formation, from entity setup to the documents you'll need to close your first investors.
+        </p>
+
+        <hr className="border-grid mb-12" />
+
+        <h2 className="font-serif text-3xl text-text-highlight mb-6">Choosing Your Structure</h2>
+        <p className="leading-relaxed text-text-secondary mb-12">
+          The right structure depends on whether you're raising a traditional blind-pool fund or syndicating deal-by-deal through SPVs.
+        </p>
+
+        <h3 className="font-serif text-2xl text-text-highlight mb-6">Traditional Fund Structure</h3>
+        <p className="leading-relaxed text-text-secondary mb-8">
+          Most venture capital and private equity funds use a <strong className="text-accent font-medium">Delaware Limited Partnership (LP)</strong> with a layered entity structure:
+        </p>
+
+        <div className="space-y-6 mb-12">
+          <div className="border-l-2 border-accent pl-6 py-2">
+            <h4 className="text-text-highlight font-medium mb-2">The Fund (LP)</h4>
+            <p className="text-text-secondary">Holds investments and investor capital. Pass-through taxation means gains and losses flow to investors without entity-level tax. Limited partners have liability capped at their capital commitment.</p>
+          </div>
+          <div className="border-l-2 border-accent pl-6 py-2">
+            <h4 className="text-text-highlight font-medium mb-2">The General Partner (GP)</h4>
+            <p className="text-text-secondary">A Delaware LLC that manages the fund and makes investment decisions. Structured as an LLC to shield principals from the partnership's unlimited liability.</p>
+          </div>
+          <div className="border-l-2 border-accent pl-6 py-2">
+            <h4 className="text-text-highlight font-medium mb-2">The Management Company (Adviser)</h4>
+            <p className="text-text-secondary">A Delaware LLC that employs the investment team, receives management fees, and serves as the investment adviser to the fund.</p>
+          </div>
+        </div>
+
+        <p className="leading-relaxed text-text-secondary mb-6">
+          This structure separates roles and liability: the fund holds assets, the GP controls the fund, and the management company provides advisory services.
+        </p>
+
+        <div className="bg-surface/30 border border-grid p-8 mb-12">
+          <h4 className="font-serif text-xl text-text-highlight mb-4">Why Delaware?</h4>
+          <p className="text-text-secondary mb-4">
+            Delaware law offers maximum flexibility in structuring fees, carry, and governance terms. Institutional LPs and their counsel are familiar with Delaware structures, which streamlines diligence. Delaware also has no state income tax on funds operating outside the state.
+          </p>
+        </div>
+
+        <h3 className="font-serif text-2xl text-text-highlight mb-6">SPV Structures</h3>
+        <p className="leading-relaxed text-text-secondary mb-6">
+          For deal-by-deal syndication, SPVs are typically structured as <strong className="text-accent font-medium">Delaware LLCs</strong> rather than limited partnerships. Two common approaches:
+        </p>
+
+        <div className="bg-surface/30 border border-grid p-8 mb-6">
+          <h4 className="font-serif text-xl text-text-highlight mb-4">Standalone LLC</h4>
+          <p className="text-text-secondary">
+            A separate LLC formed for each deal. Simple and clean: each vehicle has its own operating agreement, its own investors, and holds a single investment. The tradeoff is administrative overhead, since each SPV requires separate formation, bank accounts, and tax filings.
+          </p>
+        </div>
+
+        <div className="bg-surface/30 border border-grid p-8 mb-8">
+          <h4 className="font-serif text-xl text-text-highlight mb-4">Series LLC (Master/Series)</h4>
+          <p className="text-text-secondary mb-4">
+            A single master LLC with multiple series, where each series functions as a separate legal entity for liability and asset purposes. Investors subscribe to a specific series, and assets of one series are generally protected from liabilities of another.
+          </p>
+          <p className="text-text-secondary">
+            Series LLCs reduce formation costs and administrative burden. However, not all states recognize series LLC segregation, and some institutional investors or service providers are less comfortable with the structure.
+          </p>
+        </div>
+
+        <p className="italic text-text-secondary mb-12 bg-surface/50 p-6 border border-grid">
+          <strong className="text-text-highlight">Which to choose?</strong> Standalone LLCs offer maximum legal clarity and institutional acceptance. Series LLCs offer efficiency for high-volume syndication. Many platforms use series structures; managers doing occasional SPVs alongside a main fund often prefer standalone LLCs.
+        </p>
+
+        <hr className="border-grid mb-12" />
+
+        <h2 className="font-serif text-3xl text-text-highlight mb-6">Entity Formation</h2>
+        <p className="leading-relaxed text-text-secondary mb-6">
+          Each entity in your structure requires formation filings with the Delaware Division of Corporations.
+        </p>
+        <ul className="space-y-4 text-text-secondary mb-8 pl-5 list-disc marker:text-accent">
+          <li>For a limited partnership, you file a Certificate of Limited Partnership.</li>
+          <li>For LLCs (GP, management company, or SPV), you file a Certificate of Formation for each entity.</li>
+          <li>For a series LLC, you file one certificate for the master LLC; individual series don't require separate state filings.</li>
+        </ul>
+        <p className="leading-relaxed text-text-secondary mb-6">
+          Delaware requires every entity to maintain a registered agent with a physical address in the state. Each entity also needs an EIN from the IRS before you can open bank accounts or file tax returns.
+        </p>
+        <p className="leading-relaxed text-text-secondary mb-12">
+          Delaware LPs and LLCs must pay an annual franchise tax, due June 1 each year.
+        </p>
+
+        <hr className="border-grid mb-12" />
+
+        <h2 className="font-serif text-3xl text-text-highlight mb-6">Core Documents: Traditional Fund</h2>
+
+        <div className="space-y-8 mb-12">
+          <div className="border-l-2 border-accent pl-6 py-2">
+            <h3 className="font-serif text-2xl text-text-highlight mb-3">Limited Partnership Agreement (LPA)</h3>
+            <p className="text-text-secondary mb-4">
+              The LPA is the governing document of the fund. It defines the rights and obligations of the GP and LPs and covers virtually every aspect of fund operations:
+            </p>
+            <ul className="space-y-2 text-text-secondary text-sm pl-4">
+              <li className="flex items-start gap-3">
+                <span className="w-1.5 h-1.5 bg-accent rounded-full mt-2 flex-shrink-0"></span>
+                <span>Investment objective and strategy</span>
+              </li>
+              <li className="flex items-start gap-3">
+                <span className="w-1.5 h-1.5 bg-accent rounded-full mt-2 flex-shrink-0"></span>
+                <span>Management fees and carried interest</span>
+              </li>
+              <li className="flex items-start gap-3">
+                <span className="w-1.5 h-1.5 bg-accent rounded-full mt-2 flex-shrink-0"></span>
+                <span>Capital contributions, drawdowns, and distributions</span>
+              </li>
+              <li className="flex items-start gap-3">
+                <span className="w-1.5 h-1.5 bg-accent rounded-full mt-2 flex-shrink-0"></span>
+                <span>GP removal and fund termination</span>
+              </li>
+              <li className="flex items-start gap-3">
+                <span className="w-1.5 h-1.5 bg-accent rounded-full mt-2 flex-shrink-0"></span>
+                <span>Transfers of LP interests</span>
+              </li>
+              <li className="flex items-start gap-3">
+                <span className="w-1.5 h-1.5 bg-accent rounded-full mt-2 flex-shrink-0"></span>
+                <span>Indemnification and exculpation</span>
+              </li>
+              <li className="flex items-start gap-3">
+                <span className="w-1.5 h-1.5 bg-accent rounded-full mt-2 flex-shrink-0"></span>
+                <span>Key person provisions</span>
+              </li>
+              <li className="flex items-start gap-3">
+                <span className="w-1.5 h-1.5 bg-accent rounded-full mt-2 flex-shrink-0"></span>
+                <span>Reporting and audit requirements</span>
+              </li>
+            </ul>
+            <p className="text-text-secondary mt-4">
+              The LPA is heavily negotiated, particularly with institutional LPs who may request modifications through side letters. It must align precisely with your PPM.
+            </p>
+          </div>
+
+          <div className="border-l-2 border-accent pl-6 py-2">
+            <h3 className="font-serif text-2xl text-text-highlight mb-3">Private Placement Memorandum (PPM)</h3>
+            <p className="text-text-secondary mb-4">
+              The PPM is your primary disclosure document. It provides prospective LPs the information they need to make an informed investment decision:
+            </p>
+            <ul className="space-y-2 text-text-secondary text-sm pl-4">
+              <li className="flex items-start gap-3">
+                <span className="w-1.5 h-1.5 bg-accent rounded-full mt-2 flex-shrink-0"></span>
+                <span>Fund structure and terms</span>
+              </li>
+              <li className="flex items-start gap-3">
+                <span className="w-1.5 h-1.5 bg-accent rounded-full mt-2 flex-shrink-0"></span>
+                <span>Investment strategy and target sectors</span>
+              </li>
+              <li className="flex items-start gap-3">
+                <span className="w-1.5 h-1.5 bg-accent rounded-full mt-2 flex-shrink-0"></span>
+                <span>Management team backgrounds</span>
+              </li>
+              <li className="flex items-start gap-3">
+                <span className="w-1.5 h-1.5 bg-accent rounded-full mt-2 flex-shrink-0"></span>
+                <span>Fee structure</span>
+              </li>
+              <li className="flex items-start gap-3">
+                <span className="w-1.5 h-1.5 bg-accent rounded-full mt-2 flex-shrink-0"></span>
+                <span>Risk factors</span>
+              </li>
+              <li className="flex items-start gap-3">
+                <span className="w-1.5 h-1.5 bg-accent rounded-full mt-2 flex-shrink-0"></span>
+                <span>Conflicts of interest</span>
+              </li>
+              <li className="flex items-start gap-3">
+                <span className="w-1.5 h-1.5 bg-accent rounded-full mt-2 flex-shrink-0"></span>
+                <span>Tax considerations</span>
+              </li>
+            </ul>
+            <p className="text-text-secondary mt-4">
+              The PPM is written in plain English and ensures full and fair disclosure. Inadequate risk disclosure or inconsistencies with the LPA are common sources of problems.
+            </p>
+          </div>
+
+          <div className="border-l-2 border-accent pl-6 py-2">
+            <h3 className="font-serif text-2xl text-text-highlight mb-3">Subscription Agreement</h3>
+            <p className="text-text-secondary">
+              The subscription agreement is the contract through which each investor commits capital. It includes the capital commitment amount, representations and warranties (accredited investor status, authority to invest), power of attorney, and agreement to be bound by the LPA.
+            </p>
+          </div>
+
+          <div className="border-l-2 border-accent pl-6 py-2">
+            <h3 className="font-serif text-2xl text-text-highlight mb-3">Investor Questionnaire</h3>
+            <p className="text-text-secondary">
+              Collects information to verify accreditation status, ERISA status, tax information, and bad actor disqualification for Reg D compliance.
+            </p>
+          </div>
+
+          <div className="border-l-2 border-accent pl-6 py-2">
+            <h3 className="font-serif text-2xl text-text-highlight mb-3">Investment Management Agreement</h3>
+            <p className="text-text-secondary">
+              Formalizes the relationship between the fund and the management company: scope of advisory services, management fee calculation, expense allocation, and standard of care.
+            </p>
+          </div>
+
+          <div className="border-l-2 border-accent pl-6 py-2">
+            <h3 className="font-serif text-2xl text-text-highlight mb-3">GP and Management Company Operating Agreements</h3>
+            <p className="text-text-secondary">
+              Internal documents governing each LLC, covering ownership among principals, decision-making authority, carry allocation, and transfers of membership interests. Not shared with fund LPs.
+            </p>
+          </div>
+        </div>
+
+        <hr className="border-grid mb-12" />
+
+        <h2 className="font-serif text-3xl text-text-highlight mb-6">Core Documents: SPVs</h2>
+        <p className="leading-relaxed text-text-secondary mb-12">
+          SPV documentation is simpler than a traditional fund but follows the same principles.
+        </p>
+
+        <div className="space-y-8 mb-12">
+          <div className="border-l-2 border-accent pl-6 py-2">
+            <h3 className="font-serif text-2xl text-text-highlight mb-3">Operating Agreement</h3>
+            <p className="text-text-secondary mb-4">
+              For an LLC-structured SPV, the operating agreement is the governing document. It covers:
+            </p>
+            <ul className="space-y-2 text-text-secondary text-sm pl-4">
+              <li className="flex items-start gap-3">
+                <span className="w-1.5 h-1.5 bg-accent rounded-full mt-2 flex-shrink-0"></span>
+                <span>The specific investment being made</span>
+              </li>
+              <li className="flex items-start gap-3">
+                <span className="w-1.5 h-1.5 bg-accent rounded-full mt-2 flex-shrink-0"></span>
+                <span>Member capital contributions</span>
+              </li>
+              <li className="flex items-start gap-3">
+                <span className="w-1.5 h-1.5 bg-accent rounded-full mt-2 flex-shrink-0"></span>
+                <span>Allocation of profits, losses, and distributions (including carry)</span>
+              </li>
+              <li className="flex items-start gap-3">
+                <span className="w-1.5 h-1.5 bg-accent rounded-full mt-2 flex-shrink-0"></span>
+                <span>Manager authority and decision-making</span>
+              </li>
+              <li className="flex items-start gap-3">
+                <span className="w-1.5 h-1.5 bg-accent rounded-full mt-2 flex-shrink-0"></span>
+                <span>Fees and expenses</span>
+              </li>
+              <li className="flex items-start gap-3">
+                <span className="w-1.5 h-1.5 bg-accent rounded-full mt-2 flex-shrink-0"></span>
+                <span>Transfer restrictions</span>
+              </li>
+              <li className="flex items-start gap-3">
+                <span className="w-1.5 h-1.5 bg-accent rounded-full mt-2 flex-shrink-0"></span>
+                <span>Dissolution and liquidation</span>
+              </li>
+            </ul>
+            <p className="text-text-secondary mt-4">
+              For a series LLC, you'll have a Master Operating Agreement establishing the overall structure, plus a Series Designation for each series specifying that series' investment, members, and economics.
+            </p>
+          </div>
+
+          <div className="border-l-2 border-accent pl-6 py-2">
+            <h3 className="font-serif text-2xl text-text-highlight mb-3">Private Placement Memorandum (PPM)</h3>
+            <p className="text-text-secondary">
+              SPVs still require disclosure, though the PPM is typically shorter since you're disclosing a specific known investment rather than a general strategy. Key sections include description of the target company, deal terms, manager background, fees, and risk factors.
+            </p>
+          </div>
+
+          <div className="border-l-2 border-accent pl-6 py-2">
+            <h3 className="font-serif text-2xl text-text-highlight mb-3">Subscription Agreement and Investor Questionnaire</h3>
+            <p className="text-text-secondary">
+              Same function as in a traditional fund: commits the investor's capital and collects representations, accreditation status, and tax information.
+            </p>
+          </div>
+        </div>
+
+        <hr className="border-grid mb-12" />
+
+        <h2 className="font-serif text-3xl text-text-highlight mb-6">Regulatory Filings</h2>
+        <p className="leading-relaxed text-text-secondary mb-12">
+          Beyond entity formation and fund documents, you'll need to make regulatory filings at the federal and state level.
+        </p>
+
+        <div className="bg-surface/30 border border-grid p-8 mb-6">
+          <h3 className="font-serif text-2xl text-text-highlight mb-4">Form ADV</h3>
+          <p className="text-text-secondary mb-4">
+            Most private fund managers must file Form ADV with the SEC, either as a Registered Investment Adviser (RIA) or an Exempt Reporting Adviser (ERA). Filing is due within 60 days of your first fund's initial close.
+          </p>
+          <p className="text-text-secondary">
+            Many emerging managers qualify for ERA status under the venture capital fund adviser exemption (no AUM cap, but strict strategy limits) or the private fund adviser exemption (under $150M AUM). See our Form ADV guide for details.
+          </p>
+        </div>
+
+        <div className="bg-surface/30 border border-grid p-8 mb-12">
+          <h3 className="font-serif text-2xl text-text-highlight mb-4">State Filings</h3>
+          <p className="text-text-secondary">
+            Depending on your location and investor base, you may need state-level adviser notice filings or registrations even if you're a federal ERA. You'll also have securities filing obligations (Form D and blue sky filings) covered in our separate guide.
+          </p>
+        </div>
+
+        <hr className="border-grid mb-12" />
+
+        <h2 className="font-serif text-3xl text-text-highlight mb-6">How We Help</h2>
+        <p className="leading-relaxed text-text-secondary mb-8">
+          We support private fund managers and syndicators through the full formation process:
+        </p>
+        <div className="grid grid-cols-1 gap-4 mb-12">
+          {[
+            { title: 'Entity formation', desc: 'Delaware LP and LLC formation (including series LLCs), registered agent setup, EIN applications, bank account opening' },
+            { title: 'Fund document preparation', desc: 'LPA/operating agreements, PPMs, subscription documents, investor questionnaires, investment management agreements, GP and management company operating agreements' },
+            { title: 'SPV documentation', desc: 'Standalone and series LLC structures, master operating agreements, series designations, deal-specific PPMs' },
+            { title: 'Regulatory filings', desc: 'Form ADV/ERA registration, state adviser notice filings' },
+            { title: 'Ongoing compliance', desc: 'Annual Form ADV amendments, state filing maintenance' }
+          ].map((item, i) => (
+            <div key={i} className="flex flex-col md:flex-row gap-4 p-6 bg-surface/30 border border-grid">
+              <div className="flex items-center gap-3 md:w-1/3">
+                <span className="w-1.5 h-1.5 bg-accent rounded-full shrink-0"></span>
+                <span className="text-text-highlight font-medium">{item.title}</span>
+              </div>
+              <div className="md:w-2/3">
+                <p className="text-text-secondary text-sm leading-relaxed">{item.desc}</p>
+              </div>
+            </div>
+          ))}
+        </div>
+
+        <p className="leading-relaxed text-text-secondary mb-8">
+          We work with your legal counsel or can recommend experienced fund formation attorneys to ensure your documents meet institutional standards.
+        </p>
+
+        <p className="text-xs text-text-muted border-t border-grid pt-6 mt-12">
+          *This article is for informational purposes only and does not constitute legal advice.
+        </p>
+      </>
+    )
+  },
+  {
     id: 'adv-era-registration',
     title: 'Form ADV and Exempt Reporting Adviser Registration: What Private Fund Managers Need to Know',
     date: 'January 15, 2025',

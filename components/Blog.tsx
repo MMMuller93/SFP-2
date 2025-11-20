@@ -17,9 +17,244 @@ interface BlogProps {
 
 const posts: BlogPost[] = [
   {
+    id: 'form-d-blue-sky',
+    title: 'Form D and Blue Sky Filings: Securities Filing Requirements for Private Funds',
+    date: 'August 29, 2024',
+    readTime: '7 min read',
+    excerpt: 'When you raise capital for a private fund or SPV, you\'re selling securities. Even though private placements are exempt from SEC registration, you still need to make notice filings at both the federal and state level.',
+    content: (
+      <>
+        <p className="text-lg leading-relaxed text-text-secondary mb-8">
+          When you raise capital for a private fund or SPV, you're selling securities. Even though private placements are exempt from SEC registration, you still need to make notice filings at both the federal and state level. Missing these filings can result in penalties, suspension of your offering, or loss of your exemption.
+        </p>
+        <p className="text-lg leading-relaxed text-text-secondary mb-12">
+          This guide covers the two key securities filings every private fund manager needs to understand: Form D with the SEC and state blue sky filings.
+        </p>
+
+        <hr className="border-grid mb-12" />
+
+        <h2 className="font-serif text-3xl text-text-highlight mb-6">The Regulatory Framework</h2>
+        <p className="leading-relaxed text-text-secondary mb-6">
+          Under the Securities Act of 1933, any offer or sale of securities must either be registered with the SEC or qualify for an exemption. Private funds typically rely on Regulation D, which provides exemptions from registration while still requiring certain filings and disclosures.
+        </p>
+        <p className="leading-relaxed text-text-secondary mb-8">
+          The most common Regulation D exemptions for private funds are:
+        </p>
+
+        <div className="bg-surface/30 border border-grid p-8 mb-6">
+          <h3 className="font-serif text-2xl text-text-highlight mb-4">Rule 506(b)</h3>
+          <p className="text-text-secondary">
+            Allows unlimited fundraising from unlimited accredited investors plus up to 35 sophisticated non-accredited investors. No general solicitation or advertising permitted. This is the predominant framework for private capital raising.
+          </p>
+        </div>
+
+        <div className="bg-surface/30 border border-grid p-8 mb-8">
+          <h3 className="font-serif text-2xl text-text-highlight mb-4">Rule 506(c)</h3>
+          <p className="text-text-secondary">
+            Allows unlimited fundraising with general solicitation and advertising, but all investors must be accredited and the issuer must take reasonable steps to verify accreditation status. More burdensome verification requirements make this less common despite the marketing flexibility.
+          </p>
+        </div>
+
+        <p className="leading-relaxed text-text-secondary mb-12">
+          Both Rule 506 exemptions preempt state registration requirements, meaning your offering doesn't need to be registered at the state level. However, you still must make notice filings with the SEC and with states where you have investors.
+        </p>
+
+        <hr className="border-grid mb-12" />
+
+        <h2 className="font-serif text-3xl text-text-highlight mb-6">Form D: The Federal Filing</h2>
+
+        <h3 className="font-serif text-2xl text-text-highlight mb-6">What It Is</h3>
+        <p className="leading-relaxed text-text-secondary mb-6">
+          Form D is a notice filing with the SEC that provides information about your exempt offering. It's filed electronically through the SEC's EDGAR system and becomes publicly available on the SEC's website.
+        </p>
+        <p className="leading-relaxed text-text-secondary mb-8">
+          The form collects basic information about your fund and the offering:
+        </p>
+
+        <ul className="space-y-3 text-text-secondary mb-12 pl-5 list-disc marker:text-accent">
+          <li>Issuer identification (fund name, address, jurisdiction)</li>
+          <li>Related persons (executive officers, directors, promoters)</li>
+          <li>Industry and issuer size</li>
+          <li>Federal exemption claimed (506(b), 506(c), etc.)</li>
+          <li>Offering details (type of securities, minimum investment)</li>
+          <li>Sales compensation (any placement agents or finders)</li>
+          <li>Offering and sales amounts</li>
+          <li>Investors (number and types)</li>
+          <li>Use of proceeds</li>
+        </ul>
+
+        <h3 className="font-serif text-2xl text-text-highlight mb-6">Filing Deadline</h3>
+        <p className="leading-relaxed text-text-secondary mb-6">
+          Form D must be filed within <strong className="text-accent font-medium">15 days after the first sale of securities</strong>. The SEC defines "date of first sale" as the date on which the first investor is irrevocably contractually committed to invest, which typically means the date subscription documents are signed.
+        </p>
+        <p className="leading-relaxed text-text-secondary mb-12">
+          This means you should be prepared to file before you close your first investor.
+        </p>
+
+        <h3 className="font-serif text-2xl text-text-highlight mb-6">Amendments</h3>
+        <div className="space-y-6 mb-12">
+          <div className="border-l-2 border-accent pl-6 py-2">
+            <h4 className="text-text-highlight font-medium mb-2">Annual amendments</h4>
+            <p className="text-text-secondary">If your offering is continuous (common for hedge funds accepting new investors over time), you must file an annual amendment before the anniversary of your initial filing.</p>
+          </div>
+          <div className="border-l-2 border-accent pl-6 py-2">
+            <h4 className="text-text-highlight font-medium mb-2">Other amendments</h4>
+            <p className="text-text-secondary">You should amend Form D if previously filed information becomes materially inaccurate, such as changes to officers, address, or significant changes to the offering amount or number of investors.</p>
+          </div>
+        </div>
+
+        <p className="leading-relaxed text-text-secondary mb-12">
+          Private equity and venture capital funds that complete fundraising and close to new investors typically don't file annual amendments after fundraising ends.
+        </p>
+
+        <h3 className="font-serif text-2xl text-text-highlight mb-6">No Filing Fee</h3>
+        <p className="leading-relaxed text-text-secondary mb-12">
+          The SEC does not charge a fee for Form D filings or amendments.
+        </p>
+
+        <h3 className="font-serif text-2xl text-text-highlight mb-6">Consequences of Not Filing</h3>
+        <p className="leading-relaxed text-text-secondary mb-12">
+          Failing to file Form D doesn't automatically void your exemption, but it creates significant risk. The SEC can bring enforcement action, and failure to file may disqualify you from relying on Regulation D for future offerings. Some states condition their exemptions on timely Form D filing.
+        </p>
+
+        <hr className="border-grid mb-12" />
+
+        <h2 className="font-serif text-3xl text-text-highlight mb-6">Blue Sky Filings: State Requirements</h2>
+
+        <h3 className="font-serif text-2xl text-text-highlight mb-6">What They Are</h3>
+        <p className="leading-relaxed text-text-secondary mb-6">
+          Blue sky laws are state-level securities regulations. Each state has its own securities laws that require issuers to either register offerings or make notice filings when relying on federal exemptions.
+        </p>
+        <p className="leading-relaxed text-text-secondary mb-6">
+          For Rule 506 offerings, federal law preempts state registration requirements, meaning states cannot require you to register your offering. However, states can still require notice filings and fees. These are commonly called "blue sky filings."
+        </p>
+        <p className="leading-relaxed text-text-secondary mb-12">
+          You must make a blue sky filing in each state where you have investors.
+        </p>
+
+        <h3 className="font-serif text-2xl text-text-highlight mb-6">Filing Process</h3>
+        <p className="leading-relaxed text-text-secondary mb-6">
+          Most states accept blue sky filings electronically through the North American Securities Administrators Association (NASAA) Electronic Filing Depository (EFD). You submit your Form D through EFD and pay the applicable state fees.
+        </p>
+        <p className="leading-relaxed text-text-secondary mb-12">
+          Some states still require paper filings or have additional requirements beyond the Form D. Requirements vary significantly by state, so you need to check each state's specific rules.
+        </p>
+
+        <h3 className="font-serif text-2xl text-text-highlight mb-6">Timing</h3>
+        <p className="leading-relaxed text-text-secondary mb-6">
+          Most states require blue sky filings within <strong className="text-accent font-medium">15 days after the first sale</strong> to an investor in that state, matching the federal Form D deadline.
+        </p>
+        <p className="leading-relaxed text-text-secondary mb-12">
+          Because investor timing varies by state, you need to track when you close investors in each state and file accordingly.
+        </p>
+
+        <h3 className="font-serif text-2xl text-text-highlight mb-6">Fees</h3>
+        <p className="leading-relaxed text-text-secondary mb-6">
+          Each state charges its own filing fee, and structures vary. Some states charge flat fees while others use tiered fee schedules based on offering size or amount sold in the state.
+        </p>
+        <p className="leading-relaxed text-text-secondary mb-12">
+          Fees typically range from a few hundred dollars to over a thousand dollars per state. The total cost depends on the geographic distribution of your investor base.
+        </p>
+
+        <h3 className="font-serif text-2xl text-text-highlight mb-6">Amendments and Renewals</h3>
+        <p className="leading-relaxed text-text-secondary mb-12">
+          State requirements for amendments and renewals also vary. Some states require annual renewal filings while your offering remains open. Others require amendments when you add investors in the state or when information changes. Track your obligations in each state where you have investors.
+        </p>
+
+        <hr className="border-grid mb-12" />
+
+        <h2 className="font-serif text-3xl text-text-highlight mb-6">Coordination with Other Filings</h2>
+        <p className="leading-relaxed text-text-secondary mb-8">
+          Form D and blue sky filings are separate from your investment adviser filings:
+        </p>
+
+        <div className="space-y-6 mb-8">
+          <div className="border-l-2 border-accent pl-6 py-2">
+            <h4 className="text-text-highlight font-medium mb-2">Form ADV</h4>
+            <p className="text-text-secondary">Your adviser-level filing (RIA registration or ERA notice filing). It's about the manager, not the fund's securities offering.</p>
+          </div>
+          <div className="border-l-2 border-accent pl-6 py-2">
+            <h4 className="text-text-highlight font-medium mb-2">Form D and blue sky filings</h4>
+            <p className="text-text-secondary">Fund-level filings about the securities you're selling to investors.</p>
+          </div>
+        </div>
+
+        <p className="italic text-text-secondary mb-6 bg-surface/50 p-6 border border-grid">
+          You need both. A common misconception is that ERA status or small adviser size exempts you from Form D and blue sky requirements. It doesn't. Even if you're not required to register as an investment adviser, your fund must still make securities filings.
+        </p>
+
+        <p className="leading-relaxed text-text-secondary mb-12">
+          Timing often overlaps: Form D is due within 15 days of first close, and Form ADV is due within 60 days. Coordinate these to ensure nothing falls through the cracks.
+        </p>
+
+        <hr className="border-grid mb-12" />
+
+        <h2 className="font-serif text-3xl text-text-highlight mb-6">Practical Considerations</h2>
+
+        <h3 className="font-serif text-2xl text-text-highlight mb-6">Tracking Investor Information</h3>
+        <p className="leading-relaxed text-text-secondary mb-6">
+          You need to track for each investor:
+        </p>
+        <ul className="space-y-3 text-text-secondary mb-12 pl-5 list-disc marker:text-accent">
+          <li>Name and state of residence</li>
+          <li>Date subscription documents were signed</li>
+          <li>Amount committed</li>
+        </ul>
+        <p className="leading-relaxed text-text-secondary mb-12">
+          This information determines your Form D content and which states require blue sky filings, and by when.
+        </p>
+
+        <h3 className="font-serif text-2xl text-text-highlight mb-6">Pre-Filing vs. Post-Close Filing</h3>
+        <p className="leading-relaxed text-text-secondary mb-12">
+          Some managers choose to pre-file Form D before first close rather than waiting until after. Pre-filing means you don't have to disclose actual amounts raised, which some managers prefer for optics or confidentiality. You then amend after closing to report actual amounts.
+        </p>
+
+        <h3 className="font-serif text-2xl text-text-highlight mb-6">Continuous Offerings</h3>
+        <p className="leading-relaxed text-text-secondary mb-12">
+          Hedge funds and other vehicles that accept investors on an ongoing basis need systems to track new investors by state and make timely blue sky filings as they add investors in new states. This is an ongoing compliance obligation, not a one-time filing.
+        </p>
+
+        <h3 className="font-serif text-2xl text-text-highlight mb-6">Multiple Funds and SPVs</h3>
+        <p className="leading-relaxed text-text-secondary mb-12">
+          Each fund or SPV is a separate issuer and requires its own Form D and blue sky filings. If you run multiple vehicles, the filing burden scales accordingly. Series LLCs may offer some efficiency here since each series is a separate issuer.
+        </p>
+
+        <hr className="border-grid mb-12" />
+
+        <h2 className="font-serif text-3xl text-text-highlight mb-6">How We Help</h2>
+        <p className="leading-relaxed text-text-secondary mb-8">
+          We handle Form D and blue sky filings for private fund managers and SPV sponsors:
+        </p>
+        <div className="grid grid-cols-1 gap-4 mb-12">
+          {[
+            { title: 'Form D preparation and filing', desc: 'We prepare your Form D and file through EDGAR, including tracking your 15-day deadline from first close.' },
+            { title: 'Blue sky filing management', desc: 'We identify which states require filings based on your investor locations, file through EFD or state-specific systems, and manage fee payments.' },
+            { title: 'Ongoing compliance', desc: 'For continuous offerings, we track new investors by state and make timely filings as you add investors.' },
+            { title: 'Amendments and renewals', desc: 'We monitor amendment requirements and handle annual renewals where required.' },
+            { title: 'Coordination with adviser filings', desc: 'We ensure your Form D timeline is coordinated with your Form ADV and other regulatory obligations.' }
+          ].map((item, i) => (
+            <div key={i} className="flex flex-col md:flex-row gap-4 p-6 bg-surface/30 border border-grid">
+              <div className="flex items-center gap-3 md:w-1/3">
+                <span className="w-1.5 h-1.5 bg-accent rounded-full shrink-0"></span>
+                <span className="text-text-highlight font-medium">{item.title}</span>
+              </div>
+              <div className="md:w-2/3">
+                <p className="text-text-secondary text-sm leading-relaxed">{item.desc}</p>
+              </div>
+            </div>
+          ))}
+        </div>
+
+        <p className="text-xs text-text-muted border-t border-grid pt-6 mt-12">
+          *This article is for informational purposes only and does not constitute legal advice.
+        </p>
+      </>
+    )
+  },
+  {
     id: 'fund-formation-structure',
     title: 'Forming a Private Fund: Entity Structure and Core Documents',
-    date: 'January 20, 2025',
+    date: 'August 15, 2024',
     readTime: '8 min read',
     excerpt: 'Launching a fund involves more than raising capital. Before your first close, you need the right legal structure and investor-facing documents. A comprehensive guide to fund formation.',
     content: (
@@ -357,7 +592,7 @@ const posts: BlogPost[] = [
   {
     id: 'adv-era-registration',
     title: 'Form ADV and Exempt Reporting Adviser Registration: What Private Fund Managers Need to Know',
-    date: 'January 15, 2025',
+    date: 'August 1, 2024',
     readTime: '6 min read',
     excerpt: "Understanding your regulatory obligations under the Investment Advisers Act of 1940 is essential—but it doesn't have to be overwhelming. A guide for emerging managers.",
     content: (

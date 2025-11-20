@@ -47,7 +47,7 @@ export const Services: React.FC = () => {
                 Expertise
             </h2>
             <p className="text-text-secondary leading-relaxed font-light">
-                We design and implement the regulatory infrastructure that allows private funds to operate with certainty and scale.
+                Specialized guidance for every stage of your lifecycle, from formation and registration to ongoing compliance and operations.
             </p>
         </div>
 

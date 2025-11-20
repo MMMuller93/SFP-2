@@ -3,11 +3,13 @@ import React from 'react';
 
 export const Logo: React.FC<{ className?: string }> = ({ className = "w-9 h-9" }) => {
   return (
-    <svg 
-      className={className} 
-      viewBox="0 0 1024 1024" 
-      xmlns="http://www.w3.org/2000/svg" 
+    <svg
+      className={className}
+      viewBox="0 0 1024 1024"
+      xmlns="http://www.w3.org/2000/svg"
       preserveAspectRatio="xMidYMid meet"
+      role="img"
+      aria-label="Strategic Fund Partners Logo"
     >
       <g transform="translate(0,1024) scale(0.1,-0.1)" fill="currentColor" stroke="none">
         <path d="M8152 8869 c-4 -32 -85 -318 -124 -434 -138 -413 -383 -904 -626-1255 -357 -516 -752 -925 -1282 -1327 -247 -186 -497 -355 -1010 -678 -677-427 -1023 -666 -1380 -951 -656 -524 -1161 -1086 -1490 -1659 -142 -246 -284-575 -343 -792 l-26 -93 877 0 877 1 54 89 c132 216 358 487 612 735 252 246 490 435 979 780 617 436 861 635 1236 1009 340 340 521 560 769 935 433 655 691 1307 815 2061 54 332 62 450 67 1010 4 432 2 643 -5 569z"/>

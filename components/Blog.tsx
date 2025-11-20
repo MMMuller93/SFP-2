@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useParams, useNavigate, Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { ArrowLeft, Clock, Calendar, ArrowRight } from 'lucide-react';
+import { SEO } from './SEO';
 
 interface BlogPost {
   id: string;
@@ -1697,21 +1698,31 @@ export const Blog: React.FC<BlogProps> = ({ onContactClick }) => {
   }, [slug, navigate]);
 
   if (selectedPost) {
+    // Convert date to ISO format for SEO
+    const publishedTime = new Date(selectedPost.date).toISOString();
+
     return (
-      <motion.div
-        initial={{ opacity: 0, y: 20 }}
-        animate={{ opacity: 1, y: 0 }}
-        exit={{ opacity: 0 }}
-        className="bg-bg min-h-screen pt-12 pb-24"
-      >
-        <div className="max-w-3xl mx-auto px-6">
-          <Link
-            to="/insights"
-            className="flex items-center gap-2 text-sm text-text-muted hover:text-accent transition-colors mb-8 group"
-          >
-            <ArrowLeft className="w-4 h-4 group-hover:-translate-x-1 transition-transform" />
-            Back to Insights
-          </Link>
+      <>
+        <SEO
+          title={`${selectedPost.title} | Strategic Fund Partners`}
+          description={selectedPost.excerpt}
+          type="article"
+          publishedTime={publishedTime}
+        />
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          exit={{ opacity: 0 }}
+          className="bg-bg min-h-screen pt-12 pb-24"
+        >
+          <div className="max-w-3xl mx-auto px-6">
+            <Link
+              to="/insights"
+              className="flex items-center gap-2 text-sm text-text-muted hover:text-accent transition-colors mb-8 group"
+            >
+              <ArrowLeft className="w-4 h-4 group-hover:-translate-x-1 transition-transform" />
+              Back to Insights
+            </Link>
           
           <div className="flex items-center gap-6 text-xs font-mono uppercase tracking-widest text-text-muted mb-8">
             <div className="flex items-center gap-2">
@@ -1745,6 +1756,7 @@ export const Blog: React.FC<BlogProps> = ({ onContactClick }) => {
           </div>
         </div>
       </motion.div>
+      </>
     );
   }
 

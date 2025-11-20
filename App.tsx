@@ -7,6 +7,7 @@ import { Contact } from './components/Contact';
 import { Blog } from './components/Blog';
 import { Footer } from './components/Footer';
 import { LegalModal } from './components/LegalModal';
+import { SEO } from './components/SEO';
 import { ModalType } from './types';
 
 const App: React.FC = () => {
@@ -40,6 +41,7 @@ const App: React.FC = () => {
           <Routes>
             <Route path="/" element={
               <>
+                <SEO />
                 <Hero />
                 <div id="process" className="h-px w-full bg-gradient-to-r from-transparent via-white/5 to-transparent" />
                 <Services />
@@ -47,7 +49,15 @@ const App: React.FC = () => {
                 <Contact />
               </>
             } />
-            <Route path="/insights" element={<Blog onContactClick={handleReturnToContact} />} />
+            <Route path="/insights" element={
+              <>
+                <SEO
+                  title="Insights | Strategic Fund Partners"
+                  description="Expert guidance on fund formation, regulatory compliance, Form ADV filing, and ongoing compliance for venture capital and private equity managers."
+                />
+                <Blog onContactClick={handleReturnToContact} />
+              </>
+            } />
             <Route path="/insights/:slug" element={<Blog onContactClick={handleReturnToContact} />} />
           </Routes>
         </main>

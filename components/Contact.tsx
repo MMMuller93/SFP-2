@@ -47,7 +47,7 @@ export const Contact: React.FC = () => {
         </div>
 
         {/* Right Panel - The Form */}
-        <div className="p-10 md:p-16 lg:p-24 flex flex-col justify-center bg-surface/30">
+        <div className="p-10 md:p-16 lg:p-24 flex flex-col justify-center">
              {formState === 'success' ? (
                  <motion.div 
                     initial={{ opacity: 0 }}

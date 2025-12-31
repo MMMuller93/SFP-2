@@ -9,6 +9,14 @@ import { Footer } from './components/Footer';
 import { LegalModal } from './components/LegalModal';
 import { SEO } from './components/SEO';
 import { ModalType } from './types';
+import {
+  StartupLegalHome,
+  Formation,
+  Governance,
+  Equity,
+  Fundraising,
+  Registrations
+} from './pages/startup-legal';
 
 const App: React.FC = () => {
   const [modalType, setModalType] = useState<ModalType>(null);
@@ -59,6 +67,74 @@ const App: React.FC = () => {
               </>
             } />
             <Route path="/insights/:slug" element={<Blog onContactClick={handleReturnToContact} />} />
+
+            {/* Startup Legal Services Routes */}
+            <Route path="/startup-legal" element={
+              <>
+                <SEO
+                  title="Startup Legal Services | Strategic Fund Partners"
+                  description="Complete legal infrastructure for ambitious startups. Delaware C-Corp formation, corporate governance, equity management, fundraising preparation, and state registrations."
+                />
+                <StartupLegalHome />
+                <div className="h-px w-full bg-gradient-to-r from-transparent via-white/5 to-transparent" />
+                <Contact />
+              </>
+            } />
+            <Route path="/startup-legal/formation" element={
+              <>
+                <SEO
+                  title="Company Formation | Startup Legal Services"
+                  description="Complete Delaware C-Corp formation package with all documentation needed to start, hire, and raise capital. Formation, bylaws, stock plans, and founder agreements."
+                />
+                <Formation />
+                <div className="h-px w-full bg-gradient-to-r from-transparent via-white/5 to-transparent" />
+                <Contact />
+              </>
+            } />
+            <Route path="/startup-legal/governance" element={
+              <>
+                <SEO
+                  title="Corporate Governance | Startup Legal Services"
+                  description="Ongoing corporate maintenance and board documentation. Annual consents, stock ledger management, cap table updates, and investor-ready records."
+                />
+                <Governance />
+                <div className="h-px w-full bg-gradient-to-r from-transparent via-white/5 to-transparent" />
+                <Contact />
+              </>
+            } />
+            <Route path="/startup-legal/equity" element={
+              <>
+                <SEO
+                  title="Equity Issuances | Startup Legal Services"
+                  description="Stock grants, option awards, and cap table management for founders, employees, and advisors. 409A coordination and equity incentive plans."
+                />
+                <Equity />
+                <div className="h-px w-full bg-gradient-to-r from-transparent via-white/5 to-transparent" />
+                <Contact />
+              </>
+            } />
+            <Route path="/startup-legal/fundraising" element={
+              <>
+                <SEO
+                  title="Fundraising Preparation | Startup Legal Services"
+                  description="Get your company ready to raise capital. SAFEs, convertible notes, priced rounds, due diligence preparation, and data room setup."
+                />
+                <Fundraising />
+                <div className="h-px w-full bg-gradient-to-r from-transparent via-white/5 to-transparent" />
+                <Contact />
+              </>
+            } />
+            <Route path="/startup-legal/registrations" element={
+              <>
+                <SEO
+                  title="State Registrations | Startup Legal Services"
+                  description="Foreign qualification and business registrations to legally operate across multiple states. Registered agent setup and annual compliance."
+                />
+                <Registrations />
+                <div className="h-px w-full bg-gradient-to-r from-transparent via-white/5 to-transparent" />
+                <Contact />
+              </>
+            } />
           </Routes>
         </main>
 

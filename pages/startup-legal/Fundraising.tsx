@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { ArrowLeft, ArrowRight } from 'lucide-react';
+import { ServiceSchema } from '../../components/ServiceSchema';
 
 export const Fundraising: React.FC = () => {
   const services = [
@@ -17,6 +18,11 @@ export const Fundraising: React.FC = () => {
 
   return (
     <>
+      <ServiceSchema
+        name="Fundraising Preparation"
+        description="Get your company ready to raise capital with organized records and investor-ready documentation."
+        serviceType="Fundraising and Investment Advisory Services"
+      />
       <div className="border-b border-grid bg-bg px-8 md:px-12 py-6">
         <Link to="/startup-legal" className="inline-flex items-center gap-2 text-text-secondary hover:text-accent transition-colors text-sm">
           <ArrowLeft className="w-4 h-4" />

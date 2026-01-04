@@ -68,8 +68,8 @@ const App: React.FC = () => {
             } />
             <Route path="/insights/:slug" element={<Blog onContactClick={handleReturnToContact} />} />
 
-            {/* Startup Legal Services Routes */}
-            <Route path="/startup-legal" element={
+            {/* Startup Services Routes */}
+            <Route path="/startups" element={
               <>
                 <SEO
                   title="Startup Legal Services | Strategic Fund Partners"
@@ -80,7 +80,7 @@ const App: React.FC = () => {
                 <Contact />
               </>
             } />
-            <Route path="/startup-legal/formation" element={
+            <Route path="/startups/formation" element={
               <>
                 <SEO
                   title="Company Formation | Startup Legal Services"
@@ -91,7 +91,7 @@ const App: React.FC = () => {
                 <Contact />
               </>
             } />
-            <Route path="/startup-legal/governance" element={
+            <Route path="/startups/governance" element={
               <>
                 <SEO
                   title="Corporate Governance | Startup Legal Services"
@@ -102,7 +102,7 @@ const App: React.FC = () => {
                 <Contact />
               </>
             } />
-            <Route path="/startup-legal/equity" element={
+            <Route path="/startups/equity" element={
               <>
                 <SEO
                   title="Equity Issuances | Startup Legal Services"
@@ -113,7 +113,7 @@ const App: React.FC = () => {
                 <Contact />
               </>
             } />
-            <Route path="/startup-legal/fundraising" element={
+            <Route path="/startups/fundraising" element={
               <>
                 <SEO
                   title="Fundraising Preparation | Startup Legal Services"
@@ -124,7 +124,7 @@ const App: React.FC = () => {
                 <Contact />
               </>
             } />
-            <Route path="/startup-legal/registrations" element={
+            <Route path="/startups/registrations" element={
               <>
                 <SEO
                   title="State Registrations | Startup Legal Services"

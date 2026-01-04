@@ -10,35 +10,35 @@ export const StartupLegalHome: React.FC = () => {
       title: 'Company Formation',
       description: 'Delaware C-Corp formation with founder equity, governance documents, and equity plans',
       icon: Building2,
-      href: '/startup-legal/formation'
+      href: '/startups/formation'
     },
     {
       id: 'governance',
       title: 'Corporate Governance',
       description: 'Board and stockholder documentation, corporate records, and compliance maintenance',
       icon: Users,
-      href: '/startup-legal/governance'
+      href: '/startups/governance'
     },
     {
       id: 'equity',
       title: 'Equity Management',
       description: 'Stock and option grants, RSAs, 409A coordination, and cap table management',
       icon: TrendingUp,
-      href: '/startup-legal/equity'
+      href: '/startups/equity'
     },
     {
       id: 'fundraising',
       title: 'Fundraising Preparation',
       description: 'SAFEs, convertible notes, priced rounds, due diligence, and investor documentation',
       icon: FileText,
-      href: '/startup-legal/fundraising'
+      href: '/startups/fundraising'
     },
     {
       id: 'registrations',
       title: 'State Registrations',
       description: 'Foreign qualification, registered agents, and multi-state compliance',
       icon: MapPin,
-      href: '/startup-legal/registrations'
+      href: '/startups/registrations'
     }
   ];
 

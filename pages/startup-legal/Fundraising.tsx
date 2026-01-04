@@ -24,7 +24,7 @@ export const Fundraising: React.FC = () => {
         serviceType="Fundraising and Investment Advisory Services"
       />
       <div className="border-b border-grid bg-bg px-8 md:px-12 py-6">
-        <Link to="/startup-legal" className="inline-flex items-center gap-2 text-text-secondary hover:text-accent transition-colors text-sm">
+        <Link to="/startups" className="inline-flex items-center gap-2 text-text-secondary hover:text-accent transition-colors text-sm">
           <ArrowLeft className="w-4 h-4" />
           Back to Services
         </Link>
@@ -79,7 +79,7 @@ export const Fundraising: React.FC = () => {
               <ArrowRight className="w-4 h-4" />
             </motion.a>
             <Link
-              to="/startup-legal"
+              to="/startups"
               className="inline-flex items-center justify-center gap-3 px-8 py-4 border border-border text-text-primary text-xs font-bold uppercase tracking-widest hover:border-accent hover:text-accent transition-colors duration-300"
             >
               View All Services

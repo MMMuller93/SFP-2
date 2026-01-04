@@ -9,7 +9,7 @@ interface FooterProps {
 
 export const Footer: React.FC<FooterProps> = ({ openModal }) => {
   const location = useLocation();
-  const isStartupLegal = location.pathname.startsWith('/startup-legal');
+  const isStartupLegal = location.pathname.startsWith('/startups');
 
   const tagline = isStartupLegal
     ? 'Legal infrastructure for ambitious startups.'

@@ -61,10 +61,44 @@ export const Formation: React.FC = () => {
         </div>
       </section>
 
+      {/* Free Tool CTA */}
+      <section className="border-b border-grid bg-surface/10 py-20 md:py-28">
+        <div className="px-8 md:px-16 lg:px-24 max-w-4xl mx-auto">
+          <div className="border border-accent/30 bg-bg/80 backdrop-blur-sm p-12 md:p-16 text-center relative overflow-hidden">
+            {/* Accent Glow */}
+            <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-accent/5 blur-[120px] rounded-full pointer-events-none" />
+            
+            <div className="relative z-10">
+              <div className="inline-block px-3 py-1 bg-accent/10 border border-accent/30 text-accent text-xs font-mono uppercase tracking-widest mb-6">
+                Free Tool • No Credit Card Required
+              </div>
+              <h2 className="font-serif text-4xl md:text-5xl text-text-highlight mb-6 leading-tight">
+                Generate Your Documents <span className="text-accent italic">Free</span>
+              </h2>
+              <p className="text-text-secondary text-lg leading-relaxed mb-10 max-w-2xl mx-auto">
+                Not ready for full-service formation? Try our free document generator. Answer a few questions and receive your complete Delaware C-Corp incorporation package—Certificate of Incorporation, Bylaws, Stock Purchase Agreement, and more—delivered instantly to your inbox.
+              </p>
+              <motion.a
+                href="https://formation.strategicfundpartners.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                whileHover={{ scale: 1.02 }}
+                whileTap={{ scale: 0.98 }}
+                className="inline-flex items-center gap-3 px-8 py-4 bg-accent text-bg text-xs font-bold uppercase tracking-widest hover:bg-accentHover transition-colors duration-300"
+              >
+                Generate Documents Free
+                <ArrowRight className="w-4 h-4" />
+              </motion.a>
+              <p className="text-text-muted text-xs mt-6 font-mono">Takes less than 10 minutes • Delivered via email</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section className="bg-bg py-24 md:py-32">
         <div className="px-8 md:px-16 lg:px-24 max-w-4xl mx-auto text-center">
           <h2 className="font-serif text-5xl md:text-6xl text-text-highlight mb-6">
-            Start Your Company
+            Need Full-Service Formation?
           </h2>
           <p className="text-text-secondary text-lg mb-12 font-light">
             Discuss your formation needs and timeline.

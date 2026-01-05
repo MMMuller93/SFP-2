@@ -138,6 +138,90 @@ export const StartupLegalHome: React.FC = () => {
         </div>
       </section>
 
+      {/* Free Formation Tool CTA */}
+      <section className="border-b border-grid bg-surface/10 py-20 md:py-28">
+        <div className="px-8 md:px-16 lg:px-24 max-w-6xl mx-auto">
+          <div className="border border-accent/30 bg-bg/80 backdrop-blur-sm p-12 md:p-16 relative overflow-hidden">
+            {/* Accent Glow */}
+            <div className="absolute top-0 right-0 w-96 h-96 bg-accent/5 blur-[120px] rounded-full pointer-events-none" />
+            
+            <div className="relative z-10 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+              <div>
+                <div className="inline-block px-3 py-1 bg-accent/10 border border-accent/30 text-accent text-xs font-mono uppercase tracking-widest mb-6">
+                  Free Tool
+                </div>
+                <h2 className="font-serif text-4xl md:text-5xl text-text-highlight mb-6 leading-tight">
+                  Get Your Formation Documents <span className="text-accent italic">Free</span>
+                </h2>
+                <p className="text-text-secondary text-lg leading-relaxed mb-8">
+                  Not ready for full-service formation? Generate your complete Delaware C-Corp incorporation package in minutes. Answer a few questions and receive professionally drafted documents—Certificate of Incorporation, Bylaws, Stock Purchase Agreement, and more—delivered to your inbox.
+                </p>
+                <div className="space-y-3 mb-10">
+                  <div className="flex items-start gap-3">
+                    <div className="w-5 h-5 rounded-full bg-accent/20 flex items-center justify-center flex-shrink-0 mt-0.5">
+                      <div className="w-2 h-2 rounded-full bg-accent" />
+                    </div>
+                    <p className="text-text-secondary text-sm">Complete incorporation package with all essential documents</p>
+                  </div>
+                  <div className="flex items-start gap-3">
+                    <div className="w-5 h-5 rounded-full bg-accent/20 flex items-center justify-center flex-shrink-0 mt-0.5">
+                      <div className="w-2 h-2 rounded-full bg-accent" />
+                    </div>
+                    <p className="text-text-secondary text-sm">Customized to your company structure and founder equity</p>
+                  </div>
+                  <div className="flex items-start gap-3">
+                    <div className="w-5 h-5 rounded-full bg-accent/20 flex items-center justify-center flex-shrink-0 mt-0.5">
+                      <div className="w-2 h-2 rounded-full bg-accent" />
+                    </div>
+                    <p className="text-text-secondary text-sm">Generated in under 10 minutes, delivered instantly via email</p>
+                  </div>
+                </div>
+                <motion.a
+                  href="https://formation.strategicfundpartners.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  whileHover={{ scale: 1.02 }}
+                  whileTap={{ scale: 0.98 }}
+                  className="inline-flex items-center gap-3 px-8 py-4 bg-accent text-bg text-xs font-bold uppercase tracking-widest hover:bg-accentHover transition-colors duration-300"
+                >
+                  Generate Documents Free
+                  <ArrowRight className="w-4 h-4" />
+                </motion.a>
+              </div>
+              
+              <div className="hidden lg:block">
+                <div className="space-y-4">
+                  <div className="border border-grid bg-surface/50 p-6">
+                    <div className="flex items-center gap-3 mb-3">
+                      <FileText className="w-5 h-5 text-accent" />
+                      <h4 className="font-medium text-text-primary">Certificate of Incorporation</h4>
+                    </div>
+                    <p className="text-text-secondary text-sm">Official Delaware filing document</p>
+                  </div>
+                  <div className="border border-grid bg-surface/50 p-6">
+                    <div className="flex items-center gap-3 mb-3">
+                      <FileText className="w-5 h-5 text-accent" />
+                      <h4 className="font-medium text-text-primary">Bylaws</h4>
+                    </div>
+                    <p className="text-text-secondary text-sm">Corporate governance rules</p>
+                  </div>
+                  <div className="border border-grid bg-surface/50 p-6">
+                    <div className="flex items-center gap-3 mb-3">
+                      <FileText className="w-5 h-5 text-accent" />
+                      <h4 className="font-medium text-text-primary">Stock Purchase Agreement</h4>
+                    </div>
+                    <p className="text-text-secondary text-sm">Founder equity documentation</p>
+                  </div>
+                  <div className="text-center pt-2">
+                    <p className="text-text-muted text-xs font-mono">+ 5 more documents</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Why Section */}
       <section className="border-b border-grid bg-bg">
         <div className="grid grid-cols-1 lg:grid-cols-2">

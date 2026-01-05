@@ -76,7 +76,7 @@ export const Formation: React.FC = () => {
                 Generate Your Documents <span className="text-accent italic">Free</span>
               </h2>
               <p className="text-text-secondary text-lg leading-relaxed mb-10 max-w-2xl mx-auto">
-                Not ready for full-service formation? Try our free document generator. Answer a few questions and receive your complete Delaware C-Corp incorporation package—Certificate of Incorporation, Bylaws, Stock Purchase Agreement, and more—delivered instantly to your inbox.
+                Not ready for full-service formation? Try our free document generator. Answer a few questions and receive your complete Delaware C-Corp incorporation package (Certificate of Incorporation, Bylaws, Board Resolutions, Stock Purchase Agreements, Indemnification Agreements) delivered instantly to your inbox.
               </p>
               <motion.a
                 href="https://formation.strategicfundpartners.com"

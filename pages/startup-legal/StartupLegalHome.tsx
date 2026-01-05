@@ -154,7 +154,7 @@ export const StartupLegalHome: React.FC = () => {
                   Get Your Formation Documents <span className="text-accent italic">Free</span>
                 </h2>
                 <p className="text-text-secondary text-lg leading-relaxed mb-8">
-                  Not ready for full-service formation? Generate your complete Delaware C-Corp incorporation package in minutes. Answer a few questions and receive professionally drafted documents—Certificate of Incorporation, Bylaws, Stock Purchase Agreement, and more—delivered to your inbox.
+                  Not ready for full-service formation? Generate your complete Delaware C-Corp incorporation package in minutes. Answer a few questions and receive professionally drafted documents delivered to your inbox.
                 </p>
                 <div className="space-y-3 mb-10">
                   <div className="flex items-start gap-3">

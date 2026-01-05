@@ -71,22 +71,22 @@ export const Contact: React.FC = () => {
                     <div className="grid grid-cols-2 gap-6">
                         <div className="space-y-2">
                             <label htmlFor="name" className="text-xs font-mono uppercase text-text-muted">Name</label>
-                            <input type="text" id="name" required className="w-full bg-transparent border-b border-border py-3 text-text-primary focus:border-accent focus:outline-none transition-colors rounded-none placeholder-text-muted/50" placeholder="John Doe" />
+                            <input type="text" id="name" required className="w-full bg-surface/30 border border-border px-4 py-3 text-text-primary focus:border-accent focus:bg-surface/50 focus:outline-none transition-colors placeholder-text-muted" placeholder="John Doe" />
                         </div>
                         <div className="space-y-2">
                             <label htmlFor="company" className="text-xs font-mono uppercase text-text-muted">Firm</label>
-                            <input type="text" id="company" required className="w-full bg-transparent border-b border-border py-3 text-text-primary focus:border-accent focus:outline-none transition-colors rounded-none placeholder-text-muted/50" placeholder="Acme Capital" />
+                            <input type="text" id="company" required className="w-full bg-surface/30 border border-border px-4 py-3 text-text-primary focus:border-accent focus:bg-surface/50 focus:outline-none transition-colors placeholder-text-muted" placeholder="Acme Capital" />
                         </div>
                     </div>
                     
                     <div className="space-y-2">
                         <label htmlFor="email" className="text-xs font-mono uppercase text-text-muted">Email</label>
-                        <input type="email" id="email" required className="w-full bg-transparent border-b border-border py-3 text-text-primary focus:border-accent focus:outline-none transition-colors rounded-none placeholder-text-muted/50" placeholder="john@acme.com" />
+                        <input type="email" id="email" required className="w-full bg-surface/30 border border-border px-4 py-3 text-text-primary focus:border-accent focus:bg-surface/50 focus:outline-none transition-colors placeholder-text-muted" placeholder="john@acme.com" />
                     </div>
 
                     <div className="space-y-2">
                         <label htmlFor="message" className="text-xs font-mono uppercase text-text-muted">Requirements</label>
-                        <textarea id="message" rows={3} className="w-full bg-transparent border-b border-border py-3 text-text-primary focus:border-accent focus:outline-none transition-colors resize-none rounded-none placeholder-text-muted/50" placeholder="Briefly describe your fund structure or advisory needs..." />
+                        <textarea id="message" rows={4} className="w-full bg-surface/30 border border-border px-4 py-3 text-text-primary focus:border-accent focus:bg-surface/50 focus:outline-none transition-colors resize-none placeholder-text-muted" placeholder="Briefly describe your fund structure or advisory needs..." />
                     </div>
 
                     <button 

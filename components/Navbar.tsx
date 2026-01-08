@@ -42,6 +42,7 @@ export const Navbar: React.FC<NavbarProps> = ({ currentView, onNavigate }) => {
   // Different navigation links based on context
   const navLinks = isStartupLegal ? [
     { name: 'Services', href: '/startups', view: 'home' as const },
+    { name: 'Insights', href: '/startups/insights', view: 'blog' as const },
     { name: 'Contact', href: '#contact', view: 'home' as const },
   ] : [
     { name: 'Expertise', href: '#services', view: 'home' as const },

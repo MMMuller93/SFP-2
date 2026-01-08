@@ -5,6 +5,7 @@ import { Hero } from './components/Hero';
 import { Services } from './components/Services';
 import { Contact } from './components/Contact';
 import { Blog } from './components/Blog';
+import { StartupBlog } from './components/StartupBlog';
 import { Footer } from './components/Footer';
 import { LegalModal } from './components/LegalModal';
 import { SEO } from './components/SEO';
@@ -135,6 +136,18 @@ const App: React.FC = () => {
                 <Contact />
               </>
             } />
+
+            {/* Startup Blog Routes */}
+            <Route path="/startups/insights" element={
+              <>
+                <SEO
+                  title="Startup Insights | Strategic Fund Partners"
+                  description="Practical guides for startup founders on incorporation, equity management, 83(b) elections, SAFEs, and fundraising preparation."
+                />
+                <StartupBlog onContactClick={handleReturnToContact} />
+              </>
+            } />
+            <Route path="/startups/insights/:slug" element={<StartupBlog onContactClick={handleReturnToContact} />} />
           </Routes>
         </main>
 

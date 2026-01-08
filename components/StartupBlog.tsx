@@ -171,7 +171,7 @@ const posts: BlogPost[] = [
     title: 'The 83(b) Election: How to File and Why Missing the Deadline Could Cost You Thousands',
     date: 'December 1, 2025',
     readTime: '8 min read',
-    excerpt: 'You have 30 days from receiving restricted stock to file an 83(b) election. Miss that deadline and you could owe taxes on hundreds of thousands of dollars of paper gains you can't sell.',
+    excerpt: 'You have 30 days from receiving restricted stock to file an 83(b) election. Miss that deadline and you could owe taxes on hundreds of thousands of dollars of paper gains you can\'t sell.',
     content: (
       <>
         <p className="text-lg leading-relaxed text-text-secondary mb-8">

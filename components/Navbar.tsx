@@ -31,7 +31,7 @@ export const Navbar: React.FC<NavbarProps> = ({ currentView, onNavigate }) => {
         }
       }, 100);
     } else if (view === 'blog') {
-      navigate('/insights');
+      navigate(isStartupLegal ? '/startups/insights' : '/insights');
       window.scrollTo({ top: 0, behavior: 'smooth' });
     } else {
       navigate(isStartupLegal ? '/startups' : '/');

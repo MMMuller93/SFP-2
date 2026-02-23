@@ -140,4 +140,98 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
+
+  <!-- AI Agent Formation Services -->
+  <url>
+    <loc>https://strategicfundpartners.com/agents</loc>
+    <lastmod>2026-02-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.95</priority>
+  </url>
+  <url>
+    <loc>https://strategicfundpartners.com/agents/insights</loc>
+    <lastmod>2026-02-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <!-- Foundations (8 posts) -->
+  <url><loc>https://strategicfundpartners.com/agents/insights/why-agents-need-legal-entities</loc><lastmod>2026-02-22</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://strategicfundpartners.com/agents/insights/what-is-entity-formation</loc><lastmod>2026-02-22</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://strategicfundpartners.com/agents/insights/can-ai-own-company</loc><lastmod>2026-02-22</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://strategicfundpartners.com/agents/insights/llc-vs-corporation</loc><lastmod>2026-02-22</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://strategicfundpartners.com/agents/insights/what-is-operating-agreement</loc><lastmod>2026-02-22</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://strategicfundpartners.com/agents/insights/what-is-registered-agent</loc><lastmod>2026-02-22</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://strategicfundpartners.com/agents/insights/what-is-ein</loc><lastmod>2026-02-22</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://strategicfundpartners.com/agents/insights/entity-formation-checklist</loc><lastmod>2026-02-22</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+
+  <!-- Agent Guides (12 posts) -->
+  <url><loc>https://strategicfundpartners.com/agents/insights/agent-guide-do-i-need-entity</loc><lastmod>2026-02-22</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://strategicfundpartners.com/agents/insights/agent-guide-choose-jurisdiction</loc><lastmod>2026-02-22</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://strategicfundpartners.com/agents/insights/agent-guide-form-delaware-llc</loc><lastmod>2026-02-22</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://strategicfundpartners.com/agents/insights/agent-guide-form-wyoming-dao</loc><lastmod>2026-02-22</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://strategicfundpartners.com/agents/insights/agent-guide-get-ein</loc><lastmod>2026-02-22</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://strategicfundpartners.com/agents/insights/agent-guide-open-bank-account</loc><lastmod>2026-02-22</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://strategicfundpartners.com/agents/insights/agent-guide-handle-human-kernel</loc><lastmod>2026-02-22</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://strategicfundpartners.com/agents/insights/agent-guide-check-name</loc><lastmod>2026-02-22</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://strategicfundpartners.com/agents/insights/agent-guide-read-webhooks</loc><lastmod>2026-02-22</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://strategicfundpartners.com/agents/insights/agent-guide-formation-failed</loc><lastmod>2026-02-22</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://strategicfundpartners.com/agents/insights/agent-guide-annual-compliance</loc><lastmod>2026-02-22</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://strategicfundpartners.com/agents/insights/agent-guide-form-corporation</loc><lastmod>2026-02-22</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+
+  <!-- Jurisdictions (10 posts) -->
+  <url><loc>https://strategicfundpartners.com/agents/insights/delaware-llc-complete-guide</loc><lastmod>2026-02-22</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://strategicfundpartners.com/agents/insights/wyoming-dao-llc-complete-guide</loc><lastmod>2026-02-22</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://strategicfundpartners.com/agents/insights/delaware-corporation-guide</loc><lastmod>2026-02-22</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://strategicfundpartners.com/agents/insights/delaware-vs-wyoming</loc><lastmod>2026-02-22</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://strategicfundpartners.com/agents/insights/dao-llc-vs-standard-llc</loc><lastmod>2026-02-22</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://strategicfundpartners.com/agents/insights/single-member-vs-multi-member</loc><lastmod>2026-02-22</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://strategicfundpartners.com/agents/insights/series-llc-explained</loc><lastmod>2026-02-22</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://strategicfundpartners.com/agents/insights/wyoming-dao-smart-contracts</loc><lastmod>2026-02-22</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://strategicfundpartners.com/agents/insights/delaware-annual-franchise-tax</loc><lastmod>2026-02-22</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://strategicfundpartners.com/agents/insights/foreign-qualification</loc><lastmod>2026-02-22</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+
+  <!-- Services (8 posts) -->
+  <url><loc>https://strategicfundpartners.com/agents/insights/formation-service</loc><lastmod>2026-02-22</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://strategicfundpartners.com/agents/insights/ein-service</loc><lastmod>2026-02-22</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://strategicfundpartners.com/agents/insights/registered-agent-service</loc><lastmod>2026-02-22</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://strategicfundpartners.com/agents/insights/banking-package</loc><lastmod>2026-02-22</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://strategicfundpartners.com/agents/insights/operating-agreement-service</loc><lastmod>2026-02-22</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://strategicfundpartners.com/agents/insights/agent-authority-schedule</loc><lastmod>2026-02-22</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://strategicfundpartners.com/agents/insights/compliance-monitoring</loc><lastmod>2026-02-22</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://strategicfundpartners.com/agents/insights/document-generation</loc><lastmod>2026-02-22</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+
+  <!-- Technical (8 posts) -->
+  <url><loc>https://strategicfundpartners.com/agents/insights/api-quickstart</loc><lastmod>2026-02-22</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://strategicfundpartners.com/agents/insights/mcp-integration</loc><lastmod>2026-02-22</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://strategicfundpartners.com/agents/insights/webhook-integration</loc><lastmod>2026-02-22</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://strategicfundpartners.com/agents/insights/authentication-guide</loc><lastmod>2026-02-22</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://strategicfundpartners.com/agents/insights/formation-state-machine</loc><lastmod>2026-02-22</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://strategicfundpartners.com/agents/insights/human-kernel-callbacks</loc><lastmod>2026-02-22</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://strategicfundpartners.com/agents/insights/system-prompt-snippets</loc><lastmod>2026-02-22</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://strategicfundpartners.com/agents/insights/error-handling-retries</loc><lastmod>2026-02-22</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+
+  <!-- Post-Formation (7 posts) -->
+  <url><loc>https://strategicfundpartners.com/agents/insights/getting-ein-timeline</loc><lastmod>2026-02-22</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://strategicfundpartners.com/agents/insights/opening-business-bank-account</loc><lastmod>2026-02-22</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://strategicfundpartners.com/agents/insights/boi-reporting</loc><lastmod>2026-02-22</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://strategicfundpartners.com/agents/insights/amending-operating-agreement</loc><lastmod>2026-02-22</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://strategicfundpartners.com/agents/insights/updating-agent-authority</loc><lastmod>2026-02-22</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://strategicfundpartners.com/agents/insights/llc-tax-obligations</loc><lastmod>2026-02-22</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://strategicfundpartners.com/agents/insights/dissolving-an-llc</loc><lastmod>2026-02-22</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+
+  <!-- FAQs (6 posts) -->
+  <url><loc>https://strategicfundpartners.com/agents/insights/faq-entity-formation</loc><lastmod>2026-02-22</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://strategicfundpartners.com/agents/insights/faq-ein</loc><lastmod>2026-02-22</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://strategicfundpartners.com/agents/insights/faq-banking</loc><lastmod>2026-02-22</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://strategicfundpartners.com/agents/insights/faq-wyoming-dao</loc><lastmod>2026-02-22</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://strategicfundpartners.com/agents/insights/faq-pricing-and-fees</loc><lastmod>2026-02-22</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://strategicfundpartners.com/agents/insights/faq-sfp-vs-alternatives</loc><lastmod>2026-02-22</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+
+  <!-- Use Cases (6 posts) -->
+  <url><loc>https://strategicfundpartners.com/agents/insights/trading-agent-needs-llc</loc><lastmod>2026-02-22</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://strategicfundpartners.com/agents/insights/content-agent-invoicing</loc><lastmod>2026-02-22</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://strategicfundpartners.com/agents/insights/agent-discovers-needs-entity</loc><lastmod>2026-02-22</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://strategicfundpartners.com/agents/insights/multi-agent-entity-structure</loc><lastmod>2026-02-22</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://strategicfundpartners.com/agents/insights/platform-embed-formation</loc><lastmod>2026-02-22</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://strategicfundpartners.com/agents/insights/dao-to-legal-entity</loc><lastmod>2026-02-22</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
 </urlset>

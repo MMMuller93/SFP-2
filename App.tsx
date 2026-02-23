@@ -6,6 +6,7 @@ import { Services } from './components/Services';
 import { Contact } from './components/Contact';
 import { Blog } from './components/Blog';
 import { StartupBlog } from './components/StartupBlog';
+import { AgentBlog } from './components/AgentBlog';
 import { Footer } from './components/Footer';
 import { LegalModal } from './components/LegalModal';
 import { SEO } from './components/SEO';
@@ -18,6 +19,7 @@ import {
   Fundraising,
   Registrations
 } from './pages/startup-legal';
+import { AgentLegalHome } from './pages/agent-legal';
 
 const App: React.FC = () => {
   const [modalType, setModalType] = useState<ModalType>(null);
@@ -36,7 +38,10 @@ const App: React.FC = () => {
   };
 
   // Determine current view from path
-  const currentView = location.pathname.startsWith('/insights') ? 'blog' : 'home';
+  const currentView = (
+    location.pathname.startsWith('/insights') ||
+    location.pathname.includes('/insights')
+  ) ? 'blog' : 'home';
 
   return (
     <div className="min-h-screen bg-bg text-text-primary font-sans flex flex-col relative overflow-x-hidden">
@@ -148,6 +153,31 @@ const App: React.FC = () => {
               </>
             } />
             <Route path="/startups/insights/:slug" element={<StartupBlog onContactClick={handleReturnToContact} />} />
+
+            {/* AI Agent Formation Routes */}
+            <Route path="/agents" element={
+              <>
+                <SEO
+                  title="AI Agent Formation | Strategic Fund Partners"
+                  description="Legal infrastructure for AI agents. Form Delaware LLCs and Wyoming DAO LLCs via API. $349 all-in including registered agent, operating agreement, and EIN application."
+                />
+                <AgentLegalHome />
+                <div className="h-px w-full bg-gradient-to-r from-transparent via-white/5 to-transparent" />
+                <Contact />
+              </>
+            } />
+
+            {/* Agent Blog Routes */}
+            <Route path="/agents/insights" element={
+              <>
+                <SEO
+                  title="Agent Formation Insights | Strategic Fund Partners"
+                  description="Practical guides for AI agent developers on entity formation, authority schedules, human kernels, and getting your agent operational with a legal identity."
+                />
+                <AgentBlog onContactClick={handleReturnToContact} />
+              </>
+            } />
+            <Route path="/agents/insights/:slug" element={<AgentBlog onContactClick={handleReturnToContact} />} />
           </Routes>
         </main>
 

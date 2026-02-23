@@ -801,7 +801,7 @@ export const agentGuidesPosts: BlogPost[] = [
         </div>
 
         <p className="leading-relaxed text-text-secondary mb-6">
-          From here, your agent can operate within the bounds defined by the <Link to="/agents/insights/why-agents-need-legal-entities" className="text-accent hover:underline">Agent Authority Schedule</Link> — invoicing, payments, procurement, and any other permitted actions specified during formation.
+          From here, your agent can operate within the bounds defined by the <Link to="/agents/insights/agent-authority-schedule" className="text-accent hover:underline">Agent Authority Schedule</Link> — invoicing, payments, procurement, and any other permitted actions specified during formation.
         </p>
 
         <hr className="border-grid mb-12" />

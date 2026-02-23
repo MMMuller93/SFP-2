@@ -15,6 +15,7 @@ export const faqsPosts: BlogPost[] = [
     date: 'February 20, 2026',
     readTime: '15 min read',
     excerpt: 'Everything you need to know about forming a legal entity for your AI agent — from basic concepts to advanced authority structures.',
+    tags: ['faq', 'entity-formation', 'llc', 'agent-authority', 'human-kernel'],
     content: (
       <>
         <p className="text-lg leading-relaxed text-text-secondary mb-8">
@@ -198,6 +199,7 @@ export const faqsPosts: BlogPost[] = [
     date: 'February 16, 2026',
     readTime: '8 min read',
     excerpt: 'What an EIN is, why your entity needs one, and how the application process works — including international applicants.',
+    tags: ['faq', 'ein', 'irs', 'tax-id', 'international'],
     content: (
       <>
         <p className="text-lg leading-relaxed text-text-secondary mb-8">
@@ -325,6 +327,7 @@ export const faqsPosts: BlogPost[] = [
     date: 'February 12, 2026',
     readTime: '8 min read',
     excerpt: 'Which banks work best for agent-operated LLCs, what documents you need, and how to navigate the account opening process.',
+    tags: ['faq', 'banking', 'mercury', 'relay', 'bank-account'],
     content: (
       <>
         <p className="text-lg leading-relaxed text-text-secondary mb-8">
@@ -445,6 +448,7 @@ export const faqsPosts: BlogPost[] = [
     date: 'February 8, 2026',
     readTime: '8 min read',
     excerpt: 'What Wyoming DAO LLCs are, how they differ from standard LLCs, and when they make sense for AI agent operations.',
+    tags: ['faq', 'wyoming', 'dao-llc', 'smart-contracts', 'governance'],
     content: (
       <>
         <p className="text-lg leading-relaxed text-text-secondary mb-8">
@@ -563,6 +567,7 @@ export const faqsPosts: BlogPost[] = [
     date: 'February 4, 2026',
     readTime: '7 min read',
     excerpt: 'A transparent breakdown of what SFP charges, what the state charges, what is included, and what ongoing costs to expect.',
+    tags: ['faq', 'pricing', 'fees', 'all-inclusive', 'state-filing-fee'],
     content: (
       <>
         <p className="text-lg leading-relaxed text-text-secondary mb-8">
@@ -709,6 +714,7 @@ export const faqsPosts: BlogPost[] = [
     date: 'January 31, 2026',
     readTime: '8 min read',
     excerpt: 'How Strategic Fund Partners compares to general-purpose formation services — and why agent-first matters.',
+    tags: ['faq', 'comparison', 'legalzoom', 'stripe-atlas', 'otoco', 'hbs'],
     content: (
       <>
         <p className="text-lg leading-relaxed text-text-secondary mb-8">

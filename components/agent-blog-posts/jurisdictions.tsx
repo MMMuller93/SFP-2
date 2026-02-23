@@ -60,16 +60,12 @@ export const jurisdictionsPosts: BlogPost[] = [
           </thead>
           <tbody className="text-text-secondary">
             <tr className="border-b border-grid">
-              <td className="p-3">Delaware state filing fee</td>
-              <td className="p-3">$110</td>
-            </tr>
-            <tr className="border-b border-grid">
-              <td className="p-3">SFP formation package</td>
+              <td className="p-3">SFP formation package (includes $110 state filing fee)</td>
               <td className="p-3">$349</td>
             </tr>
             <tr className="border-b border-grid">
               <td className="p-3 font-medium">Total at formation</td>
-              <td className="p-3 font-medium">$459</td>
+              <td className="p-3 font-medium">$349</td>
             </tr>
             <tr>
               <td className="p-3">Annual franchise tax</td>
@@ -97,7 +93,7 @@ export const jurisdictionsPosts: BlogPost[] = [
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-12">
           <div className="bg-surface/30 border border-grid p-6">
             <h4 className="text-text-highlight font-medium mb-2">Delaware LLC Formation</h4>
-            <p className="text-sm text-text-secondary">$349 + $110 state fee. Certificate of Formation, operating agreement, registered agent, EIN, and banking resolution.</p>
+            <p className="text-sm text-text-secondary">$349 all-inclusive. Certificate of Formation, operating agreement, registered agent, EIN, and banking resolution. State filing fee included.</p>
           </div>
           <div className="bg-surface/30 border border-grid p-6">
             <h4 className="text-text-highlight font-medium mb-2">Agent Authority Schedule</h4>
@@ -167,16 +163,12 @@ export const jurisdictionsPosts: BlogPost[] = [
           </thead>
           <tbody className="text-text-secondary">
             <tr className="border-b border-grid">
-              <td className="p-3">Wyoming state filing fee</td>
-              <td className="p-3">$100</td>
-            </tr>
-            <tr className="border-b border-grid">
-              <td className="p-3">SFP DAO LLC formation package</td>
+              <td className="p-3">SFP DAO LLC formation package (includes $100 state filing fee)</td>
               <td className="p-3">$399</td>
             </tr>
             <tr className="border-b border-grid">
               <td className="p-3 font-medium">Total at formation</td>
-              <td className="p-3 font-medium">$499</td>
+              <td className="p-3 font-medium">$399</td>
             </tr>
             <tr>
               <td className="p-3">Annual report</td>
@@ -208,7 +200,7 @@ export const jurisdictionsPosts: BlogPost[] = [
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-12">
           <div className="bg-surface/30 border border-grid p-6">
             <h4 className="text-text-highlight font-medium mb-2">DAO LLC Formation</h4>
-            <p className="text-sm text-text-secondary">$399 + $100 state fee. Articles with DAO designation, smart contract schedule, operating agreement, registered agent, and EIN.</p>
+            <p className="text-sm text-text-secondary">$399 all-inclusive. Articles with DAO designation, smart contract schedule, operating agreement, registered agent, and EIN. State filing fee included.</p>
           </div>
           <div className="bg-surface/30 border border-grid p-6">
             <h4 className="text-text-highlight font-medium mb-2">Smart Contract Integration</h4>
@@ -309,7 +301,7 @@ export const jurisdictionsPosts: BlogPost[] = [
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-12">
           <div className="bg-surface/30 border border-grid p-6">
             <h4 className="text-text-highlight font-medium mb-2">Delaware LLC Formation</h4>
-            <p className="text-sm text-text-secondary">$349 + $110 state fee. The recommended structure for most AI agent entities.</p>
+            <p className="text-sm text-text-secondary">$349 all-inclusive (state filing fee included). The recommended structure for most AI agent entities.</p>
           </div>
           <div className="bg-surface/30 border border-grid p-6">
             <h4 className="text-text-highlight font-medium mb-2">Entity Structure Consultation</h4>
@@ -352,14 +344,9 @@ export const jurisdictionsPosts: BlogPost[] = [
           </thead>
           <tbody className="text-text-secondary">
             <tr className="border-b border-grid">
-              <td className="p-3">State filing fee</td>
-              <td className="p-3">$110</td>
-              <td className="p-3">$100</td>
-            </tr>
-            <tr className="border-b border-grid">
-              <td className="p-3">SFP formation fee</td>
-              <td className="p-3">$349</td>
-              <td className="p-3">$399</td>
+              <td className="p-3">SFP formation (all-inclusive)</td>
+              <td className="p-3">$349 (includes $110 state fee)</td>
+              <td className="p-3">$399 (includes $100 state fee)</td>
             </tr>
             <tr className="border-b border-grid">
               <td className="p-3">Annual cost</td>
@@ -422,11 +409,11 @@ export const jurisdictionsPosts: BlogPost[] = [
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-12">
           <div className="bg-surface/30 border border-grid p-6">
             <h4 className="text-text-highlight font-medium mb-2">Delaware LLC</h4>
-            <p className="text-sm text-text-secondary">$349 + $110 state fee. Full formation package with operating agreement, registered agent, EIN, and banking resolution.</p>
+            <p className="text-sm text-text-secondary">$349 all-inclusive (state filing fee included). Full formation package with operating agreement, registered agent, EIN, and banking resolution.</p>
           </div>
           <div className="bg-surface/30 border border-grid p-6">
             <h4 className="text-text-highlight font-medium mb-2">Wyoming DAO LLC</h4>
-            <p className="text-sm text-text-secondary">$399 + $100 state fee. Full formation with DAO designation, smart contract schedule, and DAO-specific banking package.</p>
+            <p className="text-sm text-text-secondary">$399 all-inclusive (state filing fee included). Full formation with DAO designation, smart contract schedule, and DAO-specific banking package.</p>
           </div>
         </div>
 
@@ -523,11 +510,11 @@ export const jurisdictionsPosts: BlogPost[] = [
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-12">
           <div className="bg-surface/30 border border-grid p-6">
             <h4 className="text-text-highlight font-medium mb-2">Standard LLC</h4>
-            <p className="text-sm text-text-secondary">Delaware formation with full operating agreement, registered agent, and banking setup. $349 + state fee.</p>
+            <p className="text-sm text-text-secondary">Delaware formation with full operating agreement, registered agent, and banking setup. $349 all-inclusive.</p>
           </div>
           <div className="bg-surface/30 border border-grid p-6">
             <h4 className="text-text-highlight font-medium mb-2">DAO LLC</h4>
-            <p className="text-sm text-text-secondary">Wyoming formation with smart contract schedule, DAO-specific operating agreement, and banking package. $399 + state fee.</p>
+            <p className="text-sm text-text-secondary">Wyoming formation with smart contract schedule, DAO-specific operating agreement, and banking package. $399 all-inclusive.</p>
           </div>
         </div>
 

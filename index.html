@@ -16,7 +16,31 @@
     <meta name="theme-color" content="#0a0908" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-    <title>Strategic Fund Partners | Fund Advisory</title>
+    <title>Strategic Fund Partners — Fund Formation, SPV Structuring & RIA Compliance Advisory</title>
+
+    <!-- Primary SEO (rendered in static HTML so crawlers see it without executing JS) -->
+    <meta name="description" content="Specialized advisory for private fund managers and SPV GPs: fund formation, custom structuring, side letters, modified waterfalls, RIA/ERA registration, and ongoing compliance. Support for deals platforms like AngelList, Sydecar, Carta, and Allocations won't handle." />
+    <meta name="keywords" content="fund formation, SPV advisory, side letters, custom waterfall, RIA registration, ERA, Form ADV, private fund compliance, AngelList GP, Sydecar, syndicate, exempt reporting adviser, Delaware fund formation" />
+    <meta name="author" content="Strategic Fund Partners, LLC" />
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+    <link rel="canonical" href="https://strategicfundpartners.com/" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Strategic Fund Partners" />
+    <meta property="og:title" content="Strategic Fund Partners — Fund Formation, SPV Structuring & RIA Compliance" />
+    <meta property="og:description" content="Custom fund structuring, side letters, waterfalls, RIA registration, and compliance for private fund GPs and SPV sponsors." />
+    <meta property="og:url" content="https://strategicfundpartners.com/" />
+    <meta property="og:image" content="https://strategicfundpartners.com/og-image.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:locale" content="en_US" />
+
+    <!-- Twitter / X -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Strategic Fund Partners — Fund Formation, SPV Structuring & RIA Compliance" />
+    <meta name="twitter:description" content="Custom fund structuring, side letters, waterfalls, RIA registration, and compliance for private fund GPs and SPV sponsors." />
+    <meta name="twitter:image" content="https://strategicfundpartners.com/og-image.png" />
     <!-- Start Single Page Apps for GitHub Pages -->
     <script type="text/javascript">
       // Single Page Apps for GitHub Pages
@@ -42,88 +66,74 @@
     </script>
     <!-- End Single Page Apps for GitHub Pages -->
 
-    <!-- Structured Data / Schema.org -->
+    <!-- Structured Data / Schema.org (@graph links Organization + ProfessionalService + WebSite) -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
-      "@type": "Organization",
-      "name": "Strategic Fund Partners",
-      "url": "https://strategicfundpartners.com",
-      "logo": "https://strategicfundpartners.com/logo.png",
-      "description": "Expert fund formation, regulatory compliance, and advisory services for venture capital and private equity managers.",
-      "address": {
-        "@type": "PostalAddress",
-        "addressCountry": "US"
-      },
-      "contactPoint": {
-        "@type": "ContactPoint",
-        "contactType": "Customer Service",
-        "email": "contact@strategicfundpartners.com"
-      },
-      "sameAs": []
+      "@graph": [
+        {
+          "@type": "Organization",
+          "@id": "https://strategicfundpartners.com/#organization",
+          "name": "Strategic Fund Partners",
+          "legalName": "Strategic Fund Partners, LLC",
+          "url": "https://strategicfundpartners.com/",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://strategicfundpartners.com/logo.png",
+            "width": 512,
+            "height": 512
+          },
+          "description": "Advisory firm for private fund managers, SPV sponsors, and emerging asset managers — fund formation, structuring, RIA/ERA registration, and ongoing compliance.",
+          "foundingLocation": { "@type": "Place", "name": "Delaware, USA" },
+          "areaServed": "United States",
+          "address": { "@type": "PostalAddress", "addressCountry": "US", "addressLocality": "New York", "addressRegion": "NY" },
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "contactType": "Customer Service",
+            "email": "contact@strategicfundpartners.com",
+            "availableLanguage": ["English"]
+          },
+          "sameAs": []
+        },
+        {
+          "@type": "ProfessionalService",
+          "@id": "https://strategicfundpartners.com/#service",
+          "name": "Strategic Fund Partners",
+          "url": "https://strategicfundpartners.com/",
+          "image": "https://strategicfundpartners.com/og-image.png",
+          "description": "Fund formation, SPV structuring, RIA/ERA registration, and compliance advisory for private fund managers. Specialty: custom work platforms like AngelList, Sydecar, Carta, and Allocations won't handle.",
+          "priceRange": "$$$",
+          "areaServed": "United States",
+          "serviceType": [
+            "Fund Formation",
+            "SPV Structuring",
+            "Side Letter Drafting",
+            "Custom Waterfall Design",
+            "RIA Registration",
+            "State Adviser Registration",
+            "Regulatory Compliance",
+            "Fund Administration",
+            "Startup Legal Services",
+            "AI Agent Entity Formation"
+          ],
+          "provider": { "@id": "https://strategicfundpartners.com/#organization" }
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://strategicfundpartners.com/#website",
+          "url": "https://strategicfundpartners.com/",
+          "name": "Strategic Fund Partners",
+          "publisher": { "@id": "https://strategicfundpartners.com/#organization" },
+          "inLanguage": "en-US"
+        }
+      ]
     }
     </script>
 
-    <script src="https://cdn.tailwindcss.com"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&display=swap" rel="stylesheet">
-    <script>
-      tailwind.config = {
-        theme: {
-          extend: {
-            fontFamily: {
-              sans: ['"Inter"', 'sans-serif'],
-              serif: ['"Newsreader"', 'serif'],
-            },
-            colors: {
-              bg: '#0a0908', // Stone 950
-              surface: '#100f0e', // Stone 925
-              border: '#1c1917', // Stone 900
-              accent: '#bf9f75', // Bronze 500
-              accentHover: '#ccb391', // Bronze 400
-              accentDim: '#a68a63', // Bronze 600
-              text: {
-                primary: '#e6d9c9', // Bronze 200 (Primary Text)
-                highlight: '#f2ece4', // Bronze 100 (Near White/Headings)
-                secondary: '#a8a29e', // Stone 400
-                muted: '#57534e', // Stone 600
-              }
-            },
-            backgroundImage: {
-              'grid-pattern': "linear-gradient(to right, rgba(191, 159, 117, 0.05) 1px, transparent 1px), linear-gradient(to bottom, rgba(191, 159, 117, 0.05) 1px, transparent 1px)",
-            },
-            backgroundSize: {
-              'grid-pattern': '60px 60px',
-            }
-          },
-        },
-      }
-    </script>
-    <style>
-      ::-webkit-scrollbar { width: 6px; }
-      ::-webkit-scrollbar-track { background: #0a0908; }
-      ::-webkit-scrollbar-thumb { background: #1c1917; }
-      ::-webkit-scrollbar-thumb:hover { background: #bf9f75; }
-      
-      ::selection {
-        background-color: #403526; /* Bronze 900 */
-        color: #bf9f75;
-      }
-      
-      body {
-        background-color: #0a0908;
-        color: #e6d9c9;
-      }
-      
-      .border-grid {
-        border-color: #1c1917;
-      }
-      
-      .text-balance {
-        text-wrap: balance;
-      }
-    </style>
+    <!-- Tailwind is compiled by PostCSS at build time (tailwind.config.js + index.css). No CDN runtime. -->
   <script type="importmap">
 {
   "imports": {
@@ -138,7 +148,23 @@
 </script>
 </head>
   <body class="bg-bg antialiased selection:bg-accent/20 selection:text-accent">
-    <div id="root"></div>
+    <div id="root">
+      <!-- Crawler-visible fallback. Replaced by React on hydration. Gives Googlebot / LLM crawlers / link-preview bots real body content even before JS runs. -->
+      <div style="max-width:1100px;margin:0 auto;padding:80px 24px;color:#e6d9c9;font-family:Inter,system-ui,sans-serif;line-height:1.6">
+        <h1 style="font-family:Newsreader,Georgia,serif;font-size:3rem;color:#f2ece4;margin:0 0 16px;line-height:1.05">Strategic Guidance for the Modern Fund Manager.</h1>
+        <p style="font-size:1.125rem;color:#a8a29e;margin:0 0 32px;max-width:640px">Specialized advisory for private fund managers and SPV GPs: fund formation, custom structuring, side letters, modified waterfalls, RIA/ERA registration, and ongoing compliance. Support for deals platforms like AngelList, Sydecar, Carta, and Allocations won't handle.</p>
+        <h2 style="font-family:Newsreader,Georgia,serif;font-size:1.75rem;color:#f2ece4;margin:32px 0 12px">Expertise</h2>
+        <ul style="list-style:none;padding:0;margin:0 0 32px">
+          <li style="padding:6px 0;color:#e6d9c9">Fund Formation &amp; Structuring</li>
+          <li style="padding:6px 0;color:#e6d9c9">Regulatory Compliance</li>
+          <li style="padding:6px 0;color:#e6d9c9">RIA &amp; State Adviser Registration</li>
+          <li style="padding:6px 0;color:#e6d9c9">Operations &amp; Governance</li>
+          <li style="padding:6px 0;color:#e6d9c9">Startup Legal Services</li>
+          <li style="padding:6px 0;color:#e6d9c9">AI Agent Entity Formation</li>
+        </ul>
+        <p style="color:#a8a29e">Contact: <a href="mailto:contact@strategicfundpartners.com" style="color:#bf9f75">contact@strategicfundpartners.com</a> · New York, NY</p>
+      </div>
+    </div>
   <script type="module" src="/index.tsx"></script>
 </body>
 </html>

@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: #0a0908; }
+::-webkit-scrollbar-thumb { background: #1c1917; }
+::-webkit-scrollbar-thumb:hover { background: #bf9f75; }
+
+/* Selection */
+::selection {
+  background-color: #403526; /* Bronze 900 */
+  color: #bf9f75;
+}
+
+body {
+  background-color: #0a0908;
+  color: #e6d9c9;
+}
+
+.border-grid {
+  border-color: #1c1917;
+}
+
+.text-balance {
+  text-wrap: balance;
+}

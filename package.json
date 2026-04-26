@@ -37,6 +37,7 @@
     ],
     "include": [
       "/",
+      "/about",
       "/insights",
       "/startups",
       "/startups/formation",

@@ -23,7 +23,7 @@ export const Navbar: React.FC<NavbarProps> = ({ currentView, onNavigate }) => {
   const handleNavigation = (view: View, href?: string) => {
     setIsOpen(false);
 
-    if (view === 'home' && href) {
+    if (view === 'home' && href && href.startsWith('#')) {
       navigate(sectionPrefix || '/');
       // Small timeout to allow home component to mount before scrolling
       setTimeout(() => {
@@ -34,6 +34,10 @@ export const Navbar: React.FC<NavbarProps> = ({ currentView, onNavigate }) => {
       }, 100);
     } else if (view === 'blog') {
       navigate(sectionPrefix ? `${sectionPrefix}/insights` : '/insights');
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    } else if (href && href.startsWith('/')) {
+      // Absolute path — direct navigation (e.g. /about)
+      navigate(href);
       window.scrollTo({ top: 0, behavior: 'smooth' });
     } else {
       navigate(sectionPrefix || '/');
@@ -52,6 +56,7 @@ export const Navbar: React.FC<NavbarProps> = ({ currentView, onNavigate }) => {
     { name: 'Contact', href: '#contact', view: 'home' as const },
   ] : [
     { name: 'Expertise', href: '#services', view: 'home' as const },
+    { name: 'About', href: '/about', view: 'home' as const },
     { name: 'Insights', href: '/insights', view: 'blog' as const },
     { name: 'Contact', href: '#contact', view: 'home' as const },
   ];

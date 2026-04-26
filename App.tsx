@@ -10,6 +10,7 @@ import { AgentBlog } from './components/AgentBlog';
 import { Footer } from './components/Footer';
 import { LegalModal } from './components/LegalModal';
 import { SEO } from './components/SEO';
+import { About } from './components/About';
 import { ModalType } from './types';
 import {
   StartupLegalHome,
@@ -59,6 +60,17 @@ const App: React.FC = () => {
                 <Hero />
                 <div id="process" className="h-px w-full bg-gradient-to-r from-transparent via-white/5 to-transparent" />
                 <Services />
+                <div className="h-px w-full bg-gradient-to-r from-transparent via-white/5 to-transparent" />
+                <Contact />
+              </>
+            } />
+            <Route path="/about" element={
+              <>
+                <SEO
+                  title="About | Strategic Fund Partners"
+                  description="Strategic Fund Partners is an advisory firm for fund managers, SPV sponsors, and family offices. Founded by Miles Muller."
+                />
+                <About />
                 <div className="h-px w-full bg-gradient-to-r from-transparent via-white/5 to-transparent" />
                 <Contact />
               </>

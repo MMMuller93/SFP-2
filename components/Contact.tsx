@@ -61,7 +61,7 @@ export const Contact: React.FC = () => {
                      <p className="text-text-secondary">We will be in touch within 24 hours.</p>
                      <button 
                         onClick={() => setFormState('idle')} 
-                        className="mt-8 text-sm uppercase tracking-widest text-accent hover:text-white border-b border-accent hover:border-white pb-1 transition-colors"
+                        className="mt-8 text-sm uppercase tracking-widest text-accent hover:text-text-highlight border-b border-accent hover:border-text-highlight pb-1 transition-colors"
                     >
                         Send Another
                     </button>

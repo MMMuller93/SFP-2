@@ -65,9 +65,9 @@ const App: React.FC = () => {
               <>
                 <SEO />
                 <Hero />
-                <div id="process" className="h-px w-full bg-gradient-to-r from-transparent via-white/5 to-transparent" />
+                <div id="process" className="h-px w-full bg-gradient-to-r from-transparent via-ink/10 to-transparent" />
                 <Services />
-                <div className="h-px w-full bg-gradient-to-r from-transparent via-white/5 to-transparent" />
+                <div className="h-px w-full bg-gradient-to-r from-transparent via-ink/10 to-transparent" />
                 <Contact />
               </>
             } />
@@ -78,7 +78,7 @@ const App: React.FC = () => {
                   description="Strategic Fund Partners is an advisory firm for fund managers, SPV sponsors, and family offices. Founded by Miles Muller."
                 />
                 <About />
-                <div className="h-px w-full bg-gradient-to-r from-transparent via-white/5 to-transparent" />
+                <div className="h-px w-full bg-gradient-to-r from-transparent via-ink/10 to-transparent" />
                 <Contact />
               </>
             } />
@@ -101,7 +101,7 @@ const App: React.FC = () => {
                   description="Complete legal infrastructure for ambitious startups. Delaware C-Corp formation, corporate governance, equity management, fundraising preparation, and state registrations."
                 />
                 <StartupLegalHome />
-                <div className="h-px w-full bg-gradient-to-r from-transparent via-white/5 to-transparent" />
+                <div className="h-px w-full bg-gradient-to-r from-transparent via-ink/10 to-transparent" />
                 <Contact />
               </>
             } />
@@ -112,7 +112,7 @@ const App: React.FC = () => {
                   description="Complete Delaware C-Corp formation package with all documentation needed to start, hire, and raise capital. Formation, bylaws, stock plans, and founder agreements."
                 />
                 <Formation />
-                <div className="h-px w-full bg-gradient-to-r from-transparent via-white/5 to-transparent" />
+                <div className="h-px w-full bg-gradient-to-r from-transparent via-ink/10 to-transparent" />
                 <Contact />
               </>
             } />
@@ -123,7 +123,7 @@ const App: React.FC = () => {
                   description="Ongoing corporate maintenance and board documentation. Annual consents, stock ledger management, cap table updates, and investor-ready records."
                 />
                 <Governance />
-                <div className="h-px w-full bg-gradient-to-r from-transparent via-white/5 to-transparent" />
+                <div className="h-px w-full bg-gradient-to-r from-transparent via-ink/10 to-transparent" />
                 <Contact />
               </>
             } />
@@ -134,7 +134,7 @@ const App: React.FC = () => {
                   description="Stock grants, option awards, and cap table management for founders, employees, and advisors. 409A coordination and equity incentive plans."
                 />
                 <Equity />
-                <div className="h-px w-full bg-gradient-to-r from-transparent via-white/5 to-transparent" />
+                <div className="h-px w-full bg-gradient-to-r from-transparent via-ink/10 to-transparent" />
                 <Contact />
               </>
             } />
@@ -145,7 +145,7 @@ const App: React.FC = () => {
                   description="Get your company ready to raise capital. SAFEs, convertible notes, priced rounds, due diligence preparation, and data room setup."
                 />
                 <Fundraising />
-                <div className="h-px w-full bg-gradient-to-r from-transparent via-white/5 to-transparent" />
+                <div className="h-px w-full bg-gradient-to-r from-transparent via-ink/10 to-transparent" />
                 <Contact />
               </>
             } />
@@ -156,7 +156,7 @@ const App: React.FC = () => {
                   description="Foreign qualification and business registrations to legally operate across multiple states. Registered agent setup and annual compliance."
                 />
                 <Registrations />
-                <div className="h-px w-full bg-gradient-to-r from-transparent via-white/5 to-transparent" />
+                <div className="h-px w-full bg-gradient-to-r from-transparent via-ink/10 to-transparent" />
                 <Contact />
               </>
             } />
@@ -181,7 +181,7 @@ const App: React.FC = () => {
                   description="Legal infrastructure for AI agents. Form Delaware LLCs and Wyoming DAO LLCs via API. $349 all-in including registered agent, operating agreement, and EIN application."
                 />
                 <AgentLegalHome />
-                <div className="h-px w-full bg-gradient-to-r from-transparent via-white/5 to-transparent" />
+                <div className="h-px w-full bg-gradient-to-r from-transparent via-ink/10 to-transparent" />
                 <Contact />
               </>
             } />

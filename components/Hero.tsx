@@ -21,10 +21,10 @@ export const Hero: React.FC = () => {
 
           <h1 className="font-serif text-6xl md:text-7xl lg:text-8xl leading-[0.95] text-text-highlight tracking-tight mb-10 text-balance">
             Strategic Guidance <br/>
-            for the <span className="text-accent italic font-light">Modern Fund Manager.</span>
+            for the <span className="italic font-normal bg-gradient-to-b from-accent to-accentHover bg-clip-text text-transparent">Modern Fund Manager.</span>
           </h1>
 
-          <p className="text-lg md:text-xl text-text-secondary leading-relaxed mb-12 font-light max-w-2xl mx-auto text-balance">
+          <p className="text-lg md:text-xl text-text-secondary leading-relaxed mb-12 font-normal max-w-2xl mx-auto text-balance">
             Support for the next generation of asset managers.
           </p>
           

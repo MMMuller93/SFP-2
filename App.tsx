@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { Routes, Route, useNavigate, useLocation } from 'react-router-dom';
 import { Navbar } from './components/Navbar';
 import { Hero } from './components/Hero';
@@ -26,6 +26,13 @@ const App: React.FC = () => {
   const [modalType, setModalType] = useState<ModalType>(null);
   const navigate = useNavigate();
   const location = useLocation();
+
+  // Signal to @prerenderer/rollup-plugin that the app has mounted and the
+  // route's HTML is ready to be snapshotted. No-op outside the build-time
+  // headless Chromium.
+  useEffect(() => {
+    document.dispatchEvent(new Event('app-ready'));
+  }, [location.pathname]);
 
   const handleReturnToContact = () => {
     navigate('/');

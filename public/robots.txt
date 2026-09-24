@@ -1,5 +1,6 @@
 # https://www.robotstxt.org/robotstxt.html
 User-agent: *
 Allow: /
+Disallow: /deals/
 
 Sitemap: https://strategicfundpartners.com/sitemap.xml

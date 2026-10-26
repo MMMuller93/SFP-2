@@ -25,7 +25,8 @@ export const Contact: React.FC = () => {
         headers: { Accept: 'application/json' },
         signal: AbortSignal.timeout(15000),
       });
-      if (!response.ok) throw new Error('Inquiry was not accepted');
+      const result = await response.json();
+      if (!response.ok || result.success !== true) throw new Error('Inquiry was not accepted');
 
       trackConversion('lead_created');
       form.reset();
@@ -88,6 +89,7 @@ export const Contact: React.FC = () => {
                  </motion.div>
              ) : (
                 <form onSubmit={handleSubmit} className="space-y-8">
+                    <input type="checkbox" name="botcheck" className="hidden" tabIndex={-1} aria-hidden="true" />
                     {formState === 'error' && (
                         <p role="alert" className="text-sm text-text-primary">
                             We couldn't send your inquiry. Please try again or{' '}

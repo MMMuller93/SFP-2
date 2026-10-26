@@ -10,8 +10,8 @@ interface SEOProps {
 }
 
 export const SEO: React.FC<SEOProps> = ({
-  title = 'Strategic Fund Partners | Fund Advisory & Compliance',
-  description = 'Expert fund formation, regulatory compliance, and advisory services for venture capital and private equity managers. Form ADV, fund structuring, and ongoing compliance support.',
+  title = 'Strategic Fund Partners | Fund Formation & RIA Compliance',
+  description = 'Fund formation, SPV structuring, side letters, custom waterfalls, and RIA/ERA registration and compliance for private fund managers and SPV sponsors.',
   image = 'https://strategicfundpartners.com/og-image.png',
   type = 'website',
   publishedTime,

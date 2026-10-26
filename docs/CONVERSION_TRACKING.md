@@ -4,13 +4,13 @@ The contact form posts the visitor's name, company, email and message to the app
 
 ## Required before deployment
 
-1. Approve the inquiry provider and create its form with contact@strategicfundpartners.com as the verified destination. Formspree supports the multipart AJAX request used here; a replacement endpoint must support the same request and HTTP success/error contract.
+1. Reuse the existing SendGrid account. Its `SENDGRID_API_KEY` is configured in Railway's `sfp-formation-generator` project, production `web` service, for formation-document emails. That application has no general marketing contact-form endpoint. Implement a server-side inquiry endpoint that accepts this client's multipart request and sends inquiries to contact@strategicfundpartners.com, returning success only after SendGrid accepts the email. Keep the SendGrid secret on the server; never put it in a Vite variable or browser code. Verify the staged replacement key and account sending eligibility before activating delivery.
 2. Set the GitHub repository variable `CONTACT_FORM_ENDPOINT` to the full HTTPS form endpoint. The Pages workflow exposes this public URL as `VITE_CONTACT_FORM_ENDPOINT` during the build. It is not an API secret. For local development, copy `.env.example` to `.env.local` and set the equivalent value.
 3. Review the site's measurement disclosure and consent behavior before release. The OpenAI SDK uses first-party attribution cookies and may automatically include hashed form identifiers when advanced matching is enabled. If your consent policy requires approval before measurement, connect the SDK's documented consent controls before initialization.
 4. Deploy the site, send one clearly labeled test inquiry, and verify both provider acceptance and inbox receipt. Check the Ads Manager event stream immediately after testing.
 5. Attach the event definitions to the intended campaign for reporting. A clicks campaign can measure conversions without changing its objective. Keep conversion optimization focused on actual leads; a consultation-link click is not a completed booking, and an email-link click is not a sent email.
 
-A missing endpoint fails visibly instead of displaying a false success. Keep the pull request as a draft until the provider and endpoint are configured.
+A missing endpoint fails visibly instead of displaying a false success. Keep the pull request as a draft until the SendGrid endpoint is implemented and verified. The existing formation application's source repository is `MMMuller93/sfp-formation-generator`; Railway currently has no Git repository source binding, so verify deployed-source provenance before changing that service.
 
 ## Events
 
@@ -28,4 +28,4 @@ This integration does not send server-side conversion events or claim to measure
 
 - [OpenAI Measurement Pixel](https://developers.openai.com/ads/measurement-pixel)
 - [OpenAI conversion tracking and campaign attachment](https://developers.openai.com/ads/conversion-tracking)
-- [Formspree AJAX request example](https://formspree.io/blog/formspree-ajax/)
+- [SendGrid Node.js email quickstart](https://www.twilio.com/docs/sendgrid/for-developers/sending-email/quickstart-nodejs)

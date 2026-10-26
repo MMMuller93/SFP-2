@@ -1,18 +1,38 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import { ArrowRight, Loader2, Send } from 'lucide-react';
+import { trackConversion } from '../lib/conversions';
 
 export const Contact: React.FC = () => {
   const [formState, setFormState] = useState<'idle' | 'submitting' | 'success' | 'error'>('idle');
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
+    if (formState === 'submitting') return;
+
+    const form = e.currentTarget;
+    const endpoint = import.meta.env.VITE_CONTACT_FORM_ENDPOINT;
+    if (!endpoint) {
+      setFormState('error');
+      return;
+    }
+
     setFormState('submitting');
-    // Simulating API call
-    setTimeout(() => {
-        setFormState('success');
-        (e.target as HTMLFormElement).reset();
-    }, 1500);
+    try {
+      const response = await fetch(endpoint, {
+        method: 'POST',
+        body: new FormData(form),
+        headers: { Accept: 'application/json' },
+        signal: AbortSignal.timeout(15000),
+      });
+      if (!response.ok) throw new Error('Inquiry was not accepted');
+
+      trackConversion('lead_created');
+      form.reset();
+      setFormState('success');
+    } catch {
+      setFormState('error');
+    }
   };
 
   return (
@@ -32,7 +52,7 @@ export const Contact: React.FC = () => {
             <div className="mt-auto space-y-8">
                  <div>
                     <h4 className="text-xs font-mono uppercase text-text-muted tracking-widest mb-2">Email</h4>
-                    <a href="mailto:contact@strategicfundpartners.com" className="text-xl text-text-primary hover:text-accent transition-colors">
+                    <a href="mailto:contact@strategicfundpartners.com" onClick={() => trackConversion('email_link_clicked')} className="text-xl text-text-primary hover:text-accent transition-colors">
                         contact@strategicfundpartners.com
                     </a>
                  </div>
@@ -68,30 +88,37 @@ export const Contact: React.FC = () => {
                  </motion.div>
              ) : (
                 <form onSubmit={handleSubmit} className="space-y-8">
+                    {formState === 'error' && (
+                        <p role="alert" className="text-sm text-text-primary">
+                            We couldn't send your inquiry. Please try again or{' '}
+                            <a href="mailto:contact@strategicfundpartners.com" onClick={() => trackConversion('email_link_clicked')} className="underline text-accent">email us directly</a>.
+                        </p>
+                    )}
                     <div className="grid grid-cols-2 gap-6">
                         <div className="space-y-2">
                             <label htmlFor="name" className="text-xs font-mono uppercase text-text-muted">Name</label>
-                            <input type="text" id="name" required className="w-full bg-surface/30 border border-border px-4 py-3 text-text-primary focus:border-accent focus:bg-surface/50 focus:outline-none transition-colors placeholder-text-muted" placeholder="John Doe" />
+                            <input type="text" id="name" name="name" required className="w-full bg-surface/30 border border-border px-4 py-3 text-text-primary focus:border-accent focus:bg-surface/50 focus:outline-none transition-colors placeholder-text-muted" placeholder="John Doe" />
                         </div>
                         <div className="space-y-2">
                             <label htmlFor="company" className="text-xs font-mono uppercase text-text-muted">Firm</label>
-                            <input type="text" id="company" required className="w-full bg-surface/30 border border-border px-4 py-3 text-text-primary focus:border-accent focus:bg-surface/50 focus:outline-none transition-colors placeholder-text-muted" placeholder="Acme Capital" />
+                            <input type="text" id="company" name="company" required className="w-full bg-surface/30 border border-border px-4 py-3 text-text-primary focus:border-accent focus:bg-surface/50 focus:outline-none transition-colors placeholder-text-muted" placeholder="Acme Capital" />
                         </div>
                     </div>
                     
                     <div className="space-y-2">
                         <label htmlFor="email" className="text-xs font-mono uppercase text-text-muted">Email</label>
-                        <input type="email" id="email" required className="w-full bg-surface/30 border border-border px-4 py-3 text-text-primary focus:border-accent focus:bg-surface/50 focus:outline-none transition-colors placeholder-text-muted" placeholder="john@acme.com" />
+                        <input type="email" id="email" name="email" required className="w-full bg-surface/30 border border-border px-4 py-3 text-text-primary focus:border-accent focus:bg-surface/50 focus:outline-none transition-colors placeholder-text-muted" placeholder="john@acme.com" />
                     </div>
 
                     <div className="space-y-2">
                         <label htmlFor="message" className="text-xs font-mono uppercase text-text-muted">Requirements</label>
-                        <textarea id="message" rows={4} className="w-full bg-surface/30 border border-border px-4 py-3 text-text-primary focus:border-accent focus:bg-surface/50 focus:outline-none transition-colors resize-none placeholder-text-muted" placeholder="Briefly describe your fund structure or advisory needs..." />
+                        <textarea id="message" name="message" rows={4} className="w-full bg-surface/30 border border-border px-4 py-3 text-text-primary focus:border-accent focus:bg-surface/50 focus:outline-none transition-colors resize-none placeholder-text-muted" placeholder="Briefly describe your fund structure or advisory needs..." />
                     </div>
 
                     <button 
                         type="submit" 
                         disabled={formState === 'submitting'}
+                        aria-label={formState === 'submitting' ? 'Sending inquiry' : 'Submit Inquiry'}
                         className="group flex items-center gap-4 text-text-primary hover:text-accent transition-colors pt-4"
                     >
                         {formState === 'submitting' ? (

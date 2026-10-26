@@ -4,6 +4,7 @@ import { Menu, X, ArrowUpRight } from 'lucide-react';
 import { Logo } from './Logo';
 import { motion, AnimatePresence } from 'framer-motion';
 import { View } from '../types';
+import { trackConversion } from '../lib/conversions';
 
 interface NavbarProps {
   currentView: View;
@@ -106,6 +107,7 @@ export const Navbar: React.FC<NavbarProps> = ({ currentView, onNavigate }) => {
               href="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ21Bp23fIf0-8CWI6LvBUlR_LvGg2nuP5jXz4BFcCnzintnxEHdzarI54pXAzwqVQTBWfI3OEkz" 
               target="_blank" 
               rel="noopener noreferrer"
+              onClick={() => trackConversion('consultation_link_clicked')}
               className="flex items-center gap-2 text-xs font-bold uppercase tracking-widest text-text-highlight hover:text-bg transition-colors border border-border px-5 py-2.5 hover:bg-accent hover:border-accent"
             >
               Book Consultation
@@ -147,7 +149,10 @@ export const Navbar: React.FC<NavbarProps> = ({ currentView, onNavigate }) => {
                <a 
                 href="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ21Bp23fIf0-8CWI6LvBUlR_LvGg2nuP5jXz4BFcCnzintnxEHdzarI54pXAzwqVQTBWfI3OEkz"
                 target="_blank"
-                onClick={() => setIsOpen(false)}
+                onClick={() => {
+                  trackConversion('consultation_link_clicked');
+                  setIsOpen(false);
+                }}
                 className="mt-8 flex items-center gap-2 text-accent font-medium text-sm uppercase tracking-widest"
               >
                 Book Consultation <ArrowUpRight className="w-4 h-4" />

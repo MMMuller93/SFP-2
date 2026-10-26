@@ -17,7 +17,7 @@ export const LegalModal: React.FC<LegalModalProps> = ({ isOpen, onClose }) => {
     if (isOpen === 'privacy') {
       return (
         <div className="space-y-8 text-text-secondary leading-relaxed font-light text-sm">
-          <p>Effective Date: January 1, 2025</p>
+          <p>Effective Date: October 26, 2026</p>
           <p>Strat Fund Partners LLC ("us", "we", or "our") operates the Strategic Fund Partners website (the "Service"). This page informs you of our policies regarding the collection, use, and disclosure of personal data when you use our Service and the choices you have associated with that data.</p>
           
           <div className="space-y-3">
@@ -27,6 +27,7 @@ export const LegalModal: React.FC<LegalModalProps> = ({ isOpen, onClose }) => {
                 <li><strong>Personal Data:</strong> While using our Service, we may ask you to provide us with certain personally identifiable information that can be used to contact or identify you ("Personal Data"). Personally identifiable information may include, but is not limited to: Email address, First name and last name, Phone number, Business name.</li>
                 <li><strong>Usage Data:</strong> We may also collect information how the Service is accessed and used ("Usage Data"). This Usage Data may include information such as your computer's Internet Protocol address (e.g. IP address), browser type, browser version, the pages of our Service that you visit, the time and date of your visit, the time spent on those pages, unique device identifiers and other diagnostic data.</li>
             </ul>
+            <p>When you send an inquiry, Web3Forms processes your name, firm, email address, and message, forwards the inquiry to our business inbox, and stores submission history under its retention settings. See the <a href="https://web3forms.com/privacy" target="_blank" rel="noreferrer" className="underline text-accent">Web3Forms Privacy Policy</a> for information about its processing and storage.</p>
           </div>
 
           <div className="space-y-3">
@@ -40,6 +41,7 @@ export const LegalModal: React.FC<LegalModalProps> = ({ isOpen, onClose }) => {
                 <li>To monitor the usage of the Service</li>
                 <li>To detect, prevent and address technical issues</li>
             </ul>
+            <p>We use Google Analytics to understand website usage and OpenAI Ads measurement to measure accepted inquiries, consultation-link clicks, and email-link clicks. The measurement SDK may use cookies and hashed identifiers for advertising attribution. We do not add inquiry messages to our conversion-event payloads. See the <a href="https://openai.com/policies/privacy-policy/" target="_blank" rel="noreferrer" className="underline text-accent">OpenAI Privacy Policy</a> for information about its processing.</p>
           </div>
 
           <div className="space-y-3">

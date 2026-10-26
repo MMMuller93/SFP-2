@@ -11,15 +11,15 @@ export const Contact: React.FC = () => {
     if (formState === 'submitting') return;
 
     const form = e.currentTarget;
-    const endpoint = import.meta.env.VITE_CONTACT_FORM_ENDPOINT;
-    if (!endpoint) {
+    const accessKey = import.meta.env.VITE_CONTACT_FORM_ACCESS_KEY;
+    if (!accessKey) {
       setFormState('error');
       return;
     }
 
     setFormState('submitting');
     try {
-      const response = await fetch(endpoint, {
+      const response = await fetch('https://api.web3forms.com/submit', {
         method: 'POST',
         body: new FormData(form),
         headers: { Accept: 'application/json' },
@@ -89,6 +89,7 @@ export const Contact: React.FC = () => {
                  </motion.div>
              ) : (
                 <form onSubmit={handleSubmit} className="space-y-8">
+                    <input type="hidden" name="access_key" value={import.meta.env.VITE_CONTACT_FORM_ACCESS_KEY ?? ''} />
                     <input type="checkbox" name="botcheck" className="hidden" tabIndex={-1} aria-hidden="true" />
                     {formState === 'error' && (
                         <p role="alert" className="text-sm text-text-primary">

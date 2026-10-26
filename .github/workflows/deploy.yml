@@ -32,7 +32,7 @@ jobs:
 
       - name: Build with Vite
         env:
-          VITE_CONTACT_FORM_ENDPOINT: ${{ vars.CONTACT_FORM_ENDPOINT }}
+          VITE_CONTACT_FORM_ACCESS_KEY: ${{ vars.CONTACT_FORM_ACCESS_KEY }}
         run: npm run build
 
       - name: Setup Pages

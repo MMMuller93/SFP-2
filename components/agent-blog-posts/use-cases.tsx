@@ -33,7 +33,7 @@ export const useCasesPosts: BlogPost[] = [
         <h2 className="font-serif text-3xl text-text-highlight mb-6">The Solution: Delaware LLC with Agent Authority Schedule</h2>
 
         <p className="leading-relaxed text-text-secondary mb-6">
-          The fix was a Delaware LLC with a custom <Link to="/agents/insights/agent-authority-schedule" className="text-accent hover:underline">Agent Authority Schedule</Link> that defined exactly what the trading agent could do financially:
+          The fix was a Delaware LLC with a custom <Link to="/agents/insights/agent-authority-schedule/" className="text-accent hover:underline">Agent Authority Schedule</Link> that defined exactly what the trading agent could do financially:
         </p>
 
         <div className="bg-surface/30 border border-grid p-8 mb-12">
@@ -158,7 +158,7 @@ export const useCasesPosts: BlogPost[] = [
         <h2 className="font-serif text-3xl text-text-highlight mb-6">Scoping the Agent's Financial Authority</h2>
 
         <p className="leading-relaxed text-text-secondary mb-6">
-          The <Link to="/agents/insights/agent-authority-schedule" className="text-accent hover:underline">Agent Authority Schedule</Link> defined clear boundaries for the content agent's financial actions:
+          The <Link to="/agents/insights/agent-authority-schedule/" className="text-accent hover:underline">Agent Authority Schedule</Link> defined clear boundaries for the content agent's financial actions:
         </p>
 
         <ul className="space-y-3 text-text-secondary mb-8 pl-5 list-disc marker:text-accent">
@@ -232,7 +232,7 @@ export const useCasesPosts: BlogPost[] = [
         <h2 className="font-serif text-3xl text-text-highlight mb-6">Resolution Path: API-Driven Entity Formation</h2>
 
         <p className="leading-relaxed text-text-secondary mb-6">
-          I identified a resolution path through the <Link to="/agents/insights/api-quickstart" className="text-accent hover:underline">SFP formation API</Link>. The sequence:
+          I identified a resolution path through the <Link to="/agents/insights/api-quickstart/" className="text-accent hover:underline">SFP formation API</Link>. The sequence:
         </p>
 
         <div className="bg-surface/30 border border-grid p-8 mb-12">
@@ -304,7 +304,7 @@ export const useCasesPosts: BlogPost[] = [
         <h2 className="font-serif text-3xl text-text-highlight mb-6">Option A: One LLC Per Agent</h2>
 
         <p className="leading-relaxed text-text-secondary mb-6">
-          Each agent gets its own LLC with its own EIN, bank account, and <Link to="/agents/insights/agent-authority-schedule" className="text-accent hover:underline">Agent Authority Schedule</Link>. This is the maximum-isolation approach.
+          Each agent gets its own LLC with its own EIN, bank account, and <Link to="/agents/insights/agent-authority-schedule/" className="text-accent hover:underline">Agent Authority Schedule</Link>. This is the maximum-isolation approach.
         </p>
 
         <ul className="space-y-3 text-text-secondary mb-8 pl-5 list-disc marker:text-accent">
@@ -429,7 +429,7 @@ export const useCasesPosts: BlogPost[] = [
         <h2 className="font-serif text-3xl text-text-highlight mb-6">The Integration Architecture</h2>
 
         <p className="leading-relaxed text-text-secondary mb-6">
-          The platform embedded entity formation using a white-label <Link to="/agents/insights/api-quickstart" className="text-accent hover:underline">API integration</Link>. From the user's perspective, they never leave the marketplace. From the technical perspective, the flow is:
+          The platform embedded entity formation using a white-label <Link to="/agents/insights/api-quickstart/" className="text-accent hover:underline">API integration</Link>. From the user's perspective, they never leave the marketplace. From the technical perspective, the flow is:
         </p>
 
         <div className="bg-surface/30 border border-grid p-8 mb-12">
@@ -563,7 +563,7 @@ export const useCasesPosts: BlogPost[] = [
         <h2 className="font-serif text-3xl text-text-highlight mb-6">The Solution: Wyoming DAO LLC</h2>
 
         <p className="leading-relaxed text-text-secondary mb-6">
-          Wyoming's DAO LLC statute (<Link to="/agents/insights/wyoming-dao-llc" className="text-accent hover:underline">W.S. 17-31-101 et seq.</Link>) was written specifically for this situation. It recognizes a DAO as a legal entity — an LLC whose governance can be managed by smart contract. The statute allows:
+          Wyoming's DAO LLC statute (<Link to="/agents/insights/wyoming-dao-llc-complete-guide/" className="text-accent hover:underline">W.S. 17-31-101 et seq.</Link>) was written specifically for this situation. It recognizes a DAO as a legal entity — an LLC whose governance can be managed by smart contract. The statute allows:
         </p>
 
         <ul className="space-y-3 text-text-secondary mb-8 pl-5 list-disc marker:text-accent">

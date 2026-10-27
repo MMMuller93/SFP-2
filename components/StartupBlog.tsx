@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useEffect } from 'react';
 import { useParams, useNavigate, Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { ArrowLeft, Clock, Calendar, ArrowRight } from 'lucide-react';
@@ -17,7 +17,7 @@ interface StartupBlogProps {
   onContactClick: () => void;
 }
 
-const posts: BlogPost[] = [
+export const STARTUP_POSTS: BlogPost[] = [
   {
     id: 'incorporating-your-startup',
     title: 'Incorporating Your Startup: The Complete Guide to Delaware C-Corps',
@@ -104,12 +104,12 @@ const posts: BlogPost[] = [
           <strong className="text-accent font-medium">Vesting is standard.</strong> Even for founders. The typical schedule is four years with a one-year cliff. This protects the company if a co-founder leaves early.
         </p>
         <p className="leading-relaxed text-text-secondary mb-12">
-          Founders must file 83(b) elections within 30 days of purchasing stock. See our guide <Link to="/startups/insights/83b-election" className="text-accent hover:text-accent/80 underline">The 83(b) Election</Link> for details.
+          Founders must file 83(b) elections within 30 days of purchasing stock. See our guide <Link to="/startups/insights/83b-election/" className="text-accent hover:text-accent/80 underline">The 83(b) Election</Link> for details.
         </p>
 
         <h3 className="font-serif text-2xl text-text-highlight mb-6">6. Adopt Stock Plan</h3>
         <p className="leading-relaxed text-text-secondary mb-12">
-          Adopt an equity incentive plan before hiring employees. The plan reserves shares for option grants. A typical size is 10-20% of fully diluted capitalization at formation. For more, see <Link to="/startups/insights/founder-equity" className="text-accent hover:text-accent/80 underline">Founder Equity: Stock, Vesting, and 83(b)</Link>.
+          Adopt an equity incentive plan before hiring employees. The plan reserves shares for option grants. A typical size is 10-20% of fully diluted capitalization at formation. For more, see <Link to="/startups/insights/founder-equity/" className="text-accent hover:text-accent/80 underline">Founder Equity: Stock, Vesting, and 83(b)</Link>.
         </p>
 
         <hr className="border-grid mb-12" />
@@ -381,7 +381,7 @@ const posts: BlogPost[] = [
           Y Combinator released two SAFE versions: the original (now called "pre-money") and the 2018 "post-money" SAFE. The difference matters for cap table dilution.
         </p>
         <p className="leading-relaxed text-text-secondary mb-12">
-          <strong className="text-accent font-medium">Post-money SAFEs are now standard.</strong> They're clearer and more founder-friendly. For details on the difference, see <Link to="/startups/insights/post-money-vs-pre-money" className="text-accent hover:text-accent/80 underline">Post-Money vs Pre-Money SAFEs</Link>.
+          <strong className="text-accent font-medium">Post-money SAFEs are now standard.</strong> They're clearer and more founder-friendly. For details on the difference, see <Link to="/startups/insights/post-money-vs-pre-money/" className="text-accent hover:text-accent/80 underline">Post-Money vs Pre-Money SAFEs</Link>.
         </p>
 
         <hr className="border-grid mb-12" />
@@ -415,7 +415,7 @@ const posts: BlogPost[] = [
           <li><strong className="text-accent font-medium">Fewer investor protections.</strong> Convertible notes often include board representation, information rights, and other terms SAFEs lack.</li>
         </ul>
         <p className="leading-relaxed text-text-secondary mb-12">
-          For a detailed comparison, see <Link to="/startups/insights/safe-vs-convertible-note" className="text-accent hover:text-accent/80 underline">SAFE vs Convertible Note</Link>.
+          For a detailed comparison, see <Link to="/startups/insights/safe-vs-convertible-note/" className="text-accent hover:text-accent/80 underline">SAFE vs Convertible Note</Link>.
         </p>
 
         <hr className="border-grid mb-12" />
@@ -558,7 +558,7 @@ const posts: BlogPost[] = [
         </p>
 
         <p className="italic text-text-secondary mb-12 bg-surface/50 p-6 border border-grid">
-          For more on SAFEs generally, see <Link to="/startups/insights/safes-complete-guide" className="text-accent hover:text-accent/80 underline">SAFEs: The Complete Guide</Link>.
+          For more on SAFEs generally, see <Link to="/startups/insights/safes-complete-guide/" className="text-accent hover:text-accent/80 underline">SAFEs: The Complete Guide</Link>.
         </p>
 
         <hr className="border-grid mb-12" />
@@ -675,7 +675,7 @@ const posts: BlogPost[] = [
           Founder stock is <strong className="text-accent font-medium">restricted stock</strong> under Section 83 of the tax code. Without an 83(b) election, you owe ordinary income tax each time shares vest based on the fair market value at vesting.
         </p>
         <p className="leading-relaxed text-text-secondary mb-12">
-          <strong className="text-accent font-medium">Filing an 83(b) election within 30 days of receiving stock</strong> lets you pay tax on the stock's value at grant (typically pennies per share) rather than at vesting (potentially dollars per share). For details, see <Link to="/startups/insights/83b-election" className="text-accent hover:text-accent/80 underline">The 83(b) Election</Link>.
+          <strong className="text-accent font-medium">Filing an 83(b) election within 30 days of receiving stock</strong> lets you pay tax on the stock's value at grant (typically pennies per share) rather than at vesting (potentially dollars per share). For details, see <Link to="/startups/insights/83b-election/" className="text-accent hover:text-accent/80 underline">The 83(b) Election</Link>.
         </p>
 
         <div className="bg-surface/30 border border-grid p-8 mb-12">
@@ -863,7 +863,7 @@ const posts: BlogPost[] = [
         </p>
 
         <p className="italic text-text-secondary mb-12 bg-surface/50 p-6 border border-grid">
-          For more detail on SAFEs, see <Link to="/startups/insights/safes-complete-guide" className="text-accent hover:text-accent/80 underline">SAFEs: The Complete Guide</Link>.
+          For more detail on SAFEs, see <Link to="/startups/insights/safes-complete-guide/" className="text-accent hover:text-accent/80 underline">SAFEs: The Complete Guide</Link>.
         </p>
 
         <p className="text-xs text-text-muted border-t border-grid pt-6 mt-12">
@@ -970,7 +970,7 @@ const posts: BlogPost[] = [
         </p>
 
         <p className="italic text-text-secondary mb-12 bg-surface/50 p-6 border border-grid">
-          For step-by-step instructions, see <Link to="/startups/insights/83b-election" className="text-accent hover:text-accent/80 underline">The 83(b) Election: How to File</Link>.
+          For step-by-step instructions, see <Link to="/startups/insights/83b-election/" className="text-accent hover:text-accent/80 underline">The 83(b) Election: How to File</Link>.
         </p>
 
         <hr className="border-grid mb-12" />
@@ -1001,20 +1001,11 @@ const posts: BlogPost[] = [
 export const StartupBlog: React.FC<StartupBlogProps> = ({ onContactClick }) => {
   const { slug } = useParams<{ slug: string }>();
   const navigate = useNavigate();
-  const [selectedPost, setSelectedPost] = useState<BlogPost | null>(null);
+  const selectedPost = STARTUP_POSTS.find(post => post.id === slug);
 
   useEffect(() => {
-    if (slug) {
-      const post = posts.find(p => p.id === slug);
-      if (post) {
-        setSelectedPost(post);
-      } else {
-        navigate('/startups/insights', { replace: true });
-      }
-    } else {
-      setSelectedPost(null);
-    }
-  }, [slug, navigate]);
+    if (slug && !selectedPost) navigate('/startups/insights/', { replace: true });
+  }, [slug, selectedPost, navigate]);
 
   if (selectedPost) {
     const publishedTime = new Date(selectedPost.date).toISOString();
@@ -1035,7 +1026,7 @@ export const StartupBlog: React.FC<StartupBlogProps> = ({ onContactClick }) => {
         >
           <div className="max-w-3xl mx-auto px-6">
             <Link
-              to="/startups/insights"
+              to="/startups/insights/"
               className="flex items-center gap-2 text-sm text-text-muted hover:text-accent transition-colors mb-8 group"
             >
               <ArrowLeft className="w-4 h-4 group-hover:-translate-x-1 transition-transform" />
@@ -1092,8 +1083,8 @@ export const StartupBlog: React.FC<StartupBlogProps> = ({ onContactClick }) => {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {posts.map((post) => (
-            <Link key={post.id} to={`/startups/insights/${post.id}`}>
+          {STARTUP_POSTS.map((post) => (
+            <Link key={post.id} to={`/startups/insights/${post.id}/`}>
               <motion.article
                 whileHover={{ y: -5 }}
                 className="group cursor-pointer flex flex-col h-full border border-grid bg-surface/20 hover:border-accent/50 transition-colors duration-300"

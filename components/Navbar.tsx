@@ -5,6 +5,7 @@ import { Logo } from './Logo';
 import { motion, AnimatePresence } from 'framer-motion';
 import { View } from '../types';
 import { trackConversion } from '../lib/conversions';
+import { canonicalPath } from '../lib/site-paths';
 
 interface NavbarProps {
   currentView: View;
@@ -25,7 +26,7 @@ export const Navbar: React.FC<NavbarProps> = ({ currentView, onNavigate }) => {
     setIsOpen(false);
 
     if (view === 'home' && href && href.startsWith('#')) {
-      navigate(sectionPrefix || '/');
+      navigate(canonicalPath(sectionPrefix || '/'));
       // Small timeout to allow home component to mount before scrolling
       setTimeout(() => {
         const element = document.querySelector(href);
@@ -34,31 +35,31 @@ export const Navbar: React.FC<NavbarProps> = ({ currentView, onNavigate }) => {
         }
       }, 100);
     } else if (view === 'blog') {
-      navigate(sectionPrefix ? `${sectionPrefix}/insights` : '/insights');
+      navigate(`${sectionPrefix}/insights/`);
       window.scrollTo({ top: 0, behavior: 'smooth' });
     } else if (href && href.startsWith('/')) {
       // Absolute path — direct navigation (e.g. /about)
-      navigate(href);
+      navigate(canonicalPath(href));
       window.scrollTo({ top: 0, behavior: 'smooth' });
     } else {
-      navigate(sectionPrefix || '/');
+      navigate(canonicalPath(sectionPrefix || '/'));
       window.scrollTo({ top: 0, behavior: 'smooth' });
     }
   };
 
   // Different navigation links based on context
   const navLinks = isAgentLegal ? [
-    { name: 'Overview', href: '/agents', view: 'home' as const },
-    { name: 'Insights', href: '/agents/insights', view: 'blog' as const },
+    { name: 'Overview', href: '/agents/', view: 'home' as const },
+    { name: 'Insights', href: '/agents/insights/', view: 'blog' as const },
     { name: 'Contact', href: '#contact', view: 'home' as const },
   ] : isStartupLegal ? [
-    { name: 'Services', href: '/startups', view: 'home' as const },
-    { name: 'Insights', href: '/startups/insights', view: 'blog' as const },
+    { name: 'Services', href: '/startups/', view: 'home' as const },
+    { name: 'Insights', href: '/startups/insights/', view: 'blog' as const },
     { name: 'Contact', href: '#contact', view: 'home' as const },
   ] : [
     { name: 'Expertise', href: '#services', view: 'home' as const },
-    { name: 'About', href: '/about', view: 'home' as const },
-    { name: 'Insights', href: '/insights', view: 'blog' as const },
+    { name: 'About', href: '/about/', view: 'home' as const },
+    { name: 'Insights', href: '/insights/', view: 'blog' as const },
     { name: 'Contact', href: '#contact', view: 'home' as const },
   ];
 
@@ -69,7 +70,7 @@ export const Navbar: React.FC<NavbarProps> = ({ currentView, onNavigate }) => {
           
           {/* Brand / Logo Area */}
           <div className="col-span-8 md:col-span-4 lg:col-span-3 flex items-center px-6 md:px-8 border-r border-grid bg-bg/50">
-            <Link to={sectionPrefix || "/"} className="flex items-center gap-3 group">
+            <Link to={canonicalPath(sectionPrefix || "/")} className="flex items-center gap-3 group">
               <Logo className="w-6 h-6 text-text-highlight group-hover:text-accent transition-colors duration-300" />
               <span className="font-serif text-xl text-text-highlight group-hover:text-accent transition-colors duration-300 tracking-tight">SFP</span>
             </Link>

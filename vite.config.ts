@@ -1,9 +1,9 @@
 import path from 'path';
 import { defineConfig, loadEnv } from 'vite';
 import react from '@vitejs/plugin-react';
-import prerender from '@prerenderer/rollup-plugin';
+import { publishSite } from './scripts/publish-site';
 
-export default defineConfig(({ mode }) => {
+export default defineConfig(({ mode, command }) => {
     const env = loadEnv(mode, '.', '');
     return {
       server: {
@@ -12,34 +12,7 @@ export default defineConfig(({ mode }) => {
       },
       plugins: [
         react(),
-        // Build-time pre-rendering. Each listed route is rendered with a current
-        // headless Chromium and its HTML is written to dist/<route>/index.html
-        // so crawlers see real content immediately. SPA hydration takes over
-        // on the client.
-        prerender({
-          routes: [
-            '/',
-            '/about',
-            '/insights',
-            '/startups',
-            '/startups/formation',
-            '/startups/governance',
-            '/startups/equity',
-            '/startups/fundraising',
-            '/startups/registrations',
-            '/startups/insights',
-            '/agents',
-            '/agents/insights',
-          ],
-          renderer: '@prerenderer/renderer-puppeteer',
-          rendererOptions: {
-            maxConcurrentRoutes: 4,
-            renderAfterDocumentEvent: 'app-ready',
-            skipThirdPartyRequests: true,
-            headless: true,
-            timeout: 30000,
-          },
-        }),
+        ...(command === 'build' ? publishSite() : []),
       ],
       define: {
         'process.env.API_KEY': JSON.stringify(env.GEMINI_API_KEY),

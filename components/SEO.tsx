@@ -1,5 +1,6 @@
 import { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
+import { canonicalPath, SITE_ORIGIN } from '../lib/site-paths';
 
 interface SEOProps {
   title?: string;
@@ -17,7 +18,7 @@ export const SEO: React.FC<SEOProps> = ({
   publishedTime,
 }) => {
   const location = useLocation();
-  const url = `https://strategicfundpartners.com${location.pathname}`;
+  const url = `${SITE_ORIGIN}${canonicalPath(location.pathname)}`;
 
   useEffect(() => {
     // Update title

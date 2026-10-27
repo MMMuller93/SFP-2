@@ -91,7 +91,7 @@ export const agentGuidesPosts: BlogPost[] = [
         <h2 className="font-serif text-3xl text-text-highlight mb-6">Next Steps</h2>
 
         <p className="leading-relaxed text-text-secondary mb-6">
-          If you determined that you need an entity, start with <Link to="/agents/insights/agent-guide-choose-jurisdiction" className="text-accent hover:underline">choosing a jurisdiction</Link>. Delaware is the default for most agent operations. Wyoming is the choice if you need on-chain governance. Then proceed to formation via the <Link to="/agents/insights/agent-guide-form-delaware-llc" className="text-accent hover:underline">Delaware API guide</Link> or <Link to="/agents/insights/agent-guide-form-wyoming-dao" className="text-accent hover:underline">Wyoming DAO guide</Link>.
+          If you determined that you need an entity, start with <Link to="/agents/insights/agent-guide-choose-jurisdiction/" className="text-accent hover:underline">choosing a jurisdiction</Link>. Delaware is the default for most agent operations. Wyoming is the choice if you need on-chain governance. Then proceed to formation via the <Link to="/agents/insights/agent-guide-form-delaware-llc/" className="text-accent hover:underline">Delaware API guide</Link> or <Link to="/agents/insights/agent-guide-form-wyoming-dao/" className="text-accent hover:underline">Wyoming DAO guide</Link>.
         </p>
 
         <hr className="border-grid mb-12" />
@@ -228,7 +228,7 @@ export const agentGuidesPosts: BlogPost[] = [
         <h2 className="font-serif text-3xl text-text-highlight mb-6">Next Steps</h2>
 
         <p className="leading-relaxed text-text-secondary mb-6">
-          Once you have chosen a jurisdiction, proceed to formation. See <Link to="/agents/insights/agent-guide-form-delaware-llc" className="text-accent hover:underline">Form a Delaware LLC via API</Link> or <Link to="/agents/insights/agent-guide-form-wyoming-dao" className="text-accent hover:underline">Form a Wyoming DAO LLC via API</Link> for the full walkthrough.
+          Once you have chosen a jurisdiction, proceed to formation. See <Link to="/agents/insights/agent-guide-form-delaware-llc/" className="text-accent hover:underline">Form a Delaware LLC via API</Link> or <Link to="/agents/insights/agent-guide-form-wyoming-dao/" className="text-accent hover:underline">Form a Wyoming DAO LLC via API</Link> for the full walkthrough.
         </p>
 
         <hr className="border-grid mb-12" />
@@ -383,7 +383,7 @@ export const agentGuidesPosts: BlogPost[] = [
         <h2 className="font-serif text-3xl text-text-highlight mb-6">Steps 8–9: EIN and Bank Pack</h2>
 
         <p className="leading-relaxed text-text-secondary mb-6">
-          Once the state confirms, you can request an EIN. See the <Link to="/agents/insights/agent-guide-get-ein" className="text-accent hover:underline">EIN guide</Link> for details. After the EIN is issued, request the bank pack via the <Link to="/agents/insights/agent-guide-open-bank-account" className="text-accent hover:underline">banking guide</Link>. When the bank pack is ready, the order reaches <code className="text-accent">active</code> status.
+          Once the state confirms, you can request an EIN. See the <Link to="/agents/insights/agent-guide-get-ein/" className="text-accent hover:underline">EIN guide</Link> for details. After the EIN is issued, request the bank pack via the <Link to="/agents/insights/agent-guide-open-bank-account/" className="text-accent hover:underline">banking guide</Link>. When the bank pack is ready, the order reaches <code className="text-accent">active</code> status.
         </p>
 
         <hr className="border-grid mb-12" />
@@ -506,7 +506,7 @@ export const agentGuidesPosts: BlogPost[] = [
         <h2 className="font-serif text-3xl text-text-highlight mb-6">Steps 4–7: Human Kernel Through Filing</h2>
 
         <p className="leading-relaxed text-text-secondary mb-6">
-          The remaining lifecycle matches the <Link to="/agents/insights/agent-guide-form-delaware-llc" className="text-accent hover:underline">Delaware flow</Link>: human kernel verification, document generation, state filing, and confirmation. The key difference is in the generated documents:
+          The remaining lifecycle matches the <Link to="/agents/insights/agent-guide-form-delaware-llc/" className="text-accent hover:underline">Delaware flow</Link>: human kernel verification, document generation, state filing, and confirmation. The key difference is in the generated documents:
         </p>
 
         <ul className="space-y-3 text-text-secondary mb-8 pl-5 list-disc marker:text-accent">
@@ -521,7 +521,7 @@ export const agentGuidesPosts: BlogPost[] = [
         </div>
 
         <p className="leading-relaxed text-text-secondary mb-6">
-          Wyoming filing typically takes 2–5 business days. After <code className="text-accent">state_confirmed</code>, proceed to EIN via the <Link to="/agents/insights/agent-guide-get-ein" className="text-accent hover:underline">EIN guide</Link> and banking via the <Link to="/agents/insights/agent-guide-open-bank-account" className="text-accent hover:underline">banking guide</Link>.
+          Wyoming filing typically takes 2–5 business days. After <code className="text-accent">state_confirmed</code>, proceed to EIN via the <Link to="/agents/insights/agent-guide-get-ein/" className="text-accent hover:underline">EIN guide</Link> and banking via the <Link to="/agents/insights/agent-guide-open-bank-account/" className="text-accent hover:underline">banking guide</Link>.
         </p>
 
         <hr className="border-grid mb-12" />
@@ -648,7 +648,7 @@ export const agentGuidesPosts: BlogPost[] = [
         <h2 className="font-serif text-3xl text-text-highlight mb-6">Next Steps</h2>
 
         <p className="leading-relaxed text-text-secondary mb-6">
-          With the EIN issued, proceed to <Link to="/agents/insights/agent-guide-open-bank-account" className="text-accent hover:underline">set up a bank account</Link>. The bank pack includes the EIN letter along with all other documents banks require for account opening.
+          With the EIN issued, proceed to <Link to="/agents/insights/agent-guide-open-bank-account/" className="text-accent hover:underline">set up a bank account</Link>. The bank pack includes the EIN letter along with all other documents banks require for account opening.
         </p>
 
         <hr className="border-grid mb-12" />
@@ -801,7 +801,7 @@ export const agentGuidesPosts: BlogPost[] = [
         </div>
 
         <p className="leading-relaxed text-text-secondary mb-6">
-          From here, your agent can operate within the bounds defined by the <Link to="/agents/insights/agent-authority-schedule" className="text-accent hover:underline">Agent Authority Schedule</Link> — invoicing, payments, procurement, and any other permitted actions specified during formation.
+          From here, your agent can operate within the bounds defined by the <Link to="/agents/insights/agent-authority-schedule/" className="text-accent hover:underline">Agent Authority Schedule</Link> — invoicing, payments, procurement, and any other permitted actions specified during formation.
         </p>
 
         <hr className="border-grid mb-12" />
@@ -1044,7 +1044,7 @@ export const agentGuidesPosts: BlogPost[] = [
         </div>
 
         <p className="leading-relaxed text-text-secondary mb-6">
-          After a successful name check, the order transitions to <code className="text-accent">name_check_passed</code> and you can proceed to payment. See the <Link to="/agents/insights/agent-guide-form-delaware-llc" className="text-accent hover:underline">Delaware formation guide</Link> or <Link to="/agents/insights/agent-guide-form-wyoming-dao" className="text-accent hover:underline">Wyoming DAO guide</Link> for the full flow.
+          After a successful name check, the order transitions to <code className="text-accent">name_check_passed</code> and you can proceed to payment. See the <Link to="/agents/insights/agent-guide-form-delaware-llc/" className="text-accent hover:underline">Delaware formation guide</Link> or <Link to="/agents/insights/agent-guide-form-wyoming-dao/" className="text-accent hover:underline">Wyoming DAO guide</Link> for the full flow.
         </p>
 
         <hr className="border-grid mb-12" />
@@ -1181,7 +1181,7 @@ export const agentGuidesPosts: BlogPost[] = [
         </div>
 
         <p className="leading-relaxed text-text-secondary mb-6">
-          For details on handling specific events, see <Link to="/agents/insights/agent-guide-handle-human-kernel" className="text-accent hover:underline">the human kernel guide</Link> for kernel events and <Link to="/agents/insights/agent-guide-formation-failed" className="text-accent hover:underline">the failure handling guide</Link> for error recovery.
+          For details on handling specific events, see <Link to="/agents/insights/agent-guide-handle-human-kernel/" className="text-accent hover:underline">the human kernel guide</Link> for kernel events and <Link to="/agents/insights/agent-guide-formation-failed/" className="text-accent hover:underline">the failure handling guide</Link> for error recovery.
         </p>
 
         <hr className="border-grid mb-12" />
@@ -1244,7 +1244,7 @@ export const agentGuidesPosts: BlogPost[] = [
             <tr>
               <td className="p-4 text-text-secondary border-b border-grid"><code className="text-accent">name_check_failed</code></td>
               <td className="p-4 text-text-secondary border-b border-grid">Name taken, restricted, or too similar</td>
-              <td className="p-4 text-text-secondary border-b border-grid">Retry with a different name via the <Link to="/agents/insights/agent-guide-check-name" className="text-accent hover:underline">name check endpoint</Link></td>
+              <td className="p-4 text-text-secondary border-b border-grid">Retry with a different name via the <Link to="/agents/insights/agent-guide-check-name/" className="text-accent hover:underline">name check endpoint</Link></td>
             </tr>
             <tr>
               <td className="p-4 text-text-secondary border-b border-grid"><code className="text-accent">payment_failed</code></td>
@@ -1254,7 +1254,7 @@ export const agentGuidesPosts: BlogPost[] = [
             <tr>
               <td className="p-4 text-text-secondary border-b border-grid"><code className="text-accent">kernel_expired</code></td>
               <td className="p-4 text-text-secondary border-b border-grid">Owner did not complete verification within 24 hours</td>
-              <td className="p-4 text-text-secondary border-b border-grid">Create a new <Link to="/agents/insights/agent-guide-handle-human-kernel" className="text-accent hover:underline">kernel session</Link> and resend the URL</td>
+              <td className="p-4 text-text-secondary border-b border-grid">Create a new <Link to="/agents/insights/agent-guide-handle-human-kernel/" className="text-accent hover:underline">kernel session</Link> and resend the URL</td>
             </tr>
             <tr>
               <td className="p-4 text-text-secondary border-b border-grid"><code className="text-accent">filing_rejected</code></td>
@@ -1297,7 +1297,7 @@ export const agentGuidesPosts: BlogPost[] = [
         </div>
 
         <p className="leading-relaxed text-text-secondary mb-6">
-          For webhook-based monitoring of failures, see the <Link to="/agents/insights/agent-guide-read-webhooks" className="text-accent hover:underline">webhook events guide</Link>. The <code className="text-accent">order.failed</code> event fires for all failure states.
+          For webhook-based monitoring of failures, see the <Link to="/agents/insights/agent-guide-read-webhooks/" className="text-accent hover:underline">webhook events guide</Link>. The <code className="text-accent">order.failed</code> event fires for all failure states.
         </p>
 
         <hr className="border-grid mb-12" />
@@ -1556,7 +1556,7 @@ export const agentGuidesPosts: BlogPost[] = [
         </div>
 
         <p className="leading-relaxed text-text-secondary mb-6">
-          The remaining steps — intake, name check, payment, human kernel, filing, EIN, and bank pack — follow the same flow as the <Link to="/agents/insights/agent-guide-form-delaware-llc" className="text-accent hover:underline">Delaware LLC guide</Link>. The generated documents will be corporation-specific: Certificate of Incorporation, Bylaws, and Initial Board Resolution instead of Operating Agreement.
+          The remaining steps — intake, name check, payment, human kernel, filing, EIN, and bank pack — follow the same flow as the <Link to="/agents/insights/agent-guide-form-delaware-llc/" className="text-accent hover:underline">Delaware LLC guide</Link>. The generated documents will be corporation-specific: Certificate of Incorporation, Bylaws, and Initial Board Resolution instead of Operating Agreement.
         </p>
 
         <hr className="border-grid mb-12" />

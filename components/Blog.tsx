@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useEffect } from 'react';
 import { useParams, useNavigate, Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { ArrowLeft, Clock, Calendar, ArrowRight } from 'lucide-react';
@@ -17,7 +17,7 @@ interface BlogProps {
   onContactClick: () => void;
 }
 
-const posts: BlogPost[] = [
+export const FUND_POSTS: BlogPost[] = [
   {
     id: 'reviewing-investment-documents',
     title: 'Reviewing Investment Documents: A Guide for Fund Managers',
@@ -1886,7 +1886,7 @@ const posts: BlogPost[] = [
             </li>
         </ul>
         <p className="italic text-text-secondary mb-12 bg-surface/50 p-6 border border-grid">
-            For more on state registration and notice filing requirements, see <Link to="/insights/state-investment-adviser-registration" className="text-accent hover:text-accent/80 underline">State Investment Adviser Regulations and Registration</Link>.
+            For more on state registration and notice filing requirements, see <Link to="/insights/state-investment-adviser-registration/" className="text-accent hover:text-accent/80 underline">State Investment Adviser Regulations and Registration</Link>.
         </p>
 
         <h2 className="font-serif text-3xl text-text-highlight mb-6">Related Filings: Form D and Blue Sky</h2>
@@ -1937,21 +1937,11 @@ const posts: BlogPost[] = [
 export const Blog: React.FC<BlogProps> = ({ onContactClick }) => {
   const { slug } = useParams<{ slug: string }>();
   const navigate = useNavigate();
-  const [selectedPost, setSelectedPost] = useState<BlogPost | null>(null);
+  const selectedPost = FUND_POSTS.find(post => post.id === slug);
 
   useEffect(() => {
-    if (slug) {
-      const post = posts.find(p => p.id === slug);
-      if (post) {
-        setSelectedPost(post);
-      } else {
-        // Invalid slug, redirect to insights list
-        navigate('/insights', { replace: true });
-      }
-    } else {
-      setSelectedPost(null);
-    }
-  }, [slug, navigate]);
+    if (slug && !selectedPost) navigate('/insights/', { replace: true });
+  }, [slug, selectedPost, navigate]);
 
   if (selectedPost) {
     // Convert date to ISO format for SEO
@@ -1973,7 +1963,7 @@ export const Blog: React.FC<BlogProps> = ({ onContactClick }) => {
         >
           <div className="max-w-3xl mx-auto px-6">
             <Link
-              to="/insights"
+              to="/insights/"
               className="flex items-center gap-2 text-sm text-text-muted hover:text-accent transition-colors mb-8 group"
             >
               <ArrowLeft className="w-4 h-4 group-hover:-translate-x-1 transition-transform" />
@@ -2028,8 +2018,8 @@ export const Blog: React.FC<BlogProps> = ({ onContactClick }) => {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {posts.map((post) => (
-                <Link key={post.id} to={`/insights/${post.id}`}>
+            {FUND_POSTS.map((post) => (
+                <Link key={post.id} to={`/insights/${post.id}/`}>
                   <motion.article
                       whileHover={{ y: -5 }}
                       className="group cursor-pointer flex flex-col h-full border border-grid bg-surface/20 hover:border-accent/50 transition-colors duration-300"

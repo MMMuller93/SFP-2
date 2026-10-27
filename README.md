@@ -38,7 +38,6 @@ SFP-2/
 │   ├── LegalModal.tsx          # Privacy/Terms modals
 │   └── Logo.tsx                # SVG logo component
 ├── public/
-│   ├── sitemap.xml             # SEO sitemap
 │   ├── robots.txt              # Search engine instructions
 │   ├── 404.html                # GitHub Pages SPA routing fallback
 │   └── og-image.png            # Social media preview image
@@ -102,16 +101,7 @@ const posts: BlogPost[] = [
 ];
 ```
 
-3. **Update the sitemap** in `public/sitemap.xml`:
-
-```xml
-<url>
-  <loc>https://strategicfundpartners.com/insights/your-post-slug</loc>
-  <lastmod>YYYY-MM-DD</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.8</priority>
-</url>
-```
+3. **Build and verify the generated static site.** `npm run build` publishes every article, generates the sitemap and LLM text files, and checks full content and links. See [Static publishing](docs/STATIC_PUBLISHING.md).
 
 4. **Build and deploy**:
 
@@ -192,7 +182,7 @@ The `SEO.tsx` component handles:
 Individual blog posts get custom meta tags automatically based on their title and excerpt.
 
 ### Sitemap
-`public/sitemap.xml` lists all pages for search engines. Update this when adding new blog posts.
+`npm run build` generates `dist/sitemap.xml` from the shared router/content inventory. Commit content changes before publishing so `lastmod` can reflect actual source history. See [Static publishing](docs/STATIC_PUBLISHING.md).
 
 ### Structured Data
 `index.html` includes JSON-LD Organization schema for better search results.

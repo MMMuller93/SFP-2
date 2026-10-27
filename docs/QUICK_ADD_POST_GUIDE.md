@@ -100,21 +100,12 @@ Fast reference for adding posts to the startup blog.
 
 ---
 
-## Step 2: Update Sitemap
+## Step 2: Verify Static Publishing
 
-**File**: `/Users/Miles/Desktop/SFP-2/public/sitemap.xml`
-
-**Location**: Add before the closing `</urlset>` tag (around line 142)
-
-**Template**:
-```xml
-<url>
-  <loc>https://strategicfundpartners.com/startups/insights/your-url-slug</loc>
-  <lastmod>YYYY-MM-DD</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.8</priority>
-</url>
-```
+Run `npm run build`. The sitemap, individual HTML files, `llms.txt`, and
+`llms-full.txt` are generated from the post arrays automatically. Do not maintain
+`public/sitemap.xml` manually. Commit substantive content changes so `lastmod` can
+use real source history. See [Static publishing](STATIC_PUBLISHING.md).
 
 ---
 
@@ -153,7 +144,7 @@ Check:
 ## Step 5: Deploy
 
 ```bash
-git add components/StartupBlog.tsx public/sitemap.xml
+git add components/StartupBlog.tsx
 git commit -m "feat: Add [Your Post Title] to startup blog"
 git push
 ```

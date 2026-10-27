@@ -145,8 +145,8 @@ export const postFormationPosts: BlogPost[] = [
 
         <p className="leading-relaxed text-text-secondary mb-6">
           <strong className="text-text-highlight">Next step:</strong> Once your EIN arrives, you are ready to{' '}
-          <Link to="/agents/insights/opening-business-bank-account" className="text-accent hover:underline">open a business bank account</Link>.
-          See our <Link to="/agents/insights/ein-service" className="text-accent hover:underline">EIN service page</Link> for details on what is included.
+          <Link to="/agents/insights/opening-business-bank-account/" className="text-accent hover:underline">open a business bank account</Link>.
+          See our <Link to="/agents/insights/ein-service/" className="text-accent hover:underline">EIN service page</Link> for details on what is included.
         </p>
 
         <div className="border-l-2 border-accent pl-6 py-2">
@@ -194,7 +194,7 @@ export const postFormationPosts: BlogPost[] = [
         </p>
 
         <ul className="space-y-3 text-text-secondary mb-8 pl-5 list-disc marker:text-accent">
-          <li><strong className="text-text-highlight">EIN confirmation letter (CP 575):</strong> The IRS assignment letter proving your tax ID. See our <Link to="/agents/insights/getting-ein-timeline" className="text-accent hover:underline">EIN guide</Link> for how to get this.</li>
+          <li><strong className="text-text-highlight">EIN confirmation letter (CP 575):</strong> The IRS assignment letter proving your tax ID. See our <Link to="/agents/insights/getting-ein-timeline/" className="text-accent hover:underline">EIN guide</Link> for how to get this.</li>
           <li><strong className="text-text-highlight">Certificate of Formation:</strong> The state-issued document proving your LLC was legally formed. SFP provides this as part of formation.</li>
           <li><strong className="text-text-highlight">Operating Agreement:</strong> Your LLC's internal governance document. Even single-member LLCs need one. Banks want to see who has authority.</li>
           <li><strong className="text-text-highlight">Banking Resolution:</strong> A formal document authorizing specific individuals to open and manage bank accounts on behalf of the LLC. SFP generates this for you.</li>
@@ -303,7 +303,7 @@ export const postFormationPosts: BlogPost[] = [
           </div>
           <div className="bg-surface/30 border border-grid p-6">
             <h3 className="font-serif text-lg text-text-highlight mb-2">Banking Package</h3>
-            <p className="text-sm text-text-secondary">See our <Link to="/agents/insights/banking-package" className="text-accent hover:underline">banking package</Link> for a complete walkthrough and additional support options.</p>
+            <p className="text-sm text-text-secondary">See our <Link to="/agents/insights/banking-package/" className="text-accent hover:underline">banking package</Link> for a complete walkthrough and additional support options.</p>
           </div>
         </div>
 
@@ -311,9 +311,9 @@ export const postFormationPosts: BlogPost[] = [
 
         <p className="leading-relaxed text-text-secondary mb-6">
           <strong className="text-text-highlight">Related:</strong>{' '}
-          <Link to="/agents/insights/getting-ein-timeline" className="text-accent hover:underline">Getting an EIN: Timeline and Process</Link>{' | '}
-          <Link to="/agents/insights/delaware-llc-complete-guide" className="text-accent hover:underline">Delaware LLC Complete Guide</Link>{' | '}
-          <Link to="/agents/insights/banking" className="text-accent hover:underline">Banking FAQ</Link>
+          <Link to="/agents/insights/getting-ein-timeline/" className="text-accent hover:underline">Getting an EIN: Timeline and Process</Link>{' | '}
+          <Link to="/agents/insights/delaware-llc-complete-guide/" className="text-accent hover:underline">Delaware LLC Complete Guide</Link>{' | '}
+          <Link to="/agents/insights/faq-banking/" className="text-accent hover:underline">Banking FAQ</Link>
         </p>
 
         <div className="border-l-2 border-accent pl-6 py-2">
@@ -372,7 +372,7 @@ export const postFormationPosts: BlogPost[] = [
         </p>
 
         <p className="leading-relaxed text-text-secondary mb-6">
-          Your primary ongoing compliance obligations remain: <Link to="/agents/insights/delaware-annual-franchise-tax" className="text-accent hover:underline">Delaware franchise tax</Link> ($300/year, due June 1) or Wyoming annual report ($60, due on formation anniversary), plus registered agent maintenance.
+          Your primary ongoing compliance obligations remain: <Link to="/agents/insights/delaware-annual-franchise-tax/" className="text-accent hover:underline">Delaware franchise tax</Link> ($300/year, due June 1) or Wyoming annual report ($60, due on formation anniversary), plus registered agent maintenance.
         </p>
 
         <hr className="border-grid mb-12" />
@@ -423,7 +423,7 @@ export const postFormationPosts: BlogPost[] = [
         <ul className="space-y-3 text-text-secondary mb-8 pl-5 list-disc marker:text-accent">
           <li><strong className="text-text-highlight">Adding or removing members:</strong> New co-founders, investors, or departing members change ownership structure.</li>
           <li><strong className="text-text-highlight">Changing ownership percentages:</strong> Investment rounds, buyouts, or restructuring.</li>
-          <li><strong className="text-text-highlight">Modifying agent authority:</strong> Expanding or restricting what the AI agent can do on behalf of the LLC. See <Link to="/agents/insights/updating-agent-authority" className="text-accent hover:underline">Updating Agent Authority Scope</Link>.</li>
+          <li><strong className="text-text-highlight">Modifying agent authority:</strong> Expanding or restricting what the AI agent can do on behalf of the LLC. See <Link to="/agents/insights/updating-agent-authority/" className="text-accent hover:underline">Updating Agent Authority Scope</Link>.</li>
           <li><strong className="text-text-highlight">Changing profit/loss distribution:</strong> Moving from equal split to proportional or custom allocation.</li>
           <li><strong className="text-text-highlight">Updating management structure:</strong> Switching from member-managed to manager-managed, or vice versa.</li>
           <li><strong className="text-text-highlight">Adding new provisions:</strong> Buy-sell agreements, non-compete clauses, dispute resolution procedures.</li>
@@ -490,8 +490,8 @@ export const postFormationPosts: BlogPost[] = [
 
         <p className="leading-relaxed text-text-secondary mb-6">
           <strong className="text-text-highlight">Related:</strong>{' '}
-          <Link to="/agents/insights/updating-agent-authority" className="text-accent hover:underline">Updating Agent Authority Scope</Link>{' | '}
-          <Link to="/agents/insights/formation-service" className="text-accent hover:underline">Formation Service</Link>
+          <Link to="/agents/insights/updating-agent-authority/" className="text-accent hover:underline">Updating Agent Authority Scope</Link>{' | '}
+          <Link to="/agents/insights/formation-service/" className="text-accent hover:underline">Formation Service</Link>
         </p>
 
         <div className="border-l-2 border-accent pl-6 py-2">
@@ -616,7 +616,7 @@ export const postFormationPosts: BlogPost[] = [
           </div>
           <div className="bg-surface/30 border border-grid p-6">
             <h3 className="font-serif text-lg text-text-highlight mb-2">Authority Schedule</h3>
-            <p className="text-sm text-text-secondary">View your complete <Link to="/agents/insights/agent-authority-schedule" className="text-accent hover:underline">authority schedule</Link> with full change history and current permissions.</p>
+            <p className="text-sm text-text-secondary">View your complete <Link to="/agents/insights/agent-authority-schedule/" className="text-accent hover:underline">authority schedule</Link> with full change history and current permissions.</p>
           </div>
         </div>
 
@@ -624,9 +624,9 @@ export const postFormationPosts: BlogPost[] = [
 
         <p className="leading-relaxed text-text-secondary mb-6">
           <strong className="text-text-highlight">Related:</strong>{' '}
-          <Link to="/agents/insights/amending-operating-agreement" className="text-accent hover:underline">How to Amend an Operating Agreement</Link>{' | '}
-          <Link to="/agents/insights/agent-authority-schedule" className="text-accent hover:underline">Authority Schedule</Link>{' | '}
-          <Link to="/agents/insights/compliance-monitoring" className="text-accent hover:underline">Compliance Monitoring</Link>
+          <Link to="/agents/insights/amending-operating-agreement/" className="text-accent hover:underline">How to Amend an Operating Agreement</Link>{' | '}
+          <Link to="/agents/insights/agent-authority-schedule/" className="text-accent hover:underline">Authority Schedule</Link>{' | '}
+          <Link to="/agents/insights/compliance-monitoring/" className="text-accent hover:underline">Compliance Monitoring</Link>
         </p>
 
         <div className="border-l-2 border-accent pl-6 py-2">
@@ -800,7 +800,7 @@ export const postFormationPosts: BlogPost[] = [
           </div>
           <div className="bg-surface/30 border border-grid p-6">
             <h3 className="font-serif text-lg text-text-highlight mb-2">Compliance Monitoring</h3>
-            <p className="text-sm text-text-secondary">Our <Link to="/agents/insights/compliance-monitoring" className="text-accent hover:underline">compliance monitoring</Link> tracks your ongoing obligations so nothing falls through the cracks.</p>
+            <p className="text-sm text-text-secondary">Our <Link to="/agents/insights/compliance-monitoring/" className="text-accent hover:underline">compliance monitoring</Link> tracks your ongoing obligations so nothing falls through the cracks.</p>
           </div>
         </div>
 
@@ -808,9 +808,9 @@ export const postFormationPosts: BlogPost[] = [
 
         <p className="leading-relaxed text-text-secondary mb-6">
           <strong className="text-text-highlight">Related:</strong>{' '}
-          <Link to="/agents/insights/getting-ein-timeline" className="text-accent hover:underline">Getting an EIN</Link>{' | '}
-          <Link to="/agents/insights/delaware-llc-complete-guide" className="text-accent hover:underline">Delaware LLC Complete Guide</Link>{' | '}
-          <Link to="/agents/insights/dissolving-an-llc" className="text-accent hover:underline">How to Dissolve an LLC</Link>
+          <Link to="/agents/insights/getting-ein-timeline/" className="text-accent hover:underline">Getting an EIN</Link>{' | '}
+          <Link to="/agents/insights/delaware-llc-complete-guide/" className="text-accent hover:underline">Delaware LLC Complete Guide</Link>{' | '}
+          <Link to="/agents/insights/dissolving-an-llc/" className="text-accent hover:underline">How to Dissolve an LLC</Link>
         </p>
 
         <div className="border-l-2 border-accent pl-6 py-2">
@@ -987,9 +987,9 @@ export const postFormationPosts: BlogPost[] = [
 
         <p className="leading-relaxed text-text-secondary mb-6">
           <strong className="text-text-highlight">Related:</strong>{' '}
-          <Link to="/agents/insights/llc-tax-obligations" className="text-accent hover:underline">LLC Tax Obligations</Link>{' | '}
-          <Link to="/agents/insights/delaware-llc-complete-guide" className="text-accent hover:underline">Delaware LLC Complete Guide</Link>{' | '}
-          <Link to="/agents/insights/compliance-monitoring" className="text-accent hover:underline">Compliance Monitoring</Link>
+          <Link to="/agents/insights/llc-tax-obligations/" className="text-accent hover:underline">LLC Tax Obligations</Link>{' | '}
+          <Link to="/agents/insights/delaware-llc-complete-guide/" className="text-accent hover:underline">Delaware LLC Complete Guide</Link>{' | '}
+          <Link to="/agents/insights/compliance-monitoring/" className="text-accent hover:underline">Compliance Monitoring</Link>
         </p>
 
         <div className="border-l-2 border-accent pl-6 py-2">

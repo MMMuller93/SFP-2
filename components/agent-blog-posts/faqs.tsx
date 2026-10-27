@@ -173,9 +173,9 @@ export const faqsPosts: BlogPost[] = [
           <p className="leading-relaxed text-text-secondary mb-4">
             Whether you're forming through our web intake or programmatically via the API, the process starts with the same information: your entity name, the human kernel's details, and your agent's authority scope. Most formations are completed within 1–3 business days.
           </p>
-          <Link to="/get-started" className="text-accent hover:text-accent/80 transition-colors font-medium">
+          <a href="/agents/#contact" className="text-accent hover:text-accent/80 transition-colors font-medium">
             Start your formation &rarr;
-          </Link>
+          </a>
         </div>
 
         <div className="border-t border-grid pt-8 mt-12">
@@ -422,9 +422,9 @@ export const faqsPosts: BlogPost[] = [
           <p className="leading-relaxed text-text-secondary mb-4">
             SFP is designed so that formation flows directly into banking. Your entity is formed, your EIN is obtained, and your banking documents are prepared — all in sequence, all formatted for immediate use. Most clients go from "no entity" to "funded bank account" within 2–4 weeks.
           </p>
-          <Link to="/get-started" className="text-accent hover:text-accent/80 transition-colors font-medium">
+          <a href="/agents/#contact" className="text-accent hover:text-accent/80 transition-colors font-medium">
             Start the pipeline &rarr;
-          </Link>
+          </a>
         </div>
 
         <div className="border-t border-grid pt-8 mt-12">

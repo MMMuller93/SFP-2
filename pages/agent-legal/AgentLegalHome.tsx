@@ -139,7 +139,7 @@ export const AgentLegalHome: React.FC = () => {
                 whileTap={{ scale: 0.98 }}
               >
                 <Link
-                  to="/agents/insights/forming-llc-for-ai-agent"
+                  to="/agents/insights/agent-guide-form-delaware-llc/"
                   className="inline-flex items-center justify-center gap-3 px-8 py-4 border border-border text-text-secondary text-xs font-bold uppercase tracking-widest hover:border-accent/50 hover:text-accent transition-colors duration-300 min-w-[200px]"
                 >
                   Read the Guide
@@ -324,7 +324,7 @@ export const AgentLegalHome: React.FC = () => {
           >
             Need documents only?{' '}
             <Link
-              to="/agents/insights/forming-llc-for-ai-agent"
+              to="/agents/insights/faq-pricing-and-fees/"
               className="text-accent hover:text-accent/80 underline underline-offset-4 transition-colors"
             >
               $75 for templates only, no filing
@@ -447,7 +447,7 @@ export const AgentLegalHome: React.FC = () => {
                 <ArrowRight className="w-4 h-4" />
               </motion.a>
               <Link
-                to="/agents/insights"
+                to="/agents/insights/"
                 className="inline-flex items-center gap-3 px-8 py-4 text-text-secondary text-xs font-bold uppercase tracking-widest hover:text-accent transition-colors duration-300"
               >
                 Read our guide

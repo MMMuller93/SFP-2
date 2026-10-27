@@ -24,21 +24,12 @@ const AUDIENCE_ICONS: Record<Audience, React.ReactNode> = {
 export const AgentBlog: React.FC<AgentBlogProps> = ({ onContactClick }) => {
   const { slug } = useParams<{ slug: string }>();
   const navigate = useNavigate();
-  const [selectedPost, setSelectedPost] = useState<typeof POSTS[0] | null>(null);
+  const selectedPost = POSTS.find(post => post.id === slug);
   const [activeCategory, setActiveCategory] = useState<Category | 'all'>('all');
 
   useEffect(() => {
-    if (slug) {
-      const post = POSTS.find(p => p.id === slug);
-      if (post) {
-        setSelectedPost(post);
-      } else {
-        navigate('/agents/insights', { replace: true });
-      }
-    } else {
-      setSelectedPost(null);
-    }
-  }, [slug, navigate]);
+    if (slug && !selectedPost) navigate('/agents/insights/', { replace: true });
+  }, [slug, selectedPost, navigate]);
 
   const filteredPosts = activeCategory === 'all'
     ? POSTS
@@ -64,7 +55,7 @@ export const AgentBlog: React.FC<AgentBlogProps> = ({ onContactClick }) => {
         >
           <div className="max-w-3xl mx-auto px-6">
             <Link
-              to="/agents/insights"
+              to="/agents/insights/"
               className="flex items-center gap-2 text-sm text-text-muted hover:text-accent transition-colors mb-8 group"
             >
               <ArrowLeft className="w-4 h-4 group-hover:-translate-x-1 transition-transform" />
@@ -156,7 +147,7 @@ export const AgentBlog: React.FC<AgentBlogProps> = ({ onContactClick }) => {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {filteredPosts.map((post) => (
-            <Link key={post.id} to={`/agents/insights/${post.id}`}>
+            <Link key={post.id} to={`/agents/insights/${post.id}/`}>
               <motion.article
                 whileHover={{ y: -5 }}
                 className="group cursor-pointer flex flex-col h-full border border-grid bg-surface/20 hover:border-accent/50 transition-colors duration-300"

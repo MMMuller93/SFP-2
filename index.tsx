@@ -17,9 +17,8 @@ const app = (
   </React.StrictMode>
 );
 
-// When react-snap has pre-rendered the page at build time the root already has
-// server-rendered markup, so hydrate instead of wiping it.
-if (rootElement.hasChildNodes() && rootElement.firstElementChild) {
+// Only hydrate HTML emitted by the static build. The template fallback is not React markup.
+if (rootElement.dataset.prerendered === 'true') {
   ReactDOM.hydrateRoot(rootElement, app);
 } else {
   ReactDOM.createRoot(rootElement).render(app);

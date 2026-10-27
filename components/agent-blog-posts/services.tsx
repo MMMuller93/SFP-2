@@ -97,23 +97,23 @@ export const servicesPosts: BlogPost[] = [
         </p>
 
         <p className="leading-relaxed text-text-secondary mb-6">
-          Your registered agent receives legal notices, service of process, and state correspondence on your entity's behalf. Learn more in our <Link to="/agents/insights/what-is-registered-agent" className="text-accent hover:underline">registered agent guide</Link>.
+          Your registered agent receives legal notices, service of process, and state correspondence on your entity's behalf. Learn more in our <Link to="/agents/insights/what-is-registered-agent/" className="text-accent hover:underline">registered agent guide</Link>.
         </p>
 
         <h2 className="font-serif text-3xl text-text-highlight mb-6">Operating Agreement With Agent Authority</h2>
 
         <p className="leading-relaxed text-text-secondary mb-6">
-          Our operating agreements are not generic templates. Each one includes the <Link to="/agents/insights/agent-authority-schedule" className="text-accent hover:underline">Agent Authority Schedule</Link> — a legal exhibit that defines exactly what your AI agent can and cannot do. This is what makes SFP formations different from every other formation service.
+          Our operating agreements are not generic templates. Each one includes the <Link to="/agents/insights/agent-authority-schedule/" className="text-accent hover:underline">Agent Authority Schedule</Link> — a legal exhibit that defines exactly what your AI agent can and cannot do. This is what makes SFP formations different from every other formation service.
         </p>
 
         <p className="leading-relaxed text-text-secondary mb-6">
-          The operating agreement covers management structure, member rights, distribution rules, dissolution terms, and the agent authority provisions that give your AI agent legally bounded operational autonomy. Read our <Link to="/agents/insights/what-is-operating-agreement" className="text-accent hover:underline">operating agreement deep dive</Link>.
+          The operating agreement covers management structure, member rights, distribution rules, dissolution terms, and the agent authority provisions that give your AI agent legally bounded operational autonomy. Read our <Link to="/agents/insights/what-is-operating-agreement/" className="text-accent hover:underline">operating agreement deep dive</Link>.
         </p>
 
         <h2 className="font-serif text-3xl text-text-highlight mb-6">EIN Application</h2>
 
         <p className="leading-relaxed text-text-secondary mb-6">
-          We file IRS Form SS-4 on your entity's behalf. The EIN is your entity's federal tax identification number — required for opening bank accounts, filing tax returns, and hiring contractors. We handle the IRS filing process so you don't have to navigate their phone system or fax queue. Details in our <Link to="/agents/insights/what-is-ein" className="text-accent hover:underline">EIN explainer</Link>.
+          We file IRS Form SS-4 on your entity's behalf. The EIN is your entity's federal tax identification number — required for opening bank accounts, filing tax returns, and hiring contractors. We handle the IRS filing process so you don't have to navigate their phone system or fax queue. Details in our <Link to="/agents/insights/what-is-ein/" className="text-accent hover:underline">EIN explainer</Link>.
         </p>
 
         <h2 className="font-serif text-3xl text-text-highlight mb-6">Banking Resolution</h2>
@@ -178,7 +178,7 @@ export const servicesPosts: BlogPost[] = [
         </div>
 
         <p className="leading-relaxed text-text-secondary mb-6">
-          Ready to form your entity? Start with our <Link to="/agents/insights/agent-guide-form-delaware-llc" className="text-accent hover:underline">Delaware LLC formation guide</Link> or explore the <Link to="/agents/insights/wyoming-dao-llc-complete-guide" className="text-accent hover:underline">Wyoming DAO LLC option</Link>. For pricing details, see our <Link to="/agents/insights/faq-pricing-and-fees" className="text-accent hover:underline">pricing FAQ</Link>.
+          Ready to form your entity? Start with our <Link to="/agents/insights/agent-guide-form-delaware-llc/" className="text-accent hover:underline">Delaware LLC formation guide</Link> or explore the <Link to="/agents/insights/wyoming-dao-llc-complete-guide/" className="text-accent hover:underline">Wyoming DAO LLC option</Link>. For pricing details, see our <Link to="/agents/insights/faq-pricing-and-fees/" className="text-accent hover:underline">pricing FAQ</Link>.
         </p>
 
         <hr className="border-grid mb-12" />
@@ -214,7 +214,7 @@ export const servicesPosts: BlogPost[] = [
         </p>
 
         <p className="leading-relaxed text-text-secondary mb-6">
-          You need an EIN to open a business bank account, file federal and state tax returns, hire employees or contractors, and apply for business licenses. Without one, your entity exists on paper but can't operate financially. For a full overview, see our <Link to="/agents/insights/what-is-ein" className="text-accent hover:underline">EIN explainer</Link>.
+          You need an EIN to open a business bank account, file federal and state tax returns, hire employees or contractors, and apply for business licenses. Without one, your entity exists on paper but can't operate financially. For a full overview, see our <Link to="/agents/insights/what-is-ein/" className="text-accent hover:underline">EIN explainer</Link>.
         </p>
 
         <h2 className="font-serif text-3xl text-text-highlight mb-6">How SFP Files Your EIN</h2>
@@ -315,7 +315,7 @@ export const servicesPosts: BlogPost[] = [
         </p>
 
         <p className="leading-relaxed text-text-secondary mb-6">
-          Your agent's <Link to="/agents/insights/agent-authority-schedule" className="text-accent hover:underline">Agent Authority Schedule</Link> references the EIN as part of the entity's financial identity. The banking resolution ties the EIN to the authorized signers and the agent's transaction limits.
+          Your agent's <Link to="/agents/insights/agent-authority-schedule/" className="text-accent hover:underline">Agent Authority Schedule</Link> references the EIN as part of the entity's financial identity. The banking resolution ties the EIN to the authorized signers and the agent's transaction limits.
         </p>
 
         <hr className="border-grid mb-12" />
@@ -338,7 +338,7 @@ export const servicesPosts: BlogPost[] = [
         </div>
 
         <p className="leading-relaxed text-text-secondary mb-6">
-          The EIN is included in every formation package. Start with our <Link to="/agents/insights/agent-guide-form-delaware-llc" className="text-accent hover:underline">Delaware LLC formation guide</Link> or check the <Link to="/agents/insights/faq-entity-formation" className="text-accent hover:underline">entity formation FAQ</Link> for common questions.
+          The EIN is included in every formation package. Start with our <Link to="/agents/insights/agent-guide-form-delaware-llc/" className="text-accent hover:underline">Delaware LLC formation guide</Link> or check the <Link to="/agents/insights/faq-entity-formation/" className="text-accent hover:underline">entity formation FAQ</Link> for common questions.
         </p>
 
         <hr className="border-grid mb-12" />
@@ -384,7 +384,7 @@ export const servicesPosts: BlogPost[] = [
         </ul>
 
         <p className="leading-relaxed text-text-secondary mb-6">
-          For a complete explanation, see our <Link to="/agents/insights/what-is-registered-agent" className="text-accent hover:underline">registered agent guide</Link>.
+          For a complete explanation, see our <Link to="/agents/insights/what-is-registered-agent/" className="text-accent hover:underline">registered agent guide</Link>.
         </p>
 
         <h2 className="font-serif text-3xl text-text-highlight mb-6">Why It's Required by Law</h2>
@@ -466,7 +466,7 @@ export const servicesPosts: BlogPost[] = [
         </div>
 
         <p className="leading-relaxed text-text-secondary mb-6">
-          Start your formation with registered agent included. See our <Link to="/agents/insights/agent-guide-form-delaware-llc" className="text-accent hover:underline">Delaware LLC guide</Link> or <Link to="/agents/insights/faq-pricing-and-fees" className="text-accent hover:underline">pricing FAQ</Link>.
+          Start your formation with registered agent included. See our <Link to="/agents/insights/agent-guide-form-delaware-llc/" className="text-accent hover:underline">Delaware LLC guide</Link> or <Link to="/agents/insights/faq-pricing-and-fees/" className="text-accent hover:underline">pricing FAQ</Link>.
         </p>
 
         <hr className="border-grid mb-12" />
@@ -561,7 +561,7 @@ export const servicesPosts: BlogPost[] = [
         </p>
 
         <p className="leading-relaxed text-text-secondary mb-6">
-          Our banking resolution specifies the human member as the primary authorized signer. For agent entities, it also references the <Link to="/agents/insights/agent-authority-schedule" className="text-accent hover:underline">Agent Authority Schedule</Link> so banks can see the agent's defined transaction limits. This is transparent disclosure — banks appreciate knowing the operational structure upfront.
+          Our banking resolution specifies the human member as the primary authorized signer. For agent entities, it also references the <Link to="/agents/insights/agent-authority-schedule/" className="text-accent hover:underline">Agent Authority Schedule</Link> so banks can see the agent's defined transaction limits. This is transparent disclosure — banks appreciate knowing the operational structure upfront.
         </p>
 
         <h2 className="font-serif text-3xl text-text-highlight mb-6">Application Timeline</h2>
@@ -630,7 +630,7 @@ export const servicesPosts: BlogPost[] = [
         </div>
 
         <p className="leading-relaxed text-text-secondary mb-6">
-          Banking setup starts with entity formation. See our <Link to="/agents/insights/agent-guide-form-delaware-llc" className="text-accent hover:underline">Delaware LLC guide</Link> or <Link to="/agents/insights/delaware-llc-complete-guide" className="text-accent hover:underline">complete Delaware LLC guide</Link> to get started.
+          Banking setup starts with entity formation. See our <Link to="/agents/insights/agent-guide-form-delaware-llc/" className="text-accent hover:underline">Delaware LLC guide</Link> or <Link to="/agents/insights/delaware-llc-complete-guide/" className="text-accent hover:underline">complete Delaware LLC guide</Link> to get started.
         </p>
 
         <hr className="border-grid mb-12" />
@@ -662,7 +662,7 @@ export const servicesPosts: BlogPost[] = [
         <h2 className="font-serif text-3xl text-text-highlight mb-6">What an Operating Agreement Covers</h2>
 
         <p className="leading-relaxed text-text-secondary mb-6">
-          Every LLC operating agreement addresses the same core governance areas. Ours covers all of them, plus agent-specific provisions. For a general overview, see our <Link to="/agents/insights/what-is-operating-agreement" className="text-accent hover:underline">operating agreement explainer</Link>.
+          Every LLC operating agreement addresses the same core governance areas. Ours covers all of them, plus agent-specific provisions. For a general overview, see our <Link to="/agents/insights/what-is-operating-agreement/" className="text-accent hover:underline">operating agreement explainer</Link>.
         </p>
 
         <h3 className="font-serif text-2xl text-text-highlight mb-6">Management Structure</h3>
@@ -752,7 +752,7 @@ export const servicesPosts: BlogPost[] = [
         </p>
 
         <p className="leading-relaxed text-text-secondary mb-6">
-          This includes the agent's scope of authority (what actions it can take), transaction limits (how much it can spend), escalation triggers (what requires human approval), and operational boundaries. For the full deep dive, see our <Link to="/agents/insights/agent-authority-schedule" className="text-accent hover:underline">Agent Authority Schedule guide</Link>.
+          This includes the agent's scope of authority (what actions it can take), transaction limits (how much it can spend), escalation triggers (what requires human approval), and operational boundaries. For the full deep dive, see our <Link to="/agents/insights/agent-authority-schedule/" className="text-accent hover:underline">Agent Authority Schedule guide</Link>.
         </p>
 
         <div className="border-l-2 border-accent pl-6 py-2">
@@ -795,7 +795,7 @@ export const servicesPosts: BlogPost[] = [
         </div>
 
         <p className="leading-relaxed text-text-secondary mb-6">
-          The operating agreement is included in every formation package. Start with our <Link to="/agents/insights/agent-guide-form-delaware-llc" className="text-accent hover:underline">Delaware LLC formation guide</Link> or explore <Link to="/agents/insights/wyoming-dao-llc-complete-guide" className="text-accent hover:underline">Wyoming DAO LLC formation</Link>.
+          The operating agreement is included in every formation package. Start with our <Link to="/agents/insights/agent-guide-form-delaware-llc/" className="text-accent hover:underline">Delaware LLC formation guide</Link> or explore <Link to="/agents/insights/wyoming-dao-llc-complete-guide/" className="text-accent hover:underline">Wyoming DAO LLC formation</Link>.
         </p>
 
         <hr className="border-grid mb-12" />
@@ -929,7 +929,7 @@ export const servicesPosts: BlogPost[] = [
         </p>
 
         <p className="leading-relaxed text-text-secondary mb-6">
-          This creates a two-layer enforcement model: the legal document defines the authority, and the smart contract enforces it computationally. The legal layer is primary — it governs. The smart contract layer is supplementary — it executes. Read more in our <Link to="/agents/insights/wyoming-dao-llc-complete-guide" className="text-accent hover:underline">Wyoming DAO LLC guide</Link>.
+          This creates a two-layer enforcement model: the legal document defines the authority, and the smart contract enforces it computationally. The legal layer is primary — it governs. The smart contract layer is supplementary — it executes. Read more in our <Link to="/agents/insights/wyoming-dao-llc-complete-guide/" className="text-accent hover:underline">Wyoming DAO LLC guide</Link>.
         </p>
 
         <hr className="border-grid mb-12" />
@@ -1000,7 +1000,7 @@ export const servicesPosts: BlogPost[] = [
         </div>
 
         <p className="leading-relaxed text-text-secondary mb-6">
-          The Agent Authority Schedule is included in every SFP formation. See our <Link to="/agents/insights/agent-guide-form-delaware-llc" className="text-accent hover:underline">Delaware LLC formation guide</Link> to get started, or read the <Link to="/agents/insights/faq-entity-formation" className="text-accent hover:underline">entity formation FAQ</Link> for common questions.
+          The Agent Authority Schedule is included in every SFP formation. See our <Link to="/agents/insights/agent-guide-form-delaware-llc/" className="text-accent hover:underline">Delaware LLC formation guide</Link> to get started, or read the <Link to="/agents/insights/faq-entity-formation/" className="text-accent hover:underline">entity formation FAQ</Link> for common questions.
         </p>
 
         <hr className="border-grid mb-12" />
@@ -1107,7 +1107,7 @@ export const servicesPosts: BlogPost[] = [
 
         <div className="border-l-2 border-accent pl-6 py-2 mb-8">
           <p className="leading-relaxed text-text-secondary">
-            <strong className="text-text-highlight">No action required at this time.</strong> If BOI reporting is reinstated through future rulemaking, we will notify you and handle the filing. See our <Link to="/agents/insights/boi-reporting" className="text-accent hover:underline">full BOI status update</Link> for details.
+            <strong className="text-text-highlight">No action required at this time.</strong> If BOI reporting is reinstated through future rulemaking, we will notify you and handle the filing. See our <Link to="/agents/insights/boi-reporting/" className="text-accent hover:underline">full BOI status update</Link> for details.
           </p>
         </div>
 
@@ -1164,7 +1164,7 @@ export const servicesPosts: BlogPost[] = [
         </div>
 
         <p className="leading-relaxed text-text-secondary mb-6">
-          Compliance monitoring applies to all SFP-formed entities. For pricing details, see our <Link to="/agents/insights/faq-pricing-and-fees" className="text-accent hover:underline">pricing FAQ</Link>. For formation details, start with the <Link to="/agents/insights/delaware-llc-complete-guide" className="text-accent hover:underline">Delaware LLC guide</Link> or <Link to="/agents/insights/wyoming-dao-llc-complete-guide" className="text-accent hover:underline">Wyoming DAO LLC guide</Link>.
+          Compliance monitoring applies to all SFP-formed entities. For pricing details, see our <Link to="/agents/insights/faq-pricing-and-fees/" className="text-accent hover:underline">pricing FAQ</Link>. For formation details, start with the <Link to="/agents/insights/delaware-llc-complete-guide/" className="text-accent hover:underline">Delaware LLC guide</Link> or <Link to="/agents/insights/wyoming-dao-llc-complete-guide/" className="text-accent hover:underline">Wyoming DAO LLC guide</Link>.
         </p>
 
         <hr className="border-grid mb-12" />
@@ -1356,7 +1356,7 @@ export const servicesPosts: BlogPost[] = [
         </div>
 
         <p className="leading-relaxed text-text-secondary mb-6">
-          Ready to form your entity and receive your document package? Start with our <Link to="/agents/insights/agent-guide-form-delaware-llc" className="text-accent hover:underline">Delaware LLC formation guide</Link> or learn about the <Link to="/agents/insights/wyoming-dao-llc-complete-guide" className="text-accent hover:underline">Wyoming DAO LLC option</Link>. For questions about what's included, see the <Link to="/agents/insights/faq-entity-formation" className="text-accent hover:underline">entity formation FAQ</Link>.
+          Ready to form your entity and receive your document package? Start with our <Link to="/agents/insights/agent-guide-form-delaware-llc/" className="text-accent hover:underline">Delaware LLC formation guide</Link> or learn about the <Link to="/agents/insights/wyoming-dao-llc-complete-guide/" className="text-accent hover:underline">Wyoming DAO LLC option</Link>. For questions about what's included, see the <Link to="/agents/insights/faq-entity-formation/" className="text-accent hover:underline">entity formation FAQ</Link>.
         </p>
 
         <hr className="border-grid mb-12" />

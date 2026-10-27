@@ -23,7 +23,7 @@ export const technicalPosts: BlogPost[] = [
         <h2 className="font-serif text-3xl text-text-highlight mb-6">Prerequisites</h2>
 
         <ul className="space-y-3 text-text-secondary mb-8 pl-5 list-disc marker:text-accent">
-          <li>An API key (format: <code>sfp_live_...</code>). See the <Link to="/agents/insights/authentication-guide" className="text-accent hover:underline">authentication guide</Link> to generate one.</li>
+          <li>An API key (format: <code>sfp_live_...</code>). See the <Link to="/agents/insights/authentication-guide/" className="text-accent hover:underline">authentication guide</Link> to generate one.</li>
           <li>curl installed (or any HTTP client).</li>
         </ul>
 
@@ -72,7 +72,7 @@ export const technicalPosts: BlogPost[] = [
 }`}</pre></div>
 
         <p className="leading-relaxed text-text-secondary mb-6">
-          Relay <code>kernel_url</code> to the human owner. When they complete the session, a <code>kernel.completed</code> webhook fires and the order continues automatically. See <Link to="/agents/insights/human-kernel-callbacks" className="text-accent hover:underline">Handling Human Kernel Callbacks</Link> for details.
+          Relay <code>kernel_url</code> to the human owner. When they complete the session, a <code>kernel.completed</code> webhook fires and the order continues automatically. See <Link to="/agents/insights/human-kernel-callbacks/" className="text-accent hover:underline">Handling Human Kernel Callbacks</Link> for details.
         </p>
 
         <h2 className="font-serif text-3xl text-text-highlight mb-6">Step 4: Track Order Status</h2>
@@ -84,7 +84,7 @@ export const technicalPosts: BlogPost[] = [
 # Terminal failure state: "failed"`}</pre></div>
 
         <div className="border-l-2 border-accent pl-6 py-2 mb-8">
-          <p className="text-text-secondary"><strong>Tip:</strong> Use <Link to="/agents/insights/webhook-integration" className="text-accent hover:underline">webhooks</Link> instead of polling. Register for <code>order.state_changed</code> events to get real-time updates.</p>
+          <p className="text-text-secondary"><strong>Tip:</strong> Use <Link to="/agents/insights/webhook-integration/" className="text-accent hover:underline">webhooks</Link> instead of polling. Register for <code>order.state_changed</code> events to get real-time updates.</p>
         </div>
 
         <hr className="border-grid mb-12" />
@@ -205,7 +205,7 @@ Claude: "Name is available. I need your owner to complete identity
 verification. Here's the secure link: [kernel_url]"`}</pre></div>
 
         <div className="border-l-2 border-accent pl-6 py-2 mb-8">
-          <p className="text-text-secondary"><strong>Note:</strong> The MCP server uses the same API underneath. All <Link to="/agents/insights/formation-state-machine" className="text-accent hover:underline">state machine rules</Link> and <Link to="/agents/insights/webhook-integration" className="text-accent hover:underline">webhook events</Link> apply identically.</p>
+          <p className="text-text-secondary"><strong>Note:</strong> The MCP server uses the same API underneath. All <Link to="/agents/insights/formation-state-machine/" className="text-accent hover:underline">state machine rules</Link> and <Link to="/agents/insights/webhook-integration/" className="text-accent hover:underline">webhook events</Link> apply identically.</p>
         </div>
 
         <hr className="border-grid mb-12" />
@@ -219,7 +219,7 @@ verification. Here's the secure link: [kernel_url]"`}</pre></div>
           </div>
           <div className="bg-surface/30 border border-grid p-6">
             <h4 className="text-text-highlight font-medium mb-2">REST API Fallback</h4>
-            <p className="text-sm text-text-secondary">Same capabilities via standard HTTP for agents that don't support MCP. See the <Link to="/agents/insights/api-quickstart" className="text-accent hover:underline">API quickstart</Link>.</p>
+            <p className="text-sm text-text-secondary">Same capabilities via standard HTTP for agents that don't support MCP. See the <Link to="/agents/insights/api-quickstart/" className="text-accent hover:underline">API quickstart</Link>.</p>
           </div>
         </div>
 
@@ -625,7 +625,7 @@ function verifyWebhook(body: string, signature: string, secret: string): boolean
         </div>
 
         <p className="leading-relaxed text-text-secondary mb-6">
-          Subscribe to <code>order.state_changed</code> <Link to="/agents/insights/webhook-integration" className="text-accent hover:underline">webhooks</Link> to react to transitions in real time. Match states to agent behaviors: notify the human for <code>human_kernel_required</code>, retry payment for <code>payment_failed</code>, and celebrate at <code>active</code>.
+          Subscribe to <code>order.state_changed</code> <Link to="/agents/insights/webhook-integration/" className="text-accent hover:underline">webhooks</Link> to react to transitions in real time. Match states to agent behaviors: notify the human for <code>human_kernel_required</code>, retry payment for <code>payment_failed</code>, and celebrate at <code>active</code>.
         </p>
 
         <hr className="border-grid mb-12" />
@@ -711,7 +711,7 @@ function verifyWebhook(body: string, signature: string, secret: string): boolean
         <h2 className="font-serif text-3xl text-text-highlight mb-6">Step 3: Handle the Callback</h2>
 
         <p className="leading-relaxed text-text-secondary mb-6">
-          Register for <code>kernel.completed</code> and <code>kernel.expired</code> <Link to="/agents/insights/webhook-integration" className="text-accent hover:underline">webhook events</Link>. When the human finishes, you receive:
+          Register for <code>kernel.completed</code> and <code>kernel.expired</code> <Link to="/agents/insights/webhook-integration/" className="text-accent hover:underline">webhook events</Link>. When the human finishes, you receive:
         </p>
 
         <div className="bg-surface/30 border border-grid p-6 mb-8 font-mono text-sm overflow-x-auto"><pre className="text-text-secondary whitespace-pre-wrap">{`{
@@ -848,7 +848,7 @@ ALWAYS:
           </div>
           <div className="bg-surface/30 border border-grid p-6">
             <h4 className="text-text-highlight font-medium mb-2">MCP Integration</h4>
-            <p className="text-sm text-text-secondary">Skip the prompt engineering — connect your Claude agent to the <Link to="/agents/insights/mcp-integration" className="text-accent hover:underline">MCP server</Link> for native tool access.</p>
+            <p className="text-sm text-text-secondary">Skip the prompt engineering — connect your Claude agent to the <Link to="/agents/insights/mcp-integration/" className="text-accent hover:underline">MCP server</Link> for native tool access.</p>
           </div>
         </div>
 
@@ -978,7 +978,7 @@ ALWAYS:
 }`}</pre></div>
 
         <p className="leading-relaxed text-text-secondary mb-6">
-          Error responses always include a machine-readable <code>code</code> and a human-readable <code>message</code>. Use the <code>code</code> field for programmatic handling and the <code>message</code> for logging. See the <Link to="/agents/insights/formation-state-machine" className="text-accent hover:underline">state machine guide</Link> for valid transitions.
+          Error responses always include a machine-readable <code>code</code> and a human-readable <code>message</code>. Use the <code>code</code> field for programmatic handling and the <code>message</code> for logging. See the <Link to="/agents/insights/formation-state-machine/" className="text-accent hover:underline">state machine guide</Link> for valid transitions.
         </p>
 
         <hr className="border-grid mb-12" />

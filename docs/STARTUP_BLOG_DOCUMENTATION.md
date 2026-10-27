@@ -1,5 +1,10 @@
 # Startup Legal Blog - Implementation Documentation
 
+> Publishing update: the build now generates every static article, the sitemap,
+> and LLM text files automatically from the post arrays. The manual sitemap steps
+> below describe the old implementation. Do not create or edit
+> `public/sitemap.xml`; follow [Static publishing](STATIC_PUBLISHING.md).
+
 **Project**: Strategic Fund Partners Startup Legal Services Blog
 **URL**: https://strategicfundpartners.com/startups/insights
 **Date**: January 8, 2026

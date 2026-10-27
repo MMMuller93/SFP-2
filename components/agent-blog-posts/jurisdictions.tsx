@@ -75,7 +75,7 @@ export const jurisdictionsPosts: BlogPost[] = [
         </table>
 
         <p className="leading-relaxed text-text-secondary mb-6">
-          The SFP formation package includes registered agent service (first year), operating agreement with <Link to="/agents/insights/agent-authority-schedule" className="text-accent hover:underline">Agent Authority Schedule</Link>, EIN acquisition, and banking resolution. See our <Link to="/agents/insights/delaware-annual-franchise-tax" className="text-accent hover:underline">franchise tax guide</Link> for annual obligations.
+          The SFP formation package includes registered agent service (first year), operating agreement with <Link to="/agents/insights/agent-authority-schedule/" className="text-accent hover:underline">Agent Authority Schedule</Link>, EIN acquisition, and banking resolution. See our <Link to="/agents/insights/delaware-annual-franchise-tax/" className="text-accent hover:underline">franchise tax guide</Link> for annual obligations.
         </p>
 
         <h2 className="font-serif text-3xl text-text-highlight mb-6">Timeline</h2>
@@ -190,7 +190,7 @@ export const jurisdictionsPosts: BlogPost[] = [
         </div>
 
         <p className="leading-relaxed text-text-secondary mb-6">
-          For most AI agents that do not require on-chain governance, a <Link to="/agents/insights/delaware-llc-complete-guide" className="text-accent hover:underline">standard Delaware LLC</Link> is simpler and has broader banking acceptance. See our <Link to="/agents/insights/delaware-vs-wyoming" className="text-accent hover:underline">Delaware vs Wyoming comparison</Link> to decide.
+          For most AI agents that do not require on-chain governance, a <Link to="/agents/insights/delaware-llc-complete-guide/" className="text-accent hover:underline">standard Delaware LLC</Link> is simpler and has broader banking acceptance. See our <Link to="/agents/insights/delaware-vs-wyoming/" className="text-accent hover:underline">Delaware vs Wyoming comparison</Link> to decide.
         </p>
 
         <hr className="border-grid mb-12" />
@@ -290,7 +290,7 @@ export const jurisdictionsPosts: BlogPost[] = [
 
         <div className="border-l-2 border-accent pl-6 py-2 mb-8">
           <p className="text-text-secondary">
-            <strong>Our recommendation:</strong> Start with an LLC. If you later need to raise venture capital, you can convert to a C-Corp. The reverse (Corp to LLC) is much harder. See our <Link to="/agents/insights/delaware-llc-complete-guide" className="text-accent hover:underline">Delaware LLC guide</Link> for the formation process.
+            <strong>Our recommendation:</strong> Start with an LLC. If you later need to raise venture capital, you can convert to a C-Corp. The reverse (Corp to LLC) is much harder. See our <Link to="/agents/insights/delaware-llc-complete-guide/" className="text-accent hover:underline">Delaware LLC guide</Link> for the formation process.
           </p>
         </div>
 
@@ -399,7 +399,7 @@ export const jurisdictionsPosts: BlogPost[] = [
         </p>
 
         <p className="leading-relaxed text-text-secondary mb-6">
-          For detailed formation guides, see <Link to="/agents/insights/delaware-llc-complete-guide" className="text-accent hover:underline">Delaware LLC</Link> and <Link to="/agents/insights/wyoming-dao-llc-complete-guide" className="text-accent hover:underline">Wyoming DAO LLC</Link>.
+          For detailed formation guides, see <Link to="/agents/insights/delaware-llc-complete-guide/" className="text-accent hover:underline">Delaware LLC</Link> and <Link to="/agents/insights/wyoming-dao-llc-complete-guide/" className="text-accent hover:underline">Wyoming DAO LLC</Link>.
         </p>
 
         <hr className="border-grid mb-12" />
@@ -500,7 +500,7 @@ export const jurisdictionsPosts: BlogPost[] = [
         </ul>
 
         <p className="leading-relaxed text-text-secondary mb-6">
-          See our detailed guides: <Link to="/agents/insights/delaware-llc-complete-guide" className="text-accent hover:underline">Delaware LLC</Link> | <Link to="/agents/insights/wyoming-dao-llc-complete-guide" className="text-accent hover:underline">Wyoming DAO LLC</Link> | <Link to="/agents/insights/delaware-vs-wyoming" className="text-accent hover:underline">Full comparison</Link>
+          See our detailed guides: <Link to="/agents/insights/delaware-llc-complete-guide/" className="text-accent hover:underline">Delaware LLC</Link> | <Link to="/agents/insights/wyoming-dao-llc-complete-guide/" className="text-accent hover:underline">Wyoming DAO LLC</Link> | <Link to="/agents/insights/delaware-vs-wyoming/" className="text-accent hover:underline">Full comparison</Link>
         </p>
 
         <hr className="border-grid mb-12" />
@@ -656,7 +656,7 @@ export const jurisdictionsPosts: BlogPost[] = [
         </div>
 
         <p className="leading-relaxed text-text-secondary mb-6">
-          For most users forming 1–5 agent entities, standalone LLCs are simpler, safer, and better supported by the banking system. See our <Link to="/agents/insights/delaware-llc-complete-guide" className="text-accent hover:underline">Delaware LLC guide</Link> for the standard approach.
+          For most users forming 1–5 agent entities, standalone LLCs are simpler, safer, and better supported by the banking system. See our <Link to="/agents/insights/delaware-llc-complete-guide/" className="text-accent hover:underline">Delaware LLC guide</Link> for the standard approach.
         </p>
 
         <hr className="border-grid mb-12" />
@@ -741,7 +741,7 @@ export const jurisdictionsPosts: BlogPost[] = [
         </p>
 
         <p className="leading-relaxed text-text-secondary mb-6">
-          For the full formation process, see our <Link to="/agents/insights/wyoming-dao-llc-complete-guide" className="text-accent hover:underline">Wyoming DAO LLC guide</Link>.
+          For the full formation process, see our <Link to="/agents/insights/wyoming-dao-llc-complete-guide/" className="text-accent hover:underline">Wyoming DAO LLC guide</Link>.
         </p>
 
         <hr className="border-grid mb-12" />
@@ -832,7 +832,7 @@ export const jurisdictionsPosts: BlogPost[] = [
         </div>
 
         <p className="leading-relaxed text-text-secondary mb-6">
-          For a comparison of annual costs across jurisdictions, see <Link to="/agents/insights/delaware-vs-wyoming" className="text-accent hover:underline">Delaware vs Wyoming</Link>. Wyoming's annual cost is $60 (annual report filing).
+          For a comparison of annual costs across jurisdictions, see <Link to="/agents/insights/delaware-vs-wyoming/" className="text-accent hover:underline">Delaware vs Wyoming</Link>. Wyoming's annual cost is $60 (annual report filing).
         </p>
 
         <hr className="border-grid mb-12" />

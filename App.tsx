@@ -21,6 +21,7 @@ import {
   Registrations
 } from './pages/startup-legal';
 import { AgentLegalHome } from './pages/agent-legal';
+import { SITE_PATHS } from './lib/site-paths';
 
 const App: React.FC = () => {
   const [modalType, setModalType] = useState<ModalType>(null);
@@ -57,11 +58,11 @@ const App: React.FC = () => {
       <div className="fixed inset-0 bg-grid-pattern opacity-100 pointer-events-none z-0" />
 
       <div className="relative z-10 flex flex-col max-w-[1600px] mx-auto min-h-screen">
-        <Navbar currentView={currentView} onNavigate={(view) => navigate(view === 'home' ? '/' : '/insights')} />
+        <Navbar currentView={currentView} onNavigate={(view) => navigate(view === 'home' ? SITE_PATHS.home : SITE_PATHS.insights)} />
 
         <main className="flex-grow">
           <Routes>
-            <Route path="/" element={
+            <Route path={SITE_PATHS.home} element={
               <>
                 <SEO />
                 <Hero />
@@ -71,7 +72,7 @@ const App: React.FC = () => {
                 <Contact />
               </>
             } />
-            <Route path="/about" element={
+            <Route path={SITE_PATHS.about} element={
               <>
                 <SEO
                   title="About | Strategic Fund Partners"
@@ -82,7 +83,7 @@ const App: React.FC = () => {
                 <Contact />
               </>
             } />
-            <Route path="/insights" element={
+            <Route path={SITE_PATHS.insights} element={
               <>
                 <SEO
                   title="Insights | Strategic Fund Partners"
@@ -91,10 +92,10 @@ const App: React.FC = () => {
                 <Blog onContactClick={handleReturnToContact} />
               </>
             } />
-            <Route path="/insights/:slug" element={<Blog onContactClick={handleReturnToContact} />} />
+            <Route path={`${SITE_PATHS.insights}:slug/`} element={<Blog onContactClick={handleReturnToContact} />} />
 
             {/* Startup Services Routes */}
-            <Route path="/startups" element={
+            <Route path={SITE_PATHS.startups} element={
               <>
                 <SEO
                   title="Startup Legal Services | Strategic Fund Partners"
@@ -105,7 +106,7 @@ const App: React.FC = () => {
                 <Contact />
               </>
             } />
-            <Route path="/startups/formation" element={
+            <Route path={SITE_PATHS.formation} element={
               <>
                 <SEO
                   title="Company Formation | Startup Legal Services"
@@ -116,7 +117,7 @@ const App: React.FC = () => {
                 <Contact />
               </>
             } />
-            <Route path="/startups/governance" element={
+            <Route path={SITE_PATHS.governance} element={
               <>
                 <SEO
                   title="Corporate Governance | Startup Legal Services"
@@ -127,7 +128,7 @@ const App: React.FC = () => {
                 <Contact />
               </>
             } />
-            <Route path="/startups/equity" element={
+            <Route path={SITE_PATHS.equity} element={
               <>
                 <SEO
                   title="Equity Issuances | Startup Legal Services"
@@ -138,7 +139,7 @@ const App: React.FC = () => {
                 <Contact />
               </>
             } />
-            <Route path="/startups/fundraising" element={
+            <Route path={SITE_PATHS.fundraising} element={
               <>
                 <SEO
                   title="Fundraising Preparation | Startup Legal Services"
@@ -149,7 +150,7 @@ const App: React.FC = () => {
                 <Contact />
               </>
             } />
-            <Route path="/startups/registrations" element={
+            <Route path={SITE_PATHS.registrations} element={
               <>
                 <SEO
                   title="State Registrations | Startup Legal Services"
@@ -162,7 +163,7 @@ const App: React.FC = () => {
             } />
 
             {/* Startup Blog Routes */}
-            <Route path="/startups/insights" element={
+            <Route path={SITE_PATHS.startupInsights} element={
               <>
                 <SEO
                   title="Startup Insights | Strategic Fund Partners"
@@ -171,10 +172,10 @@ const App: React.FC = () => {
                 <StartupBlog onContactClick={handleReturnToContact} />
               </>
             } />
-            <Route path="/startups/insights/:slug" element={<StartupBlog onContactClick={handleReturnToContact} />} />
+            <Route path={`${SITE_PATHS.startupInsights}:slug/`} element={<StartupBlog onContactClick={handleReturnToContact} />} />
 
             {/* AI Agent Formation Routes */}
-            <Route path="/agents" element={
+            <Route path={SITE_PATHS.agents} element={
               <>
                 <SEO
                   title="AI Agent Formation | Strategic Fund Partners"
@@ -187,7 +188,7 @@ const App: React.FC = () => {
             } />
 
             {/* Agent Blog Routes */}
-            <Route path="/agents/insights" element={
+            <Route path={SITE_PATHS.agentInsights} element={
               <>
                 <SEO
                   title="Agent Formation Insights | Strategic Fund Partners"
@@ -196,7 +197,7 @@ const App: React.FC = () => {
                 <AgentBlog onContactClick={handleReturnToContact} />
               </>
             } />
-            <Route path="/agents/insights/:slug" element={<AgentBlog onContactClick={handleReturnToContact} />} />
+            <Route path={`${SITE_PATHS.agentInsights}:slug/`} element={<AgentBlog onContactClick={handleReturnToContact} />} />
           </Routes>
         </main>
 

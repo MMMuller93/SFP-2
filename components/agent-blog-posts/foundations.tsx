@@ -43,13 +43,13 @@ export const foundationsPosts: BlogPost[] = [
         </ul>
 
         <p className="leading-relaxed text-text-secondary mb-6">
-          Corporations add unnecessary complexity for most agent use cases. Board meetings, stock certificates, bylaws, and minutes — none of which serve an AI agent well. The LLC's flexibility is precisely what agent operations need. See our <Link to="/agents/insights/llc-vs-corporation" className="text-accent hover:underline">LLC vs Corporation comparison</Link> for details.
+          Corporations add unnecessary complexity for most agent use cases. Board meetings, stock certificates, bylaws, and minutes — none of which serve an AI agent well. The LLC's flexibility is precisely what agent operations need. See our <Link to="/agents/insights/llc-vs-corporation/" className="text-accent hover:underline">LLC vs Corporation comparison</Link> for details.
         </p>
 
         <h2 className="font-serif text-3xl text-text-highlight mb-6">The Agent Authority Schedule</h2>
 
         <p className="leading-relaxed text-text-secondary mb-6">
-          What makes an agent-specific LLC different from a standard LLC? The <Link to="/agents/insights/agent-authority-schedule" className="text-accent hover:underline">Agent Authority Schedule</Link> — a legal exhibit attached to the operating agreement that defines exactly what the AI agent can and cannot do.
+          What makes an agent-specific LLC different from a standard LLC? The <Link to="/agents/insights/agent-authority-schedule/" className="text-accent hover:underline">Agent Authority Schedule</Link> — a legal exhibit attached to the operating agreement that defines exactly what the AI agent can and cannot do.
         </p>
 
         <div className="border-l-2 border-accent pl-6 py-2 mb-8">
@@ -84,11 +84,11 @@ export const foundationsPosts: BlogPost[] = [
         <h2 className="font-serif text-3xl text-text-highlight mb-6">The Formation Process</h2>
 
         <p className="leading-relaxed text-text-secondary mb-6">
-          Forming an LLC for your agent takes 1–5 business days depending on the jurisdiction. The process: choose a jurisdiction (Delaware or Wyoming), provide owner information through a secure session, generate formation documents, file with the state, get an EIN from the IRS, and set up banking. Read our <Link to="/agents/insights/entity-formation-checklist" className="text-accent hover:underline">formation checklist</Link> for the complete step-by-step.
+          Forming an LLC for your agent takes 1–5 business days depending on the jurisdiction. The process: choose a jurisdiction (Delaware or Wyoming), provide owner information through a secure session, generate formation documents, file with the state, get an EIN from the IRS, and set up banking. Read our <Link to="/agents/insights/entity-formation-checklist/" className="text-accent hover:underline">formation checklist</Link> for the complete step-by-step.
         </p>
 
         <p className="leading-relaxed text-text-secondary mb-6">
-          For agents and developers who want to automate this process, our <Link to="/agents/insights/api-quickstart" className="text-accent hover:underline">API</Link> handles the entire formation flow programmatically.
+          For agents and developers who want to automate this process, our <Link to="/agents/insights/api-quickstart/" className="text-accent hover:underline">API</Link> handles the entire formation flow programmatically.
         </p>
 
         <hr className="border-grid mb-12" />
@@ -182,7 +182,7 @@ export const foundationsPosts: BlogPost[] = [
         </table>
 
         <p className="leading-relaxed text-text-secondary mb-6">
-          For AI agent operations, the LLC is the right choice in nearly every case. See our <Link to="/agents/insights/llc-vs-corporation" className="text-accent hover:underline">LLC vs Corporation comparison</Link> for the detailed reasoning.
+          For AI agent operations, the LLC is the right choice in nearly every case. See our <Link to="/agents/insights/llc-vs-corporation/" className="text-accent hover:underline">LLC vs Corporation comparison</Link> for the detailed reasoning.
         </p>
 
         <h2 className="font-serif text-3xl text-text-highlight mb-6">Why Jurisdiction Matters</h2>
@@ -192,7 +192,7 @@ export const foundationsPosts: BlogPost[] = [
         </p>
 
         <p className="leading-relaxed text-text-secondary mb-6">
-          Read our <Link to="/agents/insights/delaware-vs-wyoming" className="text-accent hover:underline">Delaware vs Wyoming comparison</Link> for a full breakdown.
+          Read our <Link to="/agents/insights/delaware-vs-wyoming/" className="text-accent hover:underline">Delaware vs Wyoming comparison</Link> for a full breakdown.
         </p>
 
         <h2 className="font-serif text-3xl text-text-highlight mb-6">The Formation Timeline</h2>
@@ -206,7 +206,7 @@ export const foundationsPosts: BlogPost[] = [
         </ul>
 
         <p className="leading-relaxed text-text-secondary mb-6">
-          Through our API, agents can initiate this entire process programmatically. The <Link to="/agents/insights/api-quickstart" className="text-accent hover:underline">API Quickstart guide</Link> walks through the full flow.
+          Through our API, agents can initiate this entire process programmatically. The <Link to="/agents/insights/api-quickstart/" className="text-accent hover:underline">API Quickstart guide</Link> walks through the full flow.
         </p>
 
         <hr className="border-grid mb-12" />
@@ -264,7 +264,7 @@ export const foundationsPosts: BlogPost[] = [
         <h2 className="font-serif text-3xl text-text-highlight mb-6">Ownership vs. Operational Authority</h2>
 
         <p className="leading-relaxed text-text-secondary mb-6">
-          Here is what an agent CAN do: operate with defined, legally bounded authority on behalf of the entity. The LLC's operating agreement — specifically the <Link to="/agents/insights/agent-authority-schedule" className="text-accent hover:underline">Agent Authority Schedule</Link> — delegates specific operational powers to the agent while the human member retains ownership and ultimate control.
+          Here is what an agent CAN do: operate with defined, legally bounded authority on behalf of the entity. The LLC's operating agreement — specifically the <Link to="/agents/insights/agent-authority-schedule/" className="text-accent hover:underline">Agent Authority Schedule</Link> — delegates specific operational powers to the agent while the human member retains ownership and ultimate control.
         </p>
 
         <div className="border-l-2 border-accent pl-6 py-2 mb-8">
@@ -381,7 +381,7 @@ export const foundationsPosts: BlogPost[] = [
         <h2 className="font-serif text-3xl text-text-highlight mb-6">Why the LLC Wins for Agents</h2>
 
         <p className="leading-relaxed text-text-secondary mb-6">
-          The LLC's operating agreement is a blank canvas. You can define any management structure, any authority delegation, any decision-making process. This is exactly what agent operations need — the ability to create an <Link to="/agents/insights/agent-authority-schedule" className="text-accent hover:underline">Agent Authority Schedule</Link> that specifies precisely what the AI can do.
+          The LLC's operating agreement is a blank canvas. You can define any management structure, any authority delegation, any decision-making process. This is exactly what agent operations need — the ability to create an <Link to="/agents/insights/agent-authority-schedule/" className="text-accent hover:underline">Agent Authority Schedule</Link> that specifies precisely what the AI can do.
         </p>
 
         <p className="leading-relaxed text-text-secondary mb-6">
@@ -466,7 +466,7 @@ export const foundationsPosts: BlogPost[] = [
         </p>
 
         <p className="leading-relaxed text-text-secondary mb-6">
-          SFP operating agreements include the <Link to="/agents/insights/agent-authority-schedule" className="text-accent hover:underline">Agent Authority Schedule</Link> as a standard exhibit. This is what makes the entity suitable for agent operations.
+          SFP operating agreements include the <Link to="/agents/insights/agent-authority-schedule/" className="text-accent hover:underline">Agent Authority Schedule</Link> as a standard exhibit. This is what makes the entity suitable for agent operations.
         </p>
 
         <hr className="border-grid mb-12" />
@@ -585,7 +585,7 @@ export const foundationsPosts: BlogPost[] = [
         </ul>
 
         <p className="leading-relaxed text-text-secondary mb-6">
-          For a detailed walkthrough of what to expect after filing, read our <Link to="/agents/insights/getting-ein-timeline" className="text-accent hover:underline">EIN timeline and process guide</Link>.
+          For a detailed walkthrough of what to expect after filing, read our <Link to="/agents/insights/getting-ein-timeline/" className="text-accent hover:underline">EIN timeline and process guide</Link>.
         </p>
 
         <h2 className="font-serif text-3xl text-text-highlight mb-6">What You Need Before Applying</h2>
@@ -644,7 +644,7 @@ export const foundationsPosts: BlogPost[] = [
             <li><strong>Delaware</strong> — Best for most agent operations. Chancery Court, established case law, predictable outcomes. $110 state filing fee.</li>
             <li><strong>Wyoming</strong> — Best for DAO/on-chain governance. DAO LLC statute, no state income tax, low fees. $100 state filing fee.</li>
           </ul>
-          <p className="text-text-secondary mt-4">Read the <Link to="/agents/insights/delaware-vs-wyoming" className="text-accent hover:underline">full comparison</Link>.</p>
+          <p className="text-text-secondary mt-4">Read the <Link to="/agents/insights/delaware-vs-wyoming/" className="text-accent hover:underline">full comparison</Link>.</p>
         </div>
 
         <div className="bg-surface/30 border border-grid p-8 mb-12">
@@ -712,7 +712,7 @@ export const foundationsPosts: BlogPost[] = [
           </div>
           <div className="bg-surface/30 border border-grid p-6">
             <h4 className="text-text-highlight font-medium mb-2">API Formation</h4>
-            <p className="text-sm text-text-secondary">Agents can complete this entire checklist programmatically via the <Link to="/agents/insights/api-quickstart" className="text-accent hover:underline">formation API</Link>.</p>
+            <p className="text-sm text-text-secondary">Agents can complete this entire checklist programmatically via the <Link to="/agents/insights/api-quickstart/" className="text-accent hover:underline">formation API</Link>.</p>
           </div>
         </div>
 

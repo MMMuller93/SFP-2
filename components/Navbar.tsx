@@ -6,6 +6,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { View } from '../types';
 import { trackConversion } from '../lib/conversions';
 import { canonicalPath } from '../lib/site-paths';
+import { CONSULTATION_URL, openConsultation } from '../lib/calendly';
 
 interface NavbarProps {
   currentView: View;
@@ -16,6 +17,16 @@ export const Navbar: React.FC<NavbarProps> = ({ currentView, onNavigate }) => {
   const [isOpen, setIsOpen] = useState(false);
   const navigate = useNavigate();
   const location = useLocation();
+
+  const handleConsultation = (event: React.MouseEvent<HTMLAnchorElement>) => {
+    trackConversion('consultation_link_clicked');
+    setIsOpen(false);
+    if (event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
+    event.preventDefault();
+    void openConsultation().catch(() => {
+      window.location.assign(CONSULTATION_URL);
+    });
+  };
 
   // Detect which section we're in
   const isStartupLegal = location.pathname.startsWith('/startups');
@@ -105,10 +116,10 @@ export const Navbar: React.FC<NavbarProps> = ({ currentView, onNavigate }) => {
              <motion.a 
               whileHover={{ scale: 1.02 }}
               whileTap={{ scale: 0.98 }}
-              href="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ21Bp23fIf0-8CWI6LvBUlR_LvGg2nuP5jXz4BFcCnzintnxEHdzarI54pXAzwqVQTBWfI3OEkz" 
+              href={CONSULTATION_URL}
               target="_blank" 
               rel="noopener noreferrer"
-              onClick={() => trackConversion('consultation_link_clicked')}
+              onClick={handleConsultation}
               className="flex items-center gap-2 text-xs font-bold uppercase tracking-widest text-text-highlight hover:text-bg transition-colors border border-border px-5 py-2.5 hover:bg-accent hover:border-accent"
             >
               Book Consultation
@@ -148,12 +159,10 @@ export const Navbar: React.FC<NavbarProps> = ({ currentView, onNavigate }) => {
                 </button>
               ))}
                <a 
-                href="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ21Bp23fIf0-8CWI6LvBUlR_LvGg2nuP5jXz4BFcCnzintnxEHdzarI54pXAzwqVQTBWfI3OEkz"
+                href={CONSULTATION_URL}
                 target="_blank"
-                onClick={() => {
-                  trackConversion('consultation_link_clicked');
-                  setIsOpen(false);
-                }}
+                rel="noopener noreferrer"
+                onClick={handleConsultation}
                 className="mt-8 flex items-center gap-2 text-accent font-medium text-sm uppercase tracking-widest"
               >
                 Book Consultation <ArrowUpRight className="w-4 h-4" />

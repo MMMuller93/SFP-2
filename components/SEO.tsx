@@ -66,6 +66,9 @@ export const SEO: React.FC<SEOProps> = ({
     if (type === 'article' && publishedTime) {
       updateMetaTag('article:published_time', publishedTime);
       updateMetaTag('article:author', 'Strategic Fund Partners');
+    } else {
+      document.querySelector('meta[property="article:published_time"]')?.remove();
+      document.querySelector('meta[property="article:author"]')?.remove();
     }
 
     // Canonical URL

@@ -95,6 +95,28 @@ export const PrivateMarkets: React.FC = () => {
         </div>
       </section>
 
+      <section className="border-b border-grid bg-bg py-16 md:py-20" aria-labelledby="private-markets-insights">
+        <div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-20">
+          <div className="flex flex-col sm:flex-row sm:items-end sm:justify-between gap-5 mb-8">
+            <h2 id="private-markets-insights" className="font-serif text-3xl md:text-4xl text-text-highlight">Private Markets Insights</h2>
+            <a href="/insights/" className="text-sm text-accent hover:text-accentHover underline underline-offset-4">View All Insights</a>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-x-12">
+            {[
+              { href: '/insights/primary-vs-secondary-investments/', title: 'Primary vs. Secondary Investments in Private Companies', detail: 'Capital, ownership and investor rights in each transaction.' },
+              { href: '/insights/choosing-private-share-broker/', title: 'Choosing a Broker for a Private Share Purchase', detail: 'The broker’s role, seller relationships and engagement terms.' },
+              { href: '/insights/comparing-pre-ipo-broker-offers/', title: 'Comparing Broker Offers for Pre-IPO Shares', detail: 'Compare the security, total cost and conditions for closing.' },
+              { href: '/insights/selling-pre-ipo-shares/', title: 'Selling Pre-IPO Shares: Options for Employees and Founders', detail: 'Liquidity alternatives and the terms that affect proceeds.' },
+            ].map(article => (
+              <a key={article.href} href={article.href} className="group border-t border-grid py-7 focus-visible:outline focus-visible:outline-2 focus-visible:outline-accent">
+                <h3 className="font-serif text-xl md:text-2xl text-text-highlight group-hover:text-accent transition-colors mb-3">{article.title}</h3>
+                <p className="text-sm leading-relaxed text-text-secondary">{article.detail}</p>
+              </a>
+            ))}
+          </div>
+        </div>
+      </section>
+
       <section className="border-b border-grid bg-bg py-12 md:py-16" aria-labelledby="private-markets-related">
         <div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-20">
           <h2 id="private-markets-related" className="font-serif text-2xl md:text-3xl text-text-highlight mb-6">Related Expertise</h2>

@@ -80,12 +80,27 @@ export const publishSite = (): Plugin[] => {
             const issues: string[] = [];
             if (canonical !== expected.url) issues.push(`Wrong canonical: ${canonical}`);
             if (document.querySelector('meta[property="og:url"]')?.getAttribute('content') !== expected.url) issues.push('Open Graph URL differs from canonical');
+            if (main.querySelectorAll('h1').length !== 1) issues.push('Page must have one main heading');
             if (main.textContent!.trim().length < 100) issues.push('Empty or shell main content');
+            const articleScripts = document.querySelectorAll('#article-schema');
             if (expected.html) {
               const authored = new DOMParser().parseFromString(expected.html, 'text/html');
               if (!body || normalize(body.textContent!) !== normalize(authored.body.textContent!)) issues.push('Rendered article does not include its complete authored content');
               if (document.title !== `${expected.title} | Strategic Fund Partners`) issues.push('Wrong article title');
               if (document.querySelector('meta[property="article:published_time"]')?.getAttribute('content') !== expected.publishedTime) issues.push('Wrong article publication date');
+              if (articleScripts.length !== 1) issues.push('Article must have one structured-data block');
+              try {
+                const schema = JSON.parse(articleScripts[0]?.textContent || '{}');
+                if (schema['@type'] !== 'BlogPosting' || schema.headline !== expected.title) issues.push('Article schema must match the article heading');
+                if (schema.url !== expected.url || schema.mainEntityOfPage?.['@id'] !== expected.url) issues.push('Article schema URL differs from canonical');
+                if (schema.datePublished !== expected.publishedTime) issues.push('Article schema date differs from publication date');
+                if (schema.description !== document.querySelector('meta[name="description"]')?.getAttribute('content')) issues.push('Article schema description differs from metadata');
+                if (schema.author?.name !== main.querySelector('[rel="author"]')?.textContent?.trim()) issues.push('Article schema author differs from visible byline');
+              } catch {
+                issues.push('Invalid article structured data');
+              }
+            } else if (articleScripts.length) {
+              issues.push('Non-article page contains article structured data');
             }
             const links = Array.from(document.querySelectorAll<HTMLAnchorElement>('a[href]')).map(link => link.getAttribute('href')!);
             if (typeof (window as Window & { oaiq?: unknown }).oaiq !== 'undefined') issues.push('Ads pixel must not initialize during local prerendering');

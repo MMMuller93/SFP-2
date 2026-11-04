@@ -107,7 +107,7 @@ const App: React.FC = () => {
               <>
                 <SEO
                   title="Insights | Strategic Fund Partners"
-                  description="Expert guidance on fund formation, regulatory compliance, Form ADV filing, and ongoing compliance for venture capital and private equity managers."
+                  description="Practical guidance on private company investments, secondary transactions, fund formation and compliance for investors, shareholders and fund managers."
                 />
                 <Blog onContactClick={handleReturnToContact} />
               </>

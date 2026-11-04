@@ -36,6 +36,16 @@ const App: React.FC = () => {
     document.dispatchEvent(new Event('app-ready'));
   }, [location.pathname]);
 
+  // React replaces the prerendered content on load, so restore section links
+  // after the destination route has mounted.
+  useEffect(() => {
+    if (!location.hash) return;
+    const target = document.getElementById(location.hash.slice(1));
+    if (!target) return;
+    const frame = requestAnimationFrame(() => target.scrollIntoView({ block: 'start' }));
+    return () => cancelAnimationFrame(frame);
+  }, [location.pathname, location.hash]);
+
   const handleReturnToContact = () => {
     navigate('/');
     // Timeout allows the Home view (and Contact component) to mount before scrolling

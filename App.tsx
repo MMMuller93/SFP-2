@@ -21,6 +21,7 @@ import {
   Registrations
 } from './pages/startup-legal';
 import { AgentLegalHome } from './pages/agent-legal';
+import { PrivateMarkets } from './pages/private-markets/PrivateMarkets';
 import { SITE_PATHS } from './lib/site-paths';
 
 const App: React.FC = () => {
@@ -81,6 +82,15 @@ const App: React.FC = () => {
                 <About />
                 <div className="h-px w-full" />
                 <Contact />
+              </>
+            } />
+            <Route path={SITE_PATHS.privateMarkets} element={
+              <>
+                <SEO
+                  title="Pre-IPO Transaction Advisory | Strategic Fund Partners"
+                  description="Pre-IPO investment advice, brokered transaction support and shareholder liquidity consulting, including secondary sales, forward contracts and deal structuring."
+                />
+                <PrivateMarkets />
               </>
             } />
             <Route path={SITE_PATHS.insights} element={

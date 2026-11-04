@@ -4,6 +4,7 @@ export const SITE_ORIGIN = 'https://strategicfundpartners.com';
 export const SITE_PATHS = {
   home: '/',
   about: '/about/',
+  privateMarkets: '/private-markets/',
   insights: '/insights/',
   startups: '/startups/',
   formation: '/startups/formation/',

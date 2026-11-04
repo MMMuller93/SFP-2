@@ -112,6 +112,7 @@ export const createSiteManifest = (): PublishedPage[] => {
   const sources: Partial<Record<keyof typeof SITE_PATHS, string[]>> = {
     home: ['components/Hero.tsx', 'components/Services.tsx', 'components/Contact.tsx', 'index.html'],
     about: ['components/About.tsx'],
+    privateMarkets: ['pages/private-markets/PrivateMarkets.tsx'],
     startups: ['pages/startup-legal/StartupLegalHome.tsx'],
     formation: ['pages/startup-legal/Formation.tsx'],
     governance: ['pages/startup-legal/Governance.tsx'],

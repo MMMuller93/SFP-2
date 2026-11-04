@@ -2011,9 +2011,9 @@ export const Blog: React.FC<BlogProps> = ({ onContactClick }) => {
       <div className="max-w-6xl mx-auto px-6 md:px-12">
         <div className="flex flex-col md:flex-row justify-between items-end mb-20 border-b border-grid pb-12">
             <div>
-                <h2 className="font-serif text-4xl md:text-6xl text-text-highlight mb-6">
+                <h1 className="font-serif text-4xl md:text-6xl text-text-highlight mb-6">
                     Insights
-                </h2>
+                </h1>
             </div>
         </div>
 
@@ -2031,9 +2031,9 @@ export const Blog: React.FC<BlogProps> = ({ onContactClick }) => {
                               <span>{post.readTime}</span>
                           </div>
 
-                          <h3 className="font-serif text-2xl text-text-highlight mb-4 group-hover:text-accent transition-colors line-clamp-2">
+                          <h2 className="font-serif text-2xl text-text-highlight mb-4 group-hover:text-accent transition-colors line-clamp-2">
                               {post.title}
-                          </h3>
+                          </h2>
 
                           <p className="text-text-secondary text-sm leading-relaxed mb-8 line-clamp-3 flex-grow">
                               {post.excerpt}

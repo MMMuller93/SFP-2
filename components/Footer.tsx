@@ -1,5 +1,6 @@
 import React from 'react';
 import { useLocation } from 'react-router-dom';
+import { SITE_PATHS } from '../lib/site-paths';
 import { ModalType } from '../types';
 import { Logo } from './Logo';
 
@@ -43,6 +44,7 @@ export const Footer: React.FC<FooterProps> = ({ openModal }) => {
                     {services.map((service, index) => (
                         <li key={index}>{service}</li>
                     ))}
+                    <li><a href={SITE_PATHS.privateMarkets} className="hover:text-text-highlight transition-colors">Private Markets Advisory</a></li>
                 </ul>
             </div>
             <div>

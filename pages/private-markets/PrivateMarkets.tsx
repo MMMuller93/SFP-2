@@ -45,7 +45,7 @@ export const PrivateMarkets: React.FC = () => {
           </p>
           <h1 className="font-serif text-6xl md:text-7xl lg:text-8xl leading-[0.95] text-text-highlight tracking-tight mb-8 text-balance">
             Strategic Guidance <br className="hidden sm:block" />
-            for the <span className="italic font-normal text-accent">Private Markets.</span>
+            for <span className="italic font-normal text-accent">Private Markets.</span>
           </h1>
           <p className="text-lg md:text-xl text-text-secondary leading-relaxed max-w-2xl mx-auto mb-10 text-balance">
             For investors pursuing <span className="whitespace-nowrap">pre-IPO</span> opportunities and shareholders considering liquidity.

@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useParams, useNavigate, Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import { ArrowLeft, Clock, Calendar, ArrowRight, Bot, Code, Globe } from 'lucide-react';
+import { ArrowLeft, Clock, ArrowRight, Bot, Code, Globe } from 'lucide-react';
 import { SEO } from './SEO';
 import { POSTS, CATEGORY_LABELS, AUDIENCE_LABELS, type Category, type Audience } from './agent-blog-posts';
 
@@ -62,11 +62,10 @@ export const AgentBlog: React.FC<AgentBlogProps> = ({ onContactClick }) => {
               Back to Insights
             </Link>
 
+            <p className="text-sm text-text-muted mb-4">
+              By <Link to="/about/" rel="author" className="hover:text-accent transition-colors">Strategic Fund Partners</Link>
+            </p>
             <div className="flex items-center gap-4 text-xs font-mono uppercase tracking-widest text-text-muted mb-6">
-              <div className="flex items-center gap-2">
-                <Calendar className="w-3 h-3" />
-                {selectedPost.date}
-              </div>
               <div className="flex items-center gap-2">
                 <Clock className="w-3 h-3" />
                 {selectedPost.readTime}
@@ -155,8 +154,6 @@ export const AgentBlog: React.FC<AgentBlogProps> = ({ onContactClick }) => {
                 <div className="p-8 flex flex-col h-full">
                   <div className="flex items-center justify-between mb-4">
                     <div className="flex items-center gap-4 text-xs font-mono text-text-muted">
-                      <span>{post.date}</span>
-                      <span className="w-1 h-1 bg-accent rounded-full" />
                       <span>{post.readTime}</span>
                     </div>
                   </div>

@@ -1,10 +1,13 @@
 import React, { useEffect } from 'react';
 import { useParams, useNavigate, Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import { ArrowLeft, Clock, Calendar, ArrowRight } from 'lucide-react';
+import { ArrowLeft, Clock, ArrowRight } from 'lucide-react';
 import { SEO } from './SEO';
+import { BUYER_STRUCTURE_POSTS } from './private-markets-posts/buyer-structures';
+import { BROKER_POSTS } from './private-markets-posts/brokers';
+import { OWNERSHIP_LIQUIDITY_POSTS } from './private-markets-posts/ownership-liquidity';
 
-interface BlogPost {
+export interface BlogPost {
   id: string;
   title: string;
   date: string;
@@ -13,11 +16,18 @@ interface BlogPost {
   content: React.ReactNode;
 }
 
+export const PRIVATE_MARKET_POSTS: BlogPost[] = [
+  ...BUYER_STRUCTURE_POSTS,
+  ...BROKER_POSTS,
+  ...OWNERSHIP_LIQUIDITY_POSTS,
+];
+
 interface BlogProps {
   onContactClick: () => void;
 }
 
 export const FUND_POSTS: BlogPost[] = [
+  ...PRIVATE_MARKET_POSTS,
   {
     id: 'reviewing-investment-documents',
     title: 'Reviewing Investment Documents: A Guide for Fund Managers',
@@ -1938,6 +1948,7 @@ export const Blog: React.FC<BlogProps> = ({ onContactClick }) => {
   const { slug } = useParams<{ slug: string }>();
   const navigate = useNavigate();
   const selectedPost = FUND_POSTS.find(post => post.id === slug);
+  const isPrivateMarketsPost = PRIVATE_MARKET_POSTS.some(post => post.id === slug);
 
   useEffect(() => {
     if (slug && !selectedPost) navigate('/insights/', { replace: true });
@@ -1954,6 +1965,7 @@ export const Blog: React.FC<BlogProps> = ({ onContactClick }) => {
           description={selectedPost.excerpt}
           type="article"
           publishedTime={publishedTime}
+          authorName={isPrivateMarketsPost ? 'Miles Muller' : undefined}
         />
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -1970,11 +1982,10 @@ export const Blog: React.FC<BlogProps> = ({ onContactClick }) => {
               Back to Insights
             </Link>
           
+          <p className="text-sm text-text-muted mb-4">
+            By <Link to="/about/" rel="author" className="hover:text-accent transition-colors">{isPrivateMarketsPost ? 'Miles Muller' : 'Strategic Fund Partners'}</Link>
+          </p>
           <div className="flex items-center gap-6 text-xs font-mono uppercase tracking-widest text-text-muted mb-8">
-            <div className="flex items-center gap-2">
-                <Calendar className="w-3 h-3" />
-                {selectedPost.date}
-            </div>
             <div className="flex items-center gap-2">
                 <Clock className="w-3 h-3" />
                 {selectedPost.readTime}
@@ -1991,14 +2002,21 @@ export const Blog: React.FC<BlogProps> = ({ onContactClick }) => {
           
           {/* CTA Footer in Blog */}
           <div className="mt-20 p-8 bg-surface/20 border border-grid text-center">
-              <h3 className="font-serif text-2xl text-text-highlight mb-4">Need help with your filing?</h3>
-              <p className="text-text-secondary mb-8">Contact us for a consultation tailored to your fund's structure.</p>
-              <button 
+              <h3 className="font-serif text-2xl text-text-highlight mb-4">{isPrivateMarketsPost ? 'Private Markets Advisory' : 'Need help with your filing?'}</h3>
+              <p className="text-text-secondary mb-8">{isPrivateMarketsPost ? 'Discuss your investment or liquidity plans.' : "Contact us for a consultation tailored to your fund's structure."}</p>
+              {isPrivateMarketsPost ? (
+                <Link
+                  to="/private-markets/"
+                  className="inline-block px-6 py-3 border border-accent text-accent hover:bg-accent hover:text-bg transition-colors text-xs font-bold uppercase tracking-widest"
+                >
+                  Explore Advisory Services
+                </Link>
+              ) : <button
                 onClick={onContactClick}
                 className="inline-block px-6 py-3 border border-accent text-accent hover:bg-accent hover:text-bg transition-colors text-xs font-bold uppercase tracking-widest"
               >
                   Discuss Requirements
-              </button>
+              </button>}
           </div>
         </div>
       </motion.div>
@@ -2026,8 +2044,6 @@ export const Blog: React.FC<BlogProps> = ({ onContactClick }) => {
                   >
                       <div className="p-8 flex flex-col h-full">
                           <div className="flex items-center gap-4 text-xs font-mono text-text-muted mb-6">
-                              <span>{post.date}</span>
-                              <span className="w-1 h-1 bg-accent rounded-full" />
                               <span>{post.readTime}</span>
                           </div>
 

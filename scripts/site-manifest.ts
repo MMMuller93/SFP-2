@@ -96,7 +96,7 @@ export const createSiteManifest = (): PublishedPage[] => {
   }
 
   const collections = [
-    { path: SITE_PATHS.insights, posts: FUND_POSTS, files: ['components/Blog.tsx'] },
+    { path: SITE_PATHS.insights, posts: FUND_POSTS, files: ['components/Blog.tsx', ...readdirSync('components/private-markets-posts').filter(file => file.endsWith('.tsx')).map(file => `components/private-markets-posts/${file}`)] },
     { path: SITE_PATHS.startupInsights, posts: STARTUP_POSTS, files: ['components/StartupBlog.tsx'] },
     { path: SITE_PATHS.agentInsights, posts: AGENT_POSTS, files: readdirSync('components/agent-blog-posts').filter(file => file.endsWith('.tsx')).map(file => `components/agent-blog-posts/${file}`) },
   ];

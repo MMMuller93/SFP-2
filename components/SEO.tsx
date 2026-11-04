@@ -1,4 +1,4 @@
-import { useEffect } from 'react';
+import { useEffect, type FC } from 'react';
 import { useLocation } from 'react-router-dom';
 import { canonicalPath, SITE_ORIGIN } from '../lib/site-paths';
 
@@ -8,14 +8,16 @@ interface SEOProps {
   image?: string;
   type?: 'website' | 'article';
   publishedTime?: string;
+  authorName?: string;
 }
 
-export const SEO: React.FC<SEOProps> = ({
+export const SEO: FC<SEOProps> = ({
   title = 'Strategic Fund Partners | Fund Formation & RIA Compliance',
   description = 'Fund formation, SPV structuring, side letters, custom waterfalls, and RIA/ERA registration and compliance for private fund managers and SPV sponsors.',
   image = 'https://strategicfundpartners.com/og-image.png',
   type = 'website',
   publishedTime,
+  authorName,
 }) => {
   const location = useLocation();
   const url = `${SITE_ORIGIN}${canonicalPath(location.pathname)}`;
@@ -65,7 +67,7 @@ export const SEO: React.FC<SEOProps> = ({
     // Article-specific tags
     if (type === 'article' && publishedTime) {
       updateMetaTag('article:published_time', publishedTime);
-      updateMetaTag('article:author', 'Strategic Fund Partners');
+      updateMetaTag('article:author', authorName || 'Strategic Fund Partners');
     } else {
       document.querySelector('meta[property="article:published_time"]')?.remove();
       document.querySelector('meta[property="article:author"]')?.remove();
@@ -79,7 +81,29 @@ export const SEO: React.FC<SEOProps> = ({
       document.head.appendChild(canonical);
     }
     canonical.href = url;
-  }, [title, description, image, type, url, publishedTime]);
+
+    document.getElementById('article-schema')?.remove();
+    if (type === 'article' && publishedTime) {
+      const script = document.createElement('script');
+      script.type = 'application/ld+json';
+      script.id = 'article-schema';
+      script.textContent = JSON.stringify({
+        '@context': 'https://schema.org',
+        '@type': 'BlogPosting',
+        headline: title.replace(/ \| Strategic Fund Partners$/, ''),
+        description,
+        url,
+        mainEntityOfPage: { '@type': 'WebPage', '@id': url },
+        datePublished: publishedTime,
+        author: authorName
+          ? { '@type': 'Person', name: authorName, url: `${SITE_ORIGIN}/about/` }
+          : { '@type': 'Organization', '@id': `${SITE_ORIGIN}/#organization`, name: 'Strategic Fund Partners', url: `${SITE_ORIGIN}/about/` },
+        publisher: { '@type': 'Organization', '@id': `${SITE_ORIGIN}/#organization`, name: 'Strategic Fund Partners' },
+      });
+      document.head.appendChild(script);
+      return () => script.remove();
+    }
+  }, [title, description, image, type, url, publishedTime, authorName]);
 
   return null;
 };

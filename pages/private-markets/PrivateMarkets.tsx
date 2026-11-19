@@ -57,7 +57,7 @@ export const PrivateMarkets: React.FC = () => {
             onClick={handleConsultation}
             className="inline-flex items-center justify-center gap-3 px-7 md:px-8 py-4 bg-accent text-bg text-xs font-bold uppercase tracking-widest hover:bg-accentHover transition-colors duration-300 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-accent"
           >
-            Book Consultation
+            Contact
             <ArrowUpRight className="w-4 h-4 shrink-0" aria-hidden="true" />
           </a>
         </div>
@@ -149,7 +149,7 @@ export const PrivateMarkets: React.FC = () => {
             onClick={handleConsultation}
             className="inline-flex items-center gap-3 self-start lg:self-auto shrink-0 border-b border-accent pb-3 text-xs font-bold uppercase tracking-widest text-accent hover:text-accentHover hover:border-accentHover transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-accent"
           >
-            Book Consultation
+            Contact
             <ArrowUpRight className="w-4 h-4" aria-hidden="true" />
           </a>
         </div>

@@ -130,7 +130,7 @@ export const Navbar: React.FC<NavbarProps> = () => {
               onClick={handleConsultation}
               className="flex items-center gap-2 whitespace-nowrap text-xs font-bold uppercase tracking-widest text-text-highlight hover:text-bg transition-colors border border-border px-5 py-2.5 hover:bg-accent hover:border-accent"
             >
-              Book Consultation
+              Contact
               <ArrowUpRight className="w-4 h-4" />
             </motion.a>
           </div>
@@ -178,7 +178,7 @@ export const Navbar: React.FC<NavbarProps> = () => {
                 onClick={handleConsultation}
                 className="mt-8 flex items-center gap-2 text-accent font-medium text-sm uppercase tracking-widest"
               >
-                Book Consultation <ArrowUpRight className="w-4 h-4" />
+                Contact <ArrowUpRight className="w-4 h-4" />
               </a>
             </div>
           </motion.div>

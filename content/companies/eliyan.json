@@ -1,0 +1,83 @@
+{
+  "slug": "eliyan",
+  "name": "Eliyan",
+  "site": "https://eliyan.com",
+  "founded": "2021",
+  "h1_tail": "Funding Rounds and Ownership",
+  "description": "Eliyan is privately held and has no ticker. Review its funding rounds and valuations, the investors and SPV that hold its shares, and the points to confirm before buying or selling.",
+  "ledes": [
+    "Eliyan Corporation is a privately held semiconductor company. Its shares are not listed on an exchange and have no quoted market price; the principal public reference points are the valuations at which the company has raised capital. Its most recent financing, a $145 million Series C round announced on July 29, 2026, valued the company at $1 billion.",
+    "Founded in 2021 and based in Santa Clara, California, Eliyan develops NuLink interface circuits and NuGear chiplets, which connect processors, memory and networking components inside AI and high-performance computing systems. Existing shares change hands in privately negotiated transactions and remain subject to the company's transfer restrictions."
+  ],
+  "figs": [
+    [
+      "$1B",
+      "Valuation, Series C (July 2026)"
+    ],
+    [
+      "$145M",
+      "Amount raised, Series C"
+    ],
+    [
+      "$50M",
+      "Strategic investment (January 2026)"
+    ],
+    [
+      "2021",
+      "Year founded"
+    ]
+  ],
+  "rounds_heading": "Funding Rounds",
+  "columns": [
+    "Valuation",
+    "Amount raised"
+  ],
+  "rounds": [
+    [
+      "Jul 2026",
+      "Series C",
+      [
+        "$1.0B",
+        "$145M"
+      ]
+    ],
+    [
+      "Jan 2026",
+      "Strategic investment",
+      [
+        null,
+        "$50M"
+      ]
+    ],
+    [
+      "Mar 2024",
+      "Series B",
+      [
+        null,
+        "$60M"
+      ]
+    ],
+    [
+      "Nov 2022",
+      "Series A",
+      [
+        null,
+        "$40M"
+      ]
+    ]
+  ],
+  "table_note": "Valuations are as announced by the company. Eliyan has not said whether the January 2026 strategic investment forms part of the $145 million Series C total.",
+  "round_notes": [
+    "Eliyan has said the Series C will advance its development of electro-optical interconnects for AI infrastructure. As part of the financing, the company said that Umesh Padval, managing partner of Seligman Ventures, would join its board.",
+    "A round valuation reflects the terms of the preferred stock issued in that round. Most shares sold by employees are common stock, which carries fewer rights and typically trades at a discount to the preferred price."
+  ],
+  "investors": "Seligman Ventures led the Series C, in which Cisco Investments and Lumentum joined as new strategic investors. AMD, Arm, Coherent and Meta made strategic investments in January 2026, Samsung Catalyst Fund and Tiger Global Management co-led the Series B, and Tracker Capital Management led the Series A. Other investors include Intel Capital, SK hynix, Micron Ventures and Celesta Capital.",
+  "spv_sentence": "SEC filings show one special purpose vehicle formed to invest in Eliyan, organized in 2024.",
+  "spv_years": null,
+  "related": [
+    "Ayar Labs",
+    "Lightmatter",
+    "Tenstorrent"
+  ],
+  "sources": "Sources: Eliyan's announcements of its <a href=\"https://www.hpcwire.com/off-the-wire/eliyan-secures-145m-to-expand-ai-optical-interconnect-platform/\">Series C</a> (July 29, 2026) and its <a href=\"https://www.intelcapital.com/eliyan-secures-50-million-in-strategic-investments\">strategic investments</a> (January 28, 2026); reports by SiliconANGLE (<a href=\"https://siliconangle.com/2026/07/29/optical-interconnect-startup-eliyan-raises-145m-funding-solve-ai-chip-cluster-connectivity-crunch/\">July 2026</a>, <a href=\"https://siliconangle.com/2024/03/25/samsung-co-leads-60m-funding-round-chip-interconnect-startup-eliyan/\">March 2024</a> and <a href=\"https://siliconangle.com/2022/11/08/chiplet-interconnect-startup-eliyan-raises-40m-funding/\">November 2022</a>); and SEC Form D filings."
+}

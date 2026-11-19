@@ -1,0 +1,91 @@
+{
+  "slug": "baseten",
+  "name": "Baseten",
+  "site": "https://www.baseten.co",
+  "founded": "2019",
+  "h1_tail": "Funding Rounds and Ownership",
+  "description": "Baseten is privately held and has no ticker. Review its funding rounds and valuations, its investors, and the points to confirm before buying or selling.",
+  "ledes": [
+    "Baseten is a privately held AI infrastructure company. Its shares are not listed on an exchange and have no quoted market price; the principal public reference points are the valuations at which the company has raised capital. Its most recent financing, a $1.5 billion Series F round announced on June 22, 2026, valued the company at $13 billion.",
+    "Founded in 2019 and based in San Francisco, Baseten operates a platform on which companies deploy and serve AI models in production, a process known as inference. Existing shares change hands in privately negotiated transactions and remain subject to the company's transfer restrictions."
+  ],
+  "figs": [
+    [
+      "$13B",
+      "Valuation, Series F (June 2026)"
+    ],
+    [
+      "$1.5B",
+      "Amount raised, Series F"
+    ],
+    [
+      "$5B",
+      "Valuation, Series E (January 2026)"
+    ],
+    [
+      "2019",
+      "Year founded"
+    ]
+  ],
+  "rounds_heading": "Funding Rounds",
+  "columns": [
+    "Valuation",
+    "Amount raised"
+  ],
+  "rounds": [
+    [
+      "Jun 2026",
+      "Series F",
+      [
+        "$13.0B",
+        "$1.5B"
+      ]
+    ],
+    [
+      "Jan 2026",
+      "Series E",
+      [
+        "$5.0B",
+        "$300M"
+      ]
+    ],
+    [
+      "Sep 2025",
+      "Series D",
+      [
+        "$2.15B",
+        "$150M"
+      ]
+    ],
+    [
+      "Feb 2025",
+      "Series C",
+      [
+        "$825M",
+        "$75M"
+      ]
+    ],
+    [
+      "Mar 2024",
+      "Series B",
+      [
+        "$200M",
+        "$40M"
+      ]
+    ]
+  ],
+  "table_note": "Valuations are as announced by the company, except the Series C figure, which is as reported by CNBC, and the Series B figure, which is as reported by Forbes. The Series F was issued in two tranches, at valuations of $13 billion and $11 billion.",
+  "round_notes": [
+    "On October 30, 2026, Bloomberg reported that Baseten was set to raise $2 billion in a round led by Sands Capital, in two tranches at valuations of $26 billion and $30 billion. Baseten has not announced that round. With its Series F announcement, the company said its revenue had grown 20 times over the prior year; that figure is the company's own.",
+    "A round valuation reflects the terms of the preferred stock issued in that round. Most shares sold by employees are common stock, which carries fewer rights and typically trades at a discount to the preferred price."
+  ],
+  "investors": "Altimeter Capital, Conviction and Spark Capital led the Series F, with Sands Capital and Wellington Management as co-leads. IVP and CapitalG led the Series E, BOND led the Series D, and IVP and Spark Capital led the Series C and Series B. Other investors include Nvidia, Greylock, Premji Invest, Blackbird, Battery Ventures, South Park Commons and D.E. Shaw Ventures.",
+  "spv_sentence": "No special purpose vehicles naming Baseten appear in SEC Form D filings.",
+  "spv_years": null,
+  "related": [
+    "Fireworks AI",
+    "Fluidstack",
+    "Crusoe"
+  ],
+  "sources": "Sources: Baseten's announcements of its <a href=\"https://baseten.co/blog/announcing-our-series-f/\">Series F</a> and <a href=\"https://www.baseten.co/blog/announcing-baseten-s-300m-series-e/\">Series E</a>; reports by <a href=\"https://fortune.com/2025/09/05/exclusive-baseten-ai-inference-unicorn-raises-150-million-at-2-15-billion-valuation/\">Fortune</a> (September 2025), SiliconANGLE (<a href=\"https://siliconangle.com/2025/09/05/ai-inference-startup-baseten-closes-150m-investment-backed-capitalg/\">September 2025</a> and <a href=\"https://siliconangle.com/2024/03/04/baseten-nabs-40m-cloud-based-ai-inference-platform/\">March 2024</a>), CNBC (February 19, 2025) and Bloomberg (October 30, 2026); reports by Forbes; and SEC Form D filings."
+}

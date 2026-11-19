@@ -1,0 +1,83 @@
+{
+  "slug": "enveda-biosciences",
+  "name": "Enveda",
+  "site": "https://www.enveda.com",
+  "founded": "2019",
+  "h1_tail": "Funding Rounds and Ownership",
+  "description": "Enveda is privately held and has no ticker. Review its funding rounds and valuations, its investors, and the points to confirm before buying or selling.",
+  "ledes": [
+    "Enveda Biosciences is a privately held biotechnology company. Its shares are not listed on an exchange and have no quoted market price; the principal public reference points are the valuations at which the company has raised capital. Its most recent financing, a $311 million Series E round announced on September 23, 2026, valued the company at $2 billion.",
+    "Founded in 2019 and based in Boulder, Colorado, Enveda uses machine learning to identify drug candidates among the chemical compounds found in nature. Existing shares change hands in privately negotiated transactions and remain subject to the company's transfer restrictions."
+  ],
+  "figs": [
+    [
+      "$2B",
+      "Valuation as reported, Series E (September 2026)"
+    ],
+    [
+      "$311M",
+      "Amount raised, Series E"
+    ],
+    [
+      "$150M",
+      "Amount raised, Series D (September 2025)"
+    ],
+    [
+      "2019",
+      "Year founded"
+    ]
+  ],
+  "rounds_heading": "Funding Rounds",
+  "columns": [
+    "Valuation",
+    "Amount raised"
+  ],
+  "rounds": [
+    [
+      "Sep 2026",
+      "Series E",
+      [
+        "$2.0B",
+        "$311M"
+      ]
+    ],
+    [
+      "Sep 2025",
+      "Series D",
+      [
+        "$1.0B",
+        "$150M"
+      ]
+    ],
+    [
+      "Nov 2024",
+      "Series C",
+      [
+        null,
+        "$130M"
+      ]
+    ],
+    [
+      "Jun 2024",
+      "Series B2",
+      [
+        null,
+        "$55M"
+      ]
+    ]
+  ],
+  "table_note": "Valuations are as reported at the time of each round, by The Wall Street Journal for the Series E and by Bloomberg for the Series D.",
+  "round_notes": [
+    "With the Series E announcement, Enveda said it had raised more than $845 million since its founding. The company has said the proceeds will fund later-stage trials of its three drug candidates in clinical development and the expansion of PRISM, its discovery platform.",
+    "A round valuation reflects the terms of the preferred stock issued in that round. Most shares sold by employees are common stock, which carries fewer rights and typically trades at a discount to the preferred price."
+  ],
+  "investors": "Catalio Capital Management led the Series E, with participation from Surveyor Capital, T. Rowe Price and Lux Capital. Premji Invest led the Series D, and Kinnevik and FPV led the Series C, which Sanofi joined in February 2025. Other investors include Dimension, Microsoft and True Ventures.",
+  "spv_sentence": "No special purpose vehicles naming Enveda appear in SEC Form D filings.",
+  "spv_years": null,
+  "related": [
+    "Xaira Therapeutics",
+    "Insitro",
+    "Generate Biomedicines"
+  ],
+  "sources": "Sources: reports by <a href=\"https://www.biopharmadive.com/news/enveda-ai-drug-discovery-series-e/831161/\">BioPharma Dive</a> (September 2026 and <a href=\"https://www.biopharmadive.com/news/enveda-series-d-immune-obesity-dolsten-board/759080/\">September 2025</a>), The Wall Street Journal (September 2026), <a href=\"https://www.pharmaceutical-technology.com/news/enveda-nabs-311m-to-progress-nature-derived-drug-pipeline/\">Pharmaceutical Technology</a> (September 2026), <a href=\"https://news.bloomberglaw.com/artificial-intelligence/biotechs-latest-unicorn-uses-ai-to-mine-natures-medicine-chest\">Bloomberg</a> (September 2025) and <a href=\"https://techcrunch.com/2024/06/14/enveda-raises-55m-to-combine-ancient-remedies-with-ai-for-drug-discovery/\">TechCrunch</a> (June 2024); and SEC Form D filings."
+}

@@ -1,0 +1,76 @@
+{
+  "slug": "lambda",
+  "name": "Lambda",
+  "site": "https://lambda.com",
+  "founded": "2012",
+  "h1_tail": "Funding Rounds and Ownership",
+  "description": "Lambda is privately held and has no ticker. Review its funding rounds and valuations, the investors and funds that hold its shares, and the points to confirm before buying or selling.",
+  "ledes": [
+    "Lambda is a privately held cloud computing company. Its shares are not listed on an exchange and have no quoted market price; the principal public reference points are the terms on which the company has raised capital. Its most recent financing, a Series E round of more than $1.5 billion announced on November 18, 2025, was made at a valuation the company did not disclose.",
+    "Founded in 2012, Lambda rents Nvidia graphics processors through its cloud platform to companies that train and run artificial intelligence models, and it is building data centers to supply that capacity. Existing shares change hands in privately negotiated transactions and remain subject to the company's transfer restrictions."
+  ],
+  "figs": [
+    [
+      "$1.5B+",
+      "Amount raised, Series E (November 2025)"
+    ],
+    [
+      "$480M",
+      "Amount raised, Series D (February 2025)"
+    ],
+    [
+      "2012",
+      "Year founded"
+    ],
+    [
+      "458,114",
+      "Shares reported by ARK Venture Fund (July 31, 2026)"
+    ]
+  ],
+  "rounds_heading": "Funding Rounds",
+  "columns": [
+    "Valuation",
+    "Amount raised"
+  ],
+  "rounds": [
+    [
+      "Nov 2025",
+      "Series E",
+      [
+        null,
+        "Over $1.5B"
+      ]
+    ],
+    [
+      "Feb 2025",
+      "Series D",
+      [
+        "$2.5B",
+        "$480M"
+      ]
+    ],
+    [
+      "Feb 2024",
+      "Series C",
+      [
+        "Over $1.5B",
+        "$320M"
+      ]
+    ]
+  ],
+  "table_note": "The Series C valuation is as announced by the company, and the Series D valuation is the post-money figure reported by Reuters. Amounts raised reflect equity only and exclude debt, including the $1 billion term loan Lambda closed in October 2026.",
+  "round_notes": [
+    "In October 2026, The Wall Street Journal reported that Lambda was raising $4 billion at a pre-money valuation of $14.5 billion, in a round led by Coatue and Blackstone, ahead of an initial public offering planned for 2027. Lambda has not announced the round.",
+    "A round valuation reflects the terms of the preferred stock issued in that round. Most shares sold by employees are common stock, which carries fewer rights and typically trades at a discount to the preferred price."
+  ],
+  "investors": "TWG Global led the Series E, with participation from the US Innovative Technology Fund and existing investors. Andra Capital and SGW led the Series D, which also drew Nvidia, ARK Invest, In-Q-Tel, G Squared and Andrej Karpathy, and the US Innovative Technology Fund led the Series C. Other investors include B Capital, SK Telecom, T. Rowe Price, Crescent Cove, Mercato Partners and 1517 Fund.",
+  "spv_sentence": "No special purpose vehicles naming Lambda appear in SEC Form D filings.",
+  "spv_years": null,
+  "funds": "One SEC-registered fund reports a position in Lambda. As of July 31, 2026, ARK Venture Fund held 458,114 shares, which it valued at $17.4 million, or $38.00 per share.",
+  "related": [
+    "Crusoe",
+    "Etched",
+    "Vast Data"
+  ],
+  "sources": "Sources: Lambda's announcements of its <a href=\"https://lambda.com/blog/lambda-raises-over-1.5b-from-twg-global-usit-to-build-superintelligence-cloud-infrastructure\">Series E</a>, <a href=\"https://lambda.com/blog/lambda-raises-480m-to-expand-ai-cloud-platform\">Series D</a> and <a href=\"https://markets.financialcontent.com/pennwell.pennenergy/article/bizwire-2024-2-15-lambda-raises-320m-to-build-a-gpu-cloud-for-ai\">Series C</a> and of its <a href=\"https://lambda.com/blog/lambda-closes-1-billion-senior-secured-fixed-rate-financing\">October 2026 term loan</a>; TechCrunch reports dated <a href=\"https://techcrunch.com/2026/10/06/ai-computing-startup-lambda-to-raise-4b-ahead-of-planned-ipo\">October 6, 2026</a> and <a href=\"https://techcrunch.com/2025/11/18/ai-data-center-provider-lambda-raises-whopping-1-5b-after-multibillion-dollar-microsoft-deal\">November 18, 2025</a>; reporting by The Wall Street Journal (October 2026); ARK Venture Fund's <a href=\"https://www.sec.gov/Archives/edgar/data/1905088/000094040026036464/\">Form N-PORT</a> for July 31, 2026; reports by Reuters; and SEC Form D filings."
+}

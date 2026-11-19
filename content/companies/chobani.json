@@ -1,0 +1,67 @@
+{
+  "slug": "chobani",
+  "name": "Chobani",
+  "site": "https://www.chobani.com",
+  "founded": "2005",
+  "h1_tail": "Funding Rounds and Ownership",
+  "description": "Chobani is privately held and has no ticker. Review its funding rounds and valuations, its investors, and the points to confirm before buying or selling.",
+  "ledes": [
+    "Chobani is a privately held food company. Its shares are not listed on an exchange and have no quoted market price; the principal public reference points are the valuations at which the company has raised capital. Its most recent financing, a $650 million equity raise announced on October 16, 2025, was reported at the time to value the company at $20 billion.",
+    "Founded in 2005 and based in New Berlin, New York, Chobani makes yogurt, coffee creamers and other dairy and plant-based foods. Existing shares change hands in privately negotiated transactions and remain subject to the company's transfer restrictions."
+  ],
+  "figs": [
+    [
+      "$20B",
+      "Reported valuation, October 2025 equity raise"
+    ],
+    [
+      "$650M",
+      "Amount raised, October 2025"
+    ],
+    [
+      "$800M",
+      "Consideration to redeem Keurig Dr Pepper's equity interests (September 2026)"
+    ],
+    [
+      "2005",
+      "Year founded"
+    ]
+  ],
+  "rounds_heading": "Funding Rounds",
+  "columns": [
+    "Valuation",
+    "Amount raised"
+  ],
+  "rounds": [
+    [
+      "Oct 2025",
+      "Equity raise",
+      [
+        "$20.0B",
+        "$650M"
+      ]
+    ],
+    [
+      "Jun 2018",
+      "Minority investment",
+      [
+        null,
+        null
+      ]
+    ]
+  ],
+  "table_note": "Chobani did not disclose a valuation for its October 2025 raise; the figure shown is as reported by The New York Times. The terms of the 2018 investment were not disclosed.",
+  "round_notes": [
+    "Chobani has said the October 2025 proceeds, together with cash from operations, will fund the expansion of its plant in Twin Falls, Idaho and a new plant in Rome, New York. In September 2026, Keurig Dr Pepper reported that Chobani had redeemed all of Keurig Dr Pepper's indirect equity interests in the company for $800 million, consisting of $400 million in cash and a $400 million promissory note.",
+    "A round valuation reflects the terms of the preferred stock issued in that round. Most shares sold by employees are common stock, which carries fewer rights and typically trades at a discount to the preferred price."
+  ],
+  "investors": "Chobani did not name the investors in its October 2025 raise. In June 2018, HOOPP Capital Partners, the private capital team of the Healthcare of Ontario Pension Plan, acquired a minority equity investment and a board seat; Chobani issued the shares to fund the repurchase of warrants held by TPG, which then exited its investment. Keurig Dr Pepper held an indirect equity interest until its redemption in September 2026.",
+  "spv_sentence": "No special purpose vehicles naming Chobani appear in SEC Form D filings.",
+  "spv_years": null,
+  "related": [
+    "Fanatics",
+    "Skims",
+    "Liquid Death"
+  ],
+  "sources": "Sources: Chobani's announcements of its <a href=\"https://www.prnewswire.com/news-releases/chobani-announces-equity-capital-raise-to-support-growth-and-innovation-302585774.html\">October 2025 equity raise</a> and <a href=\"https://prnewswire.com/news-releases/chobani-announces-canadian-pension-firm-hoopp-as-new-minority-investor-300673491.html\">June 2018 minority investment</a>; reports by The New York Times (October 2025) and <a href=\"https://www.fooddive.com/news/chobani-raises-650m-to-support-growth-innovation/803208/\">Food Dive</a> (October 2025); Keurig Dr Pepper's <a href=\"https://www.sec.gov/Archives/edgar/data/0001418135/000141813526000060/kdp-20260928.htm\">Form 8-K</a> dated September 28, 2026; and SEC Form D filings."
+}

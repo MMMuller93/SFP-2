@@ -1,0 +1,67 @@
+{
+  "slug": "generalist-ai",
+  "name": "Generalist AI",
+  "site": "https://generalistai.com",
+  "founded": "",
+  "h1_tail": "Funding Rounds and Ownership",
+  "description": "Generalist AI is privately held and has no ticker. Review its funding rounds and valuations, its investors, and the points to confirm before buying or selling.",
+  "ledes": [
+    "Generalist AI is a privately held robotics software company. Its shares are not listed on an exchange and have no quoted market price; the principal public reference points are the valuations at which the company has raised capital. Its most recent reported financing, a $198 million extension of its Series B round in August 2026, valued the company at $3 billion.",
+    "Generalist AI develops AI foundation models, including its GEN-1 series, that are intended to let robots of different designs learn and carry out physical tasks. Existing shares change hands in privately negotiated transactions and remain subject to the company's transfer restrictions."
+  ],
+  "figs": [
+    [
+      "$3B",
+      "Reported valuation, Series B extension (August 2026)"
+    ],
+    [
+      "$198M",
+      "Amount raised, Series B extension"
+    ],
+    [
+      "$400M",
+      "Amount raised, Series B (June 2026)"
+    ],
+    [
+      "Over $500M",
+      "Total raised through the Series B, as stated by the company"
+    ]
+  ],
+  "rounds_heading": "Funding Rounds",
+  "columns": [
+    "Valuation",
+    "Amount raised"
+  ],
+  "rounds": [
+    [
+      "Aug 2026",
+      "Series B extension",
+      [
+        "$3.0B",
+        "$198M"
+      ]
+    ],
+    [
+      "Jun 2026",
+      "Series B",
+      [
+        "$2.0B",
+        "$400M"
+      ]
+    ]
+  ],
+  "table_note": "Valuations are as reported at the time of each round. Generalist AI did not announce the Series B extension; its valuation is as reported by TechCrunch, and the amount is the sum reported as sold in the company's SEC filing.",
+  "round_notes": [
+    "In August 2026, TechCrunch reported, citing people familiar with the financing, that 8VC led the Series B extension. Generalist AI has not announced the extension or its valuation.",
+    "A round valuation reflects the terms of the preferred stock issued in that round. Most shares sold by employees are common stock, which carries fewer rights and typically trades at a discount to the preferred price."
+  ],
+  "investors": "Radical Ventures led the Series B, with participation from new investors 8VC, Union Square Ventures, Hanabi Capital and Norwest. Existing investors Nvidia's NVentures, Boldstart Ventures, Spark Capital, Bezos Expeditions and NFDG also took part in the round.",
+  "spv_sentence": "No special purpose vehicles naming Generalist AI appear in SEC Form D filings.",
+  "spv_years": null,
+  "related": [
+    "Physical Intelligence",
+    "Skild AI",
+    "Figure AI"
+  ],
+  "sources": "Sources: Generalist AI's <a href=\"https://generalistai.com/blog/accelerating-the-next-phase-of-physical-ai\">announcement</a> of its $400 million financing (June 4, 2026); reports by <a href=\"https://news.bloomberglaw.com/private-equity/nvidia-backed-robotics-firm-generalist-ai-valued-at-2-billion\">Bloomberg</a> (June 2026), <a href=\"https://siliconangle.com/2026/06/04/generalist-ai-raises-400m-2b-valuation-build-general-intelligence-real-world/\">SiliconANGLE</a> (June 2026) and <a href=\"https://techcrunch.com/2026/08/25/robotics-startup-generalist-reaches-3b-valuation-sources-say/\">TechCrunch</a> (August 2026); and SEC Form D filings."
+}

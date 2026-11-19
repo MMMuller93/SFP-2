@@ -127,6 +127,9 @@ export const PrivateMarkets: React.FC = () => {
             <a href="/#services" className="inline-flex items-center gap-2 text-accent hover:text-accentHover underline underline-offset-4">
               Fund Formation &amp; Compliance <ArrowUpRight className="w-4 h-4" aria-hidden="true" />
             </a>
+            <a href="/private-markets/companies/" className="inline-flex items-center gap-2 text-accent hover:text-accentHover underline underline-offset-4">
+              Private Company Funding Rounds <ArrowUpRight className="w-4 h-4" aria-hidden="true" />
+            </a>
           </div>
         </div>
       </section>

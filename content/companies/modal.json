@@ -1,0 +1,83 @@
+{
+  "slug": "modal",
+  "name": "Modal",
+  "site": "https://modal.com",
+  "founded": "2021",
+  "h1_tail": "Funding Rounds and Ownership",
+  "description": "Modal is privately held and has no ticker. Review its funding rounds and valuations, its investors, and the points to confirm before buying or selling.",
+  "ledes": [
+    "Modal Labs is a privately held cloud computing company. Its shares are not listed on an exchange and have no quoted market price; the principal public reference points are the valuations at which the company has raised capital. Its most recent financing, a $750 million Series D round announced on October 14, 2026, valued the company at $15.75 billion.",
+    "Founded in 2021 and based in New York, Modal runs a cloud platform on which developers deploy AI models, batch jobs and code sandboxes, using computing capacity it sources from other cloud providers. Existing shares change hands in privately negotiated transactions and remain subject to the company's transfer restrictions."
+  ],
+  "figs": [
+    [
+      "$15.75B",
+      "Post-money valuation, Series D (October 2026)"
+    ],
+    [
+      "$750M",
+      "Amount raised, Series D"
+    ],
+    [
+      "$355M",
+      "Amount raised, Series C (May 2026)"
+    ],
+    [
+      "2021",
+      "Year founded"
+    ]
+  ],
+  "rounds_heading": "Funding Rounds",
+  "columns": [
+    "Valuation",
+    "Amount raised"
+  ],
+  "rounds": [
+    [
+      "Oct 2026",
+      "Series D",
+      [
+        "$15.75B",
+        "$750M"
+      ]
+    ],
+    [
+      "May 2026",
+      "Series C",
+      [
+        "$4.65B",
+        "$355M"
+      ]
+    ],
+    [
+      "Sep 2025",
+      "Series B",
+      [
+        "$1.1B",
+        "$87M"
+      ]
+    ],
+    [
+      "Oct 2023",
+      "Series A",
+      [
+        null,
+        "$16M"
+      ]
+    ]
+  ],
+  "table_note": "Valuations are post-money. The Series C was raised in two tranches, the first at a valuation of $2.5 billion, according to SiliconANGLE.",
+  "round_notes": [
+    "With the Series D announcement, Modal said its annualized revenue run rate had passed $1 billion; that figure is the company's own.",
+    "A round valuation reflects the terms of the preferred stock issued in that round. Most shares sold by employees are common stock, which carries fewer rights and typically trades at a discount to the preferred price."
+  ],
+  "investors": "Accel led the Series D, with Kleiner Perkins joining and existing investors participating. General Catalyst and Redpoint led the Series C, Lux Capital led the Series B and Redpoint Ventures led the Series A. Other investors include Menlo Ventures, Bain Capital Ventures and Amplify Partners.",
+  "spv_sentence": "No special purpose vehicles naming Modal appear in SEC Form D filings.",
+  "spv_years": null,
+  "related": [
+    "Baseten",
+    "Together AI",
+    "Fireworks AI"
+  ],
+  "sources": "Sources: Modal's announcements of its <a href=\"https://modal.com/blog/modal-series-c\">Series C</a>, <a href=\"https://modal.com/blog/announcing-our-series-b\">Series B</a> and <a href=\"https://modal.com/blog/general-availability-and-series-a\">Series A</a>; reports by <a href=\"https://thenextweb.com/news/modal-750m-series-d-15-75bn-valuation\">The Next Web</a> (October 2026), <a href=\"https://techcrunch.com/2026/09/28/source-inference-provider-modal-labs-closing-in-on-750m-round-at-15-75b-valuation/\">TechCrunch</a> (September 2026) and <a href=\"https://siliconangle.com/2026/05/21/serverless-ai-infrastructure-startup-modal-labs-seals-355m-funding-round/\">SiliconANGLE</a> (May 2026); and SEC Form D filings."
+}

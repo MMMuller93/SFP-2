@@ -22,6 +22,8 @@ import {
 } from './pages/startup-legal';
 import { AgentLegalHome } from './pages/agent-legal';
 import { PrivateMarkets } from './pages/private-markets/PrivateMarkets';
+import { CompaniesHub } from './pages/private-markets/CompaniesHub';
+import { CompanyPage } from './pages/private-markets/CompanyPage';
 import { SITE_PATHS } from './lib/site-paths';
 
 const App: React.FC = () => {
@@ -103,6 +105,8 @@ const App: React.FC = () => {
                 <PrivateMarkets />
               </>
             } />
+            <Route path={SITE_PATHS.companies} element={<CompaniesHub />} />
+            <Route path={`${SITE_PATHS.companies}:slug/`} element={<CompanyPage />} />
             <Route path={SITE_PATHS.insights} element={
               <>
                 <SEO

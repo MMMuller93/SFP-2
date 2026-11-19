@@ -1,0 +1,118 @@
+{
+  "slug": "abridge",
+  "name": "Abridge",
+  "site": "https://www.abridge.com",
+  "founded": "2018",
+  "h1_tail": "Funding Rounds, Share Prices and Ownership",
+  "description": "Abridge is privately held and has no ticker. Review the price of each funding round, the investors and SPVs that hold its shares, and the points to confirm before buying or selling.",
+  "ledes": [
+    "Abridge is a privately held healthcare AI company. Its shares are not listed on an exchange and have no quoted market price; the principal public reference points are the prices at which the company has raised capital. Its most recent financing with disclosed terms, a $300 million Series E round announced on June 24, 2025, valued the company at $5.3 billion.",
+    "Founded in 2018 and based in San Francisco, Abridge develops AI software that listens to conversations between clinicians and patients and prepares draft clinical notes in the electronic health record. Existing shares change hands in privately negotiated transactions, frequently through special purpose vehicles, and remain subject to the company's transfer restrictions."
+  ],
+  "figs": [
+    [
+      "$5.3B",
+      "Valuation, Series E (June 2025)"
+    ],
+    [
+      "$158.48",
+      "Price per share, Series E (June 2025)"
+    ],
+    [
+      "3",
+      "Special purpose vehicles with SEC filings naming Abridge"
+    ],
+    [
+      "$300M",
+      "Amount raised, Series E"
+    ]
+  ],
+  "rounds_heading": "Funding Rounds and Share Prices",
+  "columns": [
+    "Price per share",
+    "Valuation",
+    "Amount raised"
+  ],
+  "rounds": [
+    [
+      "Jun 2025",
+      "Series E",
+      [
+        "$158.48",
+        "$5.3B",
+        "$300M"
+      ]
+    ],
+    [
+      "Feb 2025",
+      "Series D",
+      [
+        "$90.01",
+        "$2.75B",
+        "$250M"
+      ]
+    ],
+    [
+      "Feb 2024",
+      "Series C",
+      [
+        "$33.13",
+        "$850M",
+        "$150M"
+      ]
+    ],
+    [
+      "Oct 2023",
+      "Series B",
+      [
+        "$10.97",
+        "$200M",
+        "$30M"
+      ]
+    ],
+    [
+      "Aug 2022",
+      "Series A-1",
+      [
+        "$8.82",
+        null,
+        "$12.5M"
+      ]
+    ]
+  ],
+  "table_note": "Valuations are as reported at the time of each round; Abridge disclosed the Series D valuation as post-money. The Series B valuation is as reported by Forbes.",
+  "round_notes": [
+    "In June 2026, Abridge announced a strategic investment from Eli Lilly without disclosing its amount or the valuation. At that time, the company said its platform was live at more than 300 health systems; that figure is the company's own.",
+    "A round price reflects what investors paid for the preferred stock issued in that round. Most shares sold by employees are common stock, which carries fewer rights and typically trades at a discount to the preferred price."
+  ],
+  "investors": "Andreessen Horowitz led the Series E, with participation from Khosla Ventures. Elad Gil and IVP co-led the Series D, Lightspeed Venture Partners and Redpoint Ventures the Series C, Spark Capital the Series B and Wittington Ventures the Series A-1. Other investors include Bessemer Venture Partners, CapitalG, NVentures, Kaiser Permanente Ventures, Mayo Clinic, CVS Health Ventures and Union Square Ventures.",
+  "spv_sentence": "Since 2022, three special purpose vehicles formed to invest in Abridge have filed with the SEC, one of them in 2026.",
+  "spv_years": [
+    [
+      "2022",
+      1
+    ],
+    [
+      "2023",
+      0
+    ],
+    [
+      "2024",
+      0
+    ],
+    [
+      "2025",
+      1
+    ],
+    [
+      "2026",
+      1
+    ]
+  ],
+  "related": [
+    "OpenEvidence",
+    "Ambience Healthcare",
+    "Hippocratic AI"
+  ],
+  "sources": "Sources: Abridge's announcements of its <a href=\"https://www.abridge.com/blog/series-e\">Series E</a>, <a href=\"https://www.abridge.com/press-release/series-d\">Series D</a>, <a href=\"https://www.abridge.com/press-release/abridge-raises-30m-to-accelerate-adoption-of-its-proven-generative-ai-solution-across-u-s-healthcare-systems\">Series B</a> and <a href=\"https://www.abridge.com/press-release/abridge-secures-12-5m-in-funding-and-launches-enterprise-solution-to-combat-physician-burnout-in-healthcare-and-help-patients-stay-on-top-of-their-health\">Series A-1</a>; reports by Fortune (<a href=\"https://fortune.com/2026/06/11/abridge-operating-system-medicine-nvidia-eli-lilly-artsight/\">June 2026</a>, <a href=\"https://fortune.com/2025/07/02/abridge-ceo-shiv-rao-on-raising-300-million-a-prospective-ipo-and-the-future-of-healthcare/\">July 2025</a> and <a href=\"https://fortune.com/2025/02/17/exclusive-abridge-raises-250-million-series-d-led-by-elad-gil-and-ivp/\">February 2025</a>) and Reuters (February 2024); reports by Forbes; and SEC Form D filings."
+}

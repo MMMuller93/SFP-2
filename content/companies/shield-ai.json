@@ -1,0 +1,119 @@
+{
+  "slug": "shield-ai",
+  "name": "Shield AI",
+  "site": "https://shield.ai",
+  "founded": "2015",
+  "h1_tail": "Funding Rounds, Share Prices and Ownership",
+  "description": "",
+  "ledes": [
+    "Shield AI is a privately held defense technology company. Its shares are not listed on an exchange and have no quoted market price; the principal public reference points are the prices at which the company has raised capital. Its most recent financing, a Series H round announced on November 5, 2026, valued the company at $28.8 billion.",
+    "Founded in San Diego in 2015, Shield AI develops Hivemind, autonomy software that enables military aircraft to operate without a pilot, and the V-BAT unmanned aircraft. Existing shares change hands in privately negotiated transactions, frequently through special purpose vehicles, and remain subject to the company's transfer restrictions."
+  ],
+  "figs": [
+    [
+      "$28.8B",
+      "Post-money valuation, Series H (November 2026)"
+    ],
+    [
+      "$153.68",
+      "Price per share, Series G (March 2026)"
+    ],
+    [
+      "24",
+      "Special purpose vehicles with SEC filings naming Shield AI"
+    ],
+    [
+      "143,760",
+      "Shares reported by registered funds (July 31, 2026)"
+    ]
+  ],
+  "rounds_heading": "Funding Rounds and Share Prices",
+  "columns": [
+    "Price per share",
+    "Valuation",
+    "Amount raised"
+  ],
+  "rounds": [
+    [
+      "Nov 2026",
+      "Series H",
+      [
+        null,
+        "$28.8B",
+        "$1.0B"
+      ]
+    ],
+    [
+      "Mar 2026",
+      "Series G",
+      [
+        "$153.68",
+        "$12.7B",
+        "$1.5B"
+      ]
+    ],
+    [
+      "Mar 2025",
+      "Series F-1",
+      [
+        "$77.85",
+        "$5.3B",
+        "$240M"
+      ]
+    ],
+    [
+      "Oct–Dec 2023",
+      "Series F",
+      [
+        "$43.79",
+        "$2.8B",
+        "$300M"
+      ]
+    ],
+    [
+      "2022",
+      "Series E",
+      [
+        "$40.39",
+        "$2.3B",
+        "$150M"
+      ]
+    ]
+  ],
+  "table_note": "Valuations are post-money. Amounts raised reflect equity only.",
+  "round_notes": [
+    "The Series H formed part of a $2.5 billion financing that also included a $1 billion structured equity investment from funds managed by Blackstone and $500 million of debt. Shield AI has said the proceeds will principally fund its acquisition of the radar manufacturer Echodyne, a transaction valued at up to $5.3 billion that is expected to close in early 2027.",
+    "A round price reflects what investors paid for the preferred stock issued in that round. Most shares sold by employees are common stock, which carries fewer rights and typically trades at a discount to the preferred price. The terms of the Blackstone investment have not been disclosed, and a prospective buyer should establish how it ranks relative to the shares being offered."
+  ],
+  "investors": "The Series H was co-led by Disruptive and Innovation X Capital. The Series G was co-led by Advent International and JPMorganChase. Investors in earlier rounds include Andreessen Horowitz, the U.S. Innovative Technology Fund, Riot Ventures, L3Harris Technologies and Hanwha.",
+  "spv_sentence": "Since 2022, 24 special purpose vehicles formed to invest in Shield AI have filed with the SEC, half of them in 2026.",
+  "spv_years": [
+    [
+      "2022",
+      1
+    ],
+    [
+      "2023",
+      4
+    ],
+    [
+      "2024",
+      0
+    ],
+    [
+      "2025",
+      7
+    ],
+    [
+      "2026",
+      12
+    ]
+  ],
+  "funds": "One SEC-registered fund reports a position in Shield AI. As of July 31, 2026, ARK Venture Fund held 143,760 shares, which it valued at $22.1 million, or $153.68 per share.",
+  "related": [
+    "Anduril",
+    "Saronic",
+    "Hadrian"
+  ],
+  "sources": "Sources: Shield AI announcements dated <a href=\"https://www.prnewswire.com/news-releases/shield-to-acquire-echodyne-in-a-transaction-valued-at-5-3-billion-and-raise-2-5-billion-at-a-28-8-billion-valuation-302930012.html\">November 5, 2026</a> and <a href=\"https://shield.ai/news/shield-ai-raises-240m/\">March 6, 2025</a>; TechCrunch reports dated <a href=\"https://techcrunch.com/2026/03/26/defense-startup-shield-ai-lands-12-7b-valuation-up-140-after-u-s-air-force-deal/\">March 26, 2026</a>, <a href=\"https://techcrunch.com/2023/12/29/shield-ai-expands-massive-series-f-with-another-300m-in-equity-debt-scaling-valuation-to-2-8b\">December 29, 2023</a> and <a href=\"https://techcrunch.com/2023/10/31/shield-ai-raises-200m-at-a-2-7b-valuation-to-scale-military-autonomous-flying-tech\">October 31, 2023</a>; SEC Form D filings; and <a href=\"https://www.sec.gov/Archives/edgar/data/1905088/000094040026036464/\">ARK Venture Fund's Form N-PORT</a> for the period ended July 31, 2026."
+}

@@ -78,7 +78,7 @@ export const Navbar: React.FC<NavbarProps> = () => {
   const isActiveLink = (href: string) => {
     if (href.startsWith('#')) return false;
     const path = canonicalPath(location.pathname);
-    return path === href || (href.endsWith('/insights/') && path.startsWith(href));
+    return path === href || ((href.endsWith('/insights/') || href === SITE_PATHS.privateMarkets) && path.startsWith(href));
   };
 
   return (

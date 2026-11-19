@@ -1,0 +1,88 @@
+{
+  "slug": "scale-ai",
+  "name": "Scale AI",
+  "site": "https://scale.com",
+  "founded": "2016",
+  "h1_tail": "Funding Rounds, Share Prices and Ownership",
+  "description": "Scale AI is privately held and has no ticker. Review the price of each funding round, the investors and SPVs that hold its shares, and the points to confirm before buying or selling.",
+  "ledes": [
+    "Scale AI is a privately held artificial intelligence company. Its shares are not listed on an exchange and have no quoted market price; the principal public reference points are the prices at which the company has raised capital. Its most recent financing, an investment by Meta announced on June 12, 2025, valued the company at more than $29 billion.",
+    "Founded in 2016 and based in San Francisco, Scale AI produces training data for artificial intelligence models and tests their performance for technology companies and government agencies. Existing shares change hands in privately negotiated transactions, frequently through special purpose vehicles, and remain subject to the company's transfer restrictions."
+  ],
+  "figs": [
+    [
+      "$29B+",
+      "Valuation, Meta investment (June 2025)"
+    ],
+    [
+      "$19.64",
+      "Price per share, Meta investment (June 2025)"
+    ],
+    [
+      "3",
+      "Special purpose vehicles with SEC filings naming Scale AI"
+    ],
+    [
+      "$14.3B",
+      "Reported amount of Meta's investment (June 2025)"
+    ]
+  ],
+  "rounds_heading": "Funding Rounds and Share Prices",
+  "columns": [
+    "Price per share",
+    "Valuation",
+    "Amount raised"
+  ],
+  "rounds": [
+    [
+      "Jun 2025",
+      "Meta investment",
+      [
+        "$19.64",
+        "Over $29B",
+        "$14.3B"
+      ]
+    ],
+    [
+      "May 2024",
+      "Series F",
+      [
+        "$14.55",
+        "$13.8B",
+        "$1.0B"
+      ]
+    ],
+    [
+      "Apr 2021",
+      "Series E",
+      [
+        "$9.37",
+        "$7.3B",
+        "$325M"
+      ]
+    ]
+  ],
+  "table_note": "Valuations are as announced by the company, except the Series E valuation, which the company did not state and which is as reported by Fortune. The amount of Meta's investment is as reported by Reuters, and the Series F amount includes shares sold by existing holders.",
+  "round_notes": [
+    "Meta acquired a 49% stake in the company, according to Reuters, and Scale AI has described Meta's holding as a minority of its outstanding equity. Scale AI said it would distribute proceeds from the investment to shareholders and vested equity holders, and its co-founder and chief executive, Alexandr Wang, left to join Meta while remaining a director.",
+    "A round price reflects what investors paid for the preferred stock issued in that round. Most shares sold by employees are common stock, which carries fewer rights and typically trades at a discount to the preferred price."
+  ],
+  "investors": "Meta made the June 2025 investment. Accel led the Series F, which brought in Amazon, Meta, Cisco Investments, Intel Capital and AMD Ventures as new investors, and Dragoneer, Greenoaks Capital and Tiger Global co-led the Series E. Other investors include Index Ventures, Founders Fund, Coatue, Thrive Capital, Nvidia and Y Combinator.",
+  "spv_sentence": "Since 2025, three special purpose vehicles formed to invest in Scale AI have filed with the SEC, two of them in 2026.",
+  "spv_years": [
+    [
+      "2025",
+      1
+    ],
+    [
+      "2026",
+      2
+    ]
+  ],
+  "related": [
+    "Databricks",
+    "OpenAI",
+    "Anthropic"
+  ],
+  "sources": "Sources: Scale AI's announcements of the <a href=\"https://scale.com/blog/scale-ai-announces-next-phase-of-company-evolution\">Meta investment</a>, its <a href=\"https://scale.com/blog/scale-ai-series-f\">Series F</a> and its <a href=\"https://scale.com/blog/series-e\">Series E</a>; reports by Reuters (June 2025) and <a href=\"https://techcrunch.com/2025/06/13/scale-ai-confirms-significant-investment-from-meta-says-ceo-alexandr-wang-is-leaving/\">TechCrunch</a> (June 2025); reports by Fortune; and SEC Form D filings."
+}

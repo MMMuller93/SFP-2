@@ -1,0 +1,118 @@
+{
+  "slug": "crusoe",
+  "name": "Crusoe",
+  "site": "https://www.crusoe.ai",
+  "founded": "2018",
+  "h1_tail": "Funding Rounds, Share Prices and Ownership",
+  "description": "Crusoe is privately held and has no ticker. Review its funding rounds and share prices, the investors, funds and SPVs that hold its shares, and the points to confirm before buying or selling.",
+  "ledes": [
+    "Crusoe is a privately held AI infrastructure company. Its shares are not listed on an exchange and have no quoted market price; the principal public reference points are the prices at which the company has raised capital. Its most recent financing, a $3.9 billion Series F round announced on September 17, 2026, valued the company at $30.9 billion.",
+    "Founded in 2018 and based in Denver, Crusoe builds and operates data centers for artificial intelligence workloads and sells computing capacity through its own cloud. Existing shares change hands in privately negotiated transactions, frequently through special purpose vehicles, and remain subject to the company's transfer restrictions."
+  ],
+  "figs": [
+    [
+      "$30.9B",
+      "Post-money valuation, Series F (September 2026)"
+    ],
+    [
+      "$84.01",
+      "Price per share, Series E (October 2025)"
+    ],
+    [
+      "42",
+      "Special purpose vehicles with SEC filings naming Crusoe"
+    ],
+    [
+      "$3.9B",
+      "Amount raised, Series F"
+    ]
+  ],
+  "rounds_heading": "Funding Rounds and Share Prices",
+  "columns": [
+    "Price per share",
+    "Valuation",
+    "Amount raised"
+  ],
+  "rounds": [
+    [
+      "Sep 2026",
+      "Series F",
+      [
+        null,
+        "$30.9B",
+        "$3.9B"
+      ]
+    ],
+    [
+      "Oct 2025",
+      "Series E",
+      [
+        "$84.01",
+        "Over $10B",
+        "$1.38B"
+      ]
+    ],
+    [
+      "Dec 2024",
+      "Series D",
+      [
+        "$29.17",
+        "$2.8B",
+        "$600M"
+      ]
+    ],
+    [
+      "Apr 2022",
+      "Series C",
+      [
+        "$29.17",
+        "$1.75B",
+        "$350M"
+      ]
+    ]
+  ],
+  "table_note": "Valuations are as announced by the company, except the Series C valuation, which is as reported by The Information. The Series F valuation is post-money, and amounts raised reflect equity only.",
+  "round_notes": [
+    "Atreides Management, Mubadala Capital and Valor Equity Partners co-led the Series F. With its announcement, Crusoe said it had more than $140 billion in total contracted value. The company also finances construction with debt, including a $750 million credit facility from Brookfield announced in June 2025.",
+    "A round price reflects what investors paid for the preferred stock issued in that round. Most shares sold by employees are common stock, which carries fewer rights and typically trades at a discount to the preferred price."
+  ],
+  "investors": "The Series F investors included Founders Fund, GIC, Nvidia, the Qatar Investment Authority, Radical Ventures and TPG alongside its three co-leads. Valor Equity Partners and Mubadala Capital led the Series E, Founders Fund led the Series D and G2 Venture Partners led the Series C. Other investors include Fidelity, T. Rowe Price, Altimeter Capital, Lowercarbon Capital and Bain Capital Ventures.",
+  "spv_sentence": "Since 2020, 42 special purpose vehicles formed to invest in Crusoe have filed with the SEC, 13 of them in 2026.",
+  "spv_years": [
+    [
+      "2020",
+      5
+    ],
+    [
+      "2021",
+      1
+    ],
+    [
+      "2022",
+      1
+    ],
+    [
+      "2023",
+      1
+    ],
+    [
+      "2024",
+      9
+    ],
+    [
+      "2025",
+      12
+    ],
+    [
+      "2026",
+      13
+    ]
+  ],
+  "funds": "Three SEC-registered funds report positions in Crusoe: Capital Group's Growth Fund of America, ARK Venture Fund and StepStone Private Venture and Growth Fund. Growth Fund of America valued its holding at $158.8 million as of May 31, 2026. As of July 31, 2026, ARK Venture Fund held 119,035 shares, which it valued at $26.9 million, or $226.20 per share.",
+  "related": [
+    "Etched",
+    "Lambda",
+    "Vast Data"
+  ],
+  "sources": "Sources: Crusoe's announcements of its <a href=\"https://www.crusoe.ai/resources/newsroom/crusoe-announces-series-f-funding\">Series F</a>, <a href=\"https://www.crusoe.ai/resources/newsroom/crusoe-announces-series-e-funding\">Series E</a>, <a href=\"https://www.crusoe.ai/resources/newsroom/crusoe-closes-series-d-funding\">Series D</a> and <a href=\"https://www.crusoe.ai/resources/newsroom/crusoe-closes-millions-in-new-capital\">Series C</a>; reports by <a href=\"https://techcrunch.com/2026/09/17/crusoe-raises-3-9b-to-build-massive-data-centers-and-small-modular-ai-factories/\">TechCrunch</a> (September 2026), CNBC (June 2025) and The Information (April 2022); ARK Venture Fund's <a href=\"https://www.sec.gov/Archives/edgar/data/1905088/000094040026036464/\">Form N-PORT</a> for July 31, 2026; and SEC Form D and Form N-PORT filings."
+}

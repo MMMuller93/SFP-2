@@ -1,0 +1,75 @@
+{
+  "slug": "iterative-health",
+  "name": "Iterative Health",
+  "site": "https://iterative.health",
+  "founded": "",
+  "h1_tail": "Funding Rounds and Ownership",
+  "description": "Iterative Health is privately held and has no ticker. Review its funding rounds, its investors, and the points to confirm before buying or selling.",
+  "ledes": [
+    "Iterative Health is a privately held clinical research company. Its shares are not listed on an exchange and have no quoted market price, and the company has not disclosed the valuation at which it has raised capital. Its most recent financing was a $77 million Series C round announced on April 30, 2026.",
+    "Iterative Health operates a network of clinical trial sites within physician practices and uses artificial intelligence to identify and enroll patients, beginning in gastroenterology and hepatology. Existing shares change hands in privately negotiated transactions and remain subject to the company's transfer restrictions."
+  ],
+  "figs": [
+    [
+      "$77M",
+      "Amount raised, Series C (April 2026)"
+    ],
+    [
+      "$150M",
+      "Amount raised, Series B (January 2022)"
+    ],
+    [
+      "$30M",
+      "Amount raised, Series A (August 2021)"
+    ],
+    [
+      "Over 100",
+      "Research sites in its network, as stated by the company (April 2026)"
+    ]
+  ],
+  "rounds_heading": "Funding Rounds",
+  "columns": [
+    "Valuation",
+    "Amount raised"
+  ],
+  "rounds": [
+    [
+      "Apr 2026",
+      "Series C",
+      [
+        null,
+        "$77M"
+      ]
+    ],
+    [
+      "Jan 2022",
+      "Series B",
+      [
+        null,
+        "$150M"
+      ]
+    ],
+    [
+      "Aug 2021",
+      "Series A",
+      [
+        null,
+        "$30M"
+      ]
+    ]
+  ],
+  "table_note": "The company has not disclosed a valuation for any round. The Series A and Series B were announced under its former name, Iterative Scopes, which it changed in October 2022.",
+  "round_notes": [
+    "With the Series C announcement, Iterative Health said its network included more than 100 research sites in North America, Europe, India and Australia; that figure is the company's own. The company has said the proceeds will fund its expansion into cardiology, obesity and other areas beyond gastroenterology and hepatology.",
+    "A round valuation reflects the terms of the preferred stock issued in that round. Most shares sold by employees are common stock, which carries fewer rights and typically trades at a discount to the preferred price."
+  ],
+  "investors": "Intrepid Growth Partners and GV co-led the Series C, with participation from EDBI and existing investors Insight Partners and Obvious Ventures. Insight Partners and Clearlake Capital Group co-led the Series B, and Obvious Ventures led the Series A. Other investors include Eli Lilly, Johnson & Johnson Innovation and Breyer Capital.",
+  "spv_sentence": "No special purpose vehicles naming Iterative Health appear in SEC Form D filings.",
+  "spv_years": null,
+  "related": [
+    "Paradigm Health",
+    "Formation Bio",
+    "Aidoc"
+  ],
+  "sources": "Sources: Iterative Health's Series C announcement dated April 30, 2026, as reported by <a href=\"https://www.citybiz.co/article/839627/iterative-health-raises-77-million-series-c-to-scale-ai-driven-clinical-trial-network/\">citybiz</a> and <a href=\"https://www.clinicaltrialsarena.com/news/iterative-health-77m-series-c-clinical-research-network-technology/\">Clinical Trials Arena</a>; Iterative Scopes' announcements of its <a href=\"https://www.biospace.com/iterative-scopes-announces-150-million-series-b-to-advance-ai-driven-precision-medicine-for-gastroenterology\">Series B</a> (January 19, 2022) and <a href=\"https://www.biospace.com/iterative-scopes-raises-30-million-series-a-financing-to-advance-ai-driven-precision-medicine-for-gastroenterology\">Series A</a> (August 3, 2021); a report by <a href=\"https://www.beckersasc.com/gastroenterology-and-endoscopy/iterative-scopes-rebrands-as-iterative-health.html\">Becker's ASC Review</a> (October 2022); and SEC Form D filings."
+}

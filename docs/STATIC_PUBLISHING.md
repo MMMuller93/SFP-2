@@ -9,6 +9,11 @@ published articles do not depend on the SPA 404 redirect to load.
 - `lib/site-paths.ts` supplies the fixed paths used by both `App.tsx` and the build.
 - The exported post arrays in `Blog.tsx`, `StartupBlog.tsx`, and
   `agent-blog-posts/index.ts` supply article IDs, titles, dates, and full content.
+- `content/companies/<slug>.json` supplies one company page each at
+  `/private-markets/companies/<slug>/` and a row in the companies hub. Files
+  starting with `_` are skipped. `lib/companies.ts` loads them into the app and
+  rejects entries with missing or malformed fields; the manifest reads the same
+  folder, and each page's `lastmod` comes from its JSON file's history.
 - `scripts/site-manifest.ts` joins these into one route inventory.
 - `scripts/publish-site.ts` prerenders that inventory and generates `sitemap.xml`,
   `llms.txt`, and `llms-full.txt` in `dist/`. Do not maintain separate URL lists in

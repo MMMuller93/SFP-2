@@ -1,0 +1,75 @@
+{
+  "slug": "fireworks-ai",
+  "name": "Fireworks AI",
+  "site": "https://fireworks.ai",
+  "founded": "2022",
+  "h1_tail": "Funding Rounds and Ownership",
+  "description": "Fireworks AI is privately held and has no ticker. Review its funding rounds and valuations, its investors, and the points to confirm before buying or selling.",
+  "ledes": [
+    "Fireworks AI is a privately held AI infrastructure company. Its shares are not listed on an exchange and have no quoted market price; the principal public reference points are the valuations at which the company has raised capital. Its most recent financing, a $1.5 billion Series D round announced on July 16, 2026, valued the company at $17.5 billion.",
+    "Founded in 2022 and based in San Mateo, California, Fireworks AI runs a cloud platform on which businesses deploy, tune and train open-source AI models. Existing shares change hands in privately negotiated transactions and remain subject to the company's transfer restrictions."
+  ],
+  "figs": [
+    [
+      "$17.5B",
+      "Valuation, Series D (July 2026)"
+    ],
+    [
+      "$1.5B",
+      "Amount raised, Series D"
+    ],
+    [
+      "$250M",
+      "Amount raised, Series C (October 2025)"
+    ],
+    [
+      "2022",
+      "Year founded"
+    ]
+  ],
+  "rounds_heading": "Funding Rounds",
+  "columns": [
+    "Valuation",
+    "Amount raised"
+  ],
+  "rounds": [
+    [
+      "Jul 2026",
+      "Series D",
+      [
+        "$17.5B",
+        "$1.5B"
+      ]
+    ],
+    [
+      "Oct 2025",
+      "Series C",
+      [
+        "$4.0B",
+        "$250M"
+      ]
+    ],
+    [
+      "Jul 2024",
+      "Series B",
+      [
+        "$552M",
+        "$52M"
+      ]
+    ]
+  ],
+  "table_note": "Valuations are as announced by the company. The company has said the Series C included both primary and secondary investment.",
+  "round_notes": [
+    "Atreides Management, Index Ventures and TCV led the Series D. With that announcement, Fireworks said its annualized revenue run rate had passed $1 billion; that figure is the company's own.",
+    "A round valuation reflects the terms of the preferred stock issued in that round. Most shares sold by employees are common stock, which carries fewer rights and typically trades at a discount to the preferred price."
+  ],
+  "investors": "Atreides Management, Index Ventures and TCV led the Series D, with participation from Lightspeed Venture Partners, Nvidia, Bessemer Venture Partners and Menlo Ventures. Lightspeed Venture Partners, Index Ventures and Evantic co-led the Series C, and Sequoia Capital led the Series B. Benchmark led an earlier $25 million round, and other investors include AMD, Databricks and MongoDB.",
+  "spv_sentence": "No special purpose vehicles naming Fireworks AI appear in SEC Form D filings.",
+  "spv_years": null,
+  "related": [
+    "Baseten",
+    "Together AI",
+    "Databricks"
+  ],
+  "sources": "Sources: Fireworks AI's announcements of its <a href=\"https://fireworks.ai/news/fireworks-raises-1-5-billion-series-d\">Series D</a>, <a href=\"https://fireworks.ai/blog/series-c\">Series C</a> and <a href=\"https://fireworks.ai/blog/fireworks-ai-series-b-compound-ai\">Series B</a>; a TechCrunch report dated <a href=\"https://techcrunch.com/2024/03/26/fireworks-ai-open-source-api-puts-generative-ai-in-reach-of-any-developer/\">March 26, 2024</a>; and SEC Form D filings."
+}

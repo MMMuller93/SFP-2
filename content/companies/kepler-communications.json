@@ -1,0 +1,75 @@
+{
+  "slug": "kepler-communications",
+  "name": "Kepler Communications",
+  "site": "https://kepler.space",
+  "founded": "2015",
+  "h1_tail": "Funding Rounds and Ownership",
+  "description": "Kepler Communications is privately held and has no ticker. Review its funding rounds, its investors, and the points to confirm before buying or selling.",
+  "ledes": [
+    "Kepler Communications is a privately held satellite communications company. Its shares are not listed on an exchange and have no quoted market price, and the company has not disclosed a valuation in any of its funding rounds. Its most recent financing was a $92 million Series C round announced on April 13, 2023.",
+    "Founded in 2015 and based in Toronto, Kepler builds and operates satellites that use laser links to relay data from other spacecraft to the ground in real time. Existing shares change hands in privately negotiated transactions and remain subject to the company's transfer restrictions."
+  ],
+  "figs": [
+    [
+      "$92M",
+      "Amount raised, Series C (April 2023)"
+    ],
+    [
+      "$60M",
+      "Amount raised, Series B (June 2021)"
+    ],
+    [
+      "Over $200M",
+      "Equity raised since 2016, as stated by the company in April 2023"
+    ],
+    [
+      "2015",
+      "Year founded"
+    ]
+  ],
+  "rounds_heading": "Funding Rounds",
+  "columns": [
+    "Valuation",
+    "Amount raised"
+  ],
+  "rounds": [
+    [
+      "Apr 2023",
+      "Series C",
+      [
+        null,
+        "$92M"
+      ]
+    ],
+    [
+      "Jun 2021",
+      "Series B",
+      [
+        null,
+        "$60M"
+      ]
+    ],
+    [
+      "Oct 2018",
+      "Series A",
+      [
+        null,
+        "$16M"
+      ]
+    ]
+  ],
+  "table_note": "Kepler has not disclosed the valuation of any round. Amounts are in U.S. dollars, as announced by the company.",
+  "round_notes": [
+    "IA Ventures led the Series C, and Kepler said the proceeds would fund the launch of its optical data relay network. Kepler has not announced an equity financing since the Series C.",
+    "A round valuation reflects the terms of the preferred stock issued in that round. Most shares sold by employees are common stock, which carries fewer rights and typically trades at a discount to the preferred price."
+  ],
+  "investors": "IA Ventures led the Series C, with participation from Canaan Partners, Tribe Capital, Costanoa Ventures and BDC Capital's Industrial Innovation Venture Fund. Tribe Capital led the Series B and Costanoa Ventures the Series A, in which Digital Ventures and IA Ventures also participated.",
+  "spv_sentence": "No special purpose vehicles naming Kepler Communications appear in SEC Form D filings.",
+  "spv_years": null,
+  "related": [
+    "Astranis",
+    "Apex",
+    "K2 Space"
+  ],
+  "sources": "Sources: Kepler's announcements of its <a href=\"https://kepler.space/series-c-funding-2/\">Series C</a>, <a href=\"https://kepler.space/series-b-funding/\">Series B</a> and <a href=\"https://kepler.space/series-a-funding/\">Series A</a>; reports by <a href=\"https://techcrunch.com/2023/04/13/kepler-communications-closes-92m-series-c-to-grow-real-time-satellite-data-relay-network/\">TechCrunch</a> (April 2023) and <a href=\"https://satnews.com/2021/06/09/series-b-for-kepler-communications-raises-millions-for-satcom-network/\">SatNews</a> (June 2021); and SEC Form D filings."
+}

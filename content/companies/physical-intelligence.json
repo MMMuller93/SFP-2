@@ -1,0 +1,89 @@
+{
+  "slug": "physical-intelligence",
+  "name": "Physical Intelligence",
+  "site": "https://www.physicalintelligence.company",
+  "founded": "2024",
+  "h1_tail": "Funding Rounds, Share Prices and Ownership",
+  "description": "Physical Intelligence is privately held and has no ticker. Review the price of each funding round, the investors and funds that hold its shares, and the points to confirm before buying or selling.",
+  "ledes": [
+    "Physical Intelligence is a privately held robotics AI company. Its shares are not listed on an exchange and have no quoted market price; the principal public reference points are the prices at which the company has raised capital. Its most recent financing, a $1 billion Series C round in 2026, valued the company at $11 billion, according to Bloomberg.",
+    "Founded in 2024 and based in San Francisco, Physical Intelligence develops general-purpose AI models for controlling robots and opened them to outside developers through an API in October 2026. Existing shares change hands in privately negotiated transactions and remain subject to the company's transfer restrictions."
+  ],
+  "figs": [
+    [
+      "$11B",
+      "Reported valuation, Series C (2026)"
+    ],
+    [
+      "$271.56",
+      "Price per share, Series B (November 2025)"
+    ],
+    [
+      "$600M",
+      "Amount raised, Series B"
+    ],
+    [
+      "2024",
+      "Year founded"
+    ]
+  ],
+  "rounds_heading": "Funding Rounds and Share Prices",
+  "columns": [
+    "Price per share",
+    "Valuation",
+    "Amount raised"
+  ],
+  "rounds": [
+    [
+      "May 2026",
+      "Series C",
+      [
+        null,
+        "$11B",
+        "$1B"
+      ]
+    ],
+    [
+      "Nov 2025",
+      "Series B",
+      [
+        "$271.56",
+        "$5.6B",
+        "$600M"
+      ]
+    ],
+    [
+      "Nov 2024",
+      "Series A",
+      [
+        "$134.70",
+        "$2.4B",
+        "$400M"
+      ]
+    ],
+    [
+      "Mar 2024",
+      "Seed",
+      [
+        "$34.63",
+        "$400M",
+        "$70M"
+      ]
+    ]
+  ],
+  "table_note": "Physical Intelligence has not published the terms of its financings. Valuations are as reported by CNBC and Bloomberg; SEC filings by Fidelity funds show holdings of Series C preferred stock as of May 31, 2026. The seed valuation is as reported by CNBC.",
+  "round_notes": [
+    "In October 2026, Bloomberg reported that Physical Intelligence was in talks to raise $1 billion at a valuation of $20 billion. The company has not announced the round.",
+    "A round price reflects what investors paid for the preferred stock issued in that round. Most shares sold by employees are common stock, which carries fewer rights and typically trades at a discount to the preferred price."
+  ],
+  "investors": "CapitalG led the Series B, with participation from Lux Capital, Thrive Capital, Jeff Bezos, Bond, Redpoint Ventures, Sequoia Capital, T. Rowe Price and OpenAI. Jeff Bezos, OpenAI, Thrive Capital and Lux Capital invested in the November 2024 round.",
+  "spv_sentence": "SEC filings show one special purpose vehicle formed to invest in Physical Intelligence, organized in 2026.",
+  "spv_years": null,
+  "funds": "Mutual funds managed by Fidelity and T. Rowe Price reported positions in Physical Intelligence in filings for periods in 2026.",
+  "related": [
+    "Skild AI",
+    "Figure AI",
+    "Apptronik"
+  ],
+  "sources": "Sources: reports by <a href=\"https://www.nbcnewyork.com/news/business/money-report/jeff-bezos-and-openai-invest-in-robot-startup-physical-intelligence-at-2-4-billion-valuation/5952538\">CNBC</a> (November 2024), <a href=\"https://www.therobotreport.com/physical-intelligence-raises-600m-advance-robot-foundation-models/\">The Robot Report</a> (November 2025), Bloomberg (March and October 2026) and <a href=\"https://thenextweb.com/news/physical-intelligence-20bn-valuation-talks-bloomberg\">The Next Web</a> (October 2026); and SEC Form D and Form N-PORT filings."
+}

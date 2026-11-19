@@ -1,0 +1,79 @@
+{
+  "slug": "the-boring-company",
+  "name": "The Boring Company",
+  "site": "https://www.boringcompany.com",
+  "founded": "",
+  "h1_tail": "Funding Rounds, Share Prices and Ownership",
+  "description": "The Boring Company is privately held and has no ticker. Review the price of each funding round, its investors, and the points to confirm before buying or selling.",
+  "ledes": [
+    "The Boring Company is a privately held tunneling and underground transportation company. Its shares are not listed on an exchange and have no quoted market price; the principal public reference points are the prices at which the company has raised capital. Its most recent financing, a $3 billion Series D round announced on September 9, 2026, valued the company at $23 billion.",
+    "Founded by Elon Musk and based in Bastrop, Texas, The Boring Company designs tunnel boring machines, digs tunnels and operates Loop, an underground system in Las Vegas in which electric vehicles carry passengers between stations, with further Loop projects under way in Nashville and Dubai. Existing shares change hands in privately negotiated transactions and remain subject to the company's transfer restrictions."
+  ],
+  "figs": [
+    [
+      "$23B",
+      "Valuation, Series D (September 2026)"
+    ],
+    [
+      "$19.59",
+      "Price per share, Series C (April 2022)"
+    ],
+    [
+      "$3B",
+      "Amount raised, Series D"
+    ],
+    [
+      "$675M",
+      "Amount raised, Series C"
+    ]
+  ],
+  "rounds_heading": "Funding Rounds and Share Prices",
+  "columns": [
+    "Price per share",
+    "Valuation",
+    "Amount raised"
+  ],
+  "rounds": [
+    [
+      "Sep 2026",
+      "Series D",
+      [
+        null,
+        "$23.0B",
+        "$3.0B"
+      ]
+    ],
+    [
+      "Apr 2022",
+      "Series C",
+      [
+        "$19.59",
+        "$5.7B",
+        "$675M"
+      ]
+    ],
+    [
+      "Jul 2019",
+      "Primary financing",
+      [
+        null,
+        "$920M",
+        "$120M"
+      ]
+    ]
+  ],
+  "table_note": "Valuations for the Series C and Series D are as announced by the company. The company did not announce its 2019 financing, which was disclosed in an SEC filing; the valuation shown is as reported by Bloomberg.",
+  "round_notes": [
+    "The Boring Company has said the Series D proceeds will fund hiring and the expansion of its Loop projects in Las Vegas, Nashville and Dubai, as well as further development of its Prufrock tunneling machines. The company announced the round together with an agreement to build more than 150 kilometers of tunnels in the United Arab Emirates.",
+    "A round price reflects what investors paid for the preferred stock issued in that round. Most shares sold by employees are common stock, which carries fewer rights and typically trades at a discount to the preferred price."
+  ],
+  "investors": "The United Arab Emirates and affiliated investment entities led the Series D, with participation from Sequoia Capital, Andreessen Horowitz, Temasek, Valor Equity Partners, Human Capital, Vy Capital, Shamal Holding and Baron Capital. Vy Capital and Sequoia Capital led the Series C. Other investors include Founders Fund, 8VC, Craft Ventures and DFJ Growth.",
+  "spv_sentence": "No special purpose vehicles naming The Boring Company appear in SEC Form D filings.",
+  "spv_years": null,
+  "related": [
+    "Neuralink",
+    "Anduril",
+    "Hadrian"
+  ],
+  "sources": "Sources: The Boring Company's <a href=\"https://www.boringcompany.com/series-d\">Series D announcement</a> (September 9, 2026); reports by TechCrunch (<a href=\"https://techcrunch.com/2022/04/20/elon-musks-boring-company-raises-675m-to-scale-loop-projects\">April 2022</a> and <a href=\"https://techcrunch.com/2019/07/25/elon-musks-boring-company-snags-120-million-in-new-funding\">July 2019</a>), Reuters and Bloomberg (September 2026) and Bloomberg (July 2019); and SEC Form D filings."
+}

@@ -1,0 +1,106 @@
+{
+  "slug": "higgsfield",
+  "name": "Higgsfield",
+  "site": "https://higgsfield.ai",
+  "founded": "2023",
+  "h1_tail": "Funding Rounds, Share Prices and Ownership",
+  "description": "Higgsfield is privately held and has no ticker. Review the price of each funding round, the investors and SPVs that hold its shares, and the points to confirm before buying or selling.",
+  "ledes": [
+    "Higgsfield is a privately held company that develops AI software for creating video and images. Its shares are not listed on an exchange and have no quoted market price; the principal public reference points are the prices at which the company has raised capital. Its most recent financing was an extension of its Series B round, announced on October 23, 2026, for which the company disclosed neither the amount raised nor a valuation. The Series B itself, a $400 million round announced on August 17, 2026, valued the company at $5.4 billion.",
+    "Founded in 2023 and based in San Francisco, Higgsfield operates a web platform on which creators, brands and agencies produce video and images with AI models. Existing shares change hands in privately negotiated transactions, frequently through special purpose vehicles, and remain subject to the company's transfer restrictions."
+  ],
+  "figs": [
+    [
+      "$5.4B",
+      "Valuation, Series B (August 2026)"
+    ],
+    [
+      "$330.25",
+      "Price per share, Series B extension (October 2026)"
+    ],
+    [
+      "7",
+      "Special purpose vehicles with SEC filings naming Higgsfield"
+    ],
+    [
+      "$400M",
+      "Amount raised, Series B"
+    ]
+  ],
+  "rounds_heading": "Funding Rounds and Share Prices",
+  "columns": [
+    "Price per share",
+    "Valuation",
+    "Amount raised"
+  ],
+  "rounds": [
+    [
+      "Oct 2026",
+      "Series B extension",
+      [
+        "$330.25",
+        null,
+        null
+      ]
+    ],
+    [
+      "Aug 2026",
+      "Series B",
+      [
+        "$197.29",
+        "$5.4B",
+        "$400M"
+      ]
+    ],
+    [
+      "Jan 2026",
+      "Series A extension",
+      [
+        null,
+        "Over $1.3B",
+        "$80M"
+      ]
+    ],
+    [
+      "Sep 2025",
+      "Series A",
+      [
+        null,
+        null,
+        "$50M"
+      ]
+    ],
+    [
+      "Apr 2024",
+      "Seed",
+      [
+        "$2.12",
+        null,
+        "$8M"
+      ]
+    ]
+  ],
+  "table_note": "Valuations are as announced by the company. Higgsfield did not disclose the amount or valuation of the Series B extension, or a valuation for the original Series A.",
+  "round_notes": [
+    "With the announcement of the Series B extension, Higgsfield said its annualized revenue run rate had passed $1 billion in September 2026; that figure is the company's own.",
+    "A round price reflects what investors paid for the preferred stock issued in that round. Most shares sold by employees are common stock, which carries fewer rights and typically trades at a discount to the preferred price."
+  ],
+  "investors": "DST Global led the Series B, with participation from Goldman Sachs Alternatives, Tribe Capital, Smash Capital, Intel Capital and Valor Capital, and TCV and Nvidia invested in the October 2026 extension. GFT Ventures led the Series A and Menlo Ventures the seed round. Other investors include Accel, AI Capital Partners and BroadLight Capital.",
+  "spv_sentence": "Since 2025, seven special purpose vehicles formed to invest in Higgsfield have filed with the SEC, four of them in 2026.",
+  "spv_years": [
+    [
+      "2025",
+      3
+    ],
+    [
+      "2026",
+      4
+    ]
+  ],
+  "related": [
+    "Runway",
+    "ElevenLabs",
+    "Synthesia"
+  ],
+  "sources": "Sources: Higgsfield's announcements of its <a href=\"https://www.prnewswire.com/news-releases/higgsfield-extends-series-b-with-new-investment-from-tcv-and-nvidia-302918071.html\">Series B extension</a>, <a href=\"https://www.prnewswire.com/news-releases/higgsfield-raises-400-million-series-b-financing-at-5-4-billion-valuation-with-annualized-revenue-reaching-700-million-302852430.html\">Series B</a>, <a href=\"https://www.prnewswire.com/news-releases/higgsfield-announces-130m-series-a-and-reports-200m-annual-run-rate-302661805.html\">Series A extension</a>, <a href=\"https://www.prnewswire.com/news-releases/higgsfield-announces-50m-series-a-to-propel-click-to-video-ai-for-social-media-302550070.html\">Series A</a> and <a href=\"https://www.businesswire.com/news/home/20240403369573/en\">seed round</a>; a TechCrunch report dated <a href=\"https://techcrunch.com/2026/01/15/ai-video-startup-higgsfield-founded-by-ex-snap-exec-lands-1-3b-valuation\">January 15, 2026</a>; and SEC Form D filings."
+}

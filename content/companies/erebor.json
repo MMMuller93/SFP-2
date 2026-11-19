@@ -1,0 +1,77 @@
+{
+  "slug": "erebor",
+  "name": "Erebor",
+  "h1_name": "Erebor Bank",
+  "site": "https://www.erebor.bank",
+  "founded": "2025",
+  "h1_tail": "Funding Rounds and Ownership",
+  "description": "Erebor Bank is privately held and has no ticker. Review its reported funding rounds and valuations, the investors and SPVs that hold its shares, and the points to confirm before buying or selling.",
+  "ledes": [
+    "Erebor Bank is a privately held national bank. Its shares are not listed on an exchange and have no quoted market price; the principal public reference points are the valuations at which the company has raised capital. Its most recent reported financing, a $350 million round in December 2025, valued the bank at $4.35 billion.",
+    "Founded in 2025 and based in Columbus, Ohio, Erebor provides banking services to companies in technology, defense and digital assets. Existing shares change hands in privately negotiated transactions, frequently through special purpose vehicles, and remain subject to the company's transfer restrictions."
+  ],
+  "figs": [
+    [
+      "$4.35B",
+      "Post-money valuation (December 2025)"
+    ],
+    [
+      "$350M",
+      "Amount raised (December 2025)"
+    ],
+    [
+      "33",
+      "Special purpose vehicles with SEC filings naming Erebor"
+    ],
+    [
+      "2025",
+      "Year founded"
+    ]
+  ],
+  "rounds_heading": "Funding Rounds",
+  "columns": [
+    "Valuation",
+    "Amount raised"
+  ],
+  "rounds": [
+    [
+      "Dec 2025",
+      "Second round",
+      [
+        "$4.35B",
+        "$350M"
+      ]
+    ],
+    [
+      "Mid-2025",
+      "First round",
+      [
+        "$2.0B",
+        "$225M"
+      ]
+    ]
+  ],
+  "table_note": "Figures are as reported by Axios, Bloomberg and Business Insider. Erebor has not published the terms of its financings.",
+  "round_notes": [
+    "The December 2025 round was led by Lux Capital and followed the FDIC's approval of the bank's deposit insurance. In August 2026, the Financial Times reported that Erebor was nearing a further financing of $1.5 billion at a pre-money valuation of $8 billion. The company has not announced that the round has closed.",
+    "A round valuation reflects the terms offered to investors in that round. Shares acquired in a secondary transaction may carry different rights and are often priced differently."
+  ],
+  "investors": "Lux Capital led the December 2025 round. Earlier backers include Founders Fund, 8VC and Haun Ventures.",
+  "spv_sentence": "Since 2025, 33 special purpose vehicles formed to invest in Erebor have filed with the SEC, 21 of them in 2026.",
+  "spv_years": [
+    [
+      "2025",
+      12
+    ],
+    [
+      "2026",
+      21
+    ]
+  ],
+  "related": [
+    "Kalshi",
+    "Polymarket",
+    "Ramp"
+  ],
+  "sources": "Sources: reports by <a href=\"https://www.axios.com/pro/fintech-deals/2026/08/10/erebor-raise-8-billion-valuation\">Axios</a> (August 10, 2026), <a href=\"https://news.bloomberglaw.com/private-equity/thiel-backed-bank-set-to-double-valuation-to-4-35-billion\">Bloomberg</a> (December 2025), <a href=\"https://www.theblock.co/post/383533/banking-startup-erebor-350-million-4-billion-valuation-fdic-approval-axios\">The Block</a> (December 22, 2025) and Business Insider (2025); reports by Financial Times; and SEC Form D filings."
+}

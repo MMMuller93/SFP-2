@@ -1,0 +1,88 @@
+{
+  "slug": "exowatt",
+  "name": "Exowatt",
+  "site": "https://www.exowatt.com",
+  "founded": "2023",
+  "h1_tail": "Funding Rounds and Ownership",
+  "description": "Exowatt is privately held and has no ticker. Review its funding rounds, the investors and SPVs that hold its shares, and the points to confirm before buying or selling.",
+  "ledes": [
+    "Exowatt is a privately held energy technology company. Its shares are not listed on an exchange and have no quoted market price; the principal public reference points are the financing rounds in which the company has raised capital. Its most recent financing, a $50 million extension of its Series A round announced on November 13, 2025, was made at a valuation the company did not disclose.",
+    "Founded in 2023 and based in Miami, Exowatt builds modular solar-thermal units that concentrate sunlight onto a heat-storing block and use the stored heat to generate electricity, with data centers among its intended customers. Existing shares change hands in privately negotiated transactions, frequently through special purpose vehicles, and remain subject to the company's transfer restrictions."
+  ],
+  "figs": [
+    [
+      "$50M",
+      "Amount raised, Series A extension (November 2025)"
+    ],
+    [
+      "$35M",
+      "Equity raised, Series A (April 2025)"
+    ],
+    [
+      "10",
+      "Special purpose vehicles with SEC filings naming Exowatt"
+    ],
+    [
+      "2023",
+      "Year founded"
+    ]
+  ],
+  "rounds_heading": "Funding Rounds",
+  "columns": [
+    "Valuation",
+    "Amount raised"
+  ],
+  "rounds": [
+    [
+      "Nov 2025",
+      "Series A extension",
+      [
+        null,
+        "$50M"
+      ]
+    ],
+    [
+      "Apr 2025",
+      "Series A",
+      [
+        null,
+        "$35M"
+      ]
+    ],
+    [
+      "Apr 2024",
+      "Seed",
+      [
+        null,
+        "$20M"
+      ]
+    ]
+  ],
+  "table_note": "Exowatt has not disclosed the valuation of any round. Amounts raised reflect equity only; the $70 million Series A, as reported at the time, included $35 million of debt from HSBC Innovation Banking and other lenders.",
+  "round_notes": [
+    "TechCrunch reported that the Series A extension was raised at a higher valuation than the Series A, without giving a figure. With that announcement, Exowatt said it had a demand backlog of about 90 gigawatt-hours; that figure is the company's own.",
+    "A round valuation reflects the terms of the preferred stock issued in that round. Most shares sold by employees are common stock, which carries fewer rights and typically trades at a discount to the preferred price."
+  ],
+  "investors": "MVP Ventures and 8090 Industries led the Series A extension, and Felicis led the Series A. Other investors include Andreessen Horowitz, Atomic, Sam Altman, StepStone Group, Starwood Capital, MCJ Collective and the Florida Opportunity Fund.",
+  "spv_sentence": "Since 2024, ten special purpose vehicles formed to invest in Exowatt have filed with the SEC, four of them in 2026.",
+  "spv_years": [
+    [
+      "2024",
+      1
+    ],
+    [
+      "2025",
+      5
+    ],
+    [
+      "2026",
+      4
+    ]
+  ],
+  "related": [
+    "Antora Energy",
+    "Rondo Energy",
+    "Base Power"
+  ],
+  "sources": "Sources: Exowatt's <a href=\"https://www.exowatt.com/news/www-exowatt-com-news-series-a-additional-50m-press-release\">November 2025 announcement</a>; reports by <a href=\"https://techcrunch.com/2025/11/13/sam-atlman-backed-exowatt-wants-to-power-ai-data-centers-with-billions-of-hot-rocks/\">TechCrunch</a> (November 2025), <a href=\"https://www.esgtoday.com/?p=21876\">ESG Today</a> (November 2025) and <a href=\"https://refreshmiami.com/news/exowatt-secures-70m-series-a-to-solve-big-ai-problem-power/\">Refresh Miami</a> (April 2025); and SEC Form D filings."
+}

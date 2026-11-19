@@ -1,0 +1,100 @@
+{
+  "slug": "mistral-ai",
+  "name": "Mistral AI",
+  "site": "https://mistral.ai",
+  "founded": "2023",
+  "h1_tail": "Funding Rounds and Ownership",
+  "description": "Mistral AI is privately held and has no ticker. Review its funding rounds and valuations, the investors and SPVs that hold its shares, and the points to confirm before buying or selling.",
+  "ledes": [
+    "Mistral AI is a privately held artificial intelligence company. Its shares are not listed on an exchange and have no quoted market price; the principal public reference points are the valuations at which the company has raised capital. Its most recent financing, a $3.6 billion Series D round announced on September 8, 2026, valued the company at $24.4 billion.",
+    "Founded in 2023 and based in Paris, Mistral AI develops large language models, many of them released with open weights, and provides businesses with the software and computing infrastructure to deploy them. Existing shares change hands in privately negotiated transactions, frequently through special purpose vehicles, and remain subject to the company's transfer restrictions."
+  ],
+  "figs": [
+    [
+      "$24.4B",
+      "Post-money valuation, Series D (September 2026)"
+    ],
+    [
+      "$3.6B",
+      "Amount raised, Series D"
+    ],
+    [
+      "4",
+      "Special purpose vehicles with SEC filings naming Mistral AI"
+    ],
+    [
+      "2023",
+      "Year founded"
+    ]
+  ],
+  "rounds_heading": "Funding Rounds",
+  "columns": [
+    "Valuation",
+    "Amount raised"
+  ],
+  "rounds": [
+    [
+      "Sep 2026",
+      "Series D",
+      [
+        "$24.4B",
+        "$3.6B"
+      ]
+    ],
+    [
+      "Sep 2025",
+      "Series C",
+      [
+        "$13.7B",
+        "$2.0B"
+      ]
+    ],
+    [
+      "Jun 2024",
+      "Series B",
+      [
+        "$6.0B",
+        "$640M"
+      ]
+    ],
+    [
+      "Dec 2023",
+      "Series A",
+      [
+        "$2.0B",
+        "$415M"
+      ]
+    ]
+  ],
+  "table_note": "Figures are in U.S. dollars, as reported at the time of each round; Mistral AI announced its rounds in euros. The Series D and Series C valuations are post-money, as announced by the company; the earlier valuations are as reported at the time. The Series B amount is as reported by TechCrunch and included debt.",
+  "round_notes": [
+    "Mistral AI has said the Series D proceeds will fund frontier research, computing capacity for training its models, and the expansion of its infrastructure, products and international business.",
+    "A round valuation reflects the terms of the preferred stock issued in that round. Most shares sold by employees are common stock, which carries fewer rights and typically trades at a discount to the preferred price."
+  ],
+  "investors": "Samsung Electronics led the Series D, with Scaleup Europe Fund, managed by EQT, and PSG Equity as co-leads. ASML led the Series C, General Catalyst the Series B and Andreessen Horowitz the Series A. Other investors include Lightspeed Venture Partners, Nvidia, Salesforce Ventures, Bpifrance, DST Global, Index Ventures, BlackRock and Advent.",
+  "spv_sentence": "Since 2023, four special purpose vehicles formed to invest in Mistral AI have filed with the SEC, none of them in 2026.",
+  "spv_years": [
+    [
+      "2023",
+      2
+    ],
+    [
+      "2024",
+      0
+    ],
+    [
+      "2025",
+      2
+    ],
+    [
+      "2026",
+      0
+    ]
+  ],
+  "related": [
+    "OpenAI",
+    "Perplexity",
+    "ElevenLabs"
+  ],
+  "sources": "Sources: Mistral AI's announcements of its <a href=\"https://mistral.ai/news/mistral-makes-sovereign-open-weight-ai-to-frontier/\">Series D</a> (September 2026) and <a href=\"https://mistral.ai/news/mistral-ai-raises-1-7-b-to-accelerate-technological-progress-with-ai/\">Series C</a> (September 2025); reports by TechCrunch (<a href=\"https://techcrunch.com/2026/09/08/mistral-raises-e3b-as-sovereign-ai-becomes-big-business/\">September 2026</a>, <a href=\"https://techcrunch.com/2024/06/11/paris-based-ai-startup-mistral-ai-raises-640-million/\">June 2024</a> and <a href=\"https://techcrunch.com/2023/12/11/mistral-ai-a-paris-based-openai-rival-closed-its-415-million-funding-round/\">December 2023</a>) Bloomberg (June 2024 and December 2023), Reuters and SiliconANGLE (September 2025); and SEC Form D filings."
+}

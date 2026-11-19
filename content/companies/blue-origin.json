@@ -1,0 +1,64 @@
+{
+  "slug": "blue-origin",
+  "name": "Blue Origin",
+  "site": "https://www.blueorigin.com",
+  "founded": "2000",
+  "h1_tail": "Funding Rounds and Ownership",
+  "description": "Blue Origin is privately held and has no ticker. Review its outside funding round and valuation, the investors and SPVs that hold its shares, and the points to confirm before buying or selling.",
+  "ledes": [
+    "Blue Origin is a privately held aerospace company. Its shares are not listed on an exchange and have no quoted market price; the principal public reference point is the valuation at which the company has raised capital. Its most recent reported financing, and its first from outside investors, was a $10 billion round in 2026 that valued the company at $140 billion after the new investment.",
+    "Founded in 2000 and based in Kent, Washington, Blue Origin develops rockets and spacecraft, among them the New Glenn launch vehicle and the Blue Moon lunar lander. Existing shares change hands in privately negotiated transactions, frequently through special purpose vehicles, and remain subject to the company's transfer restrictions."
+  ],
+  "figs": [
+    [
+      "$140B",
+      "Post-money valuation, first outside round (2026)"
+    ],
+    [
+      "$10B",
+      "Amount raised, first outside round (2026)"
+    ],
+    [
+      "3",
+      "Special purpose vehicles with SEC filings naming Blue Origin"
+    ],
+    [
+      "2000",
+      "Year founded"
+    ]
+  ],
+  "rounds_heading": "Funding Rounds",
+  "columns": [
+    "Valuation",
+    "Amount raised"
+  ],
+  "rounds": [
+    [
+      "Jul 2026",
+      "First outside round",
+      [
+        "$140.0B",
+        "$10.0B"
+      ]
+    ]
+  ],
+  "table_note": "The valuation is post-money, as reported by The Wall Street Journal in September 2026; CNBC and The New York Times reported the $10 billion raise in July 2026 at a valuation of $130 billion before the new investment.",
+  "round_notes": [
+    "Before this round, Blue Origin was funded entirely by Jeff Bezos through sales of his Amazon stock, according to CNBC. The Wall Street Journal reported that the $10 billion included $2 billion from Bezos. Blue Origin has not published the terms of the round.",
+    "The terms of the shares sold in that round have not been disclosed."
+  ],
+  "investors": "CNBC reported in July 2026 that Coatue Management would invest $4 billion in the round and Jeff Bezos $2 billion. Blue Origin has not disclosed the other investors in the round.",
+  "spv_sentence": "In 2026, three special purpose vehicles formed to invest in Blue Origin filed with the SEC.",
+  "spv_years": [
+    [
+      "2026",
+      3
+    ]
+  ],
+  "related": [
+    "Stoke Space",
+    "Impulse Space",
+    "K2 Space"
+  ],
+  "sources": "Sources: reports by <a href=\"https://www.cnbc.com/2026/07/08/blue-origin-bezos-fundraising.html\">CNBC</a> and <a href=\"https://techcrunch.com/2026/07/08/blue-origin-reportedly-raising-10b-at-130b-valuation/\">TechCrunch</a> (July 2026), The New York Times (July 2026) and The Wall Street Journal (September 2026); and SEC Form D filings."
+}

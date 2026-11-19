@@ -1,0 +1,100 @@
+{
+  "slug": "plaid",
+  "name": "Plaid",
+  "site": "https://plaid.com",
+  "founded": "",
+  "h1_tail": "Funding Rounds and Ownership",
+  "description": "Plaid is privately held and has no ticker. Review its funding rounds and valuations, the investors and SPVs that hold its shares, and the points to confirm before buying or selling.",
+  "ledes": [
+    "Plaid is a privately held financial technology company. Its shares are not listed on an exchange and have no quoted market price; the principal public reference points are the valuations at which the company has raised capital. Its most recent financing, a $575 million round announced on April 3, 2025, valued the company at $6.1 billion.",
+    "Based in San Francisco, Plaid builds the software that lets people connect their bank accounts to financial apps, including payment, lending and budgeting services. Existing shares change hands in privately negotiated transactions, frequently through special purpose vehicles, and remain subject to the company's transfer restrictions."
+  ],
+  "figs": [
+    [
+      "$6.1B",
+      "Valuation, April 2025 round"
+    ],
+    [
+      "$575M",
+      "Amount raised, April 2025 round"
+    ],
+    [
+      "7",
+      "Special purpose vehicles with SEC filings naming Plaid"
+    ],
+    [
+      "$425M",
+      "Amount raised, Series D (April 2021)"
+    ]
+  ],
+  "rounds_heading": "Funding Rounds",
+  "columns": [
+    "Valuation",
+    "Amount raised"
+  ],
+  "rounds": [
+    [
+      "Apr 2025",
+      "Funding round",
+      [
+        "$6.1B",
+        "$575M"
+      ]
+    ],
+    [
+      "Apr 2021",
+      "Series D",
+      [
+        "$13.4B",
+        "$425M"
+      ]
+    ],
+    [
+      "Dec 2018",
+      "Series C",
+      [
+        "$2.7B",
+        "$250M"
+      ]
+    ]
+  ],
+  "table_note": "Valuations are as reported at the time of each round. Plaid did not give the April 2025 financing a series name and has said it consisted of newly issued common stock.",
+  "round_notes": [
+    "Franklin Templeton led the April 2025 financing; Plaid said most of the proceeds would cover tax withholding on expiring employee restricted stock units, with the remainder funding a small tender offer for employees. In February 2026, Plaid confirmed an employee share sale at a valuation of $8 billion, as reported by Bloomberg and TechCrunch.",
+    "Plaid's April 2025 financing was a sale of newly issued common stock, the class most employees hold, so its valuation applies to common shares. The Series C and Series D rounds issued preferred stock, which carries additional rights, and those valuations reflect the terms of that stock."
+  ],
+  "investors": "Franklin Templeton led the April 2025 round, with participation from Fidelity, BlackRock, NEA and Ribbit Capital. Altimeter Capital led the Series D, in which Silver Lake and Ribbit Capital joined as new investors, and Mary Meeker, then at Kleiner Perkins, led the Series C. Other investors include Andreessen Horowitz, Index Ventures, Goldman Sachs and Spark Capital.",
+  "spv_sentence": "Since 2021, seven special purpose vehicles formed to invest in Plaid have filed with the SEC, none of them in 2026.",
+  "spv_years": [
+    [
+      "2021",
+      6
+    ],
+    [
+      "2022",
+      0
+    ],
+    [
+      "2023",
+      0
+    ],
+    [
+      "2024",
+      0
+    ],
+    [
+      "2025",
+      1
+    ],
+    [
+      "2026",
+      0
+    ]
+  ],
+  "related": [
+    "Stripe",
+    "Ramp",
+    "Revolut"
+  ],
+  "sources": "Sources: Plaid's <a href=\"https://plaid.com/blog/our-latest-fundraise/\">announcement of its April 2025 financing</a>; reports by TechCrunch (<a href=\"https://techcrunch.com/2026/02/26/plaid-valued-at-8b-in-employee-share-sale/\">February 2026</a>, <a href=\"https://techcrunch.com/2025/04/03/fintech-plaid-raises-575m-at-6-1b-valuation-says-it-will-not-go-public-in-2025\">April 2025</a> and <a href=\"https://techcrunch.com/2021/04/07/plaid-raises-425m-series-d-from-altimeter-as-it-charts-a-post-visa-future/\">April 2021</a>), CNBC (<a href=\"https://www.cnbc.com/2021/04/07/plaid-hits-13point4-billion-valuation-in-the-wake-of-scrapped-visa-deal.html\">April 2021</a> and <a href=\"https://www.cnbc.com/2018/12/11/plaids-250-million-funding-round-propels-it-to-2point7-billion-valuation.html\">December 2018</a>) and Bloomberg (February 2026); and SEC Form D filings."
+}

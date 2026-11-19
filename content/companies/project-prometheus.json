@@ -1,0 +1,72 @@
+{
+  "slug": "project-prometheus",
+  "name": "Prometheus",
+  "site": "",
+  "founded": "",
+  "h1_tail": "Funding Rounds and Ownership",
+  "description": "Prometheus is privately held and has no ticker. Review its funding rounds and valuations, the investors and SPVs that hold its shares, and the points to confirm before buying or selling.",
+  "ledes": [
+    "Prometheus is a privately held artificial intelligence company. Its shares are not listed on an exchange and have no quoted market price; the principal public reference points are the valuations at which the company has raised capital. Its most recent reported financing, a $12 billion Series B round in June 2026, valued the company at $41 billion.",
+    "Prometheus, which launched in November 2025 under the name Project Prometheus, develops AI systems intended to speed the engineering and manufacture of physical products in fields such as aerospace, automobiles and computing. Existing shares change hands in privately negotiated transactions, frequently through special purpose vehicles, and remain subject to the company's transfer restrictions."
+  ],
+  "figs": [
+    [
+      "$41B",
+      "Reported valuation, Series B (June 2026)"
+    ],
+    [
+      "$12B",
+      "Reported amount raised, Series B (June 2026)"
+    ],
+    [
+      "9",
+      "Special purpose vehicles with SEC filings naming Project Prometheus"
+    ],
+    [
+      "$6.2B",
+      "Reported initial funding (November 2025)"
+    ]
+  ],
+  "rounds_heading": "Funding Rounds",
+  "columns": [
+    "Valuation",
+    "Amount raised"
+  ],
+  "rounds": [
+    [
+      "Jun 2026",
+      "Series B",
+      [
+        "$41.0B",
+        "$12.0B"
+      ]
+    ],
+    [
+      "Nov 2025",
+      "Initial funding",
+      [
+        null,
+        "$6.2B"
+      ]
+    ]
+  ],
+  "table_note": "Valuations are as reported at the time of each round. The initial funding is as reported by The New York Times (November 2025) and the Series B as reported by Axios (June 2026); Prometheus has not published the terms of either financing.",
+  "round_notes": [
+    "In April 2026, Bloomberg reported that the Series B had closed at a valuation of $38 billion without a lead investor. The larger figures shown were reported in June 2026, when the company's leaders discussed the financing in interviews with Axios and CNBC.",
+    "A round valuation reflects the terms of the preferred stock issued in that round. Most shares sold by employees are common stock, which carries fewer rights and typically trades at a discount to the preferred price."
+  ],
+  "investors": "Investors in the Series B included JPMorgan Chase, Goldman Sachs, BlackRock, DST Global and Arch Venture Partners, and Jeff Bezos invested personally. Bezos also provided part of the initial funding, according to The New York Times.",
+  "spv_sentence": "In 2026, nine special purpose vehicles formed to invest in Prometheus filed with the SEC.",
+  "spv_years": [
+    [
+      "2026",
+      9
+    ]
+  ],
+  "related": [
+    "Physical Intelligence",
+    "Periodic Labs",
+    "Skild AI"
+  ],
+  "sources": "Sources: reports by The New York Times and <a href=\"https://fortune.com/2025/11/17/jeff-bezos-project-prometheus-co-ceo-ai-startup-6-2-billion\">Fortune</a> (November 2025), Bloomberg (April 2026), and Axios, <a href=\"https://www.semafor.com/article/06/11/2026/jeff-bezos-raises-12b-for-ai-that-builds-things\">Semafor</a> and <a href=\"https://siliconangle.com/2026/06/11/jeff-bezos-prometheus-raises-12b-accelerate-industrial-engineering-projects/\">SiliconANGLE</a> (June 2026); reports by CNBC; and SEC Form D filings."
+}

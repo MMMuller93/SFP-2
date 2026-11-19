@@ -1,0 +1,84 @@
+{
+  "slug": "fanatics",
+  "name": "Fanatics",
+  "site": "https://www.fanaticsinc.com",
+  "founded": "",
+  "h1_tail": "Funding Rounds and Ownership",
+  "description": "Fanatics is privately held and has no ticker. Review its funding rounds and valuations, the investors and funds that hold its shares, and the points to confirm before buying or selling.",
+  "ledes": [
+    "Fanatics is a privately held holding company for a group of sports merchandise, collectibles and betting businesses. Its shares are not listed on an exchange and have no quoted market price; the principal public reference points are the valuations at which the company has raised capital. Its most recent reported financing, a $700 million round reported on December 6, 2022, valued the company at $31 billion.",
+    "Based in New York, Fanatics owns businesses that make and sell licensed sports apparel and merchandise, produce trading cards and other collectibles under brands including Topps, and operate sports betting, online casino and prediction market services. Existing shares change hands in privately negotiated transactions and remain subject to the company's transfer restrictions."
+  ],
+  "figs": [
+    [
+      "$31B",
+      "Reported valuation (December 2022)"
+    ],
+    [
+      "$700M",
+      "Reported amount raised (December 2022)"
+    ],
+    [
+      "$25B",
+      "Valuation in employee share sale reported by Bloomberg (September 2024)"
+    ],
+    [
+      "$1.5B",
+      "Reported amount raised (April 2022)"
+    ]
+  ],
+  "rounds_heading": "Funding Rounds",
+  "columns": [
+    "Valuation",
+    "Amount raised"
+  ],
+  "rounds": [
+    [
+      "Dec 2022",
+      "Funding round",
+      [
+        "$31.0B",
+        "$700M"
+      ]
+    ],
+    [
+      "Apr 2022",
+      "Funding round",
+      [
+        "$27.0B",
+        "$1.5B"
+      ]
+    ],
+    [
+      "Aug 2021",
+      "Funding round",
+      [
+        "$18.0B",
+        "$325M"
+      ]
+    ],
+    [
+      "Mar 2021",
+      "Series F",
+      [
+        "$12.8B",
+        "$320M"
+      ]
+    ]
+  ],
+  "table_note": "Valuations are as reported at the time of each round. Fanatics did not publish the terms of these financings; the figures shown are as reported by The Wall Street Journal and CNBC.",
+  "round_notes": [
+    "In September 2024, Bloomberg reported that Fanatics was arranging a sale of $75 million to $100 million of employee shares at a valuation of $25 billion, 19% below the December 2022 valuation. Fanatics has not announced the outcome.",
+    "Fanatics' SEC filings describe the shares sold in its March 2021 round as Series F convertible preferred stock and those sold in its later financings as Class A common stock. A prospective buyer should confirm the class and terms of any shares offered."
+  ],
+  "investors": "Clearlake Capital led the December 2022 round, joined by LionTree and existing investors Silver Lake, SoftBank and Fidelity. The National Football League was the largest investor in the April 2022 round, which also brought in BlackRock, Fidelity and MSD Partners. Other investors include Major League Baseball, the National Hockey League, Roc Nation, Thrive Capital, Franklin Templeton and Neuberger Berman.",
+  "spv_sentence": "No special purpose vehicles clearly formed to invest in Fanatics appear in SEC Form D filings.",
+  "spv_years": null,
+  "funds": "Mutual funds and other SEC-registered funds managed by Fidelity, Neuberger Berman, Franklin Templeton and BlackRock reported Fanatics holdings in filings for periods in 2026. Fidelity's Blue Chip Growth Fund valued its position at $155.1 million as of January 31, 2026.",
+  "related": [
+    "Kalshi",
+    "Polymarket",
+    "Epic Games"
+  ],
+  "sources": "Sources: reports by CNBC (<a href=\"https://www.cnbc.com/2022/12/06/fanatics-valuation-hits-31-billion-after-700-million-investment-round.html\">December 2022</a>, <a href=\"https://www.cnbc.com/2022/03/02/fanatics-hits-27-billion-in-new-funding-adds-blackrock-michael-dell.html\">March 2022</a>, <a href=\"https://www.cnbc.com/2021/08/10/fanatics-valued-at-18-billion-with-new-investors-including-jay-z-.html\">August 2021</a> and <a href=\"https://www.cnbc.com/2021/03/24/fanatics-valuation-doubles-to-12point8-billion-after-new-funding-round.html\">March 2021</a>), <a href=\"https://techcrunch.com/2022/04/06/fanatics-raises-1-5b-at-a-27b-valuation-as-it-evolves-into-a-digital-sports-platform\">TechCrunch</a> (April 2022), The Wall Street Journal (2021 and 2022) and <a href=\"https://news.bloomberglaw.com/private-equity/fanatics-explores-tender-at-discounted-25-billion-valuation-1\">Bloomberg</a> (September 2024); and SEC Form D and Form N-PORT filings."
+}

@@ -1,0 +1,67 @@
+{
+  "slug": "notion",
+  "name": "Notion",
+  "site": "https://www.notion.com",
+  "founded": "2013",
+  "h1_tail": "Funding Rounds and Ownership",
+  "description": "Notion is privately held and has no ticker. Review its funding rounds and valuations, the investors and SPV that hold its shares, and the points to confirm before buying or selling.",
+  "ledes": [
+    "Notion Labs is a privately held productivity software company. Its shares are not listed on an exchange and have no quoted market price; the principal public reference points are the valuations at which the company has raised capital. Its most recent financing, a $275 million round announced on October 8, 2021, valued the company at $10 billion.",
+    "Founded in 2013 and based in San Francisco, Notion makes workspace software in which teams write documents, manage projects and maintain shared knowledge bases, with built-in AI features. Existing shares change hands in privately negotiated transactions and remain subject to the company's transfer restrictions."
+  ],
+  "figs": [
+    [
+      "$11B",
+      "Valuation, employee tender offer (January 2026)"
+    ],
+    [
+      "$275M",
+      "Amount raised, October 2021 round"
+    ],
+    [
+      "$270M",
+      "Employee shares bought in the tender offer (January 2026)"
+    ],
+    [
+      "2013",
+      "Year founded"
+    ]
+  ],
+  "rounds_heading": "Funding Rounds",
+  "columns": [
+    "Valuation",
+    "Amount raised"
+  ],
+  "rounds": [
+    [
+      "Oct 2021",
+      "Funding round",
+      [
+        "$10.0B",
+        "$275M"
+      ]
+    ],
+    [
+      "Apr 2020",
+      "Funding round",
+      [
+        "$2.0B",
+        "$50M"
+      ]
+    ]
+  ],
+  "table_note": "Valuations are as reported at the time of each round. Notion disclosed the 2021 round itself and confirmed the 2020 round and its valuation to TechCrunch.",
+  "round_notes": [
+    "In January 2026, Notion said that Sequoia Capital, Index Ventures and GIC had bought $270 million of shares from current and former employees in a tender offer at a valuation of $11 billion. Notion has not announced a new funding round since 2021.",
+    "A round valuation reflects the terms of the preferred stock issued in that round. Most shares sold by employees are common stock, which carries fewer rights and typically trades at a discount to the preferred price."
+  ],
+  "investors": "Coatue and Sequoia Capital led the 2021 round, and Index Ventures invested in the 2020 round. GIC, Singapore's sovereign wealth fund, became an investor through the January 2026 tender offer, alongside returning investors Sequoia Capital and Index Ventures.",
+  "spv_sentence": "SEC filings show one special purpose vehicle formed to invest in Notion, organized in 2024.",
+  "spv_years": null,
+  "related": [
+    "Canva",
+    "Airtable",
+    "ClickUp"
+  ],
+  "sources": "Sources: Notion's <a href=\"https://www.notion.com/blog/gic-sequoia-index-purchase-notion-shares\">announcement</a> of its employee tender offer (January 26, 2026); reports by <a href=\"https://siliconangle.com/2021/10/08/productivity-startup-notion-valued-10b-latest-275m-funding-round\">SiliconANGLE</a> (October 2021) and <a href=\"https://techcrunch.com/2020/04/01/notion-hits-2-billion-valuation-in-new-raise\">TechCrunch</a> (April 2020); and SEC Form D filings."
+}

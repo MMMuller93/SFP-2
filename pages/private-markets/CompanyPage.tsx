@@ -3,6 +3,7 @@ import { useNavigate, useParams } from 'react-router-dom';
 import { ArrowUpRight } from 'lucide-react';
 import { SEO } from '../../components/SEO';
 import { CONSULTATION_URL, openConsultation } from '../../lib/calendly';
+import { CONTACT_MAILTO } from '../../lib/contact';
 import { trackConversion } from '../../lib/conversions';
 import { SITE_PATHS } from '../../lib/site-paths';
 import {
@@ -226,16 +227,25 @@ export const CompanyProfile: React.FC<{ company: Company }> = ({ company }) => {
               <h2 className={`${h2Class} mb-3`}>Get in Touch</h2>
               <p className="text-text-secondary max-w-[560px]">We advise investors evaluating an offer of {name} shares and shareholders considering a sale, including review of the documents, fees and transfer terms.</p>
             </div>
-            <a
-              href={CONSULTATION_URL}
-              target="_blank"
-              rel="noopener noreferrer"
-              onClick={handleConsultation}
-              className="inline-flex items-center justify-center gap-3 px-7 md:px-8 py-4 bg-accent text-bg text-xs font-bold uppercase tracking-widest hover:bg-accentHover transition-colors duration-300 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-accent"
-            >
-              Contact
-              <ArrowUpRight className="w-4 h-4 shrink-0" aria-hidden="true" />
-            </a>
+            <div className="flex flex-wrap items-center gap-6">
+              <a
+                href={CONSULTATION_URL}
+                target="_blank"
+                rel="noopener noreferrer"
+                onClick={handleConsultation}
+                className="inline-flex items-center justify-center gap-3 px-7 md:px-8 py-4 bg-accent text-bg text-xs font-bold uppercase tracking-widest hover:bg-accentHover transition-colors duration-300 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-accent"
+              >
+                Book Consultation
+                <ArrowUpRight className="w-4 h-4 shrink-0" aria-hidden="true" />
+              </a>
+              <a
+                href={CONTACT_MAILTO}
+                onClick={() => trackConversion('email_link_clicked')}
+                className="inline-flex items-center justify-center px-7 md:px-8 py-4 border border-accent text-accent text-xs font-bold uppercase tracking-widest hover:bg-accent hover:text-bg transition-colors duration-300 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-accent"
+              >
+                Contact
+              </a>
+            </div>
           </div>
         </section>
 

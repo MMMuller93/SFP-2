@@ -63,21 +63,18 @@ export const Navbar: React.FC<NavbarProps> = () => {
   const navLinks = isAgentLegal ? [
     { name: 'Overview', href: '/agents/', view: 'home' as const },
     { name: 'Insights', href: '/agents/insights/', view: 'blog' as const },
-    { name: 'Contact', href: CONTACT_MAILTO, view: 'home' as const },
   ] : isStartupLegal ? [
     { name: 'Services', href: '/startups/', view: 'home' as const },
     { name: 'Insights', href: '/startups/insights/', view: 'blog' as const },
-    { name: 'Contact', href: CONTACT_MAILTO, view: 'home' as const },
   ] : [
     { name: 'Expertise', href: '#services', view: 'home' as const },
     { name: 'Private Markets', href: SITE_PATHS.privateMarkets, view: 'home' as const },
     { name: 'About', href: '/about/', view: 'home' as const },
     { name: 'Insights', href: '/insights/', view: 'blog' as const },
-    { name: 'Contact', href: CONTACT_MAILTO, view: 'home' as const },
   ];
 
   const isActiveLink = (href: string) => {
-    if (href.startsWith('#') || href.startsWith('mailto:')) return false;
+    if (href.startsWith('#')) return false;
     const path = canonicalPath(location.pathname);
     return path === href || ((href.endsWith('/insights/') || href === SITE_PATHS.privateMarkets) && path.startsWith(href));
   };
@@ -96,19 +93,9 @@ export const Navbar: React.FC<NavbarProps> = () => {
           </div>
 
           {/* Desktop Nav */}
-          <div className="hidden lg:flex lg:col-span-7 items-center justify-center border-r border-grid">
+          <div className="hidden lg:flex lg:col-span-5 xl:col-span-6 items-center justify-center border-r border-grid">
             <div className="flex gap-6 xl:gap-10">
-              {navLinks.map((link) => link.href.startsWith('mailto:') ? (
-                <a
-                  key={link.name}
-                  href={link.href}
-                  onClick={() => trackConversion('email_link_clicked')}
-                  className="relative text-sm font-medium transition-colors group py-2 whitespace-nowrap text-text-secondary hover:text-accent"
-                >
-                  {link.name}
-                  <span className="absolute -bottom-1 left-0 h-[1px] bg-accent transition-all duration-300 w-0 group-hover:w-full" />
-                </a>
-              ) : (
+              {navLinks.map((link) => (
                 <button 
                   key={link.name}
                   onClick={() => handleNavigation(link.view, link.href)}
@@ -131,7 +118,14 @@ export const Navbar: React.FC<NavbarProps> = () => {
           </div>
 
           {/* CTA Area */}
-          <div className="hidden lg:flex lg:col-span-3 items-center justify-end px-6 xl:px-8 bg-bg/50">
+          <div className="hidden lg:flex lg:col-span-5 xl:col-span-4 items-center justify-end gap-5 xl:gap-6 px-6 xl:px-8 bg-bg/50">
+            <a
+              href={CONTACT_MAILTO}
+              onClick={() => trackConversion('email_link_clicked')}
+              className="whitespace-nowrap text-xs font-bold uppercase tracking-widest text-text-secondary hover:text-accent transition-colors py-2.5"
+            >
+              Contact
+            </a>
              <motion.a 
               whileHover={{ scale: 1.02 }}
               whileTap={{ scale: 0.98 }}
@@ -172,16 +166,7 @@ export const Navbar: React.FC<NavbarProps> = () => {
             className="fixed top-20 left-0 right-0 bg-bg border-b border-grid z-40 overflow-hidden shadow-2xl lg:hidden"
           >
             <div className="flex flex-col p-8 gap-6">
-              {navLinks.map((link) => link.href.startsWith('mailto:') ? (
-                <a
-                  key={link.name}
-                  href={link.href}
-                  onClick={() => { trackConversion('email_link_clicked'); setIsOpen(false); }}
-                  className="text-left font-serif text-3xl hover:text-accent transition-colors text-text-secondary"
-                >
-                  {link.name}
-                </a>
-              ) : (
+              {navLinks.map((link) => (
                 <button 
                   key={link.name}
                   onClick={() => handleNavigation(link.view, link.href)}
@@ -191,15 +176,24 @@ export const Navbar: React.FC<NavbarProps> = () => {
                   {link.name}
                 </button>
               ))}
-               <a 
-                href={CONSULTATION_URL}
-                target="_blank"
-                rel="noopener noreferrer"
-                onClick={handleConsultation}
-                className="mt-8 flex items-center gap-2 text-accent font-medium text-sm uppercase tracking-widest"
-              >
-                Book Consultation <ArrowUpRight className="w-4 h-4" />
-              </a>
+              <div className="mt-8 flex flex-wrap items-center gap-x-8 gap-y-4">
+                <a 
+                  href={CONSULTATION_URL}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  onClick={handleConsultation}
+                  className="flex items-center gap-2 text-accent font-medium text-sm uppercase tracking-widest"
+                >
+                  Book Consultation <ArrowUpRight className="w-4 h-4" />
+                </a>
+                <a
+                  href={CONTACT_MAILTO}
+                  onClick={() => { trackConversion('email_link_clicked'); setIsOpen(false); }}
+                  className="text-accent font-medium text-sm uppercase tracking-widest"
+                >
+                  Contact
+                </a>
+              </div>
             </div>
           </motion.div>
         )}

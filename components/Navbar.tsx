@@ -62,17 +62,14 @@ export const Navbar: React.FC<NavbarProps> = () => {
   const navLinks = isAgentLegal ? [
     { name: 'Overview', href: '/agents/', view: 'home' as const },
     { name: 'Insights', href: '/agents/insights/', view: 'blog' as const },
-    { name: 'Contact', href: '#contact', view: 'home' as const },
   ] : isStartupLegal ? [
     { name: 'Services', href: '/startups/', view: 'home' as const },
     { name: 'Insights', href: '/startups/insights/', view: 'blog' as const },
-    { name: 'Contact', href: '#contact', view: 'home' as const },
   ] : [
     { name: 'Expertise', href: '#services', view: 'home' as const },
     { name: 'Private Markets', href: SITE_PATHS.privateMarkets, view: 'home' as const },
     { name: 'About', href: '/about/', view: 'home' as const },
     { name: 'Insights', href: '/insights/', view: 'blog' as const },
-    { name: 'Contact', href: '#contact', view: 'home' as const },
   ];
 
   const isActiveLink = (href: string) => {

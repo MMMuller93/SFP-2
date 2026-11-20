@@ -1,6 +1,7 @@
 import React from 'react';
 import { ArrowUpRight } from 'lucide-react';
 import { CONSULTATION_URL, openConsultation } from '../../lib/calendly';
+import { CONTACT_MAILTO } from '../../lib/contact';
 import { trackConversion } from '../../lib/conversions';
 
 const services = [
@@ -50,16 +51,25 @@ export const PrivateMarkets: React.FC = () => {
           <p className="text-lg md:text-xl text-text-secondary leading-relaxed max-w-2xl mx-auto mb-10 text-balance">
             For investors pursuing <span className="whitespace-nowrap">pre-IPO</span> opportunities and shareholders considering liquidity.
           </p>
-          <a
-            href={CONSULTATION_URL}
-            target="_blank"
-            rel="noopener noreferrer"
-            onClick={handleConsultation}
-            className="inline-flex items-center justify-center gap-3 px-7 md:px-8 py-4 bg-accent text-bg text-xs font-bold uppercase tracking-widest hover:bg-accentHover transition-colors duration-300 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-accent"
-          >
-            Contact
-            <ArrowUpRight className="w-4 h-4 shrink-0" aria-hidden="true" />
-          </a>
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-6 sm:gap-8">
+            <a
+              href={CONSULTATION_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+              onClick={handleConsultation}
+              className="inline-flex items-center justify-center gap-3 px-7 md:px-8 py-4 bg-accent text-bg text-xs font-bold uppercase tracking-widest hover:bg-accentHover transition-colors duration-300 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-accent"
+            >
+              Book Consultation
+              <ArrowUpRight className="w-4 h-4 shrink-0" aria-hidden="true" />
+            </a>
+            <a
+              href={CONTACT_MAILTO}
+              onClick={() => trackConversion('email_link_clicked')}
+              className="inline-flex items-center gap-2 border-b border-accent pb-1 text-xs font-bold uppercase tracking-widest text-accent hover:text-accentHover hover:border-accentHover transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-accent"
+            >
+              Contact
+            </a>
+          </div>
         </div>
 
       </section>
@@ -139,16 +149,21 @@ export const PrivateMarkets: React.FC = () => {
               Discuss your investment or liquidity plans.
             </p>
           </div>
-          <a
-            href={CONSULTATION_URL}
-            target="_blank"
-            rel="noopener noreferrer"
-            onClick={handleConsultation}
-            className="inline-flex items-center gap-3 self-start lg:self-auto shrink-0 border-b border-accent pb-3 text-xs font-bold uppercase tracking-widest text-accent hover:text-accentHover hover:border-accentHover transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-accent"
-          >
-            Contact
-            <ArrowUpRight className="w-4 h-4" aria-hidden="true" />
-          </a>
+          <div className="flex flex-wrap items-center gap-8 self-start lg:self-auto shrink-0">
+            <a
+              href={CONSULTATION_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+              onClick={handleConsultation}
+              className="inline-flex items-center gap-3 self-start lg:self-auto shrink-0 border-b border-accent pb-3 text-xs font-bold uppercase tracking-widest text-accent hover:text-accentHover hover:border-accentHover transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-accent"
+            >
+              Book Consultation
+              <ArrowUpRight className="w-4 h-4" aria-hidden="true" />
+            </a>
+            <a href={CONTACT_MAILTO} onClick={() => trackConversion('email_link_clicked')} className="inline-flex items-center gap-3 self-start lg:self-auto shrink-0 border-b border-accent pb-3 text-xs font-bold uppercase tracking-widest text-accent hover:text-accentHover hover:border-accentHover transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-accent">
+              Contact
+            </a>
+          </div>
         </div>
       </section>
     </>

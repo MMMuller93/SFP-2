@@ -10,7 +10,7 @@ published articles do not depend on the SPA 404 redirect to load.
 - The exported post arrays in `Blog.tsx`, `StartupBlog.tsx`, and
   `agent-blog-posts/index.ts` supply article IDs, titles, dates, and full content.
 - `content/companies/<slug>.json` supplies one company page each at
-  `/private-markets/companies/<slug>/` and a row in the companies hub. Files
+  `/private-markets/companies/<slug>/`; there is no index page at that prefix. Files
   starting with `_` are skipped. `lib/companies.ts` loads them into the app and
   rejects entries with missing or malformed fields; the manifest reads the same
   folder, and each page's `lastmod` comes from its JSON file's history.

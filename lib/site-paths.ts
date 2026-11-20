@@ -5,7 +5,6 @@ export const SITE_PATHS = {
   home: '/',
   about: '/about/',
   privateMarkets: '/private-markets/',
-  companies: '/private-markets/companies/',
   insights: '/insights/',
   startups: '/startups/',
   formation: '/startups/formation/',
@@ -17,5 +16,8 @@ export const SITE_PATHS = {
   agents: '/agents/',
   agentInsights: '/agents/insights/',
 } as const;
+
+// Company pages live under this prefix; there is no index page at the prefix itself.
+export const COMPANIES_PREFIX = '/private-markets/companies/';
 
 export const canonicalPath = (pathname: string) => pathname === '/' ? '/' : `${pathname.replace(/\/+$/, '')}/`;

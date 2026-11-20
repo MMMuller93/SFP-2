@@ -1,4 +1,4 @@
-import { SITE_ORIGIN, SITE_PATHS } from './site-paths';
+import { COMPANIES_PREFIX, SITE_ORIGIN, SITE_PATHS } from './site-paths';
 
 // One JSON file per company in content/companies/ becomes a page at
 // /private-markets/companies/<slug>/. Files starting with "_" are skipped.
@@ -28,8 +28,6 @@ export interface Company {
   sources: string;
 }
 
-export const COMPANIES_UPDATED = 'November 19, 2026';
-export const COMPANIES_DATE_MODIFIED = '2026-11-19';
 
 export const COLUMN_LABELS: Record<CompanyColumn, string> = {
   'Price per share': 'Per share',
@@ -114,7 +112,7 @@ const bySlug = new Map(COMPANIES.map(company => [company.slug, company]));
 const byName = new Map(COMPANIES.map(company => [company.name.toLowerCase(), company.slug]));
 
 export const findCompany = (slug: string | undefined) => (slug ? bySlug.get(slug) : undefined);
-export const companyPath = (slug: string) => `${SITE_PATHS.companies}${slug}/`;
+export const companyPath = (slug: string) => `${COMPANIES_PREFIX}${slug}/`;
 export const displayName = (company: Company) => company.h1_name ?? company.name;
 export const companyHeading = (company: Company) => `${displayName(company)} Stock: ${company.h1_tail}`;
 
@@ -159,7 +157,6 @@ export const companySchema = (company: Company) => {
         name: companyHeading(company),
         description: metaDescription(company),
         inLanguage: 'en-US',
-        dateModified: COMPANIES_DATE_MODIFIED,
         isPartOf: { '@id': `${SITE_ORIGIN}/#website` },
         publisher: { '@id': `${SITE_ORIGIN}/#organization` },
         about: { '@type': 'Organization', name: full, url: company.site, ...(company.founded ? { foundingDate: company.founded } : {}) },
@@ -171,42 +168,9 @@ export const companySchema = (company: Company) => {
         '@id': `${url}#breadcrumb`,
         itemListElement: [
           { '@type': 'ListItem', position: 1, name: 'Private Markets', item: `${SITE_ORIGIN}${SITE_PATHS.privateMarkets}` },
-          { '@type': 'ListItem', position: 2, name: 'Companies', item: `${SITE_ORIGIN}${SITE_PATHS.companies}` },
-          { '@type': 'ListItem', position: 3, name: full },
+          { '@type': 'ListItem', position: 2, name: full },
         ],
       },
     ],
   };
 };
-
-export const HUB_TITLE = 'Private Company Stock: Funding Rounds and Ownership';
-export const HUB_DESCRIPTION = 'Funding rounds, share prices and ownership for privately held companies whose shares change hands in private transactions.';
-
-export const hubSchema = () => {
-  const url = `${SITE_ORIGIN}${SITE_PATHS.companies}`;
-  return {
-    '@context': 'https://schema.org',
-    '@type': 'CollectionPage',
-    '@id': url,
-    url,
-    name: HUB_TITLE,
-    description: HUB_DESCRIPTION,
-    isPartOf: { '@id': `${SITE_ORIGIN}/#website` },
-    publisher: { '@id': `${SITE_ORIGIN}/#organization` },
-    dateModified: COMPANIES_DATE_MODIFIED,
-  };
-};
-
-// One row per company page, alphabetical, showing the first (latest) round in its table.
-export const HUB_ROWS = COMPANIES.map(company => {
-  const [date, round, cells] = company.rounds[0];
-  return {
-    name: displayName(company),
-    path: companyPath(company.slug),
-    round: `${round}, ${date}`,
-    valuation: cells[company.columns.indexOf('Valuation')] || '–',
-  };
-}).sort((a, b) => {
-  const [x, y] = [a.name.toLowerCase(), b.name.toLowerCase()];
-  return x < y ? -1 : x > y ? 1 : 0;
-});

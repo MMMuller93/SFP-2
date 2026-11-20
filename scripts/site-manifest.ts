@@ -7,7 +7,7 @@ import { MemoryRouter } from 'react-router-dom';
 import { FUND_POSTS } from '../components/Blog';
 import { STARTUP_POSTS } from '../components/StartupBlog';
 import { POSTS as AGENT_POSTS } from '../components/agent-blog-posts';
-import { SITE_PATHS } from '../lib/site-paths';
+import { COMPANIES_PREFIX, SITE_PATHS } from '../lib/site-paths';
 
 interface Article {
   id: string;
@@ -116,13 +116,12 @@ export const createSiteManifest = (): PublishedPage[] => {
   const companies: PublishedPage[] = companyFiles.map(file => {
     const { slug } = JSON.parse(readFileSync(file, 'utf8')) as { slug?: string };
     if (`${COMPANIES_DIR}/${slug}.json` !== file) throw new Error(`${file}: slug "${slug}" must match its file name.`);
-    return { path: `${SITE_PATHS.companies}${slug}/`, lastmod: fileDate(file) };
+    return { path: `${COMPANIES_PREFIX}${slug}/`, lastmod: fileDate(file) };
   });
   const sources: Partial<Record<keyof typeof SITE_PATHS, string[]>> = {
     home: ['components/Hero.tsx', 'components/Services.tsx', 'components/Contact.tsx', 'index.html'],
     about: ['components/About.tsx'],
     privateMarkets: ['pages/private-markets/PrivateMarkets.tsx'],
-    companies: ['pages/private-markets/CompaniesHub.tsx', ...companyFiles],
     startups: ['pages/startup-legal/StartupLegalHome.tsx'],
     formation: ['pages/startup-legal/Formation.tsx'],
     governance: ['pages/startup-legal/Governance.tsx'],

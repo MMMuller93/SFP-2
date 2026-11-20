@@ -8,7 +8,6 @@ import { SITE_PATHS } from '../../lib/site-paths';
 import {
   BUY_GUIDES,
   COLUMN_LABELS,
-  COMPANIES_UPDATED,
   SELL_GUIDES,
   companyHeading,
   companySchema,
@@ -20,7 +19,7 @@ import {
   type Company,
 } from '../../lib/companies';
 
-// Shared with the companies hub. Breakpoints follow the approved page design
+// Breakpoints follow the approved page design
 // (cards below 640px, stacked sections below 900px).
 export const container = 'max-w-[1120px] mx-auto px-6';
 export const link = 'text-accent underline underline-offset-4 decoration-1 hover:text-accentHover transition-colors';
@@ -69,7 +68,6 @@ export const PageHead: React.FC<{ name: string; tail: string; ledes: string[] }>
         {lede}
       </p>
     ))}
-    <p className="mt-5 text-[13px] text-text-muted">Updated {COMPANIES_UPDATED}</p>
   </div>
 );
 
@@ -133,7 +131,7 @@ const GuideLinks: React.FC<{ guides: { id: string; title: string }[] }> = ({ gui
 export const CompanyProfile: React.FC<{ company: Company }> = ({ company }) => {
   const { name } = company;
   const full = displayName(company);
-  const related = [...relatedCompanies(company), { name: 'All companies', path: SITE_PATHS.companies }];
+  const related = relatedCompanies(company);
 
   return (
     <>
@@ -145,7 +143,7 @@ export const CompanyProfile: React.FC<{ company: Company }> = ({ company }) => {
       <div className="text-base leading-[1.6] text-text-primary">
         <div className={container}>
           <Crumbs
-            trail={[{ label: 'Private Markets', href: SITE_PATHS.privateMarkets }, { label: 'Companies', href: SITE_PATHS.companies }]}
+            trail={[{ label: 'Private Markets', href: SITE_PATHS.privateMarkets }]}
             current={full}
           />
           <PageHead name={full} tail={company.h1_tail} ledes={company.ledes} />
@@ -194,7 +192,7 @@ export const CompanyProfile: React.FC<{ company: Company }> = ({ company }) => {
           heading={
             <>
               <h2 className={h2Class}>Ownership</h2>
-              <p className="text-[13.5px] text-text-secondary mt-3.5 mb-4 max-w-[300px]">Based on company announcements, press reports and SEC filings through {COMPANIES_UPDATED}.</p>
+              <p className="text-[13.5px] text-text-secondary mt-3.5 mb-4 max-w-[300px]">Based on company announcements, press reports and SEC filings.</p>
             </>
           }
         >
@@ -242,7 +240,7 @@ export const CompanyProfile: React.FC<{ company: Company }> = ({ company }) => {
         </section>
 
         <div className={`${container} pt-10 pb-4 text-[13px] leading-[1.6] text-text-secondary`}>
-          <p className="max-w-[820px] mb-3">
+          {related.length > 0 && <p className="max-w-[820px] mb-3">
             Related companies:{' '}
             {related.map((item, index) => (
               <React.Fragment key={item.path}>
@@ -250,13 +248,13 @@ export const CompanyProfile: React.FC<{ company: Company }> = ({ company }) => {
                 <a href={item.path} className={link}>{item.name}</a>
               </React.Fragment>
             ))}
-          </p>
+          </p>}
           <p className="max-w-[820px] mb-3">
             {sourceSegments(company.sources).map((segment, index) => (
               segment.href ? <a key={index} href={segment.href} className={link}>{segment.text}</a> : <React.Fragment key={index}>{segment.text}</React.Fragment>
             ))}
           </p>
-          <p className="max-w-[820px] mb-3">Strategic Fund Partners is not affiliated with {full}. This page provides general information drawn from company announcements, press reports and public filings as of the date shown. It does not constitute an offer to buy or sell securities, a recommendation, or investment, legal or tax advice. Shares of private companies are illiquid and may lose their entire value.</p>
+          <p className="max-w-[820px] mb-3">Strategic Fund Partners is not affiliated with {full}. This page provides general information drawn from company announcements, press reports and public filings. It does not constitute an offer to buy or sell securities, a recommendation, or investment, legal or tax advice. Shares of private companies are illiquid and may lose their entire value.</p>
         </div>
       </div>
     </>
@@ -269,7 +267,7 @@ export const CompanyPage: React.FC = () => {
   const company = findCompany(slug);
 
   useEffect(() => {
-    if (!company) navigate(SITE_PATHS.companies, { replace: true });
+    if (!company) navigate(SITE_PATHS.privateMarkets, { replace: true });
   }, [company, navigate]);
 
   return company ? <CompanyProfile company={company} /> : null;

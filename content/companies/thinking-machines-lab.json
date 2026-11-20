@@ -1,0 +1,67 @@
+{
+  "slug": "thinking-machines-lab",
+  "name": "Thinking Machines Lab",
+  "site": "https://thinkingmachines.ai",
+  "founded": "",
+  "h1_tail": "Funding Rounds and Ownership",
+  "description": "Thinking Machines Lab is privately held and has no ticker. Review its funding rounds and valuations, its investors, and the points to confirm before buying or selling.",
+  "ledes": [
+    "Thinking Machines Lab is a privately held artificial intelligence company. Its shares are not listed on an exchange and have no quoted market price; the principal public reference points are the valuations at which the company has raised capital. Its most recent financing with a disclosed valuation, a $2 billion seed round announced on July 15, 2025, valued the company at $12 billion.",
+    "Based in San Francisco, Thinking Machines Lab develops artificial intelligence models and offers Tinker, a service that customers use to train and customize their own models. Existing shares change hands in privately negotiated transactions and remain subject to the company's transfer restrictions."
+  ],
+  "figs": [
+    [
+      "$12B",
+      "Valuation, seed round (July 2025)"
+    ],
+    [
+      "$2B",
+      "Amount raised, seed round"
+    ],
+    [
+      "1 GW",
+      "Minimum Nvidia computing capacity under the March 2026 partnership"
+    ],
+    [
+      "1",
+      "Special purpose vehicle with an SEC filing naming Thinking Machines Lab"
+    ]
+  ],
+  "rounds_heading": "Funding Rounds",
+  "columns": [
+    "Valuation",
+    "Amount raised"
+  ],
+  "rounds": [
+    [
+      "Mar 2026",
+      "Nvidia investment",
+      [
+        null,
+        null
+      ]
+    ],
+    [
+      "Jul 2025",
+      "Seed",
+      [
+        "$12.0B",
+        "$2.0B"
+      ]
+    ]
+  ],
+  "table_note": "Valuations are as reported at the time of each round. Nvidia did not disclose the amount of its March 2026 investment, which accompanied a multi-year computing partnership.",
+  "round_notes": [
+    "In September 2026, The Information reported that Thinking Machines Lab was in talks to raise $5 billion to $6 billion at a pre-money valuation of at least $40 billion, with Accel expected to lead and Nvidia expected to provide about half. Thinking Machines Lab has not announced the round.",
+    "A round valuation reflects the terms of the preferred stock issued in that round. Most shares sold by employees are common stock, which carries fewer rights and typically trades at a discount to the preferred price."
+  ],
+  "investors": "Andreessen Horowitz led the seed round, with participation from Nvidia, Accel, ServiceNow, Cisco, AMD and Jane Street. Nvidia made a further investment in March 2026 as part of its computing partnership with the company. Other investors include GV, Lightspeed Venture Partners and Conviction Partners.",
+  "spv_sentence": "SEC filings show one special purpose vehicle formed to invest in Thinking Machines Lab, organized in 2025.",
+  "spv_years": null,
+  "related": [
+    "Safe Superintelligence",
+    "OpenAI",
+    "Mistral AI"
+  ],
+  "sources": "Sources: Thinking Machines Lab's <a href=\"https://thinkingmachines.ai/tinker/\">description of Tinker</a>; reports by TechCrunch (<a href=\"https://techcrunch.com/2025/07/15/mira-muratis-thinking-machines-lab-is-worth-12b-in-seed-round/\">July 15, 2025</a>, <a href=\"https://techcrunch.com/2026/03/10/thinking-machines-lab-inks-massive-compute-deal-with-nvidia/\">March 10, 2026</a> and <a href=\"https://techcrunch.com/2026/09/03/accel-reportedly-in-talks-to-lead-1b-round-for-thinking-machines-at-40b-valuation/\">September 3, 2026</a>) and <a href=\"https://www.cnbc.com/2025/07/15/openai-mira-murati-thinking-machines-lab.html\">CNBC</a> (July 2025); reporting by The Information (September 2026); and SEC Form D filings."
+}

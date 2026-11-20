@@ -1,0 +1,88 @@
+{
+  "slug": "flock-safety",
+  "name": "Flock Safety",
+  "site": "https://www.flocksafety.com",
+  "founded": "2017",
+  "h1_tail": "Funding Rounds, Share Prices and Ownership",
+  "description": "Flock Safety is privately held and has no ticker. Review the price of each funding round, the investors and SPV that hold its shares, and the points to confirm before buying or selling.",
+  "ledes": [
+    "Flock Safety is a privately held public safety technology company. Its shares are not listed on an exchange and have no quoted market price; the principal public reference points are the prices at which the company has raised capital. Its most recent reported financing, a $500 million round disclosed in April 2026, valued the company at $8.3 billion.",
+    "Founded in 2017 and based in Atlanta, Flock Safety builds license plate recognition cameras, gunshot detection sensors and drones, along with software that police departments, businesses and neighborhoods use to investigate crime. Existing shares change hands in privately negotiated transactions and remain subject to the company's transfer restrictions."
+  ],
+  "figs": [
+    [
+      "$8.3B",
+      "Valuation (April 2026)"
+    ],
+    [
+      "$14.77",
+      "Price per share, Series F (March 2025)"
+    ],
+    [
+      "$500M",
+      "Amount raised (April 2026)"
+    ],
+    [
+      "2017",
+      "Year founded"
+    ]
+  ],
+  "rounds_heading": "Funding Rounds and Share Prices",
+  "columns": [
+    "Price per share",
+    "Valuation",
+    "Amount raised"
+  ],
+  "rounds": [
+    [
+      "Apr 2026",
+      "Unnamed round",
+      [
+        null,
+        "$8.3B",
+        "$500M"
+      ]
+    ],
+    [
+      "Mar 2025",
+      "Series F",
+      [
+        "$14.77",
+        "$7.5B",
+        "$275M"
+      ]
+    ],
+    [
+      "Feb 2022",
+      "Series E",
+      [
+        "$9.16",
+        "$3.5B",
+        "$150M"
+      ]
+    ],
+    [
+      "Jul 2021",
+      "Series D",
+      [
+        "$4.12",
+        null,
+        "$150M"
+      ]
+    ]
+  ],
+  "table_note": "Flock Safety did not publicly announce its 2026 financing; the amount and valuation shown are figures the company gave to Fortune in April 2026. Other valuations are as announced by the company.",
+  "round_notes": [
+    "Flock Safety has said that its annual recurring revenue passed $500 million in the first half of 2026; that figure is the company's own.",
+    "A round price reflects what investors paid for the preferred stock issued in that round. Most shares sold by employees are common stock, which carries fewer rights and typically trades at a discount to the preferred price."
+  ],
+  "investors": "Andreessen Horowitz led the Series F, with participation from Greenoaks Capital, Bedrock Capital, Meritech Capital, Matrix Partners, Sands Capital, Founders Fund, Kleiner Perkins, Tiger Global and Y Combinator. Tiger Global led the Series E and Andreessen Horowitz the Series D. Other investors include 776, Spark Capital and Initialized Capital.",
+  "spv_sentence": "SEC filings show one special purpose vehicle formed to invest in Flock Safety, organized in 2024.",
+  "spv_years": null,
+  "related": [
+    "Skydio",
+    "Anduril",
+    "Mark43"
+  ],
+  "sources": "Sources: Flock Safety's announcements of its <a href=\"https://www.flocksafety.com/blog/flock-safety-secures-major-funding\">Series F</a>, <a href=\"https://www.flocksafety.com/blog/series-e-announcement\">Series E</a> and <a href=\"https://www.flocksafety.com/blog/series-d-fundraise-andreessen-horowitz\">Series D</a>; reports by <a href=\"https://fortune.com/2026/08/24/flock-8-billion-startup-backed-a16z-tiger-surveillance-camera/\">Fortune</a> (August 2026) and <a href=\"https://techcrunch.com/2025/03/13/y-combinators-police-surveillance-darling-flock-safety-raises-275m-at-7-5b-valuation\">TechCrunch</a> (March 2025); and SEC Form D filings."
+}

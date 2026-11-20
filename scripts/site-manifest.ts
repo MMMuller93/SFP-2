@@ -24,6 +24,8 @@ export interface PublishedPage {
   expectedHtml?: string;
 }
 
+const COMPANIES_DIR = 'content/companies';
+
 const git = (...args: string[]) => execFileSync('git', args, { encoding: 'utf8' }).trim();
 
 // Link slash normalization and formatting are not substantive content edits.
@@ -109,10 +111,18 @@ export const createSiteManifest = (): PublishedPage[] => {
       expectedHtml: renderToStaticMarkup(React.createElement(MemoryRouter, null, article.content)),
     }));
   });
+  // One JSON file per company page (lib/companies.ts loads the same files into the app).
+  const companyFiles = readdirSync(COMPANIES_DIR).filter(file => file.endsWith('.json') && !file.startsWith('_')).sort().map(file => `${COMPANIES_DIR}/${file}`);
+  const companies: PublishedPage[] = companyFiles.map(file => {
+    const { slug } = JSON.parse(readFileSync(file, 'utf8')) as { slug?: string };
+    if (`${COMPANIES_DIR}/${slug}.json` !== file) throw new Error(`${file}: slug "${slug}" must match its file name.`);
+    return { path: `${SITE_PATHS.companies}${slug}/`, lastmod: fileDate(file) };
+  });
   const sources: Partial<Record<keyof typeof SITE_PATHS, string[]>> = {
     home: ['components/Hero.tsx', 'components/Services.tsx', 'components/Contact.tsx', 'index.html'],
     about: ['components/About.tsx'],
     privateMarkets: ['pages/private-markets/PrivateMarkets.tsx'],
+    companies: ['pages/private-markets/CompaniesHub.tsx', ...companyFiles],
     startups: ['pages/startup-legal/StartupLegalHome.tsx'],
     formation: ['pages/startup-legal/Formation.tsx'],
     governance: ['pages/startup-legal/Governance.tsx'],
@@ -127,7 +137,7 @@ export const createSiteManifest = (): PublishedPage[] => {
       ? latest(sources[key as keyof typeof SITE_PATHS]!.map(fileDate))
       : latest(articles.filter(page => page.path.startsWith(path)).map(page => page.lastmod)),
   }));
-  const pages = [...fixedPages, ...articles];
+  const pages = [...fixedPages, ...articles, ...companies];
   if (new Set(pages.map(page => page.path)).size !== pages.length) throw new Error('Duplicate published route in site content.');
   return pages;
 };

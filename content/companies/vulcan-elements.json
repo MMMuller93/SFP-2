@@ -1,0 +1,73 @@
+{
+  "slug": "vulcan-elements",
+  "name": "Vulcan Elements",
+  "site": "https://www.vulcanelements.com",
+  "founded": "2023",
+  "h1_tail": "Funding Rounds and Ownership",
+  "description": "Vulcan Elements is privately held and has no ticker. Review its funding rounds, the investors, registered fund and SPVs that hold its shares, and the points to confirm before buying or selling.",
+  "ledes": [
+    "Vulcan Elements is a privately held manufacturer of rare earth magnets. Its shares are not listed on an exchange and have no quoted market price, and the company has not disclosed the valuations at which it has raised capital. Its most recent announced financing, a partnership with the federal government announced on November 3, 2025, included a $50 million equity investment by the Department of Commerce, a $620 million loan from the Department of War's Office of Strategic Capital and $550 million in private capital.",
+    "Founded in 2023 and based in Durham, North Carolina, Vulcan Elements produces rare earth permanent magnets at a plant in Research Triangle Park and is building a larger magnet factory in Benson, North Carolina. Existing shares change hands in privately negotiated transactions, frequently through special purpose vehicles, and remain subject to the company's transfer restrictions."
+  ],
+  "figs": [
+    [
+      "$50M",
+      "Equity investment by the Department of Commerce (November 2025)"
+    ],
+    [
+      "$65M",
+      "Amount raised, Series A (August 2025)"
+    ],
+    [
+      "3",
+      "Special purpose vehicles with SEC filings naming Vulcan Elements"
+    ],
+    [
+      "2023",
+      "Year founded"
+    ]
+  ],
+  "rounds_heading": "Funding Rounds",
+  "columns": [
+    "Valuation",
+    "Amount raised"
+  ],
+  "rounds": [
+    [
+      "Nov 2025",
+      "Federal equity investment",
+      [
+        null,
+        "$50M"
+      ]
+    ],
+    [
+      "Aug 2025",
+      "Series A",
+      [
+        "$200M",
+        "$65M"
+      ]
+    ]
+  ],
+  "table_note": "Vulcan Elements has not disclosed a valuation for either financing; the Series A valuation is as reported by The Independent, citing a Bloomberg analysis. The November 2025 row is the Department of Commerce's equity investment, announced as part of a $1.4 billion partnership among the company, ReElement Technologies and the federal government; the Series A amount is as reported in August 2025.",
+  "round_notes": [
+    "In March 2026, Axios reported that Vulcan Elements was raising $550 million at a valuation of $2 billion. Vulcan Elements has not announced the completion of that financing or its terms.",
+    "A round valuation reflects the terms of the preferred stock issued in that round. Most shares sold by employees are common stock, which carries fewer rights and typically trades at a discount to the preferred price."
+  ],
+  "investors": "Altimeter Capital led the Series A. Under the November 2025 agreement, the Department of Commerce is to receive an equity stake and the Department of War warrants in the company. Other investors include 1789 Capital.",
+  "spv_sentence": "In 2026, three special purpose vehicles formed to invest in Vulcan Elements filed with the SEC.",
+  "spv_years": [
+    [
+      "2026",
+      3
+    ]
+  ],
+  "funds": "One SEC-registered fund reports a position in Vulcan Elements. StepStone Private Venture and Growth Fund valued its holdings at $27.0 million as of June 30, 2026.",
+  "related": [
+    "Niron Magnetics",
+    "Noveon Magnetics",
+    "ReElement Technologies"
+  ],
+  "sources": "Sources: Vulcan Elements' <a href=\"https://www.vulcanelements.com/company/updates/vulcan-elements-forges-1-4-billion\">announcement</a> of its federal partnership (November 3, 2025); reports by <a href=\"https://www.tectonicdefense.com/rare-earth-magnet-maker-vulcan-elements-raises-65m/\">Tectonic Defense</a> (August 2025), <a href=\"https://www.carolinajournal.com/durham-rare-earth-start-up-receives-1-4b-federal-investment/\">Carolina Journal</a> (November 2025), Axios (March 2026) and The Independent (March 2026); reports by Bloomberg; and SEC Form D and Form N-PORT filings."
+}

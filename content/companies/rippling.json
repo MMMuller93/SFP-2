@@ -1,0 +1,97 @@
+{
+  "slug": "rippling",
+  "name": "Rippling",
+  "site": "https://www.rippling.com",
+  "founded": "2016",
+  "h1_tail": "Funding Rounds, Share Prices and Ownership",
+  "description": "Rippling is privately held and has no ticker. Review the price of each funding round, its investors, and the points to confirm before buying or selling.",
+  "ledes": [
+    "Rippling is a privately held workforce management software company. Its shares are not listed on an exchange and have no quoted market price; the principal public reference points are the prices at which the company has raised capital. Its most recent financing, a $450 million Series G round announced on May 9, 2025, valued the company at $16.8 billion.",
+    "Founded in 2016 and based in San Francisco, Rippling sells software that companies use to run payroll and benefits, manage employee computers and application access, and control corporate spending. Existing shares change hands in privately negotiated transactions and remain subject to the company's transfer restrictions."
+  ],
+  "figs": [
+    [
+      "$16.8B",
+      "Valuation, Series G (May 2025)"
+    ],
+    [
+      "$44.00",
+      "Price per share, Series F (April 2024)"
+    ],
+    [
+      "$450M",
+      "Amount raised, Series G"
+    ],
+    [
+      "2016",
+      "Year founded"
+    ]
+  ],
+  "rounds_heading": "Funding Rounds and Share Prices",
+  "columns": [
+    "Price per share",
+    "Valuation",
+    "Amount raised"
+  ],
+  "rounds": [
+    [
+      "May 2025",
+      "Series G",
+      [
+        null,
+        "$16.8B",
+        "$450M"
+      ]
+    ],
+    [
+      "Apr 2024",
+      "Series F",
+      [
+        "$44.00",
+        "$13.5B",
+        "$200M"
+      ]
+    ],
+    [
+      "Mar 2023",
+      "Series E",
+      [
+        null,
+        "$11.25B",
+        "$500M"
+      ]
+    ],
+    [
+      "May 2022",
+      "Series D",
+      [
+        "$42.12",
+        "$11.25B",
+        "$250M"
+      ]
+    ],
+    [
+      "Oct 2021",
+      "Series C",
+      [
+        "$25.50",
+        "$6.5B",
+        "$250M"
+      ]
+    ]
+  ],
+  "table_note": "Valuations are as announced by the company. Amounts raised exclude the tender offers that accompanied the Series F and Series G.",
+  "round_notes": [
+    "Alongside the Series G, Rippling agreed to repurchase up to $200 million of equity from current and former employees. The Series F was accompanied by a tender offer of $590 million for employees and early investors, as reported by Reuters and TechCrunch at the time.",
+    "A round price reflects what investors paid for the preferred stock issued in that round. Most shares sold by employees are common stock, which carries fewer rights and typically trades at a discount to the preferred price."
+  ],
+  "investors": "Sands Capital, GIC, Goldman Sachs Alternatives and Baillie Gifford joined the Series G as new investors; Rippling did not name a lead. Coatue led the Series F, Greenoaks led the Series E, Bedrock and Kleiner Perkins co-led the Series D, and Sequoia Capital led the Series C. Other investors include Founders Fund, Elad Gil and Y Combinator.",
+  "spv_sentence": "No special purpose vehicles naming Rippling appear in SEC Form D filings.",
+  "spv_years": null,
+  "related": [
+    "Ramp",
+    "Stripe",
+    "Deel"
+  ],
+  "sources": "Sources: Rippling's announcements of its <a href=\"https://www.rippling.com/blog/series-g-fundraising-tender-offer\">Series G</a>, <a href=\"https://rippling.com/blog/rippling-announces-series-f-fundraising-and-tender-offer\">Series F</a>, <a href=\"https://rippling.com/blog/rippling-raises-500m-in-series-e-funding\">Series E</a>, <a href=\"https://www.rippling.com/blog/rippling-raises-250m-in-series-d-funding\">Series D</a> and <a href=\"https://www.rippling.com/blog/rippling-raises-250m-in-series-c-funding\">Series C</a>; reports by TechCrunch (<a href=\"https://techcrunch.com/2025/05/09/rippling-raises-450m-at-a-16-8b-valuation-reveals-yc-is-a-customer\">May 2025</a> and <a href=\"https://techcrunch.com/?p=2694472\">April 2024</a>), Reuters (April 2024) and Bloomberg (March 2023); and SEC Form D filings."
+}

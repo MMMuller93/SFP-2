@@ -1,0 +1,105 @@
+{
+  "slug": "discord",
+  "name": "Discord",
+  "site": "https://discord.com",
+  "founded": "",
+  "h1_tail": "Funding Rounds, Share Prices and Ownership",
+  "description": "Discord is privately held and has no ticker. Review the price of each funding round, the investors, funds and SPVs that hold its shares, and the points to confirm before buying or selling.",
+  "ledes": [
+    "Discord is a privately held company that operates a communications app for online communities. Its shares are not listed on an exchange and have no quoted market price; the principal public reference points are the prices at which the company has raised capital. Its most recent financing, a $500 million Series I round announced on September 15, 2021, valued the company at $15 billion.",
+    "Based in San Francisco, Discord hosts group conversations by text, voice and video in community spaces it calls servers, a service it first released for video game players in 2015. Existing shares change hands in privately negotiated transactions, frequently through special purpose vehicles, and remain subject to the company's transfer restrictions."
+  ],
+  "figs": [
+    [
+      "$15B",
+      "Valuation, Series I (September 2021)"
+    ],
+    [
+      "$55.06",
+      "Price per share, Series I (September 2021)"
+    ],
+    [
+      "8",
+      "Special purpose vehicles with SEC filings naming Discord"
+    ],
+    [
+      "211,280",
+      "Shares reported by ARK Venture Fund (July 31, 2026)"
+    ]
+  ],
+  "rounds_heading": "Funding Rounds and Share Prices",
+  "columns": [
+    "Price per share",
+    "Valuation",
+    "Amount raised"
+  ],
+  "rounds": [
+    [
+      "Sep 2021",
+      "Series I",
+      [
+        "$55.06",
+        "$15.0B",
+        "$500M"
+      ]
+    ],
+    [
+      "Dec 2020",
+      "Series H",
+      [
+        "$28.02",
+        "$7.0B",
+        "$100M"
+      ]
+    ],
+    [
+      "Jun 2020",
+      "Series G",
+      [
+        "$14.42",
+        "$3.5B",
+        "$100M"
+      ]
+    ]
+  ],
+  "table_note": "Valuations are as reported at the time of each round. Discord did not disclose a valuation for its Series H; the figure shown is as reported by TechCrunch.",
+  "round_notes": [
+    "Dragoneer Investment Group led the Series I. In January 2026, Bloomberg reported that Discord had filed confidentially for an initial public offering, with Goldman Sachs and JPMorgan Chase as underwriters. Discord has not announced an offering or filed a public registration statement.",
+    "A round price reflects what investors paid for the preferred stock issued in that round. Most shares sold by employees are common stock, which carries fewer rights and typically trades at a discount to the preferred price."
+  ],
+  "investors": "Dragoneer Investment Group led the Series I, in which Baillie Gifford, Coatue, Fidelity and Franklin Templeton joined as new investors. Greenoaks Capital led the Series H and Index Ventures the Series G. Other investors include Benchmark, Greylock, IVP, Spark Capital and Tencent.",
+  "spv_sentence": "Since 2021, eight special purpose vehicles formed to invest in Discord have filed with the SEC, one of them in 2026.",
+  "spv_years": [
+    [
+      "2021",
+      3
+    ],
+    [
+      "2022",
+      1
+    ],
+    [
+      "2023",
+      1
+    ],
+    [
+      "2024",
+      1
+    ],
+    [
+      "2025",
+      1
+    ],
+    [
+      "2026",
+      1
+    ]
+  ],
+  "funds": "Mutual funds and other SEC-registered funds managed by Fidelity, ARK Investment Management and Destiny Advisors reported Discord holdings in filings for periods in 2026. As of July 31, 2026, ARK Venture Fund held 211,280 shares, which it valued at $5.6 million, or $26.51 per share.",
+  "related": [
+    "Epic Games",
+    "ByteDance",
+    "Canva"
+  ],
+  "sources": "Sources: Discord's <a href=\"https://discord.com/blog/an-update-on-our-business\">Series I announcement</a> and <a href=\"https://discord.com/company\">company page</a>; reports by <a href=\"https://www.cnbc.com/2021/09/22/discord-doubles-valuation-to-15-billion-in-new-funding-round.html\">CNBC</a> (September 2021), Bloomberg (September 2021 and January 2026) and TechCrunch (<a href=\"https://techcrunch.com/2026/01/07/discords-ipo-could-happen-in-march/\">January 2026</a>, <a href=\"https://techcrunch.com/2020/12/17/filing-discord-is-raising-up-to-140m-at-a-valuation-of-up-to-7b/\">December 2020</a> and <a href=\"https://techcrunch.com/2020/06/30/discord-now-has-a-3-5b-valuation-and-100m-for-a-sales-pitch-lighter-on-the-gaming/\">June 2020</a>); ARK Venture Fund's <a href=\"https://www.sec.gov/Archives/edgar/data/1905088/000094040026036464/\">Form N-PORT</a> for July 31, 2026; and SEC Form D and Form N-PORT filings."
+}

@@ -1,0 +1,96 @@
+{
+  "slug": "ripple",
+  "name": "Ripple",
+  "site": "https://ripple.com",
+  "founded": "2012",
+  "h1_tail": "Funding Rounds and Ownership",
+  "description": "Ripple is privately held and has no ticker. Review its funding rounds and valuations, the investors and SPVs that hold its shares, and the points to confirm before buying or selling.",
+  "ledes": [
+    "Ripple Labs is a privately held financial technology company. Its shares are not listed on an exchange and have no quoted market price; the principal public reference points are the valuations at which the company has raised capital. Its most recent financing, a $500 million strategic investment announced on November 5, 2025, valued the company at $40 billion.",
+    "Founded in 2012 and based in San Francisco, Ripple provides cross-border payment, digital asset custody, stablecoin and prime brokerage services to financial institutions and businesses. Existing shares change hands in privately negotiated transactions, frequently through special purpose vehicles, and remain subject to the company's transfer restrictions."
+  ],
+  "figs": [
+    [
+      "$40B",
+      "Valuation, strategic investment (November 2025)"
+    ],
+    [
+      "$500M",
+      "Amount raised (November 2025)"
+    ],
+    [
+      "22",
+      "Special purpose vehicles with SEC filings naming Ripple"
+    ],
+    [
+      "2012",
+      "Year founded"
+    ]
+  ],
+  "rounds_heading": "Funding Rounds",
+  "columns": [
+    "Valuation",
+    "Amount raised"
+  ],
+  "rounds": [
+    [
+      "Nov 2025",
+      "Strategic investment",
+      [
+        "$40.0B",
+        "$500M"
+      ]
+    ],
+    [
+      "Dec 2019",
+      "Series C",
+      [
+        "$10.0B",
+        "$200M"
+      ]
+    ],
+    [
+      "Sep 2016",
+      "Series B",
+      [
+        null,
+        "$55M"
+      ]
+    ]
+  ],
+  "table_note": "Valuations are as announced by the company. Ripple did not disclose a valuation for its Series B.",
+  "round_notes": [
+    "Ripple said the November 2025 investment followed a $1 billion tender offer at the same valuation. In March 2026, Bloomberg reported that Ripple had begun buying back $750 million of shares from investors and employees at a valuation of $50 billion. Ripple has not announced that transaction.",
+    "A round valuation reflects the terms of the shares issued in that round. Bloomberg reported that investors in the November 2025 round received a liquidation preference and the right to sell their shares back to the company at a guaranteed return. Shares sold by employees and other existing holders generally do not carry those rights, and a buyer should establish which rights attach to the shares being offered."
+  ],
+  "investors": "Funds managed by affiliates of Fortress Investment Group and Citadel Securities led the November 2025 investment, with participation from Pantera Capital, Galaxy Digital, Brevan Howard and Marshall Wace. Tetragon led the Series C, joined by SBI Holdings and Route 66 Ventures. Other investors include Andreessen Horowitz, GV, Standard Chartered and Accenture Ventures.",
+  "spv_sentence": "Since 2022, 22 special purpose vehicles formed to invest in Ripple have filed with the SEC, 19 of them in 2026.",
+  "spv_years": [
+    [
+      "2022",
+      1
+    ],
+    [
+      "2023",
+      0
+    ],
+    [
+      "2024",
+      1
+    ],
+    [
+      "2025",
+      1
+    ],
+    [
+      "2026",
+      19
+    ]
+  ],
+  "related": [
+    "Kraken",
+    "Erebor",
+    "Polymarket"
+  ],
+  "sources": "Sources: Ripple's announcements of its <a href=\"https://ripple.com/ripple-press/ripple-announces-500-million-strategic-investment-led-by-fortress-citadel-securities-valuing-the-company-at-40-billion-following-record-growth/\">November 2025 investment</a> and <a href=\"https://ripple.com/ripple-press/ripple-raises-55-million-series-b-funding/\">Series B</a>; reports by <a href=\"https://www.cnbc.com/2019/12/20/ripple-creator-of-xrp-crypotocurrency-is-now-valued-at-10-billion.html\">CNBC</a> (December 2019), <a href=\"https://fortune.com/2026/03/12/ripple-valued-at-50-billion-after-750-million-share-buyback/\">Fortune</a> (March 2026) and Bloomberg (December 2025 and March 2026); and SEC Form D filings."
+}

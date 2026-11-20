@@ -1,0 +1,106 @@
+{
+  "slug": "openai",
+  "name": "OpenAI",
+  "site": "https://openai.com",
+  "founded": "2015",
+  "h1_tail": "Funding Rounds, Share Prices and Ownership",
+  "description": "OpenAI is privately held and has no ticker. Review the price of each funding round, the investors, funds and SPVs that hold its shares, and the points to confirm before buying or selling.",
+  "ledes": [
+    "OpenAI is a privately held artificial intelligence company. Its shares are not listed on an exchange and have no quoted market price; the principal public reference points are the prices at which the company has raised capital. Its most recent announced financing, a $122 billion round completed on March 31, 2026, valued the company at $852 billion.",
+    "Founded in 2015 and based in San Francisco, OpenAI develops artificial intelligence models and products, including ChatGPT; its operating company, OpenAI Group PBC, is controlled by the nonprofit OpenAI Foundation. In June 2026, OpenAI said it had confidentially submitted a draft registration statement to the SEC for a proposed initial public offering, but it has not completed a listing. Existing shares change hands in privately negotiated transactions, frequently through special purpose vehicles, and remain subject to the company's transfer restrictions."
+  ],
+  "figs": [
+    [
+      "$852B",
+      "Post-money valuation (March 2026)"
+    ],
+    [
+      "$687.69",
+      "Price per share (March 2026)"
+    ],
+    [
+      "64",
+      "Special purpose vehicles with SEC filings naming OpenAI"
+    ],
+    [
+      "99,647",
+      "Shares reported by ARK Venture Fund (July 31, 2026)"
+    ]
+  ],
+  "rounds_heading": "Funding Rounds and Share Prices",
+  "columns": [
+    "Price per share",
+    "Valuation",
+    "Amount raised"
+  ],
+  "rounds": [
+    [
+      "Mar 2026",
+      "Funding round",
+      [
+        "$687.69",
+        "$852B",
+        "$122B"
+      ]
+    ],
+    [
+      "Mar 2025",
+      "Funding round",
+      [
+        null,
+        "$300B",
+        "$40B"
+      ]
+    ],
+    [
+      "Oct 2024",
+      "Funding round",
+      [
+        null,
+        "$157B",
+        "$6.6B"
+      ]
+    ],
+    [
+      "Jan 2023",
+      "Microsoft investment",
+      [
+        null,
+        "$29B",
+        "$10B"
+      ]
+    ]
+  ],
+  "table_note": "Valuations are post-money, as announced by the company. Microsoft did not disclose the terms of its January 2023 investment; the amount and valuation shown are as reported at the time.",
+  "round_notes": [
+    "In August 2026, Bloomberg and CNBC reported that OpenAI had completed an employee tender offer of $7 billion at the $852 billion valuation. In November 2026, OpenAI's chief financial officer said the company was raising a new round at a pre-money valuation of $1.25 trillion, and Bloomberg reported that it had received $11 billion of that round. OpenAI has not announced the size of the round or its completion.",
+    "A round price reflects what investors paid for the preferred stock issued in that round. Most shares sold by employees are common stock, which carries fewer rights and typically trades at a discount to the preferred price."
+  ],
+  "investors": "Amazon, Nvidia and SoftBank anchored the March 2026 round, which SoftBank co-led with Andreessen Horowitz, D. E. Shaw Ventures, MGX, TPG and T. Rowe Price. SoftBank led the March 2025 round and Thrive Capital the October 2024 round. Other investors include Microsoft, Coatue, Altimeter Capital, Khosla Ventures, Fidelity and Tiger Global.",
+  "spv_sentence": "Since 2023, 64 special purpose vehicles formed to invest in OpenAI have filed with the SEC, 29 of them in 2026.",
+  "spv_years": [
+    [
+      "2023",
+      2
+    ],
+    [
+      "2024",
+      14
+    ],
+    [
+      "2025",
+      19
+    ],
+    [
+      "2026",
+      29
+    ]
+  ],
+  "funds": "Mutual funds and other SEC-registered funds managed by T. Rowe Price, New York Life Investments, J.P. Morgan and ARK Investment Management reported OpenAI holdings in filings for periods in 2026. As of July 31, 2026, ARK Venture Fund held 99,647 shares, which it valued at $67.6 million, or $678.11 per share.",
+  "related": [
+    "Databricks",
+    "Perplexity",
+    "Mistral AI"
+  ],
+  "sources": "Sources: OpenAI's announcements of its funding rounds in <a href=\"https://openai.com/index/accelerating-the-next-phase-ai/\">March 2026</a>, <a href=\"https://openai.com/index/march-funding-updates/\">March 2025</a> and <a href=\"https://openai.com/index/scale-the-benefits-of-ai/\">October 2024</a> and of its <a href=\"https://openai.com/index/openai-submits-confidential-s-1/\">confidential IPO submission</a> (June 2026); reports by CNBC (<a href=\"https://www.cnbc.com/2026/11/06/cnbc-exclusive-transcript-openai-cfo-sarah-friar-speaks-with-cnbcs-sara-eisen-on-squawk-on-the-street-today.html\">November 2026</a>, <a href=\"https://www.cnbc.com/2026/08/10/openai-wraps-7-billion-share-sale-ahead-of-potential-ipo-.html\">August 2026</a>, <a href=\"https://www.cnbc.com/2026/03/31/openai-funding-round-ipo.html\">March 2026</a>, <a href=\"https://www.cnbc.com/2025/03/31/openai-closes-40-billion-in-funding-the-largest-private-fundraise-in-history-softbank-chatgpt.html\">March 2025</a>, <a href=\"https://www.cnbc.com/2024/10/02/openai-raises-at-157-billion-valuation-microsoft-nvidia-join-round.html\">October 2024</a> and <a href=\"https://www.cnbc.com/2023/01/23/microsoft-announces-multibillion-dollar-investment-in-chatgpt-maker-openai.html\">January 2023</a>), TechCrunch (<a href=\"https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/\">November 2026</a>, <a href=\"https://techcrunch.com/2026/06/08/following-anthropic-openai-files-confidentially-for-ipo/\">June 2026</a>, <a href=\"https://techcrunch.com/2026/03/31/openai-not-yet-public-raises-3b-from-retail-investors-in-monster-122b-fund-raise/\">March 2026</a> and <a href=\"https://techcrunch.com/2025/10/28/openai-completes-its-for-profit-recapitalization/\">October 2025</a>) and Bloomberg (January 2023, August 2026 and November 2026); ARK Venture Fund's <a href=\"https://www.sec.gov/Archives/edgar/data/1905088/000094040026036464/\">Form N-PORT</a> for July 31, 2026; and SEC Form D and Form N-PORT filings."
+}

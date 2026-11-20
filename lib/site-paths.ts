@@ -5,6 +5,7 @@ export const SITE_PATHS = {
   home: '/',
   about: '/about/',
   privateMarkets: '/private-markets/',
+  companies: '/private-markets/companies/',
   insights: '/insights/',
   startups: '/startups/',
   formation: '/startups/formation/',

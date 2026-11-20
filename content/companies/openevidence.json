@@ -1,0 +1,98 @@
+{
+  "slug": "openevidence",
+  "name": "OpenEvidence",
+  "site": "https://www.openevidence.com",
+  "founded": "2021",
+  "h1_tail": "Funding Rounds, Share Prices and Ownership",
+  "description": "OpenEvidence is privately held and has no ticker. Review the price of each funding round, the investors, fund and SPV that hold its shares, and the points to confirm before buying or selling.",
+  "ledes": [
+    "OpenEvidence is a privately held medical AI company. Its shares are not listed on an exchange and have no quoted market price; the principal public reference points are the prices at which the company has raised capital. Its most recent reported financing, a $250 million round in September 2026, valued OpenEvidence at $15 billion.",
+    "Founded in 2021 and based in Miami, OpenEvidence runs a free, advertising-supported AI platform that verified U.S. clinicians use to search medical research and answer clinical questions. Existing shares change hands in privately negotiated transactions and remain subject to the company's transfer restrictions."
+  ],
+  "figs": [
+    [
+      "$15B",
+      "Reported valuation (September 2026)"
+    ],
+    [
+      "$487.38",
+      "Price per share, Series D (January 2026)"
+    ],
+    [
+      "$12B",
+      "Valuation, Series D (January 2026)"
+    ],
+    [
+      "$250M",
+      "Reported amount raised (September 2026)"
+    ]
+  ],
+  "rounds_heading": "Funding Rounds and Share Prices",
+  "columns": [
+    "Price per share",
+    "Valuation",
+    "Amount raised"
+  ],
+  "rounds": [
+    [
+      "Sep 2026",
+      "Unnamed round",
+      [
+        null,
+        "$15.0B",
+        "$250M"
+      ]
+    ],
+    [
+      "Jan 2026",
+      "Series D",
+      [
+        "$487.38",
+        "$12.0B",
+        "$250M"
+      ]
+    ],
+    [
+      "Oct 2025",
+      "Series C",
+      [
+        null,
+        "$6.0B",
+        "$200M"
+      ]
+    ],
+    [
+      "Jul 2025",
+      "Series B",
+      [
+        "$130.41",
+        "$3.5B",
+        "$210M"
+      ]
+    ],
+    [
+      "Feb 2025",
+      "Series A",
+      [
+        "$43.04",
+        "$1.0B",
+        "$75M"
+      ]
+    ]
+  ],
+  "table_note": "OpenEvidence has not announced its September 2026 round; the amount and valuation shown are as reported by Axios and Forbes, and Forbes reported that chief executive Daniel Nadler confirmed them. Other valuations are as reported at the time of each round.",
+  "round_notes": [
+    "In January 2026, OpenEvidence said that verified U.S. healthcare professionals had used its platform for 18 million clinical consultations in December 2025; that figure is the company's own.",
+    "A round price reflects what investors paid for the preferred stock issued in that round. Most shares sold by employees are common stock, which carries fewer rights and typically trades at a discount to the preferred price."
+  ],
+  "investors": "Forbes reported that Byers Capital and Andreessen Horowitz led the September 2026 round. Thrive Capital and DST Global co-led the Series D, GV led the Series C and co-led the Series B with Kleiner Perkins, and Sequoia Capital led the Series A. Other investors include Coatue, Blackstone, Bond, Craft Ventures, Conviction, Greycroft, Nvidia and Mayo Clinic.",
+  "spv_sentence": "SEC filings show one special purpose vehicle formed to invest in OpenEvidence, organized in 2026.",
+  "spv_years": null,
+  "funds": "One SEC-registered fund reports a position in OpenEvidence. As of June 30, 2026, Innovation Access Fund, managed by SilverBay Capital Management, held 2,051 preferred shares, which it valued at $985,157.",
+  "related": [
+    "Abridge",
+    "Hippocratic AI",
+    "Ambience Healthcare"
+  ],
+  "sources": "Sources: OpenEvidence's <a href=\"https://www.openevidence.com/announcements/openevidence-the-fastest-growing-application-for-physicians-in-history-announces-dollar210-million-round-at-dollar35-billion-valuation\">Series B announcement</a>; reports by TechCrunch (<a href=\"https://techcrunch.com/2026/01/21/openevidence-hits-12b-valuation-with-new-round-led-by-thrive-dst/\">January 2026</a> and <a href=\"https://techcrunch.com/2025/10/20/openevidence-the-chatgpt-for-doctors-raises-200m-at-6b-valuation/\">October 2025</a>), CNBC (<a href=\"https://www.cnbc.com/2026/01/21/openevidence-chatgpt-for-doctors-doubles-valuation-to-12-billion.html\">January 2026</a> and <a href=\"https://www.cnbc.com/2025/02/19/ai-startup-openevidence-secures-sequoia-funding-1-billion-valuation.html\">February 2025</a>), Axios (September 2026) and Forbes (September 2026); Innovation Access Fund's <a href=\"https://www.sec.gov/Archives/edgar/data/1905379/000119312526374492/\">Form N-PORT</a> for June 30, 2026; and SEC Form D filings."
+}

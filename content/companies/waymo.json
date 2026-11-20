@@ -1,0 +1,84 @@
+{
+  "slug": "waymo",
+  "name": "Waymo",
+  "site": "https://waymo.com",
+  "founded": "2009",
+  "h1_tail": "Funding Rounds and Ownership",
+  "description": "Waymo is privately held and has no ticker. Review its funding rounds and valuations, the investors and funds that hold its shares, and the points to confirm before buying or selling.",
+  "ledes": [
+    "Waymo is a privately held autonomous driving company that is majority-owned by Alphabet. Its shares are not listed on an exchange and have no quoted market price; the principal public reference points are the valuations at which the company has raised capital. Its most recent financing, a $16 billion investment round announced on February 2, 2026, valued the company at $126 billion.",
+    "Founded in 2009 as the Google self-driving car project and based in Mountain View, California, Waymo became a separate company under Alphabet in 2016. It develops autonomous driving technology and operates a ride-hailing service with fully autonomous vehicles. Existing shares change hands in privately negotiated transactions and remain subject to the company's transfer restrictions."
+  ],
+  "figs": [
+    [
+      "$126B",
+      "Post-money valuation (February 2026)"
+    ],
+    [
+      "$16B",
+      "Amount raised (February 2026)"
+    ],
+    [
+      "$5.6B",
+      "Amount raised, Series C (October 2024)"
+    ],
+    [
+      "2016",
+      "Year established as a separate company"
+    ]
+  ],
+  "rounds_heading": "Funding Rounds",
+  "columns": [
+    "Valuation",
+    "Amount raised"
+  ],
+  "rounds": [
+    [
+      "Feb 2026",
+      "Fourth round",
+      [
+        "$126.0B",
+        "$16.0B"
+      ]
+    ],
+    [
+      "Oct 2024",
+      "Series C",
+      [
+        "$45.0B",
+        "$5.6B"
+      ]
+    ],
+    [
+      "Jun 2021",
+      "Second round",
+      [
+        null,
+        "$2.5B"
+      ]
+    ],
+    [
+      "2020",
+      "First round",
+      [
+        null,
+        "$3.2B"
+      ]
+    ]
+  ],
+  "table_note": "The February 2026 valuation is post-money, as announced by Waymo, and the October 2024 valuation is as reported by Bloomberg. Waymo did not disclose valuations for its earlier rounds.",
+  "round_notes": [
+    "Before the February 2026 announcement, Bloomberg reported that Alphabet would provide $13 billion of the $16 billion; Waymo has not disclosed Alphabet's share. With that announcement, Waymo said it was providing more than 400,000 rides each week across six U.S. metropolitan areas, a figure that is the company's own. In October 2026, Waymo announced a $5 billion term loan, its first debt financing.",
+    "A round valuation reflects the terms of the preferred stock issued in that round. Most shares sold by employees are common stock, which carries fewer rights and typically trades at a discount to the preferred price."
+  ],
+  "investors": "Dragoneer Investment Group, DST Global and Sequoia Capital led the February 2026 round, in which Alphabet also invested. Alphabet led the Series C in October 2024, and Silver Lake, Canada Pension Plan Investment Board and Mubadala Investment Company led the first round in 2020. Other investors include Andreessen Horowitz, Fidelity, T. Rowe Price, Tiger Global, Temasek and Perry Creek Capital.",
+  "spv_sentence": "SEC filings show one special purpose vehicle formed to invest in Waymo, organized in 2026.",
+  "spv_years": null,
+  "funds": "Mutual funds and other SEC-registered funds managed by Fidelity and Capital Group, among others, reported Waymo holdings in filings for periods in 2026. Capital Group's Growth Fund of America valued its position at $268.3 million as of May 31, 2026.",
+  "related": [
+    "Wayve",
+    "Nuro",
+    "Applied Intuition"
+  ],
+  "sources": "Sources: Waymo's announcements dated <a href=\"https://waymo.com/blog/2026/02/waymo-raises-usd16-billion-investment-round\">February 2, 2026</a>, <a href=\"https://waymo.com/blog/2024/10/investing-to-bring-the-waymo-driver-to-more-riders/\">October 25, 2024</a>, <a href=\"https://waymo.com/blog/2021/06/transforming-mobility-with-confidence-of-world-class-investors/\">June 16, 2021</a>, <a href=\"https://waymo.com/blog/2020/03/waymo-raises-first-external-investment-round/\">March 2, 2020</a> and <a href=\"https://waymo.com/blog/2020/05/t-rowe-price-perry-creek-capital/\">May 12, 2020</a>, and its <a href=\"https://waymo.com/about/\">company history</a>; reports by <a href=\"https://www.cnbc.com/2026/02/02/waymo-announced-16-billion-fundraising-round.html\">CNBC</a> (February 2026), Reuters and Bloomberg (January 2026), Bloomberg (October 2024) and <a href=\"https://techcrunch.com/2026/10/08/waymo-locks-in-5b-loan-from-blackstone-pimco-to-fuel-robotaxi-expansion/\">TechCrunch</a> (October 2026); the Growth Fund of America's <a href=\"https://www.sec.gov/Archives/edgar/data/44201/000119312526323081/\">Form N-PORT</a> for May 31, 2026; and SEC Form D and Form N-PORT filings."
+}

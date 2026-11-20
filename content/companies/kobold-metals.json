@@ -1,0 +1,89 @@
+{
+  "slug": "kobold-metals",
+  "name": "KoBold Metals",
+  "site": "https://www.koboldmetals.com",
+  "founded": "2018",
+  "h1_tail": "Funding Rounds, Share Prices and Ownership",
+  "description": "KoBold Metals is privately held and has no ticker. Review the price of each funding round, the investors and funds that hold its shares, and the points to confirm before buying or selling.",
+  "ledes": [
+    "KoBold Metals is a privately held mineral exploration company. Its shares are not listed on an exchange and have no quoted market price; the principal public reference points are the prices at which the company has raised capital. Its most recent reported financing was an extension of its Series C round in late 2025. The Series C itself, a $537 million round announced on January 2, 2025, valued the company at $2.96 billion.",
+    "Founded in 2018 and based in Berkeley, California, KoBold Metals uses artificial intelligence and geological data to search for copper, lithium and other critical minerals, and its projects include Mingomba, a copper deposit in Zambia. Existing shares change hands in privately negotiated transactions and remain subject to the company's transfer restrictions."
+  ],
+  "figs": [
+    [
+      "$2.96B",
+      "Valuation, Series C (January 2025)"
+    ],
+    [
+      "$112.61",
+      "Price per share, Series C extension (October 2025)"
+    ],
+    [
+      "$537M",
+      "Amount raised, Series C"
+    ],
+    [
+      "2018",
+      "Year founded"
+    ]
+  ],
+  "rounds_heading": "Funding Rounds and Share Prices",
+  "columns": [
+    "Price per share",
+    "Valuation",
+    "Amount raised"
+  ],
+  "rounds": [
+    [
+      "Oct 2025",
+      "Series C extension",
+      [
+        "$112.61",
+        "$4.2B",
+        "$163M"
+      ]
+    ],
+    [
+      "Jan 2025",
+      "Series C",
+      [
+        null,
+        "$2.96B",
+        "$537M"
+      ]
+    ],
+    [
+      "Jun 2023",
+      "Series B-1",
+      [
+        "$42.78",
+        "$1.15B",
+        "$195M"
+      ]
+    ],
+    [
+      "Feb 2022",
+      "Series B",
+      [
+        "$27.41",
+        null,
+        "$192.5M"
+      ]
+    ]
+  ],
+  "table_note": "Valuations are as reported at the time of each round. KoBold Metals did not announce its Series C extension, which was reported in November 2025 on the basis of an SEC filing; the amount shown is the portion sold by then, as reported by Axios. The Series B-1 valuation is as reported by Axios, and the Series B amount is as reported by Fortune.",
+  "round_notes": [
+    "Durable Capital Partners and T. Rowe Price co-led the Series C. In November 2025, Axios and The Logic reported, citing an SEC filing, that KoBold Metals was raising $200 million and had sold $163 million of it. The company has not announced the terms of that financing.",
+    "A round price reflects what investors paid for the preferred stock issued in that round. Most shares sold by employees are common stock, which carries fewer rights and typically trades at a discount to the preferred price."
+  ],
+  "investors": "Durable Capital Partners and T. Rowe Price co-led the Series C, with participation from Breakthrough Energy Ventures, Andreessen Horowitz, Mitsubishi, Equinor, StepStone and WCM Investment Management. Breakthrough Energy Ventures, Andreessen Horowitz and Bond also invested in the Series B-1. Other investors include CPP Investments, Earthshot VC and Standard Investments.",
+  "spv_sentence": "SEC filings show one special purpose vehicle formed to invest in KoBold Metals, organized in 2025.",
+  "spv_years": null,
+  "funds": "Mutual funds and other SEC-registered funds managed by T. Rowe Price, StepStone and SunAmerica reported KoBold Metals holdings in filings for periods in 2026. StepStone Private Venture and Growth Fund valued its position at $48.5 million as of June 30, 2026.",
+  "related": [
+    "Redwood Materials",
+    "Lilac Solutions",
+    "Fleet Space Technologies"
+  ],
+  "sources": "Sources: reports by TechCrunch (<a href=\"https://techcrunch.com/2025/01/02/kobold-used-ai-to-find-copper-now-investors-are-piling-in-to-the-tune-of-537m\">January 2025</a>), Fortune (<a href=\"https://fortune.com/2025/01/02/kobold-mining-jeff-bezos-bill-gates-investment-round-copper-lithium/\">January 2025</a> and <a href=\"https://fortune.com/2023/06/20/bill-gates-jeff-bezos-jack-ma-ai-unicorn-kobold-mining/\">June 2023</a>), Axios (November 2025) and <a href=\"https://thelogic.co/briefing/ai-mining-firm-kobold-metals-raising-us200m/\">The Logic</a> (November 2025); and SEC Form D and Form N-PORT filings."
+}

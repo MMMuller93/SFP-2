@@ -1,0 +1,109 @@
+{
+  "slug": "epic-games",
+  "name": "Epic Games",
+  "site": "https://www.epicgames.com",
+  "founded": "1991",
+  "h1_tail": "Funding Rounds and Ownership",
+  "description": "Epic Games is privately held and has no ticker. Review its funding rounds and valuations, the investors, funds and SPVs that hold its shares, and the points to confirm before buying or selling.",
+  "ledes": [
+    "Epic Games is a privately held video game and software company. Its shares are not listed on an exchange and have no quoted market price; the principal public reference points are the valuations at which the company has raised capital. Its most recent financing, a $1.5 billion equity investment by The Walt Disney Company announced on February 7, 2024, was made at a valuation neither company disclosed. The last valuation Epic Games announced, $31.5 billion, followed a $2 billion round in April 2022.",
+    "Founded in 1991 and based in Cary, North Carolina, Epic Games makes the game Fortnite, licenses Unreal Engine, its software for building games and other 3D content, and operates the Epic Games Store. Existing shares change hands in privately negotiated transactions, frequently through special purpose vehicles, and remain subject to the company's transfer restrictions."
+  ],
+  "figs": [
+    [
+      "$31.5B",
+      "Valuation, last announced (April 2022)"
+    ],
+    [
+      "$1.5B",
+      "Disney investment (February 2024)"
+    ],
+    [
+      "8",
+      "Special purpose vehicles with SEC filings naming Epic Games"
+    ],
+    [
+      "33,515",
+      "Shares reported by ARK Venture Fund (July 31, 2026)"
+    ]
+  ],
+  "rounds_heading": "Funding Rounds",
+  "columns": [
+    "Valuation",
+    "Amount raised"
+  ],
+  "rounds": [
+    [
+      "Feb 2024",
+      "Disney investment",
+      [
+        "$22.5B",
+        "$1.5B"
+      ]
+    ],
+    [
+      "Apr 2022",
+      "Funding round",
+      [
+        "$31.5B",
+        "$2.0B"
+      ]
+    ],
+    [
+      "Apr 2021",
+      "Funding round",
+      [
+        "$28.7B",
+        "$1.0B"
+      ]
+    ],
+    [
+      "Aug 2020",
+      "Funding round",
+      [
+        "$17.3B",
+        "$1.78B"
+      ]
+    ]
+  ],
+  "table_note": "Valuations are as announced by the company, except for the Disney investment. Neither Epic Games nor Disney disclosed the valuation at which Disney invested; that valuation is as reported by The Information.",
+  "round_notes": [
+    "Disney's investment accompanied a multiyear agreement under which the two companies are building a games and entertainment universe connected to Fortnite. Sony Group and KIRKBI, the family holding company behind the LEGO Group, each invested $1 billion in the April 2022 round, and the August 2020 total includes shares purchased from employees.",
+    "In announcing its 2020 and 2022 rounds, Epic Games said it would continue to have only a single class of common stock outstanding. The terms of the shares issued in each round, including the Disney investment, have not been published, and a prospective buyer should confirm the class and terms of any shares offered."
+  ],
+  "investors": "The Walt Disney Company made the February 2024 investment, and Sony Group and KIRKBI each invested $1 billion in the April 2022 round. Sony also took part in the 2021 and 2020 rounds, alongside Baillie Gifford, BlackRock, Fidelity and T. Rowe Price. Other investors include Tencent, KKR and the Ontario Teachers' Pension Plan Board.",
+  "spv_sentence": "Since 2021, eight special purpose vehicles formed to invest in Epic Games have filed with the SEC, none of them in 2026.",
+  "spv_years": [
+    [
+      "2021",
+      2
+    ],
+    [
+      "2022",
+      2
+    ],
+    [
+      "2023",
+      1
+    ],
+    [
+      "2024",
+      3
+    ],
+    [
+      "2025",
+      0
+    ],
+    [
+      "2026",
+      0
+    ]
+  ],
+  "funds": "Mutual funds and other SEC-registered funds managed by Fidelity, Capital Group, BlackRock, T. Rowe Price and ARK Investment Management, among others, reported Epic Games holdings in filings for periods in 2026. As of July 31, 2026, ARK Venture Fund held 33,515 shares, which it valued at $13.4 million, or $400.00 per share.",
+  "related": [
+    "Discord",
+    "ByteDance",
+    "Fanatics"
+  ],
+  "sources": "Sources: Epic Games' announcement of its <a href=\"https://otpp.com/en-ca/about-us/news-and-insights/2020/epic-games-announces-1-78-billion-funding-round/\">August 2020 round</a> and its announcements dated April 13, 2021 and April 11, 2022; The Walt Disney Company's <a href=\"https://thewaltdisneycompany.com/news/disney-and-epic-games-fortnite/\">announcement</a> dated February 7, 2024; reports by <a href=\"https://www.cnbc.com/2022/04/11/sony-and-lego-family-invest-2-billion-in-fortnite-creator-epic-games.html\">CNBC</a> (April 2022) and <a href=\"https://techcrunch.com/2021/04/13/fortnite-maker-epic-completes-1b-funding-round/\">TechCrunch</a> (April 2021); ARK Venture Fund's <a href=\"https://www.sec.gov/Archives/edgar/data/1905088/000094040026036464/\">Form N-PORT</a> for July 31, 2026; reports by The Information and Reuters; and SEC Form D and Form N-PORT filings."
+}

@@ -1,0 +1,83 @@
+{
+  "slug": "hippocratic-ai",
+  "name": "Hippocratic AI",
+  "site": "https://www.hippocraticai.com",
+  "founded": "2023",
+  "h1_tail": "Funding Rounds and Ownership",
+  "description": "Hippocratic AI is privately held and has no ticker. Review its funding rounds and valuations, its investors, and the points to confirm before buying or selling.",
+  "ledes": [
+    "Hippocratic AI is a privately held healthcare AI company. Its shares are not listed on an exchange and have no quoted market price; the principal public reference points are the valuations at which the company has raised capital. Its most recent financing, a $126 million Series C round announced on November 3, 2025, valued the company at $3.5 billion.",
+    "Founded in 2023 and based in Palo Alto, California, Hippocratic AI develops generative AI agents that health systems, insurers and pharmaceutical companies use to communicate with patients. Existing shares change hands in privately negotiated transactions and remain subject to the company's transfer restrictions."
+  ],
+  "figs": [
+    [
+      "$3.5B",
+      "Valuation, Series C (November 2025)"
+    ],
+    [
+      "$126M",
+      "Amount raised, Series C"
+    ],
+    [
+      "$1.64B",
+      "Valuation, Series B (January 2025)"
+    ],
+    [
+      "2023",
+      "Year founded"
+    ]
+  ],
+  "rounds_heading": "Funding Rounds",
+  "columns": [
+    "Valuation",
+    "Amount raised"
+  ],
+  "rounds": [
+    [
+      "Nov 2025",
+      "Series C",
+      [
+        "$3.5B",
+        "$126M"
+      ]
+    ],
+    [
+      "Jan 2025",
+      "Series B",
+      [
+        "$1.64B",
+        "$141M"
+      ]
+    ],
+    [
+      "Mar 2024",
+      "Series A",
+      [
+        "$500M",
+        "$53M"
+      ]
+    ],
+    [
+      "May 2023",
+      "Seed",
+      [
+        null,
+        "$50M"
+      ]
+    ]
+  ],
+  "table_note": "Valuations are as reported at the time of each round.",
+  "round_notes": [
+    "With the Series C announcement in November 2025, Hippocratic AI said its agents had completed more than 115 million clinical patient interactions; that figure is the company's own.",
+    "A round valuation reflects the terms of the preferred stock issued in that round. Most shares sold by employees are common stock, which carries fewer rights and typically trades at a discount to the preferred price."
+  ],
+  "investors": "Avenir Growth led the Series C, with participation from CapitalG, General Catalyst, Andreessen Horowitz, Kleiner Perkins and Premji Invest. Kleiner Perkins led the Series B, and Premji Invest and General Catalyst co-led the Series A. Other investors include Nvidia, SV Angel, WellSpan Health, Universal Health Services and Cincinnati Children's Hospital Medical Center.",
+  "spv_sentence": "No special purpose vehicles naming Hippocratic AI appear in SEC Form D filings.",
+  "spv_years": null,
+  "related": [
+    "OpenEvidence",
+    "Abridge",
+    "Ambience Healthcare"
+  ],
+  "sources": "Sources: reports by HIT Consultant (<a href=\"https://hitconsultant.net/2025/11/03/hippocratic-ai-raises-126m-to-accelerate-generative-ai-healthcare-agents\">November 2025</a> and <a href=\"https://hitconsultant.net/2025/01/10/hippocratic-ai-secures-141m-to-expand-healthcare-llms\">January 2025</a>) and SiliconANGLE (<a href=\"https://siliconangle.com/2025/11/03/hippocratic-ais-valuation-soars-3-5b-raising-126m-new-funding/\">November 2025</a>, <a href=\"https://siliconangle.com/2025/01/09/hippocratic-ai-raises-141m-staff-hospitals-clinical-ai-agents/\">January 2025</a> and <a href=\"https://siliconangle.com/2024/03/19/healthcare-industry-chatbot-firm-hippocratic-ai-raises-53m-500m-valuation/\">March 2024</a>); and SEC Form D filings."
+}

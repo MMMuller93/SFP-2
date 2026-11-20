@@ -1,0 +1,84 @@
+{
+  "slug": "revolut",
+  "name": "Revolut",
+  "site": "https://www.revolut.com",
+  "founded": "2015",
+  "h1_tail": "Funding Rounds and Ownership",
+  "description": "Revolut is privately held and has no ticker. Review its funding rounds and valuations, the investors and funds that hold its shares, and the points to confirm before buying or selling.",
+  "ledes": [
+    "Revolut is a privately held financial technology company. Its shares are not listed on an exchange and have no quoted market price; the principal public reference points are the valuations at which the company has raised capital. Its most recent financing, an $800 million Series E round announced on July 15, 2021, valued the company at $33 billion. A secondary share sale that Revolut completed in November 2026 valued the company at $115 billion.",
+    "Founded in 2015 and based in London, Revolut provides banking, payments, currency exchange and investment services to retail and business customers through its mobile app. Existing shares change hands in privately negotiated transactions and remain subject to the company's transfer restrictions."
+  ],
+  "figs": [
+    [
+      "$115B",
+      "Valuation in secondary share sale (November 2026)"
+    ],
+    [
+      "$800M",
+      "Amount raised, Series E (July 2021)"
+    ],
+    [
+      "$33B",
+      "Valuation, Series E (July 2021)"
+    ],
+    [
+      "2,888",
+      "Shares reported by ARK Venture Fund (July 31, 2026)"
+    ]
+  ],
+  "rounds_heading": "Funding Rounds",
+  "columns": [
+    "Valuation",
+    "Amount raised"
+  ],
+  "rounds": [
+    [
+      "Jul 2021",
+      "Series E",
+      [
+        "$33.0B",
+        "$800M"
+      ]
+    ],
+    [
+      "Jul 2020",
+      "Series D extension",
+      [
+        "$5.5B",
+        "$80M"
+      ]
+    ],
+    [
+      "Feb 2020",
+      "Series D",
+      [
+        "$5.5B",
+        "$500M"
+      ]
+    ],
+    [
+      "Apr 2018",
+      "Series C",
+      [
+        "$1.7B",
+        "$250M"
+      ]
+    ]
+  ],
+  "table_note": "Valuations are as reported at the time of each round. Secondary share sales are not shown.",
+  "round_notes": [
+    "On November 4, 2026, Revolut said it had completed a secondary share sale, led by Glade Brook Capital Partners, Coatue, Durable Capital Partners, T. Rowe Price and Baillie Gifford, that valued the company at $115 billion. Reuters reported that the sale was priced at $2,017 per share. Earlier secondary sales, announced in November 2025 and August 2024, valued the company at $75 billion and $45 billion respectively.",
+    "Revolut's recent valuations come from sales of existing shares rather than new funding rounds, and SEC filings by U.S. mutual funds describe their Revolut holdings as ordinary shares. A buyer should establish which class of shares is being offered and what rights attach to it."
+  ],
+  "investors": "SoftBank Vision Fund 2 and Tiger Global co-led the Series E. TCV led the Series D, which TSG Consumer Partners extended in July 2020, and DST Global led the Series C. Other investors include Index Ventures, Ribbit Capital, Coatue, Dragoneer, Fidelity and T. Rowe Price.",
+  "spv_sentence": "No special purpose vehicles naming Revolut appear in SEC Form D filings.",
+  "spv_years": null,
+  "funds": "Mutual funds and other SEC-registered funds managed by Fidelity, T. Rowe Price, Coatue and ARK Investment Management, among others, reported Revolut holdings in filings for periods in 2026. As of July 31, 2026, ARK Venture Fund held 2,888 shares, which it valued at $5.8 million, or $2,017.00 per share.",
+  "related": [
+    "Stripe",
+    "Plaid",
+    "Ramp"
+  ],
+  "sources": "Sources: reports by TechCrunch (<a href=\"https://techcrunch.com/2021/07/15/revolut-confirms-a-fresh-800m-in-funding-at-a-33b-valuation-to-supercharge-its-financial-services-superapp/\">July 2021</a>, <a href=\"https://techcrunch.com/2020/07/24/revolut-extends-series-d-round-to-580-million-with-80-million-in-new-funding/\">July 2020</a>, <a href=\"https://techcrunch.com/2020/02/24/revolut-raises-500-million-at-5-5-billion-valuation/\">February 2020</a>, <a href=\"https://techcrunch.com/2018/04/25/revolunicorn/\">April 2018</a>, <a href=\"https://techcrunch.com/2025/11/24/revolut-hits-75b-valuation-in-new-capital-raise/\">November 2025</a> and <a href=\"https://techcrunch.com/2024/08/16/uk-neobank-revolut-valued-at-45b-after-secondary-market-sale/\">August 2024</a>), <a href=\"https://tech.eu/2026/11/04/revolut-confirms-115bn-valuation-after-completing-secondary-sale/\">Tech.eu</a> (November 2026) and Reuters (July 2026); ARK Venture Fund's <a href=\"https://www.sec.gov/Archives/edgar/data/1905088/000094040026036464/\">Form N-PORT</a> for July 31, 2026 and other Form N-PORT filings; and SEC Form D filings."
+}

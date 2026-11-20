@@ -1,0 +1,97 @@
+{
+  "slug": "deel",
+  "name": "Deel",
+  "site": "https://www.deel.com",
+  "founded": "2019",
+  "h1_tail": "Funding Rounds, Share Prices and Ownership",
+  "description": "Deel is privately held and has no ticker. Review the price of each funding round, its investors, and the points to confirm before buying or selling.",
+  "ledes": [
+    "Deel is a privately held payroll and human resources software company. Its shares are not listed on an exchange and have no quoted market price; the principal public reference points are the prices at which the company has raised capital. Its most recent financing, a $300 million Series E round announced on October 16, 2025, valued the company at $17.3 billion.",
+    "Founded in 2019 and based in San Francisco, Deel provides software and services that companies use to hire, pay and manage staff in many countries. Existing shares change hands in privately negotiated transactions and remain subject to the company's transfer restrictions."
+  ],
+  "figs": [
+    [
+      "$17.3B",
+      "Valuation, Series E (October 2025)"
+    ],
+    [
+      "$3.48",
+      "Price per share, Series C (April 2021)"
+    ],
+    [
+      "$300M",
+      "Amount raised, Series E"
+    ],
+    [
+      "2019",
+      "Year founded"
+    ]
+  ],
+  "rounds_heading": "Funding Rounds and Share Prices",
+  "columns": [
+    "Price per share",
+    "Valuation",
+    "Amount raised"
+  ],
+  "rounds": [
+    [
+      "Oct 2025",
+      "Series E",
+      [
+        null,
+        "$17.3B",
+        "$300M"
+      ]
+    ],
+    [
+      "May 2022",
+      "Funding round",
+      [
+        null,
+        "$12.0B",
+        "$50M"
+      ]
+    ],
+    [
+      "Oct 2021",
+      "Series D",
+      [
+        null,
+        "$5.5B",
+        "$425M"
+      ]
+    ],
+    [
+      "Apr 2021",
+      "Series C",
+      [
+        "$3.48",
+        "$1.25B",
+        "$156M"
+      ]
+    ],
+    [
+      "Sep 2020",
+      "Series B",
+      [
+        "$0.73",
+        "$225M",
+        "$30M"
+      ]
+    ]
+  ],
+  "table_note": "Valuations are as reported at the time of each round. Deel did not announce its May 2022 financing; the figures shown are as reported by Axios.",
+  "round_notes": [
+    "Ribbit Capital joined as a new investor in the Series E alongside Andreessen Horowitz and Coatue. With that announcement, Deel said it had passed $1 billion in annual recurring revenue earlier in 2025; that figure is the company's own. In February 2025, CNBC reported that General Catalyst and Mubadala Investment Company had bought $300 million of existing Deel shares in a secondary sale.",
+    "A round price reflects what investors paid for the preferred stock issued in that round. Most shares sold by employees are common stock, which carries fewer rights and typically trades at a discount to the preferred price."
+  ],
+  "investors": "Ribbit Capital invested in the Series E as a new investor, together with existing investors Andreessen Horowitz and Coatue and with further participation from General Catalyst and Green Bay Ventures. Emerson Collective was reported to have led the May 2022 financing, Coatue led the Series D and the YC Continuity Fund led the Series C. Other investors include Spark Capital, Altimeter Capital and Y Combinator.",
+  "spv_sentence": "SEC filings show one special purpose vehicle formed to invest in Deel, organized in 2025.",
+  "spv_years": null,
+  "related": [
+    "Rippling",
+    "Remote",
+    "Gusto"
+  ],
+  "sources": "Sources: Deel's <a href=\"https://www.deel.com/blog/weve-raised-our-series-d/\">Series D announcement</a>; reports by TechCrunch (<a href=\"https://techcrunch.com/2025/10/16/deel-hits-17-3b-valuation-after-raising-300m-from-big-name-vcs/\">October 2025</a>, <a href=\"https://techcrunch.com/2022/05/11/fueled-by-the-remote-work-revolution-deel-more-than-doubles-valuation-to-12b-with-new-raise/\">May 2022</a> and <a href=\"https://techcrunch.com/2021/04/21/remote-hiring-startup-deel-raises-156m-at-a-1-25b-valuation-after-20x-growth-in-2020/\">April 2021</a>), <a href=\"https://ffnews.com/newsarticle/funding/deel-secures-300-million-in-series-e-funding/\">FF News</a> (October 2025), CNBC (February 2025) and Axios (May 2022); and SEC Form D filings."
+}

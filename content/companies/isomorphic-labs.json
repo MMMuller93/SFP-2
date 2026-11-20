@@ -1,0 +1,75 @@
+{
+  "slug": "isomorphic-labs",
+  "name": "Isomorphic Labs",
+  "site": "https://www.isomorphiclabs.com",
+  "founded": "2021",
+  "h1_tail": "Funding Rounds and Ownership",
+  "description": "Isomorphic Labs is privately held and has no ticker. Review its funding rounds, its investors, and the points to confirm before buying or selling.",
+  "ledes": [
+    "Isomorphic Labs is a privately held drug discovery company controlled by Alphabet. Its shares are not listed on an exchange and have no quoted market price, and the company has not disclosed a valuation for any of its funding rounds; the principal public reference points are the amounts it has raised. Its most recent financing was a $5 billion Series C round announced on November 17, 2026.",
+    "Founded in 2021 and based in London, Isomorphic Labs was spun out of Google DeepMind and uses artificial intelligence to design new medicines. Any sale of existing shares takes place in a privately negotiated transaction and is subject to the company's transfer restrictions."
+  ],
+  "figs": [
+    [
+      "$5B",
+      "Amount raised, Series C (November 2026)"
+    ],
+    [
+      "$2.1B",
+      "Amount raised, Series B (May 2026)"
+    ],
+    [
+      "$600M",
+      "Amount raised, first external round (March 2025)"
+    ],
+    [
+      "2021",
+      "Year founded"
+    ]
+  ],
+  "rounds_heading": "Funding Rounds",
+  "columns": [
+    "Valuation",
+    "Amount raised"
+  ],
+  "rounds": [
+    [
+      "Nov 2026",
+      "Series C",
+      [
+        "$50.0B",
+        "$5.0B"
+      ]
+    ],
+    [
+      "May 2026",
+      "Series B",
+      [
+        null,
+        "$2.1B"
+      ]
+    ],
+    [
+      "Mar 2025",
+      "Series A",
+      [
+        null,
+        "$600M"
+      ]
+    ]
+  ],
+  "table_note": "Isomorphic Labs has not disclosed a valuation for any of its funding rounds. The Series C valuation is as reported by Bloomberg before the round was announced. The company described the March 2025 round as its first external financing; until then it had been funded by Alphabet.",
+  "round_notes": [
+    "Isomorphic Labs has said the Series C will fund the expansion of its drug design platform and the development of its first drug candidates toward clinical trials. In November 2026, before the round was announced, Bloomberg reported that it would value the company at $50 billion. Isomorphic Labs has not confirmed a valuation.",
+    "Isomorphic Labs has not disclosed the terms of the interests issued to outside investors in these rounds, so a round valuation may not reflect the value of interests held by employees or other existing holders. A buyer should establish which class of interest is being offered and what rights attach to it."
+  ],
+  "investors": "Greenoaks and Sequoia Capital co-led the Series C, in which Andreessen Horowitz joined as a new investor and Alphabet invested further. Thrive Capital led the Series B and the March 2025 round. Other investors include GV, CapitalG, MGX, Temasek and the UK Sovereign AI Fund.",
+  "spv_sentence": "No special purpose vehicles naming Isomorphic Labs appear in SEC Form D filings.",
+  "spv_years": null,
+  "related": [
+    "Xaira Therapeutics",
+    "Chai Discovery",
+    "Lila Sciences"
+  ],
+  "sources": "Sources: Isomorphic Labs' announcements of its <a href=\"https://www.isomorphiclabs.com/articles/isomorphic-labs-announces-series-c-investment-round\">Series C</a>, <a href=\"https://www.isomorphiclabs.com/articles/isomorphic-labs-announces-series-b-investment-round\">Series B</a> and <a href=\"https://www.isomorphiclabs.com/articles/isomorphic-labs-announces-600m-external-investment-round\">first external funding round</a>; the annual accounts of Isomorphic Labs Limited for 2025, <a href=\"https://find-and-update.company-information.service.gov.uk/company/13223825/filing-history\">filed at Companies House</a>; reports by Bloomberg (October and November 2026) and <a href=\"https://thenextweb.com/news/isomorphic-labs-5bn-series-c-sequoia-greenoaks\">The Next Web</a> (November 2026); and SEC Form D filings."
+}

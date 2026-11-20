@@ -1,0 +1,67 @@
+{
+  "slug": "qualified-health",
+  "name": "Qualified Health",
+  "site": "https://www.qualifiedhealthai.com",
+  "founded": "2023",
+  "h1_tail": "Funding Rounds and Ownership",
+  "description": "Qualified Health is privately held and has no ticker. Review its funding rounds, its investors, and the points to confirm before buying or selling.",
+  "ledes": [
+    "Qualified Health is a privately held healthcare software company. Its shares are not listed on an exchange and have no quoted market price, and the company has not disclosed a valuation for any of its financings. Its most recent financing, a $125 million Series B round announced on March 25, 2026, was led by New Enterprise Associates.",
+    "Founded in 2023 and based in Palo Alto, California, Qualified Health is a public benefit corporation that provides health systems with a platform for building, deploying and governing AI tools. Existing shares change hands in privately negotiated transactions and remain subject to the company's transfer restrictions."
+  ],
+  "figs": [
+    [
+      "$125M",
+      "Amount raised, Series B (March 2026)"
+    ],
+    [
+      "$30M",
+      "Seed funding (January 2025)"
+    ],
+    [
+      "$155M",
+      "Total raised, as reported by STAT (March 2026)"
+    ],
+    [
+      "2023",
+      "Year founded"
+    ]
+  ],
+  "rounds_heading": "Funding Rounds",
+  "columns": [
+    "Valuation",
+    "Amount raised"
+  ],
+  "rounds": [
+    [
+      "Mar 2026",
+      "Series B",
+      [
+        null,
+        "$125M"
+      ]
+    ],
+    [
+      "Jan 2025",
+      "Seed",
+      [
+        null,
+        "$30M"
+      ]
+    ]
+  ],
+  "table_note": "Amounts are as announced by the company. Qualified Health has not disclosed a valuation for either round.",
+  "round_notes": [
+    "With the Series B announcement in March 2026, Qualified Health said its platform had more than 500,000 users; that figure is the company's own.",
+    "A round valuation reflects the terms of the preferred stock issued in that round. Most shares sold by employees are common stock, which carries fewer rights and typically trades at a discount to the preferred price."
+  ],
+  "investors": "New Enterprise Associates led the Series B, with new investors Transformation Capital, GreatPoint Ventures, Cathay Innovation and Menlo Ventures' Anthology Fund. SignalFire, Healthier Capital, Town Hall Ventures and Frist Cressey Ventures were the principal investors in the seed funding. Other investors include Flare Capital Partners and Intermountain Ventures.",
+  "spv_sentence": "No special purpose vehicles naming Qualified Health appear in SEC Form D filings.",
+  "spv_years": null,
+  "related": [
+    "Hippocratic AI",
+    "OpenEvidence",
+    "Abridge"
+  ],
+  "sources": "Sources: Qualified Health's Series B announcement (March 25, 2026); reports by <a href=\"https://siliconangle.com/2026/03/26/qualified-health-raises-125m-transform-enterprise-healthcare-systems-adopt-ai/\">SiliconANGLE</a> (March 2026), STAT (March 2026), <a href=\"https://www.hcinnovationgroup.com/finance-revenue-cycle/venture-capital/news/55366373/qualified-health-gets-more-funding-adds-health-system-customers\">Healthcare Innovation</a> (March 2026) and <a href=\"https://hitconsultant.net/2025/01/10/qualified-health-launches-with-30m-to-develop-the-infrastructure-for-genai-in-healthcare\">HIT Consultant</a> (January 2025); and SEC Form D filings."
+}

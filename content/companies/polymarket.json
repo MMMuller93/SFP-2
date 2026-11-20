@@ -1,0 +1,113 @@
+{
+  "slug": "polymarket",
+  "name": "Polymarket",
+  "site": "https://polymarket.com",
+  "founded": "2020",
+  "h1_tail": "Funding Rounds, Share Prices and Ownership",
+  "description": "Polymarket is privately held and has no ticker. Review the price of each funding round, the investors and SPVs that hold its shares, and the points to confirm before buying or selling.",
+  "ledes": [
+    "Polymarket is a privately held prediction market company. Its shares are not listed on an exchange and have no quoted market price; the principal public reference points are the prices at which the company has raised capital. Its most recent reported financing, a $1 billion round led by 1789 Capital in August 2026, valued the company at $21 billion.",
+    "Founded in 2020 and based in New York, Polymarket operates a market in which users trade contracts on the outcomes of events. Existing shares change hands in privately negotiated transactions, frequently through special purpose vehicles, and remain subject to the company's transfer restrictions."
+  ],
+  "figs": [
+    [
+      "$21B",
+      "Valuation, reported round (August 2026)"
+    ],
+    [
+      "$144.08",
+      "Price per share, Series E (April 2026)"
+    ],
+    [
+      "17",
+      "Special purpose vehicles with SEC filings naming Polymarket"
+    ],
+    [
+      "$2B",
+      "Maximum investment agreed by Intercontinental Exchange (October 2025)"
+    ]
+  ],
+  "rounds_heading": "Funding Rounds and Share Prices",
+  "columns": [
+    "Price per share",
+    "Valuation",
+    "Amount raised"
+  ],
+  "rounds": [
+    [
+      "Aug 2026",
+      "Series F",
+      [
+        null,
+        "$21.0B",
+        "$1.0B"
+      ]
+    ],
+    [
+      "Apr 2026",
+      "Series E",
+      [
+        "$144.08",
+        "$15.0B",
+        "$1.0B"
+      ]
+    ],
+    [
+      "Oct 2025",
+      "Series D",
+      [
+        "$103.66",
+        "$9.0B",
+        "$2.0B"
+      ]
+    ],
+    [
+      "Aug 2025",
+      "Series C",
+      [
+        "$17.89",
+        "$1.2B",
+        "$150M"
+      ]
+    ]
+  ],
+  "table_note": "Polymarket has not announced its 2026 financings; figures for those rounds are as reported by Bloomberg, CNBC and The Information. The October 2025 valuation is post-money.",
+  "round_notes": [
+    "Intercontinental Exchange, the owner of the New York Stock Exchange, agreed in October 2025 to invest $2 billion at a pre-money valuation of $8 billion. It invested a further $600 million in March 2026, which it said completed its commitment.",
+    "A round price reflects what investors paid for the preferred stock issued in that round. Most shares sold by employees are common stock, which carries fewer rights and typically trades at a discount to the preferred price."
+  ],
+  "investors": "Intercontinental Exchange anchored the October 2025 and April 2026 rounds, and 1789 Capital led the round reported in August 2026. Founders Fund led the Series C and the 2024 Series B, and General Catalyst led the Series A. Other investors include D.E. Shaw, G Squared, Valor Equity Partners, Dragonfly, Blockchain Capital and Polychain Capital.",
+  "spv_sentence": "Since 2021, 17 special purpose vehicles formed to invest in Polymarket have filed with the SEC, 14 of them in 2026.",
+  "spv_years": [
+    [
+      "2021",
+      1
+    ],
+    [
+      "2022",
+      0
+    ],
+    [
+      "2023",
+      0
+    ],
+    [
+      "2024",
+      0
+    ],
+    [
+      "2025",
+      2
+    ],
+    [
+      "2026",
+      14
+    ]
+  ],
+  "related": [
+    "Kalshi",
+    "Kraken",
+    "Erebor"
+  ],
+  "sources": "Sources: reports by The Block (<a href=\"https://www.theblock.co/post/294367/polymarket-raises-45-million-from-peter-thiels-founders-fund-vitalik-buterin-and-others\">May 2024</a>, <a href=\"https://www.theblock.co/amp/post/373783/polymarket-discloses-past-funding-rounds-totaling-205-million-before-2-billion-ice-investment\">October 2025</a> and <a href=\"https://www.theblock.co/news/business/2026-03-27-nyse-parent-ice-invests-another-600-million-in-polymarket-expanding-bet-on-prediction-markets-395458\">March 2026</a>), <a href=\"https://www.cnbc.com/2026/08/04/polymarket-seeks-fundraising-round-at-more-than-20-billion-valuation.html\">CNBC</a> (August 2026) and <a href=\"https://thenextweb.com/news/polymarket-1789-capital-1bn-round-21bn\">The Next Web</a> (September 2026); reports by Bloomberg and The Information; and SEC Form D filings."
+}

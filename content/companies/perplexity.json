@@ -1,0 +1,120 @@
+{
+  "slug": "perplexity",
+  "name": "Perplexity",
+  "site": "https://www.perplexity.ai",
+  "founded": "2022",
+  "h1_tail": "Funding Rounds, Share Prices and Ownership",
+  "description": "Perplexity is privately held and has no ticker. Review the price of each funding round, the investors, funds and SPVs that hold its shares, and the points to confirm before buying or selling.",
+  "ledes": [
+    "Perplexity is a privately held artificial intelligence company. Its shares are not listed on an exchange and have no quoted market price; the principal public reference points are the prices at which the company has raised capital. Its most recent reported financing, an extension of its Series E that was reported in September 2025, put the company's valuation at $20 billion.",
+    "Founded in 2022 and based in San Francisco, Perplexity operates an AI search service that answers questions in plain language and cites the sources it draws on. Existing shares change hands in privately negotiated transactions, frequently through special purpose vehicles, and remain subject to the company's transfer restrictions."
+  ],
+  "figs": [
+    [
+      "$20B",
+      "Reported valuation, Series E extension (September 2025)"
+    ],
+    [
+      "$69.54",
+      "Price per share, Series E extension (September 2025)"
+    ],
+    [
+      "47",
+      "Special purpose vehicles with SEC filings naming Perplexity"
+    ],
+    [
+      "60,810",
+      "Shares reported by ARK Venture Fund (July 31, 2026)"
+    ]
+  ],
+  "rounds_heading": "Funding Rounds and Share Prices",
+  "columns": [
+    "Price per share",
+    "Valuation",
+    "Amount raised"
+  ],
+  "rounds": [
+    [
+      "Sep 2025",
+      "Series E extension",
+      [
+        "$69.54",
+        "$20.0B",
+        "$200M"
+      ]
+    ],
+    [
+      "Jul 2025",
+      "Series E extension",
+      [
+        null,
+        "$18.0B",
+        "$100M"
+      ]
+    ],
+    [
+      "Jun 2025",
+      "Series E",
+      [
+        "$49.23",
+        "$14.0B",
+        "$500M"
+      ]
+    ],
+    [
+      "Dec 2024",
+      "Series D",
+      [
+        "$32.89",
+        "$9.0B",
+        "$500M"
+      ]
+    ],
+    [
+      "2024",
+      "Series C",
+      [
+        "$11.92",
+        "$3.0B",
+        "$250M"
+      ]
+    ],
+    [
+      "Jan 2024",
+      "Series B",
+      [
+        "$2.54",
+        "$520M",
+        "$73.6M"
+      ]
+    ]
+  ],
+  "table_note": "Perplexity announced its Series B but not the terms of its later rounds, which are shown as reported by Bloomberg, CNBC, TechCrunch and The Information. Valuations are as reported at the time of each round. The June 2025 Series E valuation and amount are as reported by Bloomberg and CNBC.",
+  "round_notes": [
+    "In August 2026, The Information reported that Nvidia was in talks to invest in Perplexity in a round that would value the company at more than $30 billion. Perplexity has not announced a new round.",
+    "A round price reflects what investors paid for the preferred stock issued in that round. Most shares sold by employees are common stock, which carries fewer rights and typically trades at a discount to the preferred price."
+  ],
+  "investors": "Accel led the Series E, according to Bloomberg, and IVP led the Series D and the Series B. SoftBank's Vision Fund 2 invested in the Series C. Other investors include New Enterprise Associates, Nvidia, Bezos Expeditions, Databricks, Elad Gil and Nat Friedman.",
+  "spv_sentence": "Since 2024, 47 special purpose vehicles formed to invest in Perplexity have filed with the SEC, 12 of them in 2026.",
+  "spv_years": [
+    [
+      "2024",
+      12
+    ],
+    [
+      "2025",
+      23
+    ],
+    [
+      "2026",
+      12
+    ]
+  ],
+  "funds": "Two SEC-registered funds report positions in Perplexity. As of July 31, 2026, ARK Venture Fund held 60,810 shares, which it valued at $3.3 million, or $55.05 per share.",
+  "related": [
+    "OpenAI",
+    "Mistral AI",
+    "ElevenLabs"
+  ],
+  "sources": "Sources: Perplexity's <a href=\"https://www.perplexity.ai/hub/blog/perplexity-raises-series-b-funding-round\">Series B announcement</a> (January 2024); reports by TechCrunch (<a href=\"https://techcrunch.com/2025/09/10/perplexity-reportedly-raised-200m-at-20b-valuation/\">September 2025</a> and <a href=\"https://techcrunch.com/2024/12/19/perplexity-has-reportedly-closed-a-500m-funding-round/\">December 2024</a>), CNBC (<a href=\"https://www.cnbc.com/2026/05/19/perplexity-cnbc-disruptor-50-ranking.html\">May 2026</a> and May 2025), Bloomberg (July 2025, May 2025, December 2024 and June 2024) and The Information (August 2026 and September 2025); ARK Venture Fund's <a href=\"https://www.sec.gov/Archives/edgar/data/1905088/000094040026036464/\">Form N-PORT</a> for July 31, 2026; and SEC Form D and Form N-PORT filings."
+}

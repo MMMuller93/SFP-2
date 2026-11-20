@@ -1,0 +1,97 @@
+{
+  "slug": "figure-ai",
+  "name": "Figure AI",
+  "site": "https://www.figure.ai",
+  "founded": "2022",
+  "h1_tail": "Funding Rounds, Share Prices and Ownership",
+  "description": "Figure AI is privately held and has no ticker. Review the price of each funding round, the investors, funds and SPVs that hold its shares, and the points to confirm before buying or selling.",
+  "ledes": [
+    "Figure AI is a privately held robotics company. Its shares are not listed on an exchange and have no quoted market price; the principal public reference points are the prices at which the company has raised capital. Its most recent financing, a Series C round announced on September 16, 2025, raised more than $1 billion at a post-money valuation of $39 billion.",
+    "Founded in 2022 and based in San Jose, California, Figure develops general-purpose humanoid robots and Helix, the AI model that controls them. Existing shares change hands in privately negotiated transactions, frequently through special purpose vehicles, and remain subject to the company's transfer restrictions."
+  ],
+  "figs": [
+    [
+      "$39B",
+      "Post-money valuation, Series C (September 2025)"
+    ],
+    [
+      "$194.93",
+      "Price per share, Series C (September 2025)"
+    ],
+    [
+      "38",
+      "Special purpose vehicles with SEC filings naming Figure AI"
+    ],
+    [
+      "189,096",
+      "Shares reported by ARK Venture Fund (July 31, 2026)"
+    ]
+  ],
+  "rounds_heading": "Funding Rounds and Share Prices",
+  "columns": [
+    "Price per share",
+    "Valuation",
+    "Amount raised"
+  ],
+  "rounds": [
+    [
+      "Sep 2025",
+      "Series C",
+      [
+        "$194.93",
+        "$39.0B",
+        "Over $1B"
+      ]
+    ],
+    [
+      "Feb 2024",
+      "Series B",
+      [
+        "$13.22",
+        "$2.6B",
+        "$675M"
+      ]
+    ],
+    [
+      "May 2023",
+      "Series A",
+      [
+        null,
+        "$400M",
+        "$70M"
+      ]
+    ]
+  ],
+  "table_note": "Valuations are post-money. The Series A valuation is as reported by Reuters.",
+  "round_notes": [
+    "In September 2026, Figure announced a strategic investment from Nscale as part of a computing partnership; the amount was not disclosed. Earlier that year, the company said it had delivered more than 350 of its Figure 03 robots.",
+    "A round price reflects what investors paid for the preferred stock issued in that round. Most shares sold by employees are common stock, which carries fewer rights and typically trades at a discount to the preferred price."
+  ],
+  "investors": "Parkway Venture Capital led the Series C, with participation from Brookfield, Nvidia, Macquarie Capital, Intel Capital, Align Ventures and Salesforce. Investors in the Series B included Microsoft, the OpenAI Startup Fund, Nvidia, Amazon's Industrial Innovation Fund, Bezos Expeditions and ARK Invest. Parkway also led the Series A.",
+  "spv_sentence": "Since 2023, 38 special purpose vehicles formed to invest in Figure AI have filed with the SEC, six of them in 2026.",
+  "spv_years": [
+    [
+      "2023",
+      2
+    ],
+    [
+      "2024",
+      15
+    ],
+    [
+      "2025",
+      15
+    ],
+    [
+      "2026",
+      6
+    ]
+  ],
+  "funds": "Registered funds managed by ARK Investment Management, Fred Alger Management and Fundrise report positions in Figure AI. As of July 31, 2026, ARK Venture Fund held 189,096 shares, which it valued at $30.3 million, or $160.00 per share.",
+  "related": [
+    "Skild AI",
+    "Physical Intelligence",
+    "Apptronik"
+  ],
+  "sources": "Sources: Figure's announcements of its <a href=\"https://www.figure.ai/news/series-c\">Series C</a> and <a href=\"https://prnewswire.com/news-releases/figure-announces-70m-series-a-to-support-commercialization-of-figure-01-humanoid-robot-301832819.html\">Series A</a>, its <a href=\"https://figure.ai/news/figure-and-nscale-sign-strategic-partnership\">Nscale partnership</a> and its <a href=\"https://figure.ai/news/ramping-figure-03-production\">production update</a> (April 2026); a <a href=\"https://techcrunch.com/2024/02/29/figure-rides-the-humanoid-robot-hype-wave-to-2-6b-valuation-and-openai-collab/\">TechCrunch report</a> (February 2024); ARK Venture Fund's <a href=\"https://www.sec.gov/Archives/edgar/data/1905088/000094040026036464/\">Form N-PORT</a> for July 31, 2026; reports by Reuters; and SEC Form D and Form N-PORT filings."
+}

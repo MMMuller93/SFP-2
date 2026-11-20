@@ -1,0 +1,76 @@
+{
+  "slug": "bytedance",
+  "name": "ByteDance",
+  "site": "https://www.bytedance.com",
+  "founded": "2012",
+  "h1_tail": "Funding Rounds and Ownership",
+  "description": "ByteDance is privately held and has no ticker. Review its funding rounds and valuations, the investors and funds that hold its shares, and the points to confirm before buying or selling.",
+  "ledes": [
+    "ByteDance is a privately held technology company. Its shares are not listed on an exchange and have no quoted market price; the principal public reference points are the valuations at which the company has raised capital. Its most recent reported financing, a $2 billion round in late 2020, valued the company at $180 billion.",
+    "Founded in 2012 and based in Beijing, ByteDance owns the short-video apps TikTok and Douyin and, since January 2026, has held a 19.9% stake in the joint venture that operates TikTok in the United States. Existing shares change hands in privately negotiated transactions and remain subject to the company's transfer restrictions."
+  ],
+  "figs": [
+    [
+      "$180B",
+      "Reported valuation, 2020 funding round"
+    ],
+    [
+      "$2B",
+      "Reported amount raised, 2020 funding round"
+    ],
+    [
+      "19.9%",
+      "ByteDance's stake in TikTok's US joint venture (January 2026)"
+    ],
+    [
+      "2012",
+      "Year founded"
+    ]
+  ],
+  "rounds_heading": "Funding Rounds",
+  "columns": [
+    "Valuation",
+    "Amount raised"
+  ],
+  "rounds": [
+    [
+      "Late 2020",
+      "Funding round",
+      [
+        "$180.0B",
+        "$2.0B"
+      ]
+    ],
+    [
+      "Oct 2018",
+      "Funding round",
+      [
+        "$75.0B",
+        "$3.0B"
+      ]
+    ],
+    [
+      "Aug 2017",
+      "Funding round",
+      [
+        "$20.0B",
+        "$2.0B"
+      ]
+    ]
+  ],
+  "table_note": "ByteDance has not announced its funding rounds; valuations and amounts are as reported at the time by Reuters (2017 and 2020) and Bloomberg (2018).",
+  "round_notes": [
+    "In November 2026, Bloomberg and The Information reported that ByteDance planned to repurchase $6 billion of shares from investors at a valuation of $400 billion; a buyback reported by Reuters in August 2025 had valued the company at $330 billion. In February 2026, Reuters reported that General Atlantic was seeking to sell ByteDance shares at a valuation of $550 billion. ByteDance has not publicly announced these transactions.",
+    "A round valuation reflects the terms of the preferred stock issued in that round. Most shares sold by employees are common stock, which carries fewer rights and typically trades at a discount to the preferred price."
+  ],
+  "investors": "Sequoia Capital and KKR were reported to have led the 2020 round. SoftBank led the 2018 round, in which General Atlantic, KKR and Primavera Capital also took part; General Atlantic first invested in 2017. Other investors include Susquehanna International Group and CCB International.",
+  "spv_sentence": "SEC filings show one special purpose vehicle formed to invest in ByteDance, organized in 2025.",
+  "spv_years": null,
+  "funds": "Mutual funds and other SEC-registered funds managed by Fidelity, BlackRock and T. Rowe Price, among others, reported ByteDance holdings in filings for periods in 2026. BlackRock Global Allocation Fund valued its position at $84.9 million as of January 31, 2026.",
+  "related": [
+    "Discord",
+    "Canva",
+    "Epic Games"
+  ],
+  "sources": "Sources: reports by Bloomberg (November 2026 and October 2018), The Information (November 2026), Reuters (February 2026, August 2025, December 2020 and August 2017), <a href=\"https://www.cnbc.com/2026/01/22/tiktok-forms-us-joint-venture-names-a-ceo.html\">CNBC</a> (January 2026), Fortune (<a href=\"https://fortune.com/2025/12/19/tiktok-agrees-u-s-joint-venture-deal-with-oracle-silver-lake-and-mgx/\">December 2025</a> and <a href=\"https://fortune.com/2017/08/12/chinas-newest-decacorn-doesnt-fear-facebooks-trial-balloons\">August 2017</a>) and <a href=\"https://techcrunch.com/2018/10/26/chinas-bytedance-leapfrogs-uber-to-becomes-worlds-most-valuable-startup\">TechCrunch</a> (October 2018); and SEC Form D and Form N-PORT filings."
+}

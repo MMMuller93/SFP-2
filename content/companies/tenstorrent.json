@@ -1,0 +1,97 @@
+{
+  "slug": "tenstorrent",
+  "name": "Tenstorrent",
+  "site": "https://tenstorrent.com",
+  "founded": "2016",
+  "h1_tail": "Funding Rounds, Share Prices and Ownership",
+  "description": "Tenstorrent is privately held and has no ticker. Review the price of each funding round, the investors, funds and SPVs that hold its shares, and the points to confirm before buying or selling.",
+  "ledes": [
+    "Tenstorrent is a privately held semiconductor company. Its shares are not listed on an exchange and have no quoted market price; the principal public reference points are the prices at which the company has raised capital. Its most recent financing, a $1.5 billion Series E round announced on October 19, 2026, valued the company at $6.2 billion.",
+    "Founded in Toronto in 2016 and now based in Santa Clara, California, Tenstorrent designs AI processors and the servers built around them, and licenses its chip designs to other companies. Existing shares change hands in privately negotiated transactions, frequently through special purpose vehicles, and remain subject to the company's transfer restrictions."
+  ],
+  "figs": [
+    [
+      "$6.2B",
+      "Post-money valuation, Series E (October 2026)"
+    ],
+    [
+      "$111.23",
+      "Price per share, Series E (October 2026)"
+    ],
+    [
+      "12",
+      "Special purpose vehicles with SEC filings naming Tenstorrent"
+    ],
+    [
+      "28,080",
+      "Shares reported by ARK Venture Fund (July 31, 2026)"
+    ]
+  ],
+  "rounds_heading": "Funding Rounds and Share Prices",
+  "columns": [
+    "Price per share",
+    "Valuation",
+    "Amount raised"
+  ],
+  "rounds": [
+    [
+      "Oct 2026",
+      "Series E",
+      [
+        "$111.23",
+        "$6.2B",
+        "$1.5B"
+      ]
+    ],
+    [
+      "Dec 2024",
+      "Series D",
+      [
+        "$78.83",
+        "$2.6B",
+        "Over $693M"
+      ]
+    ],
+    [
+      "May 2021",
+      "Series C",
+      [
+        "$59.45",
+        "$1.0B",
+        "Over $200M"
+      ]
+    ]
+  ],
+  "table_note": "Valuations are as announced by the company, except the Series D figure, a post-money valuation reported by Bloomberg and BetaKit; the company announced a pre-money valuation of $2 billion for that round.",
+  "round_notes": [
+    "Tenstorrent has said the Series E proceeds will fund volume manufacturing, wider deployment of its Galaxy servers and commercial expansion. The Series D amount includes a $100 million convertible note, issued in 2023 to investors led by Hyundai Motor Group and Samsung Catalyst Fund, that converted into equity in that round.",
+    "A round price reflects what investors paid for the preferred stock issued in that round. Most shares sold by employees are common stock, which carries fewer rights and typically trades at a discount to the preferred price."
+  ],
+  "investors": "Trace Capital and Innovation X led the Series E, with participation from Fidelity Management & Research Company, T. Rowe Price, Morgan Stanley, ARK Invest, XTX Markets, Sandisk, Eclipse and Tether Investments. Samsung Securities and AFW Partners led the Series D, and Fidelity led the Series C. Other investors include Bezos Expeditions, LG Electronics, Hyundai Motor Group, Baillie Gifford and Export Development Canada.",
+  "spv_sentence": "Since 2023, 12 special purpose vehicles formed to invest in Tenstorrent have filed with the SEC, six of them in 2026.",
+  "spv_years": [
+    [
+      "2023",
+      1
+    ],
+    [
+      "2024",
+      5
+    ],
+    [
+      "2025",
+      0
+    ],
+    [
+      "2026",
+      6
+    ]
+  ],
+  "funds": "Mutual funds and other SEC-registered funds managed by Fidelity and ARK Invest reported Tenstorrent holdings in filings for periods in 2026. As of July 31, 2026, ARK Venture Fund held 28,080 shares, which it valued at $2.4 million, or $85.67 per share.",
+  "related": [
+    "SambaNova",
+    "Etched",
+    "Ayar Labs"
+  ],
+  "sources": "Sources: Tenstorrent's announcements of its <a href=\"https://tenstorrent.com/newsroom/tenstorrent-announces-series-e\">Series E</a> and <a href=\"https://tenstorrent.com/newsroom/tenstorrent-raises-over-200-million-at-1-billion-valuation-to-create-programmable-high-performance-ai-computers\">2021 financing</a>; reports by <a href=\"https://betakit.com/ai-chipmaker-tenstorrent-closes-nearly-700-million-usd-series-d-at-2-6-billion-valuation/\">BetaKit</a> (December 2024) and Bloomberg (December 2024); ARK Venture Fund's <a href=\"https://www.sec.gov/Archives/edgar/data/1905088/000094040026036464/\">Form N-PORT</a> for July 31, 2026; and SEC Form D and Form N-PORT filings."
+}

@@ -9,6 +9,8 @@ interface SEOProps {
   type?: 'website' | 'article';
   publishedTime?: string;
   authorName?: string;
+  // JSON-LD for non-article pages (e.g. WebPage, CollectionPage). Never article schema.
+  schema?: Record<string, unknown>;
 }
 
 export const SEO: FC<SEOProps> = ({
@@ -18,9 +20,23 @@ export const SEO: FC<SEOProps> = ({
   type = 'website',
   publishedTime,
   authorName,
+  schema,
 }) => {
   const location = useLocation();
   const url = `${SITE_ORIGIN}${canonicalPath(location.pathname)}`;
+  const schemaJson = schema ? JSON.stringify(schema).replace(/</g, '\\u003c') : undefined;
+
+  useEffect(() => {
+    // Replace any copy serialized into prerendered HTML instead of duplicating it.
+    document.getElementById('page-schema')?.remove();
+    if (!schemaJson) return;
+    const script = document.createElement('script');
+    script.type = 'application/ld+json';
+    script.id = 'page-schema';
+    script.textContent = schemaJson;
+    document.head.appendChild(script);
+    return () => script.remove();
+  }, [schemaJson]);
 
   useEffect(() => {
     // Update title

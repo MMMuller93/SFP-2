@@ -1,0 +1,76 @@
+{
+  "slug": "vast-data",
+  "name": "VAST Data",
+  "site": "https://www.vastdata.com",
+  "founded": "2016",
+  "h1_tail": "Funding Rounds and Ownership",
+  "description": "VAST Data is privately held and has no ticker. Review its funding rounds and valuations, the investors, funds and SPVs that hold its shares, and the points to confirm before buying or selling.",
+  "ledes": [
+    "VAST Data is a privately held AI data infrastructure company. Its shares are not listed on an exchange and have no quoted market price; the principal public reference points are the valuations at which the company has raised capital. Its most recent financing, a $1 billion Series F round announced on April 22, 2026, valued the company at $30 billion.",
+    "Founded in 2016, VAST Data develops software that stores, manages and processes the data used to train and run AI models. Existing shares change hands in privately negotiated transactions and remain subject to the company's transfer restrictions."
+  ],
+  "figs": [
+    [
+      "$30B",
+      "Valuation, Series F (April 2026)"
+    ],
+    [
+      "$1B",
+      "Series F financing, including secondary sales"
+    ],
+    [
+      "$9.1B",
+      "Valuation, Series E (December 2023)"
+    ],
+    [
+      "2016",
+      "Year founded"
+    ]
+  ],
+  "rounds_heading": "Funding Rounds",
+  "columns": [
+    "Valuation",
+    "Amount raised"
+  ],
+  "rounds": [
+    [
+      "Apr 2026",
+      "Series F",
+      [
+        "$30.0B",
+        "$1B"
+      ]
+    ],
+    [
+      "Dec 2023",
+      "Series E",
+      [
+        "$9.1B",
+        "$118M"
+      ]
+    ],
+    [
+      "May 2021",
+      "Series D",
+      [
+        "$3.7B",
+        "$83M"
+      ]
+    ]
+  ],
+  "table_note": "Valuations are as announced by the company. The Series F amount includes both new shares issued by the company and shares sold by existing holders.",
+  "round_notes": [
+    "The Series F combined new preferred stock issued by VAST Data with sales of existing shares by employees and early investors; the company has not disclosed how the total divides between the two. With the Series F announcement, VAST Data said it had ended its previous fiscal year with more than $500 million in committed annual recurring revenue; that figure is the company's own.",
+    "A round valuation reflects the terms of the preferred stock issued in that round. Most shares sold by employees are common stock, which carries fewer rights and typically trades at a discount to the preferred price."
+  ],
+  "investors": "Drive Capital led the Series F and Access Industries co-led it, with participation from NEA, NVIDIA and Fidelity Management & Research Company, which had led the Series E. Tiger Global Management led the Series D. Other investors include BOND Capital, Goldman Sachs, Norwest and 83North.",
+  "spv_sentence": "SEC filings show two special purpose vehicles formed to invest in VAST Data, organized in 2021 and 2026.",
+  "spv_years": null,
+  "funds": "Mutual funds and other SEC-registered funds managed by Fidelity reported VAST Data holdings in filings for periods in 2026.",
+  "related": [
+    "Databricks",
+    "Fluidstack",
+    "Crusoe"
+  ],
+  "sources": "Sources: VAST Data's announcements of its <a href=\"https://www.vastdata.com/press-releases/vast-series-f-financing-at-30-billion-valuation\">Series F</a> and <a href=\"https://vastdata.com/news-post/vast-data-triples-valuation-in-one-year-to-3-7-billion/\">Series D</a>; reports by <a href=\"https://news.bloomberglaw.com/private-equity/nvidia-backed-vast-data-triples-value-to-30-billion-mulls-ipo\">Bloomberg</a> (April 2026) and <a href=\"https://techcrunch.com/2023/12/06/vast-data-lands-118m-to-grow-its-data-storage-platform-for-ai-workloads/\">TechCrunch</a> (December 2023); and SEC Form D and Form N-PORT filings."
+}

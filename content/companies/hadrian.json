@@ -1,0 +1,97 @@
+{
+  "slug": "hadrian",
+  "name": "Hadrian",
+  "site": "https://www.hadrian.co",
+  "founded": "2020",
+  "h1_tail": "Funding Rounds, Share Prices and Ownership",
+  "description": "Hadrian is privately held and has no ticker. Review the price of each funding round, its investors, and the points to confirm before buying or selling.",
+  "ledes": [
+    "Hadrian is a privately held defense and aerospace manufacturing company. Its shares are not listed on an exchange and have no quoted market price; the principal public reference points are the prices at which the company has raised capital. Its most recent financing, a $1.37 billion Series D round announced on August 6, 2026, valued the company at $7.87 billion.",
+    "Founded in 2020 and based in the Los Angeles area, Hadrian builds and operates highly automated factories that produce parts and complete products for aerospace and defense manufacturers. Existing shares change hands in privately negotiated transactions and remain subject to the company's transfer restrictions."
+  ],
+  "figs": [
+    [
+      "$7.87B",
+      "Valuation, Series D (August 2026)"
+    ],
+    [
+      "$66.94",
+      "Price per share, Series D (August 2026)"
+    ],
+    [
+      "$1.6B",
+      "Valuation, January 2026 financing"
+    ],
+    [
+      "$1.37B",
+      "Amount raised, Series D"
+    ]
+  ],
+  "rounds_heading": "Funding Rounds and Share Prices",
+  "columns": [
+    "Price per share",
+    "Valuation",
+    "Amount raised"
+  ],
+  "rounds": [
+    [
+      "Aug 2026",
+      "Series D",
+      [
+        "$66.94",
+        "$7.87B",
+        "$1.37B"
+      ]
+    ],
+    [
+      "Jan 2026",
+      "Additional financing",
+      [
+        null,
+        "$1.6B",
+        null
+      ]
+    ],
+    [
+      "Jul 2025",
+      "Series C",
+      [
+        "$10.16",
+        null,
+        "$260M"
+      ]
+    ],
+    [
+      "Feb 2024",
+      "Series B",
+      [
+        "$9.42",
+        null,
+        "$117M"
+      ]
+    ],
+    [
+      "Mar 2022",
+      "Series A",
+      [
+        "$5.55",
+        null,
+        "$90M"
+      ]
+    ]
+  ],
+  "table_note": "Valuations are as announced by the company. The March 2022 amount covers both the Series A and a Series A-Prime round, and the price shown is the Series A price; the Series B amount combined equity and debt.",
+  "round_notes": [
+    "Hadrian has said the Series D proceeds will fund new factories, expanded research and development and additional production capabilities. In announcing the round, the company said it operated four facilities covering just under 3 million square feet. In August 2026, Hadrian also closed a $360 million revolving credit facility.",
+    "A round price reflects what investors paid for the preferred stock issued in that round. Most shares sold by employees are common stock, which carries fewer rights and typically trades at a discount to the preferred price."
+  ],
+  "investors": "Washington Harbour Partners, WCM Investment Management, Valor Equity Partners, 137 Ventures and Baillie Gifford co-led the Series D, with JPMorganChase's Strategic Investment Group as anchor co-lead. Accounts advised by T. Rowe Price led the January 2026 financing, Founders Fund and Lux Capital led the Series C, and Lux Capital and Andreessen Horowitz led the 2022 Series A and Series A-Prime respectively. Other investors include Construct Capital, Altimeter, 1789 Capital, CapitalG, RTX Ventures and funds managed by Apollo.",
+  "spv_sentence": "SEC filings show one special purpose vehicle formed to invest in Hadrian, organized in 2026.",
+  "spv_years": null,
+  "related": [
+    "Anduril",
+    "Saronic",
+    "Shield AI"
+  ],
+  "sources": "Sources: Hadrian's announcements of its <a href=\"https://www.prnewswire.com/news-releases/hadrian-raises-1-37b-series-d-to-build-highly-automated-factories-to-accelerate-americas-industrial-renewal-302844408.html\">Series D</a>, <a href=\"https://www.prnewswire.com/news-releases/hadrian-closes-360-million-revolving-credit-facility-to-accelerate-the-buildout-of-its-us-manufacturing-footprint-302851834.html\">credit facility</a>, <a href=\"https://www.prnewswire.com/news-releases/hadrian-partners-with-t-rowe-price-to-accelerate-the-reindustrialization-of-america-302657125.html\">January 2026 financing</a>, <a href=\"https://www.hadrian.co/blog/series-c\">Series C</a> and <a href=\"https://www.hadrian.co/blog/mission\">2022 financing</a>; reports by TechCrunch (<a href=\"https://techcrunch.com/2026/08/06/defense-tech-hadrian-raises-1-37b-at-8b-valuation/\">August 2026</a> and <a href=\"https://techcrunch.com/2024/02/21/hadrian-automations-ceo-wants-to-defy-history-and-revitalize-american-industry/\">February 2024</a>), Bloomberg (August 2026) and <a href=\"https://www.cnbc.com/2022/03/31/machining-start-up-hadrian-raises-90-million-from-andreesen-lux.html\">CNBC</a> (March 2022); and SEC Form D filings."
+}

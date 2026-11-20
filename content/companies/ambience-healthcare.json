@@ -1,0 +1,75 @@
+{
+  "slug": "ambience-healthcare",
+  "name": "Ambience Healthcare",
+  "site": "https://www.ambiencehealthcare.com",
+  "founded": "2020",
+  "h1_tail": "Funding Rounds and Ownership",
+  "description": "Ambience Healthcare is privately held and has no ticker. Review its funding rounds and valuations, its investors, and the points to confirm before buying or selling.",
+  "ledes": [
+    "Ambience Healthcare is a privately held healthcare software company. Its shares are not listed on an exchange and have no quoted market price; the principal public reference points are the valuations at which the company has raised capital. Its most recent financing, a $243 million Series C round announced on July 29, 2025, valued the company at $1.25 billion, according to STAT.",
+    "Founded in 2020 and based in San Francisco, Ambience Healthcare develops AI software that drafts clinical notes from conversations between clinicians and patients and assigns billing codes to those visits. Existing shares change hands in privately negotiated transactions and remain subject to the company's transfer restrictions."
+  ],
+  "figs": [
+    [
+      "$1.25B",
+      "Valuation, Series C (July 2025)"
+    ],
+    [
+      "$243M",
+      "Amount raised, Series C"
+    ],
+    [
+      "$70M",
+      "Amount raised, Series B (February 2024)"
+    ],
+    [
+      "2020",
+      "Year founded"
+    ]
+  ],
+  "rounds_heading": "Funding Rounds",
+  "columns": [
+    "Valuation",
+    "Amount raised"
+  ],
+  "rounds": [
+    [
+      "Jul 2025",
+      "Series C",
+      [
+        "$1.25B",
+        "$243M"
+      ]
+    ],
+    [
+      "Feb 2024",
+      "Series B",
+      [
+        null,
+        "$70M"
+      ]
+    ],
+    [
+      "2022",
+      "Series A",
+      [
+        null,
+        null
+      ]
+    ]
+  ],
+  "table_note": "Ambience Healthcare did not state a valuation in its Series C announcement; the figure shown is as reported by STAT and MedCity News. The company did not publicly announce its 2022 Series A.",
+  "round_notes": [
+    "Oak HC/FT and Andreessen Horowitz co-led the Series C. With its announcement, Ambience Healthcare said its software supported more than 100 ambulatory subspecialties, emergency departments and inpatient specialties; that figure is the company's own.",
+    "A round valuation reflects the terms of the preferred stock issued in that round. Most shares sold by employees are common stock, which carries fewer rights and typically trades at a discount to the preferred price."
+  ],
+  "investors": "Oak HC/FT and Andreessen Horowitz co-led the Series C, with participation from the OpenAI Startup Fund, Kleiner Perkins and Optum Ventures and from new investors including Georgian, Smash Capital and Town Hall Ventures. Kleiner Perkins and the OpenAI Startup Fund co-led the Series B. Other investors include Memorial Hermann, AIX Ventures and AirTree Ventures.",
+  "spv_sentence": "No special purpose vehicles naming Ambience Healthcare appear in SEC Form D filings.",
+  "spv_years": null,
+  "related": [
+    "Abridge",
+    "Tennr",
+    "Aidoc"
+  ],
+  "sources": "Sources: Ambience Healthcare's announcements of its <a href=\"https://www.ambiencehealthcare.com/blog-legacy/ambience-healthcare-announces-243-million-series-c-to-scale-its-ai-platform-for-health-systems\">Series C</a> and <a href=\"https://www.ambiencehealthcare.com/blog-legacy/ambience-healthcare-raises-70m-to-scale-the-most-comprehensive-ai-operating-system-for-healthcare-organizations\">Series B</a>; reports by <a href=\"https://www.statnews.com/2025/07/29/ambience-healthcare-ai-scribe-new-fundraise/\">STAT</a> (July 2025), <a href=\"https://medcitynews.com/2025/07/healthcare-documentation-startup-unicorn/\">MedCity News</a> (July 2025) and <a href=\"https://techcrunch.com/2024/02/06/ambience-healthcare-raises-70m-for-its-ai-assistant-led-by-openai-and-kleiner-perkins\">TechCrunch</a> (February 2024); and SEC Form D filings."
+}

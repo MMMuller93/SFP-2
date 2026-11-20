@@ -1,0 +1,67 @@
+{
+  "slug": "yuanfudao",
+  "name": "Yuanfudao",
+  "site": "https://www.yuanfudao.com",
+  "founded": "2012",
+  "h1_tail": "Funding Rounds and Ownership",
+  "description": "Yuanfudao is privately held and has no ticker. Review its funding rounds and valuations, its investors, and the points to confirm before buying or selling.",
+  "ledes": [
+    "Yuanfudao is a privately held education technology company. Its shares are not listed on an exchange and have no quoted market price; the principal public reference points are the valuations at which the company has raised capital. Its most recent financing, $2.2 billion raised in two extensions of its Series G round and disclosed in October 2020, valued the company at $15.5 billion.",
+    "Founded in 2012 and based in Beijing, Yuanfudao provides online classes and learning apps for students, including Zebra AI Learning and apps for homework help, arithmetic practice and coding. Existing shares change hands in privately negotiated transactions and remain subject to the company's transfer restrictions."
+  ],
+  "figs": [
+    [
+      "$15.5B",
+      "Valuation, Series G1 and G2 (October 2020)"
+    ],
+    [
+      "$2.2B",
+      "Amount raised, Series G1 and G2"
+    ],
+    [
+      "$1B",
+      "Amount raised, Series G (March 2020)"
+    ],
+    [
+      "2012",
+      "Year founded"
+    ]
+  ],
+  "rounds_heading": "Funding Rounds",
+  "columns": [
+    "Valuation",
+    "Amount raised"
+  ],
+  "rounds": [
+    [
+      "Oct 2020",
+      "Series G1 and G2",
+      [
+        "$15.5B",
+        "$2.2B"
+      ]
+    ],
+    [
+      "Mar 2020",
+      "Series G",
+      [
+        "$7.8B",
+        "$1.0B"
+      ]
+    ]
+  ],
+  "table_note": "Valuations are as reported at the time of each round. The October 2020 row combines the Series G1 and G2 extensions, which were reported together.",
+  "round_notes": [
+    "Tencent led the first of the two Series G extensions disclosed in October 2020, and DST Global led the second.",
+    "A round valuation reflects the terms of the preferred stock issued in that round. Most shares sold by employees are common stock, which carries fewer rights and typically trades at a discount to the preferred price."
+  ],
+  "investors": "Tencent and DST Global led the two Series G extensions, with participation from Hillhouse Capital, Boyu Capital, IDG Capital, CITIC PE, GIC and Temasek. Hillhouse Capital led the original Series G in March 2020, in which Tencent, Boyu Capital and IDG Capital also invested. Other investors include Ocean Link and Greenwoods.",
+  "spv_sentence": "No special purpose vehicles naming Yuanfudao appear in SEC Form D filings.",
+  "spv_years": null,
+  "related": [
+    "Zuoyebang",
+    "Squirrel AI",
+    "VIPKid"
+  ],
+  "sources": "Sources: reports by <a href=\"https://techcrunch.com/2020/10/22/chinese-live-tutoring-app-yuanfudao-is-now-worth-15-5-billion\">TechCrunch</a> (October 2020) and <a href=\"https://kr-asia.com/yuanfudao-bags-usd-1-billion-in-largest-ever-edtech-fundraising-deal-in-china\">KrASIA</a> (March 2020); Yuanfudao's <a href=\"https://www.yuanfudao.com\">website</a>; and SEC Form D filings."
+}

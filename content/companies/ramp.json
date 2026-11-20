@@ -1,0 +1,106 @@
+{
+  "slug": "ramp",
+  "name": "Ramp",
+  "site": "https://ramp.com",
+  "founded": "2019",
+  "h1_tail": "Funding Rounds, Share Prices and Ownership",
+  "description": "Ramp is privately held and has no ticker. Review the price of each funding round, its investors, and the points to confirm before buying or selling.",
+  "ledes": [
+    "Ramp is a privately held financial technology company. Its shares are not listed on an exchange and have no quoted market price; the principal public reference points are the prices at which the company has raised capital. Its most recent financing, a $1.85 billion primary round announced on October 15, 2026, valued the company at $60 billion.",
+    "Founded in 2019 and based in New York, Ramp provides corporate cards and software that businesses use to control spending, pay bills and automate accounting. Existing shares change hands in privately negotiated transactions and remain subject to the company's transfer restrictions."
+  ],
+  "figs": [
+    [
+      "$60B",
+      "Valuation (October 2026)"
+    ],
+    [
+      "$160.00",
+      "Price per share (October 2026)"
+    ],
+    [
+      "$1.85B",
+      "Amount raised (October 2026)"
+    ],
+    [
+      "2019",
+      "Year founded"
+    ]
+  ],
+  "rounds_heading": "Funding Rounds and Share Prices",
+  "columns": [
+    "Price per share",
+    "Valuation",
+    "Amount raised"
+  ],
+  "rounds": [
+    [
+      "Oct 2026",
+      "Primary financing",
+      [
+        "$160.00",
+        "$60.0B",
+        "$1.85B"
+      ]
+    ],
+    [
+      "Jun 2026",
+      "Series F",
+      [
+        "$120.00",
+        "$44.0B",
+        "$750M"
+      ]
+    ],
+    [
+      "Nov 2025",
+      "Primary financing",
+      [
+        "$90.00",
+        "$32.0B",
+        "$300M"
+      ]
+    ],
+    [
+      "Jul 2025",
+      "Series E-2",
+      [
+        "$65.00",
+        "$22.5B",
+        "$500M"
+      ]
+    ],
+    [
+      "Jun 2025",
+      "Series E",
+      [
+        "$47.50",
+        "$16.0B",
+        "$200M"
+      ]
+    ],
+    [
+      "Apr 2024",
+      "Series D-2",
+      [
+        "$25.00",
+        "$7.65B",
+        "$150M"
+      ]
+    ]
+  ],
+  "table_note": "Valuations are as announced by the company; Bloomberg reported the October 2026 figure as a pre-money valuation. Ramp did not give series names for its November 2025 and October 2026 rounds.",
+  "round_notes": [
+    "With its October 2026 announcement, Ramp said its annualized revenue had passed $2 billion during the summer of 2026; that figure is the company's own. The November 2025 financing was accompanied by a tender offer for employee shares, which Ramp announced at the same time.",
+    "A round price reflects what investors paid for the preferred stock issued in that round. Most shares sold by employees are common stock, which carries fewer rights and typically trades at a discount to the preferred price."
+  ],
+  "investors": "Dragoneer Investment Group led the October 2026 round, with Thrive Capital, Founders Fund, Sands Capital and Avenir Growth as co-leads. ICONIQ, GIC and Ontario Teachers' Pension Plan led the Series F, Lightspeed Venture Partners led the November 2025 round, ICONIQ led the Series E-2 and Founders Fund led the Series E. Other investors include D1 Capital Partners, Khosla Ventures, General Catalyst, Coatue and T. Rowe Price.",
+  "spv_sentence": "No special purpose vehicles that can be identified as formed to invest in Ramp appear in SEC Form D filings.",
+  "spv_years": null,
+  "related": [
+    "Stripe",
+    "Rippling",
+    "Erebor"
+  ],
+  "sources": "Sources: Ramp's announcements dated <a href=\"https://ramp.com/blog/ramp-at-60-billion\">October 15, 2026</a>, <a href=\"https://ramp.com/blog/ramp-june-2025-funding\">June 16, 2025</a> and <a href=\"https://ramp.com/blog/ramp-april-2024-funding\">April 16, 2024</a>; reports by TechCrunch (<a href=\"https://techcrunch.com/2026/10/15/ramp-reaches-60b-valuation-as-it-pushes-deeper-into-ai/\">October 2026</a> and <a href=\"https://techcrunch.com/2025/11/17/ramp-hits-32b-valuation-just-three-months-after-hitting-22-5b/\">November 2025</a>), <a href=\"https://siliconangle.com/2026/06/04/financial-technology-provider-ramp-raises-750m-funding-44b-valuation/\">SiliconANGLE</a> (June 2026) and Bloomberg (October 2026); and SEC Form D filings."
+}

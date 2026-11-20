@@ -1,0 +1,97 @@
+{
+  "slug": "mach-industries",
+  "name": "Mach Industries",
+  "site": "https://www.machindustries.com",
+  "founded": "2023",
+  "h1_tail": "Funding Rounds, Share Prices and Ownership",
+  "description": "Mach Industries is privately held and has no ticker. Review the price of each funding round, the investors and SPVs that hold its shares, and the points to confirm before buying or selling.",
+  "ledes": [
+    "Mach Industries is a privately held defense technology company. Its shares are not listed on an exchange and have no quoted market price; the principal public reference points are the prices at which the company has raised capital. Its most recent financing, a $600 million extension of its Series C announced on September 10, 2026, valued the company at $3.7 billion.",
+    "Founded in 2023 and based in Huntington Beach, California, Mach Industries develops and manufactures drones, long-range strike weapons and counter-drone systems, together with rocket motors and other propulsion components. Existing shares change hands in privately negotiated transactions and remain subject to the company's transfer restrictions."
+  ],
+  "figs": [
+    [
+      "$3.7B",
+      "Valuation, Series C extension (September 2026)"
+    ],
+    [
+      "$3.62",
+      "Price per share, Series C (June 2026)"
+    ],
+    [
+      "$600M",
+      "Amount raised, Series C extension"
+    ],
+    [
+      "2023",
+      "Year founded"
+    ]
+  ],
+  "rounds_heading": "Funding Rounds and Share Prices",
+  "columns": [
+    "Price per share",
+    "Valuation",
+    "Amount raised"
+  ],
+  "rounds": [
+    [
+      "Sep 2026",
+      "Series C extension",
+      [
+        null,
+        "$3.7B",
+        "$600M"
+      ]
+    ],
+    [
+      "Jun 2026",
+      "Series C",
+      [
+        "$3.62",
+        "$1.8B",
+        "$300M"
+      ]
+    ],
+    [
+      "Jun 2025",
+      "Series B",
+      [
+        "$1.38",
+        "$470M",
+        "$100M"
+      ]
+    ],
+    [
+      "Oct 2023",
+      "Series A",
+      [
+        "$1.38",
+        "$335M",
+        "$79M"
+      ]
+    ],
+    [
+      "Jun 2023",
+      "Seed",
+      [
+        null,
+        null,
+        "$5.7M"
+      ]
+    ]
+  ],
+  "table_note": "Valuations are as reported at the time of each round.",
+  "round_notes": [
+    "No lead investor was named for the Series C extension, which doubled the valuation set three months earlier. Infinite Capital and Ribbit Capital co-led the original Series C.",
+    "A round price reflects what investors paid for the preferred stock issued in that round. Most shares sold by employees are common stock, which carries fewer rights and typically trades at a discount to the preferred price."
+  ],
+  "investors": "Ribbit Capital, Infinite Capital, Bedrock Capital and Sequoia Capital invested in both parts of the Series C, with Khosla Ventures also taking part in the June closing. Khosla Ventures and Bedrock Capital co-led the Series B, Bedrock Capital led the Series A and Sequoia Capital led the seed round. Other investors include DCVC and Marque VC.",
+  "spv_sentence": "SEC filings show two special purpose vehicles formed to invest in Mach Industries, both organized in 2026.",
+  "spv_years": null,
+  "related": [
+    "Anduril",
+    "Saronic",
+    "Hadrian"
+  ],
+  "sources": "Sources: TechCrunch reports dated <a href=\"https://techcrunch.com/2026/09/10/defense-tech-mach-industries-doubles-valuation-to-3-7b-in-3-months/\">September 10, 2026</a>, <a href=\"https://techcrunch.com/2026/06/01/defense-tech-darling-mach-industries-hits-1-8b-valuation-a-4x-jump-in-a-year/\">June 1, 2026</a>, <a href=\"https://techcrunch.com/2025/06/17/two-year-old-defense-tech-mach-industries-confirms-100m-raise-led-by-khosla-bedrock\">June 17, 2025</a> and <a href=\"https://techcrunch.com/2023/10/04/defense-startup-mach-industries-closes-79m-series-a-at-335m-valuation\">October 4, 2023</a>; a report by <a href=\"https://thedefensepost.com/2026/09/14/mach-industries-defense-funding/\">The Defense Post</a> (September 2026); and SEC Form D filings."
+}

@@ -1,11 +1,15 @@
 import React, { useEffect } from 'react';
 import { useParams, useNavigate, Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import { ArrowLeft, Clock, ArrowRight } from 'lucide-react';
+import { ArrowLeft, Clock, ArrowRight, ArrowUpRight } from 'lucide-react';
 import { SEO } from './SEO';
 import { BUYER_STRUCTURE_POSTS } from './private-markets-posts/buyer-structures';
 import { BROKER_POSTS } from './private-markets-posts/brokers';
 import { OWNERSHIP_LIQUIDITY_POSTS } from './private-markets-posts/ownership-liquidity';
+import { LOCKUP_POSTS } from './private-markets-posts/lockups';
+import { CONSULTATION_URL, openConsultation } from '../lib/calendly';
+import { CONTACT_MAILTO } from '../lib/contact';
+import { trackConversion } from '../lib/conversions';
 
 export interface BlogPost {
   id: string;
@@ -14,9 +18,14 @@ export interface BlogPost {
   readTime: string;
   excerpt: string;
   content: React.ReactNode;
+  /** Set to false to leave the author line off the page and out of the article schema. */
+  byline?: boolean;
+  /** Replaces the closing box with Book Consultation and Contact buttons. */
+  contactCta?: { title: string; text: string };
 }
 
 export const PRIVATE_MARKET_POSTS: BlogPost[] = [
+  ...LOCKUP_POSTS,
   ...BUYER_STRUCTURE_POSTS,
   ...BROKER_POSTS,
   ...OWNERSHIP_LIQUIDITY_POSTS,
@@ -1949,6 +1958,16 @@ export const Blog: React.FC<BlogProps> = ({ onContactClick }) => {
   const navigate = useNavigate();
   const selectedPost = FUND_POSTS.find(post => post.id === slug);
   const isPrivateMarketsPost = PRIVATE_MARKET_POSTS.some(post => post.id === slug);
+  const showByline = selectedPost?.byline !== false;
+
+  const handleConsultation = (event: React.MouseEvent<HTMLAnchorElement>) => {
+    trackConversion('consultation_link_clicked');
+    if (event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
+    event.preventDefault();
+    void openConsultation().catch(() => {
+      window.location.assign(CONSULTATION_URL);
+    });
+  };
 
   useEffect(() => {
     if (slug && !selectedPost) navigate('/insights/', { replace: true });
@@ -1965,7 +1984,8 @@ export const Blog: React.FC<BlogProps> = ({ onContactClick }) => {
           description={selectedPost.excerpt}
           type="article"
           publishedTime={publishedTime}
-          authorName={isPrivateMarketsPost ? 'Miles Muller' : undefined}
+          authorName={isPrivateMarketsPost && showByline ? 'Miles Muller' : undefined}
+          omitAuthor={!showByline}
         />
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -1982,9 +2002,11 @@ export const Blog: React.FC<BlogProps> = ({ onContactClick }) => {
               Back to Insights
             </Link>
           
+          {showByline && (
           <p className="text-sm text-text-muted mb-4">
             By <Link to="/about/" rel="author" className="hover:text-accent transition-colors">{isPrivateMarketsPost ? 'Miles Muller' : 'Strategic Fund Partners'}</Link>
           </p>
+          )}
           <div className="flex items-center gap-6 text-xs font-mono uppercase tracking-widest text-text-muted mb-8">
             <div className="flex items-center gap-2">
                 <Clock className="w-3 h-3" />
@@ -2001,6 +2023,31 @@ export const Blog: React.FC<BlogProps> = ({ onContactClick }) => {
           </div>
           
           {/* CTA Footer in Blog */}
+          {selectedPost.contactCta ? (
+          <div className="mt-20 p-8 bg-surface/20 border border-grid text-center">
+              <h3 className="font-serif text-2xl text-text-highlight mb-4">{selectedPost.contactCta.title}</h3>
+              <p className="text-text-secondary mb-8">{selectedPost.contactCta.text}</p>
+              <div className="flex flex-wrap items-center justify-center gap-6">
+                <a
+                  href={CONSULTATION_URL}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  onClick={handleConsultation}
+                  className="inline-flex items-center justify-center gap-3 px-7 md:px-8 py-4 bg-accent text-bg text-xs font-bold uppercase tracking-widest hover:bg-accentHover transition-colors duration-300 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-accent"
+                >
+                  Book Consultation
+                  <ArrowUpRight className="w-4 h-4 shrink-0" aria-hidden="true" />
+                </a>
+                <a
+                  href={CONTACT_MAILTO}
+                  onClick={() => trackConversion('email_link_clicked')}
+                  className="inline-flex items-center justify-center px-7 md:px-8 py-4 border border-accent text-accent text-xs font-bold uppercase tracking-widest hover:bg-accent hover:text-bg transition-colors duration-300 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-accent"
+                >
+                  Contact
+                </a>
+              </div>
+          </div>
+          ) : (
           <div className="mt-20 p-8 bg-surface/20 border border-grid text-center">
               <h3 className="font-serif text-2xl text-text-highlight mb-4">{isPrivateMarketsPost ? 'Private Markets Advisory' : 'Need help with your filing?'}</h3>
               <p className="text-text-secondary mb-8">{isPrivateMarketsPost ? 'Discuss your investment or liquidity plans.' : "Contact us for a consultation tailored to your fund's structure."}</p>
@@ -2018,6 +2065,7 @@ export const Blog: React.FC<BlogProps> = ({ onContactClick }) => {
                   Discuss Requirements
               </button>}
           </div>
+          )}
         </div>
       </motion.div>
       </>

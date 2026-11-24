@@ -9,6 +9,8 @@ interface SEOProps {
   type?: 'website' | 'article';
   publishedTime?: string;
   authorName?: string;
+  // Leave the author out of article metadata, for posts that show no byline.
+  omitAuthor?: boolean;
   // JSON-LD for non-article pages (e.g. WebPage, CollectionPage). Never article schema.
   schema?: Record<string, unknown>;
 }
@@ -20,6 +22,7 @@ export const SEO: FC<SEOProps> = ({
   type = 'website',
   publishedTime,
   authorName,
+  omitAuthor = false,
   schema,
 }) => {
   const location = useLocation();
@@ -83,7 +86,8 @@ export const SEO: FC<SEOProps> = ({
     // Article-specific tags
     if (type === 'article' && publishedTime) {
       updateMetaTag('article:published_time', publishedTime);
-      updateMetaTag('article:author', authorName || 'Strategic Fund Partners');
+      if (omitAuthor) document.querySelector('meta[property="article:author"]')?.remove();
+      else updateMetaTag('article:author', authorName || 'Strategic Fund Partners');
     } else {
       document.querySelector('meta[property="article:published_time"]')?.remove();
       document.querySelector('meta[property="article:author"]')?.remove();
@@ -111,15 +115,17 @@ export const SEO: FC<SEOProps> = ({
         url,
         mainEntityOfPage: { '@type': 'WebPage', '@id': url },
         datePublished: publishedTime,
-        author: authorName
-          ? { '@type': 'Person', name: authorName, url: `${SITE_ORIGIN}/about/` }
-          : { '@type': 'Organization', '@id': `${SITE_ORIGIN}/#organization`, name: 'Strategic Fund Partners', url: `${SITE_ORIGIN}/about/` },
+        ...(omitAuthor ? {} : {
+          author: authorName
+            ? { '@type': 'Person', name: authorName, url: `${SITE_ORIGIN}/about/` }
+            : { '@type': 'Organization', '@id': `${SITE_ORIGIN}/#organization`, name: 'Strategic Fund Partners', url: `${SITE_ORIGIN}/about/` },
+        }),
         publisher: { '@type': 'Organization', '@id': `${SITE_ORIGIN}/#organization`, name: 'Strategic Fund Partners' },
       });
       document.head.appendChild(script);
       return () => script.remove();
     }
-  }, [title, description, image, type, url, publishedTime, authorName]);
+  }, [title, description, image, type, url, publishedTime, authorName, omitAuthor]);
 
   return null;
 };
